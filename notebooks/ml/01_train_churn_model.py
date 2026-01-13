@@ -61,7 +61,32 @@ print(f"MLflow experiment: {EXPERIMENT_NAME}")
 # COMMAND ----------
 
 # Set up MLflow experiment
-mlflow.set_experiment(EXPERIMENT_NAME)
+# Note: MLflow Model Registry may not be available in Databricks Free/Community Edition
+# This handles both cases gracefully
+
+MLFLOW_AVAILABLE = True
+MODEL_REGISTRY_AVAILABLE = True
+
+try:
+    # Try to set experiment - this works in most cases
+    mlflow.set_experiment(EXPERIMENT_NAME)
+    print(f"MLflow experiment set: {EXPERIMENT_NAME}")
+except Exception as e:
+    print(f"Warning: Could not set MLflow experiment: {e}")
+    print("Continuing without MLflow tracking...")
+    MLFLOW_AVAILABLE = False
+
+# Check if Model Registry is available
+try:
+    from mlflow.tracking import MlflowClient
+    client = MlflowClient()
+    # Try a simple operation to test registry
+    client.search_registered_models(max_results=1)
+    print("MLflow Model Registry is available")
+except Exception as e:
+    print(f"Note: MLflow Model Registry not available (Free Edition limitation)")
+    print("Models will be saved locally instead of registered")
+    MODEL_REGISTRY_AVAILABLE = False
 
 # COMMAND ----------
 
@@ -206,101 +231,123 @@ print(f"Test churn rate: {y_test.mean():.2%}")
 
 # COMMAND ----------
 
-# Start MLflow run
-with mlflow.start_run(run_name=f"rf_churn_{datetime.now().strftime('%Y%m%d_%H%M%S')}") as run:
+# Train model (with or without MLflow tracking)
+# Define parameters
+params = {
+    "model_type": "RandomForestClassifier",
+    "n_estimators": 100,
+    "max_depth": 10,
+    "min_samples_split": 5,
+    "min_samples_leaf": 2,
+    "random_state": 42,
+    "n_features": len(feature_columns),
+    "train_size": X_train.shape[0],
+    "test_size": X_test.shape[0]
+}
 
-    # Log parameters
-    params = {
-        "model_type": "RandomForestClassifier",
-        "n_estimators": 100,
-        "max_depth": 10,
-        "min_samples_split": 5,
-        "min_samples_leaf": 2,
-        "random_state": 42,
-        "n_features": len(feature_columns),
-        "train_size": X_train.shape[0],
-        "test_size": X_test.shape[0]
-    }
-    mlflow.log_params(params)
+# Train Random Forest
+print("Training Random Forest model...")
+model = RandomForestClassifier(
+    n_estimators=params["n_estimators"],
+    max_depth=params["max_depth"],
+    min_samples_split=params["min_samples_split"],
+    min_samples_leaf=params["min_samples_leaf"],
+    random_state=params["random_state"],
+    n_jobs=-1,
+    class_weight='balanced'  # Handle class imbalance
+)
 
-    # Train Random Forest
-    model = RandomForestClassifier(
-        n_estimators=params["n_estimators"],
-        max_depth=params["max_depth"],
-        min_samples_split=params["min_samples_split"],
-        min_samples_leaf=params["min_samples_leaf"],
-        random_state=params["random_state"],
-        n_jobs=-1,
-        class_weight='balanced'  # Handle class imbalance
-    )
+model.fit(X_train, y_train)
 
-    model.fit(X_train, y_train)
+# Predictions
+y_pred = model.predict(X_test)
+y_pred_proba = model.predict_proba(X_test)[:, 1]
 
-    # Predictions
-    y_pred = model.predict(X_test)
-    y_pred_proba = model.predict_proba(X_test)[:, 1]
+# Calculate metrics
+metrics = {
+    "accuracy": accuracy_score(y_test, y_pred),
+    "precision": precision_score(y_test, y_pred),
+    "recall": recall_score(y_test, y_pred),
+    "f1_score": f1_score(y_test, y_pred),
+    "roc_auc": roc_auc_score(y_test, y_pred_proba)
+}
 
-    # Calculate metrics
-    metrics = {
-        "accuracy": accuracy_score(y_test, y_pred),
-        "precision": precision_score(y_test, y_pred),
-        "recall": recall_score(y_test, y_pred),
-        "f1_score": f1_score(y_test, y_pred),
-        "roc_auc": roc_auc_score(y_test, y_pred_proba)
-    }
+print("=" * 50)
+print("MODEL PERFORMANCE")
+print("=" * 50)
+for metric, value in metrics.items():
+    print(f"{metric}: {value:.4f}")
 
-    # Log metrics
-    mlflow.log_metrics(metrics)
+# Feature importance
+feature_importance = pd.DataFrame({
+    'feature': feature_columns,
+    'importance': model.feature_importances_
+}).sort_values('importance', ascending=False)
 
-    print("=" * 50)
-    print("MODEL PERFORMANCE")
-    print("=" * 50)
-    for metric, value in metrics.items():
-        print(f"{metric}: {value:.4f}")
+print("\n" + "=" * 50)
+print("TOP 10 FEATURE IMPORTANCES")
+print("=" * 50)
+print(feature_importance.head(10).to_string(index=False))
 
-    # Feature importance
-    feature_importance = pd.DataFrame({
-        'feature': feature_columns,
-        'importance': model.feature_importances_
-    }).sort_values('importance', ascending=False)
+# Classification report
+print("\n" + "=" * 50)
+print("CLASSIFICATION REPORT")
+print("=" * 50)
+print(classification_report(y_test, y_pred, target_names=['Not Churned', 'Churned']))
 
-    print("\n" + "=" * 50)
-    print("TOP 10 FEATURE IMPORTANCES")
-    print("=" * 50)
-    print(feature_importance.head(10).to_string(index=False))
+# Confusion matrix
+cm = confusion_matrix(y_test, y_pred)
+print("\n" + "=" * 50)
+print("CONFUSION MATRIX")
+print("=" * 50)
+print(f"                 Predicted")
+print(f"                 No    Yes")
+print(f"Actual No       {cm[0,0]:4d}  {cm[0,1]:4d}")
+print(f"       Yes      {cm[1,0]:4d}  {cm[1,1]:4d}")
 
-    # Log feature importance as artifact
-    feature_importance.to_csv("/tmp/feature_importance.csv", index=False)
-    mlflow.log_artifact("/tmp/feature_importance.csv")
+# Log to MLflow if available
+if MLFLOW_AVAILABLE:
+    try:
+        with mlflow.start_run(run_name=f"rf_churn_{datetime.now().strftime('%Y%m%d_%H%M%S')}") as run:
+            mlflow.log_params(params)
+            mlflow.log_metrics(metrics)
 
-    # Classification report
-    print("\n" + "=" * 50)
-    print("CLASSIFICATION REPORT")
-    print("=" * 50)
-    print(classification_report(y_test, y_pred, target_names=['Not Churned', 'Churned']))
+            # Log feature importance
+            feature_importance.to_csv("/tmp/feature_importance.csv", index=False)
+            mlflow.log_artifact("/tmp/feature_importance.csv")
 
-    # Confusion matrix
-    cm = confusion_matrix(y_test, y_pred)
-    print("\n" + "=" * 50)
-    print("CONFUSION MATRIX")
-    print("=" * 50)
-    print(f"                 Predicted")
-    print(f"                 No    Yes")
-    print(f"Actual No       {cm[0,0]:4d}  {cm[0,1]:4d}")
-    print(f"       Yes      {cm[1,0]:4d}  {cm[1,1]:4d}")
+            # Log model
+            signature = infer_signature(X_train, model.predict(X_train))
 
-    # Log model with signature
-    signature = infer_signature(X_train, model.predict(X_train))
+            if MODEL_REGISTRY_AVAILABLE:
+                mlflow.sklearn.log_model(
+                    model,
+                    "model",
+                    signature=signature,
+                    registered_model_name=MODEL_NAME
+                )
+                print(f"\nModel registered as: {MODEL_NAME}")
+            else:
+                mlflow.sklearn.log_model(
+                    model,
+                    "model",
+                    signature=signature
+                )
+                print("\nModel logged to MLflow (not registered - Free Edition)")
 
-    mlflow.sklearn.log_model(
-        model,
-        "model",
-        signature=signature,
-        registered_model_name=MODEL_NAME
-    )
+            print(f"MLflow run ID: {run.info.run_id}")
+    except Exception as e:
+        print(f"\nMLflow logging failed: {e}")
+        print("Model training completed but not logged to MLflow")
+else:
+    print("\nMLflow not available - model trained but not tracked")
 
-    print(f"\nModel logged to MLflow run: {run.info.run_id}")
-    print(f"Model registered as: {MODEL_NAME}")
+# Save model locally as backup (works in all editions)
+import pickle
+model_path = "/tmp/churn_model.pkl"
+with open(model_path, 'wb') as f:
+    pickle.dump(model, f)
+print(f"\nModel saved locally to: {model_path}")
 
 # COMMAND ----------
 
@@ -318,11 +365,13 @@ ax.set_ylabel('Feature')
 ax.set_title('Top 15 Feature Importances for Churn Prediction')
 ax.invert_yaxis()
 plt.tight_layout()
-plt.show()
 
-# Save plot
+# Save plot locally
 fig.savefig("/tmp/feature_importance_plot.png", dpi=300, bbox_inches='tight')
-mlflow.log_artifact("/tmp/feature_importance_plot.png")
+print("Feature importance plot saved to /tmp/feature_importance_plot.png")
+
+# Display in notebook
+plt.show()
 
 # COMMAND ----------
 
@@ -333,46 +382,54 @@ mlflow.log_artifact("/tmp/feature_importance_plot.png")
 
 # COMMAND ----------
 
-# Train Gradient Boosting for comparison
-with mlflow.start_run(run_name=f"gb_churn_{datetime.now().strftime('%Y%m%d_%H%M%S')}") as run:
+# Train Gradient Boosting for comparison (Optional)
+print("\n" + "=" * 50)
+print("TRAINING GRADIENT BOOSTING (COMPARISON)")
+print("=" * 50)
 
-    params_gb = {
-        "model_type": "GradientBoostingClassifier",
-        "n_estimators": 100,
-        "max_depth": 5,
-        "learning_rate": 0.1,
-        "random_state": 42
-    }
-    mlflow.log_params(params_gb)
+params_gb = {
+    "model_type": "GradientBoostingClassifier",
+    "n_estimators": 100,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "random_state": 42
+}
 
-    model_gb = GradientBoostingClassifier(
-        n_estimators=params_gb["n_estimators"],
-        max_depth=params_gb["max_depth"],
-        learning_rate=params_gb["learning_rate"],
-        random_state=params_gb["random_state"]
-    )
+model_gb = GradientBoostingClassifier(
+    n_estimators=params_gb["n_estimators"],
+    max_depth=params_gb["max_depth"],
+    learning_rate=params_gb["learning_rate"],
+    random_state=params_gb["random_state"]
+)
 
-    model_gb.fit(X_train, y_train)
+model_gb.fit(X_train, y_train)
 
-    y_pred_gb = model_gb.predict(X_test)
-    y_pred_proba_gb = model_gb.predict_proba(X_test)[:, 1]
+y_pred_gb = model_gb.predict(X_test)
+y_pred_proba_gb = model_gb.predict_proba(X_test)[:, 1]
 
-    metrics_gb = {
-        "accuracy": accuracy_score(y_test, y_pred_gb),
-        "precision": precision_score(y_test, y_pred_gb),
-        "recall": recall_score(y_test, y_pred_gb),
-        "f1_score": f1_score(y_test, y_pred_gb),
-        "roc_auc": roc_auc_score(y_test, y_pred_proba_gb)
-    }
+metrics_gb = {
+    "accuracy": accuracy_score(y_test, y_pred_gb),
+    "precision": precision_score(y_test, y_pred_gb),
+    "recall": recall_score(y_test, y_pred_gb),
+    "f1_score": f1_score(y_test, y_pred_gb),
+    "roc_auc": roc_auc_score(y_test, y_pred_proba_gb)
+}
 
-    mlflow.log_metrics(metrics_gb)
+print("Gradient Boosting Performance:")
+for metric, value in metrics_gb.items():
+    print(f"  {metric}: {value:.4f}")
 
-    print("Gradient Boosting Performance:")
-    for metric, value in metrics_gb.items():
-        print(f"  {metric}: {value:.4f}")
-
-    signature_gb = infer_signature(X_train, model_gb.predict(X_train))
-    mlflow.sklearn.log_model(model_gb, "model", signature=signature_gb)
+# Log to MLflow if available
+if MLFLOW_AVAILABLE:
+    try:
+        with mlflow.start_run(run_name=f"gb_churn_{datetime.now().strftime('%Y%m%d_%H%M%S')}") as run:
+            mlflow.log_params(params_gb)
+            mlflow.log_metrics(metrics_gb)
+            signature_gb = infer_signature(X_train, model_gb.predict(X_train))
+            mlflow.sklearn.log_model(model_gb, "model", signature=signature_gb)
+            print(f"Gradient Boosting logged to MLflow run: {run.info.run_id}")
+    except Exception as e:
+        print(f"MLflow logging failed for GB model: {e}")
 
 # COMMAND ----------
 
