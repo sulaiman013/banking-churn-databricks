@@ -1,0 +1,71 @@
+# =============================================================================
+# dbt Deploy Pipeline - Runs when code is merged to main/master
+# =============================================================================
+# This workflow:
+# 1. Triggers when PR is merged (push to main/master)
+# 2. Runs full dbt build to update all tables in Databricks
+# 3. Generates fresh documentation
+# =============================================================================
+
+name: dbt Deploy
+
+# When does this run?
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'dbt/**'  # Only run when dbt files change
+
+# What jobs to run?
+jobs:
+  dbt-deploy:
+    name: "Deploy to Databricks"
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./dbt
+
+    steps:
+      # Step 1: Get the code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step 3: Install dbt-databricks
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install dbt-core dbt-databricks
+
+      # Step 4: Install dbt packages
+      - name: dbt deps
+        run: dbt deps
+        env:
+          DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
+
+      # Step 5: Run ALL models (full refresh)
+      - name: dbt build (full)
+        run: dbt build
+        env:
+          DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
+
+      # Step 6: Generate documentation
+      - name: dbt docs generate
+        run: dbt docs generate
+        env:
+          DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
+
+      # Step 7: Log success
+      - name: Deployment complete
+        run: |
+          echo "✅ dbt models deployed successfully to Databricks!"
+          echo "📊 Catalog: bank_proj"
+          echo "📁 Schemas updated: staging, silver, gold"

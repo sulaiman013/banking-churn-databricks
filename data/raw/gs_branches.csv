@@ -1,0 +1,11 @@
+branch_id,branch_name,manager_name,opened_date,performance_rating,region,staff_count
+BR001,Downtown Main,Sarah Johnson,2015-03-15,4.5,Central,25
+BR002,Westside Plaza,Michael Chen,2017-06-20,4.2,West,18
+BR003,Northgate Mall,Emily Rodriguez,2018-09-10,4,North,15
+BR004,Eastside Business,David Kim,2016-01-25,4.3,East,20
+BR005,South Central,Amanda Foster,2019-04-05,3.8,South,12
+BR006,University District,James Wilson,2020-02-14,4.1,Central,14
+BR007,Tech Hub,Lisa Park,2019-11-30,4.6,West,22
+BR008,Harbor View,Robert Martinez,2018-07-22,3.9,South,16
+BR009,Airport Business,Jennifer Lee,2021-05-18,4,East,10
+BR010,Suburban Heights,Thomas Brown,2022-01-10,4.2,North,13

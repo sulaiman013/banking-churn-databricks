@@ -1,0 +1,92 @@
+[
+  {
+    "branch_id": "BR001",
+    "branch_name": "Downtown Main",
+    "region": "Central",
+    "manager_name": "Sarah Johnson",
+    "staff_count": 25,
+    "opened_date": "2015-03-15",
+    "performance_rating": 4.5
+  },
+  {
+    "branch_id": "BR002",
+    "branch_name": "Westside Plaza",
+    "region": "West",
+    "manager_name": "Michael Chen",
+    "staff_count": 18,
+    "opened_date": "2017-06-20",
+    "performance_rating": 4.2
+  },
+  {
+    "branch_id": "BR003",
+    "branch_name": "Northgate Mall",
+    "region": "North",
+    "manager_name": "Emily Rodriguez",
+    "staff_count": 15,
+    "opened_date": "2018-09-10",
+    "performance_rating": 4
+  },
+  {
+    "branch_id": "BR004",
+    "branch_name": "Eastside Business",
+    "region": "East",
+    "manager_name": "David Kim",
+    "staff_count": 20,
+    "opened_date": "2016-01-25",
+    "performance_rating": 4.3
+  },
+  {
+    "branch_id": "BR005",
+    "branch_name": "South Central",
+    "region": "South",
+    "manager_name": "Amanda Foster",
+    "staff_count": 12,
+    "opened_date": "2019-04-05",
+    "performance_rating": 3.8
+  },
+  {
+    "branch_id": "BR006",
+    "branch_name": "University District",
+    "region": "Central",
+    "manager_name": "James Wilson",
+    "staff_count": 14,
+    "opened_date": "2020-02-14",
+    "performance_rating": 4.1
+  },
+  {
+    "branch_id": "BR007",
+    "branch_name": "Tech Hub",
+    "region": "West",
+    "manager_name": "Lisa Park",
+    "staff_count": 22,
+    "opened_date": "2019-11-30",
+    "performance_rating": 4.6
+  },
+  {
+    "branch_id": "BR008",
+    "branch_name": "Harbor View",
+    "region": "South",
+    "manager_name": "Robert Martinez",
+    "staff_count": 16,
+    "opened_date": "2018-07-22",
+    "performance_rating": 3.9
+  },
+  {
+    "branch_id": "BR009",
+    "branch_name": "Airport Business",
+    "region": "East",
+    "manager_name": "Jennifer Lee",
+    "staff_count": 10,
+    "opened_date": "2021-05-18",
+    "performance_rating": 4
+  },
+  {
+    "branch_id": "BR010",
+    "branch_name": "Suburban Heights",
+    "region": "North",
+    "manager_name": "Thomas Brown",
+    "staff_count": 13,
+    "opened_date": "2022-01-10",
+    "performance_rating": 4.2
+  }
+]

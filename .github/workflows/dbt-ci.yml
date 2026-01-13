@@ -1,0 +1,76 @@
+# =============================================================================
+# dbt CI Pipeline - Runs on every Pull Request
+# =============================================================================
+# This workflow:
+# 1. Triggers when you open/update a PR to main/master
+# 2. Sets up Python and installs dbt-databricks
+# 3. Runs dbt build (compile + run + test) against Databricks
+# 4. Reports success/failure on the PR
+# =============================================================================
+
+name: dbt CI
+
+# When does this run?
+on:
+  pull_request:
+    branches:
+      - main
+      - master
+    paths:
+      - 'dbt/**'  # Only run when dbt files change
+
+# What jobs to run?
+jobs:
+  dbt-test:
+    name: "dbt Build & Test"
+    runs-on: ubuntu-latest
+
+    # Default working directory for all steps
+    defaults:
+      run:
+        working-directory: ./dbt
+
+    steps:
+      # Step 1: Get the code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Step 3: Install dbt-databricks
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install dbt-core dbt-databricks
+
+      # Step 4: Verify dbt installation
+      - name: dbt version
+        run: dbt --version
+
+      # Step 5: Test connection to Databricks
+      - name: dbt debug
+        run: dbt debug
+        env:
+          DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
+
+      # Step 6: Install dbt packages (if any)
+      - name: dbt deps
+        run: dbt deps
+        env:
+          DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
+
+      # Step 7: Compile and run models + tests
+      - name: dbt build
+        run: dbt build --select state:modified+
+        env:
+          DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
+
+      # Step 8: Generate documentation (optional)
+      - name: dbt docs generate
+        run: dbt docs generate
+        env:
+          DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}

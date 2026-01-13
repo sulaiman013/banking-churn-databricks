@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Airport Branch",
+    "territory_name": "Airport Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:35.184337",
+    "modified": "2026-01-11 05:55:35.184337"
+  },
+  {
+    "name": "All Territories",
+    "territory_name": "All Territories",
+    "parent_territory": null,
+    "creation": "2026-01-11 00:17:50.545340",
+    "modified": "2026-01-11 00:17:50.545340"
+  },
+  {
+    "name": "Downtown Branch",
+    "territory_name": "Downtown Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:34.262228",
+    "modified": "2026-01-11 05:55:34.262228"
+  },
+  {
+    "name": "Eastside Branch",
+    "territory_name": "Eastside Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:34.625387",
+    "modified": "2026-01-11 05:55:34.625387"
+  },
+  {
+    "name": "Industrial Branch",
+    "territory_name": "Industrial Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:36.052627",
+    "modified": "2026-01-11 05:55:36.052627"
+  },
+  {
+    "name": "Mall Branch",
+    "territory_name": "Mall Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:35.553985",
+    "modified": "2026-01-11 05:55:35.553985"
+  },
+  {
+    "name": "Southgate Branch",
+    "territory_name": "Southgate Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:34.996020",
+    "modified": "2026-01-11 05:55:34.996020"
+  },
+  {
+    "name": "Suburban Branch",
+    "territory_name": "Suburban Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:36.239171",
+    "modified": "2026-01-11 05:55:36.239171"
+  },
+  {
+    "name": "University Branch",
+    "territory_name": "University Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:35.367383",
+    "modified": "2026-01-11 05:55:35.367383"
+  },
+  {
+    "name": "Uptown Branch",
+    "territory_name": "Uptown Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:34.445237",
+    "modified": "2026-01-11 05:55:34.445237"
+  },
+  {
+    "name": "Westend Branch",
+    "territory_name": "Westend Branch",
+    "parent_territory": "All Territories",
+    "creation": "2026-01-11 05:55:34.809317",
+    "modified": "2026-01-11 05:55:34.809317"
+  }
+]

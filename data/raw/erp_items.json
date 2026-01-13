@@ -1,0 +1,202 @@
+[
+  {
+    "name": "PROD-CARD-001",
+    "item_code": "PROD-CARD-001",
+    "item_name": "Credit Card Classic",
+    "item_group": "Services",
+    "standard_rate": 150.0,
+    "description": "Credit Card Classic",
+    "creation": "2026-01-11 05:55:38.643996",
+    "modified": "2026-01-11 05:55:38.643996"
+  },
+  {
+    "name": "PROD-CARD-002",
+    "item_code": "PROD-CARD-002",
+    "item_name": "Credit Card Platinum",
+    "item_group": "Services",
+    "standard_rate": 500.0,
+    "description": "Credit Card Platinum",
+    "creation": "2026-01-11 05:55:38.849688",
+    "modified": "2026-01-11 05:55:38.849688"
+  },
+  {
+    "name": "PROD-CUR-001",
+    "item_code": "PROD-CUR-001",
+    "item_name": "Current Account",
+    "item_group": "Services",
+    "standard_rate": 200.0,
+    "description": "Current Account",
+    "creation": "2026-01-11 05:55:37.002267",
+    "modified": "2026-01-11 05:55:37.002267"
+  },
+  {
+    "name": "PROD-CUR-002",
+    "item_code": "PROD-CUR-002",
+    "item_name": "Business Current Account",
+    "item_group": "Services",
+    "standard_rate": 1000.0,
+    "description": "Business Current Account",
+    "creation": "2026-01-11 05:55:37.225648",
+    "modified": "2026-01-11 05:55:37.225648"
+  },
+  {
+    "name": "PROD-FD-001",
+    "item_code": "PROD-FD-001",
+    "item_name": "Fixed Deposit 1 Year",
+    "item_group": "Services",
+    "standard_rate": 10000.0,
+    "description": "Fixed Deposit 1 Year",
+    "creation": "2026-01-11 05:55:37.447896",
+    "modified": "2026-01-11 05:55:37.447896"
+  },
+  {
+    "name": "PROD-FD-002",
+    "item_code": "PROD-FD-002",
+    "item_name": "Fixed Deposit 3 Year",
+    "item_group": "Services",
+    "standard_rate": 25000.0,
+    "description": "Fixed Deposit 3 Year",
+    "creation": "2026-01-11 05:55:37.664753",
+    "modified": "2026-01-11 05:55:37.664753"
+  },
+  {
+    "name": "PROD-LOAN-001",
+    "item_code": "PROD-LOAN-001",
+    "item_name": "Personal Loan",
+    "item_group": "Services",
+    "standard_rate": 5000.0,
+    "description": "Personal Loan",
+    "creation": "2026-01-11 05:55:37.886055",
+    "modified": "2026-01-11 05:55:37.886055"
+  },
+  {
+    "name": "PROD-LOAN-002",
+    "item_code": "PROD-LOAN-002",
+    "item_name": "Home Loan",
+    "item_group": "Services",
+    "standard_rate": 50000.0,
+    "description": "Home Loan",
+    "creation": "2026-01-11 05:55:38.440308",
+    "modified": "2026-01-11 05:55:38.440308"
+  },
+  {
+    "name": "PROD-SAV-001",
+    "item_code": "PROD-SAV-001",
+    "item_name": "Basic Savings Account",
+    "item_group": "Services",
+    "standard_rate": 100.0,
+    "description": "Basic Savings Account",
+    "creation": "2026-01-11 05:55:36.505374",
+    "modified": "2026-01-11 05:55:36.505374"
+  },
+  {
+    "name": "PROD-SAV-002",
+    "item_code": "PROD-SAV-002",
+    "item_name": "Premium Savings Account",
+    "item_group": "Services",
+    "standard_rate": 500.0,
+    "description": "Premium Savings Account",
+    "creation": "2026-01-11 05:55:36.751729",
+    "modified": "2026-01-11 05:55:36.751729"
+  },
+  {
+    "name": "SKU001",
+    "item_code": "SKU001",
+    "item_name": "T-shirt",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "T-shirt",
+    "creation": "2026-01-11 00:18:04.349006",
+    "modified": "2026-01-11 05:44:13.079014"
+  },
+  {
+    "name": "SKU002",
+    "item_code": "SKU002",
+    "item_name": "Laptop",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Laptop",
+    "creation": "2026-01-11 00:18:04.426535",
+    "modified": "2026-01-11 05:44:13.022328"
+  },
+  {
+    "name": "SKU003",
+    "item_code": "SKU003",
+    "item_name": "Book",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Book",
+    "creation": "2026-01-11 00:18:04.434389",
+    "modified": "2026-01-11 05:44:12.969145"
+  },
+  {
+    "name": "SKU004",
+    "item_code": "SKU004",
+    "item_name": "Smartphone",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Smartphone",
+    "creation": "2026-01-11 00:18:04.440377",
+    "modified": "2026-01-11 05:44:12.915794"
+  },
+  {
+    "name": "SKU005",
+    "item_code": "SKU005",
+    "item_name": "Sneakers",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Sneakers",
+    "creation": "2026-01-11 00:18:04.446537",
+    "modified": "2026-01-11 05:44:12.860424"
+  },
+  {
+    "name": "SKU006",
+    "item_code": "SKU006",
+    "item_name": "Coffee Mug",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Coffee Mug",
+    "creation": "2026-01-11 00:18:04.452523",
+    "modified": "2026-01-11 05:44:12.806401"
+  },
+  {
+    "name": "SKU007",
+    "item_code": "SKU007",
+    "item_name": "Television",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Television",
+    "creation": "2026-01-11 00:18:04.458525",
+    "modified": "2026-01-11 05:44:12.747430"
+  },
+  {
+    "name": "SKU008",
+    "item_code": "SKU008",
+    "item_name": "Backpack",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Backpack",
+    "creation": "2026-01-11 00:18:04.464289",
+    "modified": "2026-01-11 05:44:12.665218"
+  },
+  {
+    "name": "SKU009",
+    "item_code": "SKU009",
+    "item_name": "Headphones",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Headphones",
+    "creation": "2026-01-11 00:18:04.470154",
+    "modified": "2026-01-11 05:44:12.608536"
+  },
+  {
+    "name": "SKU010",
+    "item_code": "SKU010",
+    "item_name": "Camera",
+    "item_group": "Demo Item Group",
+    "standard_rate": 0.0,
+    "description": "Camera",
+    "creation": "2026-01-11 00:18:04.475922",
+    "modified": "2026-01-11 05:44:12.482871"
+  }
+]

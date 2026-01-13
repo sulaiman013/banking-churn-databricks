@@ -1,0 +1,39 @@
+# Banking Customer Churn Prediction - dbt Project
+name: 'bank_churn'
+version: '1.0.0'
+
+profile: 'bank_churn'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+# Suppress behavior change warnings (opt into new features)
+flags:
+  use_materialization_v2: true
+  use_managed_iceberg: true
+
+# Model configurations by folder
+models:
+  bank_churn:
+    # Staging: thin wrappers on bronze sources
+    staging:
+      +materialized: view
+      +schema: staging
+
+    # Silver: cleaned and unified data
+    silver:
+      +materialized: table
+      +schema: silver
+
+    # Gold: ML features and aggregations
+    gold:
+      +materialized: table
+      +schema: gold

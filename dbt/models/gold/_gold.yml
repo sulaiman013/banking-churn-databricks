@@ -1,0 +1,63 @@
+version: 2
+
+models:
+  - name: customer_360
+    description: >
+      Complete unified view of each customer with all behavioral metrics.
+      This is the "single source of truth" for customer analytics.
+      Combines demographics, transactions, support cases, and digital engagement.
+    columns:
+      - name: unified_customer_id
+        description: Primary key - MD5 hash of customer email
+        data_tests:
+          - unique
+          - not_null
+
+  - name: customer_features
+    description: >
+      ML feature table for churn prediction model.
+      One row per customer with engineered numeric features.
+      Includes demographic encodings, behavioral metrics, and composite risk scores.
+    columns:
+      - name: unified_customer_id
+        description: Primary key - links to customer_360
+        data_tests:
+          - unique
+          - not_null
+      - name: churn_risk_score
+        description: Composite risk score (0-100). Higher = more likely to churn.
+      - name: engagement_health_score
+        description: Engagement health (0-100). Higher = more engaged.
+
+  - name: agg_churn_by_segment
+    description: >
+      Pre-aggregated churn metrics by various dimensions.
+      Optimized for dashboard performance.
+      Includes territory, customer group, tenure, and digital status segments.
+    columns:
+      - name: dimension
+        description: The grouping dimension (territory, customer_group, etc.)
+      - name: dimension_value
+        description: The value of that dimension
+      - name: customer_count
+        description: Number of customers in this segment
+      - name: avg_risk_score
+        description: Average churn risk score for the segment
+
+  - name: high_risk_customers
+    description: >
+      Actionable list of customers requiring retention team attention.
+      Filtered to medium risk and above with recommended actions.
+      Prioritized by risk score and customer value.
+    columns:
+      - name: unified_customer_id
+        description: Customer identifier
+        data_tests:
+          - unique
+          - not_null
+      - name: risk_category
+        description: Critical, High, or Medium
+      - name: recommended_action
+        description: Suggested next step for retention team
+      - name: priority_score
+        description: Combined risk and value priority (higher = more urgent)

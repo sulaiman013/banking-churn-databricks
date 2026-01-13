@@ -1,0 +1,139 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Raw data ingested from source systems into Unity Catalog"
+    database: bank_proj
+    schema: bronze
+    tables:
+      # ERPNext - Core Banking
+      - name: erp_customers
+        description: "Customer master data from ERPNext"
+        columns:
+          - name: name
+            description: "ERPNext customer ID"
+          - name: customer_name
+            description: "Full customer name"
+          - name: customer_group
+            description: "Customer segment/group"
+          - name: territory
+            description: "Geographic territory"
+
+      - name: erp_items
+        description: "Banking products/items from ERPNext"
+        columns:
+          - name: name
+            description: "Item/product code"
+          - name: item_name
+            description: "Product name"
+          - name: item_group
+            description: "Product category"
+
+      - name: erp_territories
+        description: "Geographic territories from ERPNext"
+        columns:
+          - name: name
+            description: "Territory code"
+          - name: territory_name
+            description: "Territory display name"
+
+      - name: erp_sales_invoices
+        description: "Transaction/invoice data from ERPNext"
+        columns:
+          - name: name
+            description: "Invoice number"
+          - name: customer
+            description: "Customer reference"
+          - name: grand_total
+            description: "Transaction amount"
+          - name: posting_date
+            description: "Transaction date"
+
+      # Salesforce - CRM
+      - name: sf_contacts
+        description: "Contact records from Salesforce CRM"
+        columns:
+          - name: Id
+            description: "Salesforce contact ID"
+          - name: Email
+            description: "Contact email"
+          - name: FirstName
+            description: "First name"
+          - name: LastName
+            description: "Last name"
+
+      - name: sf_cases
+        description: "Support cases/complaints from Salesforce"
+        columns:
+          - name: Id
+            description: "Case ID"
+          - name: ContactId
+            description: "Related contact"
+          - name: Status
+            description: "Case status"
+          - name: Priority
+            description: "Case priority"
+          - name: Subject
+            description: "Case subject"
+
+      - name: sf_tasks
+        description: "Tasks/activities from Salesforce"
+        columns:
+          - name: Id
+            description: "Task ID"
+          - name: WhoId
+            description: "Related contact/lead"
+          - name: Subject
+            description: "Task subject"
+          - name: Status
+            description: "Task status"
+
+      # Supabase - Digital Channels
+      - name: sb_app_sessions
+        description: "Mobile/web app sessions from Supabase"
+        columns:
+          - name: id
+            description: "Session ID"
+          - name: customer_id
+            description: "Customer reference"
+          - name: session_start
+            description: "Session start time"
+          - name: session_end
+            description: "Session end time"
+          - name: device_type
+            description: "Device type (mobile/web)"
+
+      - name: sb_app_events
+        description: "App interaction events from Supabase"
+        columns:
+          - name: id
+            description: "Event ID"
+          - name: session_id
+            description: "Related session"
+          - name: event_type
+            description: "Type of event"
+          - name: event_timestamp
+            description: "When event occurred"
+
+      # Google Sheets - Legacy
+      - name: gs_branches
+        description: "Branch master data from Google Sheets"
+        columns:
+          - name: branch_code
+            description: "Branch identifier"
+          - name: branch_name
+            description: "Branch name"
+          - name: region
+            description: "Geographic region"
+
+      - name: gs_customer_notes
+        description: "Manual customer notes from Google Sheets"
+        columns:
+          - name: customer_id
+            description: "Customer reference"
+          - name: note_date
+            description: "Note date"
+          - name: note_text
+            description: "Note content"
+          - name: note_type
+            description: "Type of note"

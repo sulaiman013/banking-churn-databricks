@@ -1,0 +1,1171 @@
+activity_date,description,priority,sf_contact_id,sf_task_id,status,subject
+2023-12-16,Customer segment: active,Low,003g5000002EgEOAA0,00Tg5000000Rj7WEAS,Not Started,Birthday Greeting
+2023-06-29,Customer segment: churned,Normal,003g5000002EipdAAC,00Tg5000000Rj7XEAS,Completed,Follow-up Call
+2023-01-04,Customer segment: active,High,003g5000002EgXiAAK,00Tg5000000Rj7YEAS,Not Started,Account Review
+2025-03-14,Customer segment: active,Normal,003g5000002EgMSAA0,00Tg5000000Rj7ZEAS,Completed,Product Inquiry Response
+2025-02-07,Customer segment: active,Normal,003g5000002EiPpAAK,00Tg5000000Rj98EAC,Not Started,Welcome Call
+2023-12-06,Customer segment: active,High,003g5000002EiZVAA0,00Tg5000000Rj99EAC,In Progress,Retention Call
+2023-12-15,Customer segment: churned,Normal,003g5000002EeneAAC,00Tg5000000RjAmEAK,Not Started,Product Inquiry Response
+2025-07-27,Customer segment: active,Normal,003g5000002Eg1VAAS,00Tg5000000RjAnEAK,In Progress,Product Inquiry Response
+2024-06-23,Customer segment: active,High,003g5000002EifxAAC,00Tg5000000RjAoEAK,Completed,Retention Call
+2024-06-28,Customer segment: churned,Low,003g5000002EjXBAA0,00Tg5000000RjApEAK,Not Started,Survey Follow-up
+2024-12-05,Customer segment: active,Normal,003g5000002EfdMAAS,00Tg5000000RjCMEA0,Completed,Cross-sell Opportunity
+2024-03-02,Customer segment: active,High,003g5000002EiXuAAK,00Tg5000000RjCNEA0,In Progress,Retention Call
+2025-05-03,Customer segment: at_risk,High,003g5000002EiOFAA0,00Tg5000000RjCOEA0,Not Started,Account Review
+2025-09-12,Customer segment: churned,High,003g5000002Ej2YAAS,00Tg5000000RjCPEA0,Completed,Account Review
+2023-05-15,Customer segment: churned,High,003g5000002Ej2YAAS,00Tg5000000RjCQEA0,In Progress,Retention Call
+2023-04-05,Customer segment: at_risk,Normal,003g5000002EjAcAAK,00Tg5000000RjCREA0,Not Started,Welcome Call
+2025-03-10,Customer segment: at_risk,Normal,003g5000002Ef2GAAS,00Tg5000000RjDyEAK,Completed,Welcome Call
+2025-07-24,Customer segment: active,High,003g5000002EiMcAAK,00Tg5000000RjDzEAK,Not Started,Retention Call
+2025-05-05,Customer segment: active,Low,003g5000002EenhAAC,00Tg5000000RjE0EAK,In Progress,Birthday Greeting
+2023-04-25,Customer segment: churned,High,003g5000002Eg6OAAS,00Tg5000000RjE1EAK,Completed,Account Review
+2024-05-31,Customer segment: active,Normal,003g5000002EeiuAAC,00Tg5000000RjE2EAK,Completed,Product Inquiry Response
+2024-04-17,Customer segment: active,High,003g5000002EiUgAAK,00Tg5000000RjE3EAK,In Progress,Account Review
+2023-01-20,Customer segment: at_risk,Low,003g5000002Ef3rAAC,00Tg5000000RjE4EAK,Completed,Survey Follow-up
+2024-04-28,Customer segment: active,Low,003g5000002EjAbAAK,00Tg5000000RjE5EAK,Completed,Birthday Greeting
+2024-08-19,Customer segment: active,Low,003g5000002EjDpAAK,00Tg5000000RjE6EAK,Not Started,Survey Follow-up
+2024-09-09,Customer segment: active,Normal,003g5000002EgJDAA0,00Tg5000000RjHEEA0,Completed,Product Inquiry Response
+2025-05-05,Customer segment: active,High,003g5000002EfWqAAK,00Tg5000000RjHFEA0,Not Started,Account Review
+2025-11-15,Customer segment: churned,Normal,003g5000002EeHiAAK,00Tg5000000RjHGEA0,Completed,Follow-up Call
+2023-09-27,Customer segment: churned,Normal,003g5000002Ef3mAAC,00Tg5000000RjKQEA0,Completed,Cross-sell Opportunity
+2024-07-04,Customer segment: at_risk,Normal,003g5000002Eeu7AAC,00Tg5000000RjKREA0,In Progress,Product Inquiry Response
+2023-07-25,Customer segment: active,Low,003g5000002EgmEAAS,00Tg5000000RjKSEA0,Completed,Birthday Greeting
+2024-06-04,Customer segment: at_risk,High,003g5000002EhyQAAS,00Tg5000000RjKTEA0,Completed,Account Review
+2025-10-05,Customer segment: churned,Low,003g5000002EhFIAA0,00Tg5000000RjKUEA0,In Progress,Birthday Greeting
+2024-04-16,Customer segment: active,Normal,003g5000002EengAAC,00Tg5000000RjKVEA0,Completed,Follow-up Call
+2025-01-04,Customer segment: churned,Normal,003g5000002EhVOAA0,00Tg5000000RjKWEA0,In Progress,Welcome Call
+2023-04-05,Customer segment: at_risk,Low,003g5000002Efi9AAC,00Tg5000000RjKXEA0,Not Started,Survey Follow-up
+2024-06-01,Customer segment: active,High,003g5000002Eg4iAAC,00Tg5000000RjKYEA0,Completed,Account Review
+2025-03-14,Customer segment: active,Low,003g5000002Eio1AAC,00Tg5000000RjKZEA0,In Progress,Birthday Greeting
+2025-06-04,Customer segment: active,High,003g5000002Ej2XAAS,00Tg5000000RjKaEAK,Not Started,Retention Call
+2025-02-26,Customer segment: churned,High,003g5000002EgMQAA0,00Tg5000000RjM2EAK,In Progress,Account Review
+2023-03-03,Customer segment: active,Normal,003g5000002Eh3zAAC,00Tg5000000RjM3EAK,In Progress,Cross-sell Opportunity
+2023-07-04,Customer segment: at_risk,Normal,003g5000002EjNVAA0,00Tg5000000RjM4EAK,In Progress,Product Inquiry Response
+2025-03-19,Customer segment: at_risk,High,003g5000002EhOxAAK,00Tg5000000RjM5EAK,Not Started,Account Review
+2024-06-19,Customer segment: active,High,003g5000002EiBJAA0,00Tg5000000RjQsEAK,Completed,Retention Call
+2023-12-24,Customer segment: churned,High,003g5000002Ej49AAC,00Tg5000000RjQtEAK,Not Started,Account Review
+2024-06-03,Customer segment: churned,Normal,003g5000002Ej2YAAS,00Tg5000000RjQuEAK,Completed,Cross-sell Opportunity
+2025-07-31,Customer segment: active,Normal,003g5000002EfN7AAK,00Tg5000000RjSVEA0,Completed,Follow-up Call
+2025-10-13,Customer segment: churned,Normal,003g5000002EfmvAAC,00Tg5000000RjSWEA0,In Progress,Welcome Call
+2023-02-17,Customer segment: active,Low,003g5000002EfwbAAC,00Tg5000000RjSXEA0,Completed,Survey Follow-up
+2024-06-30,Customer segment: active,Normal,003g5000002EgRFAA0,00Tg5000000RjViEAK,In Progress,Cross-sell Opportunity
+2026-01-07,Customer segment: active,Normal,003g5000002EgnpAAC,00Tg5000000RjVjEAK,Completed,Cross-sell Opportunity
+2024-11-12,Customer segment: at_risk,Normal,003g5000002EeirAAC,00Tg5000000RjVkEAK,Completed,Welcome Call
+2024-03-05,Customer segment: active,Normal,003g5000002Ehf4AAC,00Tg5000000RjVlEAK,In Progress,Follow-up Call
+2025-09-18,Customer segment: active,Normal,003g5000002EhvBAAS,00Tg5000000RjVmEAK,Completed,Cross-sell Opportunity
+2024-09-09,Customer segment: active,High,003g5000002EfdGAAS,00Tg5000000RjXKEA0,Not Started,Account Review
+2023-07-15,Customer segment: active,Normal,003g5000002Eg9VAAS,00Tg5000000RjXLEA0,Completed,Follow-up Call
+2025-08-17,Customer segment: at_risk,Normal,003g5000002EgCjAAK,00Tg5000000RjXMEA0,In Progress,Welcome Call
+2025-11-10,Customer segment: active,Low,003g5000002EgELAA0,00Tg5000000RjXNEA0,Not Started,Survey Follow-up
+2025-08-06,Customer segment: active,Normal,003g5000002EeyvAAC,00Tg5000000RjYvEAK,In Progress,Cross-sell Opportunity
+2024-01-12,Customer segment: active,Low,003g5000002EfBpAAK,00Tg5000000RjYwEAK,Not Started,Survey Follow-up
+2025-09-20,Customer segment: active,Normal,003g5000002EfdFAAS,00Tg5000000RjYxEAK,Not Started,Product Inquiry Response
+2023-05-07,Customer segment: churned,Normal,003g5000002EfOkAAK,00Tg5000000RjYyEAK,Completed,Product Inquiry Response
+2023-12-29,Customer segment: active,High,003g5000002EeyvAAC,00Tg5000000RjaXEAS,Completed,Retention Call
+2023-06-29,Customer segment: at_risk,Normal,003g5000002Ef29AAC,00Tg5000000RjaYEAS,Completed,Follow-up Call
+2025-03-21,Customer segment: active,High,003g5000002Ef5OAAS,00Tg5000000RjaZEAS,Completed,Retention Call
+2024-12-09,Customer segment: active,Normal,003g5000002EfyDAAS,00Tg5000000RjaaEAC,Not Started,Welcome Call
+2024-10-21,Customer segment: active,Normal,003g5000002EgEMAA0,00Tg5000000RjabEAC,In Progress,Welcome Call
+2023-04-04,Customer segment: active,Normal,003g5000002EeMGAA0,00Tg5000000RjacEAC,Not Started,Cross-sell Opportunity
+2024-08-06,Customer segment: at_risk,High,003g5000002EhVNAA0,00Tg5000000RjadEAC,Completed,Retention Call
+2025-04-06,Customer segment: active,High,003g5000002EeyvAAC,00Tg5000000Rjc9EAC,Completed,Account Review
+2024-03-24,Customer segment: churned,Normal,003g5000002EgMQAA0,00Tg5000000RjcAEAS,Not Started,Welcome Call
+2024-02-10,Customer segment: active,Normal,003g5000002EhrzAAC,00Tg5000000RjcBEAS,Not Started,Follow-up Call
+2023-10-28,Customer segment: active,Normal,003g5000002Ei9hAAC,00Tg5000000RjcCEAS,In Progress,Follow-up Call
+2023-10-11,Customer segment: active,Low,003g5000002EiEYAA0,00Tg5000000RjcDEAS,In Progress,Birthday Greeting
+2023-08-17,Customer segment: active,Low,003g5000002EeitAAC,00Tg5000000RjcEEAS,Not Started,Birthday Greeting
+2024-01-18,Customer segment: active,Normal,003g5000002EeiqAAC,00Tg5000000RjdlEAC,Not Started,Product Inquiry Response
+2023-06-25,Customer segment: active,Low,003g5000002Ef3oAAC,00Tg5000000RjdmEAC,Completed,Birthday Greeting
+2024-07-10,Customer segment: active,High,003g5000002Ef0XAAS,00Tg5000000RjfNEAS,Not Started,Account Review
+2023-08-20,Customer segment: at_risk,Normal,003g5000002EfF4AAK,00Tg5000000RjfOEAS,In Progress,Product Inquiry Response
+2023-09-28,Customer segment: at_risk,Normal,003g5000002Efa1AAC,00Tg5000000RjfPEAS,In Progress,Welcome Call
+2023-03-26,Customer segment: at_risk,Normal,003g5000002Efa1AAC,00Tg5000000RjfQEAS,Not Started,Product Inquiry Response
+2023-07-12,Customer segment: churned,Normal,003g5000002EeneAAC,00Tg5000000RjfREAS,Completed,Cross-sell Opportunity
+2025-04-12,Customer segment: at_risk,Low,003g5000002EgxZAAS,00Tg5000000RjfSEAS,In Progress,Survey Follow-up
+2025-09-19,Customer segment: active,Low,003g5000002EgaxAAC,00Tg5000000RjfTEAS,Not Started,Survey Follow-up
+2024-11-19,Customer segment: churned,Low,003g5000002EjH3AAK,00Tg5000000RjfUEAS,Not Started,Birthday Greeting
+2025-09-03,Customer segment: active,Normal,003g5000002EjSLAA0,00Tg5000000RjfVEAS,Completed,Cross-sell Opportunity
+2023-05-29,Customer segment: active,High,003g5000002Ef0XAAS,00Tg5000000RjgzEAC,Not Started,Account Review
+2023-05-31,Customer segment: active,Normal,003g5000002Egz7AAC,00Tg5000000Rjh0EAC,Not Started,Cross-sell Opportunity
+2025-01-03,Customer segment: at_risk,Normal,003g5000002Eg6IAAS,00Tg5000000Rjh1EAC,In Progress,Follow-up Call
+2024-05-24,Customer segment: at_risk,Normal,003g5000002EgmFAAS,00Tg5000000Rjh2EAC,Not Started,Cross-sell Opportunity
+2023-06-13,Customer segment: active,Normal,003g5000002Ef0XAAS,00Tg5000000RjibEAC,Not Started,Follow-up Call
+2023-04-29,Customer segment: active,Low,003g5000002EfdLAAS,00Tg5000000RjicEAC,Not Started,Birthday Greeting
+2023-02-15,Customer segment: active,Normal,003g5000002EiknAAC,00Tg5000000RjidEAC,In Progress,Cross-sell Opportunity
+2025-07-01,Customer segment: at_risk,Low,003g5000002Ei3HAAS,00Tg5000000RjieEAC,In Progress,Survey Follow-up
+2023-10-27,Customer segment: at_risk,Low,003g5000002Ef29AAC,00Tg5000000RjkDEAS,Completed,Survey Follow-up
+2024-01-08,Customer segment: churned,Low,003g5000002Ef3mAAC,00Tg5000000RjkEEAS,In Progress,Survey Follow-up
+2025-01-02,Customer segment: at_risk,Normal,003g5000002EfJtAAK,00Tg5000000RjkFEAS,Not Started,Cross-sell Opportunity
+2025-10-07,Customer segment: active,Low,003g5000002Ef3oAAC,00Tg5000000RjkGEAS,In Progress,Birthday Greeting
+2024-12-15,Customer segment: at_risk,Low,003g5000002Efa1AAC,00Tg5000000RjkHEAS,Completed,Birthday Greeting
+2023-08-15,Customer segment: at_risk,Low,003g5000002Ef29AAC,00Tg5000000RjlpEAC,In Progress,Survey Follow-up
+2023-05-29,Customer segment: active,High,003g5000002Ef8bAAC,00Tg5000000RjlqEAC,Completed,Account Review
+2025-07-19,Customer segment: at_risk,High,003g5000002Ef29AAC,00Tg5000000RjnREAS,Completed,Account Review
+2025-08-14,Customer segment: active,Normal,003g5000002Ef3lAAC,00Tg5000000RjnSEAS,Not Started,Welcome Call
+2023-11-16,Customer segment: active,Low,003g5000002EfTZAA0,00Tg5000000RjnTEAS,In Progress,Survey Follow-up
+2024-04-02,Customer segment: active,Normal,003g5000002Ef0ZAAS,00Tg5000000RjnUEAS,In Progress,Welcome Call
+2025-07-05,Customer segment: active,High,003g5000002Ehf4AAC,00Tg5000000RjnVEAS,In Progress,Account Review
+2023-08-05,Customer segment: active,Normal,003g5000002EhtZAAS,00Tg5000000RjnWEAS,Not Started,Follow-up Call
+2024-07-01,Customer segment: active,Low,003g5000002Efv0AAC,00Tg5000000RjnXEAS,Completed,Birthday Greeting
+2024-08-24,Customer segment: active,Low,003g5000002Eg9XAAS,00Tg5000000RjnYEAS,Not Started,Survey Follow-up
+2025-10-12,Customer segment: at_risk,High,003g5000002EgcaAAC,00Tg5000000RjnZEAS,Not Started,Retention Call
+2023-03-20,Customer segment: at_risk,Normal,003g5000002EhASAA0,00Tg5000000RjnaEAC,In Progress,Cross-sell Opportunity
+2023-05-18,Customer segment: churned,Low,003g5000002EjKJAA0,00Tg5000000RjnbEAC,In Progress,Survey Follow-up
+2024-10-02,Customer segment: active,Low,003g5000002Ef5NAAS,00Tg5000000Rjp3EAC,Completed,Survey Follow-up
+2023-11-15,Customer segment: churned,Low,003g5000002EfjhAAC,00Tg5000000Rjp4EAC,Not Started,Birthday Greeting
+2023-04-17,Customer segment: active,Normal,003g5000002EfRyAAK,00Tg5000000Rjp5EAC,Not Started,Follow-up Call
+2023-06-18,Customer segment: active,Normal,003g5000002EgMPAA0,00Tg5000000Rjp6EAC,In Progress,Welcome Call
+2025-07-30,Customer segment: churned,High,003g5000002EgxVAAS,00Tg5000000Rjp7EAC,Not Started,Account Review
+2025-01-25,Customer segment: active,Low,003g5000002Ef2BAAS,00Tg5000000Rjp8EAC,Completed,Survey Follow-up
+2023-01-25,Customer segment: at_risk,Normal,003g5000002Eg6IAAS,00Tg5000000Rjp9EAC,In Progress,Cross-sell Opportunity
+2023-07-31,Customer segment: at_risk,Normal,003g5000002Eh7BAAS,00Tg5000000RjpAEAS,In Progress,Welcome Call
+2025-01-12,Customer segment: active,High,003g5000002EfzqAAC,00Tg5000000RjpBEAS,Completed,Retention Call
+2023-04-09,Customer segment: active,Low,003g5000002EeMFAA0,00Tg5000000RjpCEAS,Completed,Survey Follow-up
+2023-10-14,Customer segment: active,High,003g5000002EgO3AAK,00Tg5000000RjpDEAS,Completed,Account Review
+2025-02-11,Customer segment: active,High,003g5000002EguJAAS,00Tg5000000RjpEEAS,Completed,Retention Call
+2025-02-20,Customer segment: active,Low,003g5000002Ehf3AAC,00Tg5000000RjpFEAS,Completed,Survey Follow-up
+2025-01-29,Customer segment: active,Low,003g5000002Ef5NAAS,00Tg5000000RjqfEAC,Completed,Birthday Greeting
+2025-04-23,Customer segment: active,Normal,003g5000002Ef2AAAS,00Tg5000000RjsHEAS,Completed,Follow-up Call
+2025-02-05,Customer segment: at_risk,Normal,003g5000002Eg7tAAC,00Tg5000000RjsIEAS,In Progress,Cross-sell Opportunity
+2024-03-22,Customer segment: active,Normal,003g5000002EgRFAA0,00Tg5000000RjsJEAS,Completed,Welcome Call
+2023-12-04,Customer segment: active,Low,003g5000002EhojAAC,00Tg5000000RjsKEAS,Completed,Birthday Greeting
+2023-03-08,Customer segment: active,Normal,003g5000002Ef2AAAS,00Tg5000000RjttEAC,Not Started,Cross-sell Opportunity
+2024-07-04,Customer segment: active,Normal,003g5000002EiUfAAK,00Tg5000000RjtuEAC,In Progress,Follow-up Call
+2024-01-20,Customer segment: active,Low,003g5000002EiWHAA0,00Tg5000000RjtvEAC,In Progress,Birthday Greeting
+2023-08-02,Customer segment: active,High,003g5000002EfVCAA0,00Tg5000000RjtwEAC,Completed,Retention Call
+2023-04-23,Customer segment: active,Normal,003g5000002Ef2AAAS,00Tg5000000RjvVEAS,Completed,Follow-up Call
+2024-08-05,Customer segment: active,Normal,003g5000002EfBqAAK,00Tg5000000RjvWEAS,Not Started,Welcome Call
+2023-01-17,Customer segment: active,Normal,003g5000002EgJBAA0,00Tg5000000RjvXEAS,Not Started,Follow-up Call
+2025-07-10,Customer segment: at_risk,High,003g5000002Ef6zAAC,00Tg5000000Rjx7EAC,Not Started,Account Review
+2025-09-21,Customer segment: at_risk,Normal,003g5000002EepHAAS,00Tg5000000Rjx8EAC,In Progress,Product Inquiry Response
+2023-05-12,Customer segment: active,Low,003g5000002EfzpAAC,00Tg5000000Rjx9EAC,Not Started,Birthday Greeting
+2025-04-12,Customer segment: churned,Normal,003g5000002EgHaAAK,00Tg5000000RjxAEAS,Completed,Welcome Call
+2024-06-28,Customer segment: at_risk,Normal,003g5000002Eg4gAAC,00Tg5000000RjxBEAS,Not Started,Cross-sell Opportunity
+2024-03-19,Customer segment: churned,Normal,003g5000002Egj0AAC,00Tg5000000RjxCEAS,Completed,Welcome Call
+2023-04-17,Customer segment: active,High,003g5000002EeivAAC,00Tg5000000RjxDEAS,In Progress,Retention Call
+2023-07-17,Customer segment: at_risk,Normal,003g5000002Ei3HAAS,00Tg5000000RjxEEAS,Not Started,Welcome Call
+2025-01-31,Customer segment: active,Normal,003g5000002EjH4AAK,00Tg5000000RjxFEAS,In Progress,Follow-up Call
+2024-02-13,Customer segment: at_risk,High,003g5000002Ef6zAAC,00Tg5000000RjyjEAC,In Progress,Account Review
+2025-05-18,Customer segment: active,High,003g5000002EfADAA0,00Tg5000000RjykEAC,Completed,Retention Call
+2023-02-12,Customer segment: at_risk,Normal,003g5000002EfuzAAC,00Tg5000000RjylEAC,In Progress,Follow-up Call
+2023-06-04,Customer segment: at_risk,High,003g5000002Ef6zAAC,00Tg5000000Rk0LEAS,In Progress,Retention Call
+2025-05-01,Customer segment: active,High,003g5000002EesWAAS,00Tg5000000Rk0MEAS,In Progress,Retention Call
+2024-04-20,Customer segment: churned,Normal,003g5000002EhVOAA0,00Tg5000000Rk0NEAS,In Progress,Cross-sell Opportunity
+2024-01-15,Customer segment: active,Normal,003g5000002EhvEAAS,00Tg5000000Rk0OEAS,In Progress,Cross-sell Opportunity
+2023-07-25,Customer segment: at_risk,Low,003g5000002EiT3AAK,00Tg5000000Rk0PEAS,Completed,Birthday Greeting
+2023-04-05,Customer segment: at_risk,Normal,003g5000002EepHAAS,00Tg5000000Rk1xEAC,Not Started,Product Inquiry Response
+2025-05-16,Customer segment: active,Normal,003g5000002EgZKAA0,00Tg5000000Rk1yEAC,Not Started,Follow-up Call
+2023-05-13,Customer segment: at_risk,Normal,003g5000002EgflAAC,00Tg5000000Rk1zEAC,Not Started,Welcome Call
+2024-02-05,Customer segment: at_risk,Low,003g5000002EgcYAAS,00Tg5000000Rk20EAC,In Progress,Survey Follow-up
+2025-10-13,Customer segment: churned,Normal,003g5000002EfbfAAC,00Tg5000000Rk21EAC,Not Started,Follow-up Call
+2024-03-06,Customer segment: churned,Normal,003g5000002Ef0aAAC,00Tg5000000Rk22EAC,In Progress,Cross-sell Opportunity
+2025-08-15,Customer segment: at_risk,High,003g5000002EfgUAAS,00Tg5000000Rk23EAC,In Progress,Retention Call
+2023-03-18,Customer segment: at_risk,High,003g5000002EepHAAS,00Tg5000000Rk3ZEAS,Completed,Retention Call
+2024-11-12,Customer segment: active,Low,003g5000002Ei3GAAS,00Tg5000000Rk3aEAC,Completed,Birthday Greeting
+2024-04-10,Customer segment: active,High,003g5000002Ej0xAAC,00Tg5000000Rk3bEAC,Not Started,Account Review
+2025-04-12,Customer segment: active,High,003g5000002EjFRAA0,00Tg5000000Rk3cEAC,In Progress,Retention Call
+2024-01-04,Customer segment: active,High,003g5000002Ef8bAAC,00Tg5000000Rk5BEAS,In Progress,Retention Call
+2024-01-17,Customer segment: at_risk,Normal,003g5000002EfQLAA0,00Tg5000000Rk5CEAS,Completed,Cross-sell Opportunity
+2025-10-14,Customer segment: active,Normal,003g5000002EfADAA0,00Tg5000000Rk6nEAC,In Progress,Welcome Call
+2025-06-26,Customer segment: active,Normal,003g5000002EfbeAAC,00Tg5000000Rk6oEAC,Not Started,Cross-sell Opportunity
+2023-02-05,Customer segment: active,High,003g5000002EfQNAA0,00Tg5000000Rk6pEAC,Completed,Retention Call
+2023-11-14,Customer segment: active,Low,003g5000002Ef5PAAS,00Tg5000000Rk6qEAC,Not Started,Birthday Greeting
+2025-02-04,Customer segment: at_risk,Normal,003g5000002EfesAAC,00Tg5000000Rk6rEAC,In Progress,Cross-sell Opportunity
+2025-06-26,Customer segment: at_risk,Normal,003g5000002EftRAAS,00Tg5000000Rk6sEAC,In Progress,Product Inquiry Response
+2025-05-24,Customer segment: active,Low,003g5000002EfYTAA0,00Tg5000000Rk6tEAC,Completed,Birthday Greeting
+2024-06-13,Customer segment: at_risk,Low,003g5000002EfS0AAK,00Tg5000000Rk6uEAC,Completed,Birthday Greeting
+2024-10-19,Customer segment: churned,High,003g5000002Ef3mAAC,00Tg5000000Rk8PEAS,In Progress,Retention Call
+2024-10-04,Customer segment: active,Normal,003g5000002EfOjAAK,00Tg5000000Rk8QEAS,Not Started,Follow-up Call
+2025-09-19,Customer segment: active,Low,003g5000002Ef3pAAC,00Tg5000000Rk8REAS,Completed,Birthday Greeting
+2023-05-15,Customer segment: at_risk,Normal,003g5000002Efq9AAC,00Tg5000000Rk8SEAS,Completed,Product Inquiry Response
+2023-01-31,Customer segment: churned,Normal,003g5000002Ef3mAAC,00Tg5000000RkA1EAK,Not Started,Welcome Call
+2024-10-02,Customer segment: at_risk,Normal,003g5000002EfTaAAK,00Tg5000000RkA2EAK,Completed,Follow-up Call
+2024-05-21,Customer segment: active,Normal,003g5000002EgKnAAK,00Tg5000000RkA3EAK,In Progress,Follow-up Call
+2024-06-20,Customer segment: active,Normal,003g5000002EepIAAS,00Tg5000000RkA4EAK,Completed,Cross-sell Opportunity
+2023-10-04,Customer segment: churned,Low,003g5000002Ef3mAAC,00Tg5000000RkBdEAK,Not Started,Survey Follow-up
+2024-01-07,Customer segment: active,High,003g5000002EfYPAA0,00Tg5000000RkBeEAK,In Progress,Retention Call
+2024-10-12,Customer segment: churned,Normal,003g5000002EenfAAC,00Tg5000000RkBfEAK,Not Started,Welcome Call
+2024-02-22,Customer segment: churned,Low,003g5000002EhFIAA0,00Tg5000000RkBgEAK,In Progress,Birthday Greeting
+2023-03-19,Customer segment: active,Normal,003g5000002Efv1AAC,00Tg5000000RkBhEAK,Not Started,Product Inquiry Response
+2025-12-07,Customer segment: churned,High,003g5000002Ej0yAAC,00Tg5000000RkBiEAK,Not Started,Retention Call
+2023-12-14,Customer segment: at_risk,High,003g5000002EirGAAS,00Tg5000000RkBjEAK,Completed,Account Review
+2024-01-10,Customer segment: active,Normal,003g5000002EfBpAAK,00Tg5000000RkDFEA0,In Progress,Cross-sell Opportunity
+2024-01-14,Customer segment: at_risk,Normal,003g5000002EhDeAAK,00Tg5000000RkDGEA0,In Progress,Cross-sell Opportunity
+2023-12-31,Customer segment: at_risk,Normal,003g5000002EfDRAA0,00Tg5000000RkErEAK,In Progress,Cross-sell Opportunity
+2025-05-25,Customer segment: active,Normal,003g5000002EfLVAA0,00Tg5000000RkEsEAK,Not Started,Welcome Call
+2024-05-29,Customer segment: active,Normal,003g5000002EfF3AAK,00Tg5000000RkGTEA0,In Progress,Follow-up Call
+2024-02-25,Customer segment: active,Normal,003g5000002EfgTAAS,00Tg5000000RkGUEA0,In Progress,Welcome Call
+2025-10-26,Customer segment: active,Low,003g5000002EfWoAAK,00Tg5000000RkGVEA0,Completed,Birthday Greeting
+2023-10-12,Customer segment: active,Low,003g5000002EgXhAAK,00Tg5000000RkGWEA0,In Progress,Birthday Greeting
+2023-07-09,Customer segment: active,Low,003g5000002Ef2DAAS,00Tg5000000RkGXEA0,In Progress,Birthday Greeting
+2025-10-24,Customer segment: at_risk,High,003g5000002EfmyAAC,00Tg5000000RkGYEA0,In Progress,Retention Call
+2025-11-10,Customer segment: at_risk,Low,003g5000002EfF4AAK,00Tg5000000RkI5EAK,In Progress,Birthday Greeting
+2023-11-15,Customer segment: active,Low,003g5000002EixiAAC,00Tg5000000RkI6EAK,Not Started,Survey Follow-up
+2025-12-30,Customer segment: at_risk,Normal,003g5000002EfF4AAK,00Tg5000000RkJhEAK,Completed,Follow-up Call
+2023-06-28,Customer segment: active,Low,003g5000002EfIHAA0,00Tg5000000RkJiEAK,Not Started,Birthday Greeting
+2023-07-12,Customer segment: active,Normal,003g5000002EfbdAAC,00Tg5000000RkJjEAK,In Progress,Product Inquiry Response
+2024-10-24,Customer segment: at_risk,Normal,003g5000002EfN9AAK,00Tg5000000RkJkEAK,Not Started,Follow-up Call
+2024-11-10,Customer segment: active,Low,003g5000002Ej7OAAS,00Tg5000000RkJlEAK,In Progress,Survey Follow-up
+2023-07-26,Customer segment: at_risk,Low,003g5000002EfF4AAK,00Tg5000000RkLJEA0,Not Started,Survey Follow-up
+2025-03-25,Customer segment: at_risk,Normal,003g5000002Eh7BAAS,00Tg5000000RkLKEA0,Completed,Product Inquiry Response
+2023-06-16,Customer segment: active,Normal,003g5000002EgzAAAS,00Tg5000000RkLLEA0,In Progress,Follow-up Call
+2023-08-14,Customer segment: at_risk,Normal,003g5000002EgKoAAK,00Tg5000000RkLMEA0,In Progress,Cross-sell Opportunity
+2025-09-26,Customer segment: churned,Normal,003g5000002EjDqAAK,00Tg5000000RkLNEA0,Not Started,Follow-up Call
+2025-04-03,Customer segment: active,Low,003g5000002EfVEAA0,00Tg5000000RkLOEA0,Not Started,Survey Follow-up
+2023-04-27,Customer segment: active,Normal,003g5000002Ef3nAAC,00Tg5000000RkMvEAK,In Progress,Follow-up Call
+2023-08-15,Customer segment: active,Normal,003g5000002Eg7vAAC,00Tg5000000RkMwEAK,In Progress,Follow-up Call
+2023-04-27,Customer segment: active,Low,003g5000002EfGfAAK,00Tg5000000RkOXEA0,In Progress,Birthday Greeting
+2025-08-13,Customer segment: active,Normal,003g5000002EfN8AAK,00Tg5000000RkOYEA0,Not Started,Product Inquiry Response
+2025-11-18,Customer segment: at_risk,Normal,003g5000002EgPdAAK,00Tg5000000RkOZEA0,In Progress,Cross-sell Opportunity
+2024-09-16,Customer segment: at_risk,Normal,003g5000002Ei3HAAS,00Tg5000000RkOaEAK,Not Started,Follow-up Call
+2025-12-21,Customer segment: at_risk,High,003g5000002EfJtAAK,00Tg5000000RkQ9EAK,In Progress,Account Review
+2025-07-01,Customer segment: at_risk,High,003g5000002EfuzAAC,00Tg5000000RkQAEA0,Not Started,Account Review
+2025-11-23,Customer segment: churned,Normal,003g5000002Ej2YAAS,00Tg5000000RkQBEA0,In Progress,Product Inquiry Response
+2023-12-24,Customer segment: at_risk,Normal,003g5000002EfJtAAK,00Tg5000000RkRlEAK,Not Started,Cross-sell Opportunity
+2025-11-18,Customer segment: at_risk,Normal,003g5000002EfJtAAK,00Tg5000000RkTNEA0,Not Started,Follow-up Call
+2025-11-28,Customer segment: at_risk,Low,003g5000002EgPdAAK,00Tg5000000RkTOEA0,Not Started,Birthday Greeting
+2024-08-21,Customer segment: churned,Normal,003g5000002Eg1SAAS,00Tg5000000RkTPEA0,In Progress,Product Inquiry Response
+2025-11-09,Customer segment: active,High,003g5000002EghNAAS,00Tg5000000RkTQEA0,Completed,Retention Call
+2025-01-12,Customer segment: at_risk,Normal,003g5000002EgcYAAS,00Tg5000000RkTREA0,Completed,Welcome Call
+2025-09-03,Customer segment: active,High,003g5000002EepIAAS,00Tg5000000RkTSEA0,Completed,Retention Call
+2023-07-15,Customer segment: churned,Normal,003g5000002EfgVAAS,00Tg5000000RkTTEA0,Completed,Follow-up Call
+2023-11-18,Customer segment: churned,Normal,003g5000002Ej0wAAC,00Tg5000000RkTUEA0,Completed,Follow-up Call
+2025-08-22,Customer segment: active,Low,003g5000002Ef3oAAC,00Tg5000000RkUzEAK,Completed,Birthday Greeting
+2023-12-12,Customer segment: active,Normal,003g5000002EferAAC,00Tg5000000RkV0EAK,In Progress,Product Inquiry Response
+2023-05-01,Customer segment: active,Normal,003g5000002EgZLAA0,00Tg5000000RkV1EAK,Not Started,Follow-up Call
+2024-06-12,Customer segment: churned,Normal,003g5000002Eh0jAAC,00Tg5000000RkV2EAK,In Progress,Product Inquiry Response
+2025-04-22,Customer segment: at_risk,Normal,003g5000002EfgUAAS,00Tg5000000RkV3EAK,Completed,Product Inquiry Response
+2025-08-26,Customer segment: active,High,003g5000002EgENAA0,00Tg5000000RkV4EAK,In Progress,Retention Call
+2025-04-03,Customer segment: active,Low,003g5000002EfOjAAK,00Tg5000000RkWbEAK,Not Started,Survey Follow-up
+2023-08-16,Customer segment: active,Normal,003g5000002Efv0AAC,00Tg5000000RkWcEAK,Completed,Cross-sell Opportunity
+2023-11-20,Customer segment: active,Normal,003g5000002EfOjAAK,00Tg5000000RkYDEA0,Completed,Follow-up Call
+2024-09-12,Customer segment: active,Normal,003g5000002EfVBAA0,00Tg5000000RkYEEA0,Completed,Follow-up Call
+2024-06-23,Customer segment: at_risk,High,003g5000002Efi6AAC,00Tg5000000RkYFEA0,In Progress,Account Review
+2023-11-19,Customer segment: churned,Low,003g5000002EfRxAAK,00Tg5000000RkZpEAK,Not Started,Birthday Greeting
+2025-01-22,Customer segment: active,High,003g5000002EfVBAA0,00Tg5000000RkZqEAK,In Progress,Retention Call
+2023-04-19,Customer segment: active,Normal,003g5000002EfVBAA0,00Tg5000000RkZrEAK,In Progress,Cross-sell Opportunity
+2025-10-22,Customer segment: churned,Normal,003g5000002EfRxAAK,00Tg5000000RkbREAS,In Progress,Product Inquiry Response
+2025-11-16,Customer segment: active,Normal,003g5000002EfTZAA0,00Tg5000000Rkd3EAC,In Progress,Product Inquiry Response
+2024-12-17,Customer segment: active,Low,003g5000002Eg4iAAC,00Tg5000000Rkd4EAC,Not Started,Birthday Greeting
+2023-04-10,Customer segment: active,Normal,003g5000002EhDfAAK,00Tg5000000Rkd5EAC,In Progress,Welcome Call
+2024-05-06,Customer segment: active,Normal,003g5000002EiuTAAS,00Tg5000000Rkd6EAC,In Progress,Follow-up Call
+2024-11-28,Customer segment: active,Normal,003g5000002EfTZAA0,00Tg5000000RkefEAC,Not Started,Welcome Call
+2023-10-26,Customer segment: active,High,003g5000002EfbeAAC,00Tg5000000RkegEAC,Completed,Account Review
+2025-10-18,Customer segment: active,Normal,003g5000002Eg1RAAS,00Tg5000000RkehEAC,Completed,Welcome Call
+2024-08-05,Customer segment: churned,Low,003g5000002Ef0aAAC,00Tg5000000RkeiEAC,Not Started,Survey Follow-up
+2024-07-24,Customer segment: at_risk,Normal,003g5000002EgG0AAK,00Tg5000000RkejEAC,Not Started,Welcome Call
+2024-08-16,Customer segment: at_risk,Low,003g5000002EgG0AAK,00Tg5000000RkekEAC,Not Started,Survey Follow-up
+2023-05-04,Customer segment: active,Normal,003g5000002EhojAAC,00Tg5000000RkelEAC,Not Started,Welcome Call
+2023-12-02,Customer segment: churned,Normal,003g5000002EhrxAAC,00Tg5000000RkemEAC,Not Started,Product Inquiry Response
+2024-11-08,Customer segment: active,Normal,003g5000002EfWnAAK,00Tg5000000RkgHEAS,Not Started,Product Inquiry Response
+2025-02-26,Customer segment: churned,Normal,003g5000002Eg6OAAS,00Tg5000000RkgIEAS,Not Started,Follow-up Call
+2025-06-19,Customer segment: active,Normal,003g5000002EfYPAA0,00Tg5000000RkhtEAC,In Progress,Product Inquiry Response
+2023-10-02,Customer segment: active,Normal,003g5000002EferAAC,00Tg5000000RkhuEAC,Completed,Product Inquiry Response
+2025-10-01,Customer segment: churned,Low,003g5000002EfjhAAC,00Tg5000000RkhvEAC,In Progress,Birthday Greeting
+2024-02-26,Customer segment: active,Normal,003g5000002EftNAAS,00Tg5000000RkhwEAC,In Progress,Cross-sell Opportunity
+2023-07-21,Customer segment: active,Normal,003g5000002EgXhAAK,00Tg5000000RkhxEAC,Completed,Cross-sell Opportunity
+2023-04-13,Customer segment: active,Low,003g5000002EfYPAA0,00Tg5000000RkjVEAS,Not Started,Survey Follow-up
+2025-01-28,Customer segment: at_risk,Low,003g5000002Eg7tAAC,00Tg5000000RkjWEAS,In Progress,Survey Follow-up
+2023-07-11,Customer segment: active,Normal,003g5000002EiMbAAK,00Tg5000000RkjXEAS,Not Started,Follow-up Call
+2025-03-03,Customer segment: churned,High,003g5000002Eg6OAAS,00Tg5000000RkjYEAS,In Progress,Retention Call
+2023-08-27,Customer segment: active,Normal,003g5000002EfdJAAS,00Tg5000000RkjZEAS,In Progress,Product Inquiry Response
+2024-04-02,Customer segment: active,High,003g5000002EfAEAA0,00Tg5000000RkjaEAC,Not Started,Retention Call
+2025-06-15,Customer segment: churned,High,003g5000002EfzsAAC,00Tg5000000RkjbEAC,Not Started,Account Review
+2025-07-30,Customer segment: active,Normal,003g5000002EgKqAAK,00Tg5000000RkjcEAC,Not Started,Cross-sell Opportunity
+2023-11-30,Customer segment: active,Low,003g5000002EfbdAAC,00Tg5000000Rkl7EAC,Not Started,Birthday Greeting
+2025-11-27,Customer segment: active,Normal,003g5000002EfN8AAK,00Tg5000000Rkl8EAC,In Progress,Cross-sell Opportunity
+2023-10-10,Customer segment: active,Normal,003g5000002EfdFAAS,00Tg5000000RkmjEAC,Not Started,Product Inquiry Response
+2024-04-23,Customer segment: active,High,003g5000002EeywAAC,00Tg5000000RkmkEAC,In Progress,Account Review
+2025-06-12,Customer segment: active,Normal,003g5000002EfbeAAC,00Tg5000000RkmlEAC,Not Started,Cross-sell Opportunity
+2023-11-19,Customer segment: active,Low,003g5000002Ef8cAAC,00Tg5000000RkoLEAS,Not Started,Birthday Greeting
+2024-06-25,Customer segment: at_risk,Normal,003g5000002EjNVAA0,00Tg5000000RkoMEAS,Not Started,Follow-up Call
+2025-06-09,Customer segment: active,Low,003g5000002EjVZAA0,00Tg5000000RkoNEAS,Completed,Birthday Greeting
+2025-09-06,Customer segment: active,Low,003g5000002Ef8cAAC,00Tg5000000RkpxEAC,In Progress,Survey Follow-up
+2023-08-12,Customer segment: active,High,003g5000002EfN8AAK,00Tg5000000RkrZEAS,In Progress,Retention Call
+2024-06-23,Customer segment: active,Normal,003g5000002EeitAAC,00Tg5000000RkraEAC,In Progress,Product Inquiry Response
+2024-09-02,Customer segment: active,Normal,003g5000002Eib7AAC,00Tg5000000RkrbEAC,Not Started,Cross-sell Opportunity
+2023-09-22,Customer segment: at_risk,Low,003g5000002EguKAAS,00Tg5000000RkrcEAC,In Progress,Birthday Greeting
+2024-08-22,Customer segment: at_risk,Low,003g5000002EhYcAAK,00Tg5000000RkrdEAC,Completed,Survey Follow-up
+2025-05-31,Customer segment: active,High,003g5000002EferAAC,00Tg5000000RktBEAS,In Progress,Retention Call
+2025-06-20,Customer segment: active,High,003g5000002EfNAAA0,00Tg5000000RktCEAS,Completed,Account Review
+2025-11-24,Customer segment: active,Normal,003g5000002EgXhAAK,00Tg5000000RktDEAS,Completed,Product Inquiry Response
+2025-09-05,Customer segment: at_risk,High,003g5000002EgO2AAK,00Tg5000000RktEEAS,Completed,Retention Call
+2024-07-26,Customer segment: active,Low,003g5000002EghOAAS,00Tg5000000RktFEAS,Completed,Birthday Greeting
+2024-05-25,Customer segment: at_risk,High,003g5000002EhQXAA0,00Tg5000000RktGEAS,In Progress,Account Review
+2025-08-07,Customer segment: churned,High,003g5000002EhdRAAS,00Tg5000000RktHEAS,Not Started,Account Review
+2025-05-11,Customer segment: at_risk,Normal,003g5000002EgKoAAK,00Tg5000000RktIEAS,Completed,Welcome Call
+2025-07-27,Customer segment: at_risk,High,003g5000002EhyPAAS,00Tg5000000RktJEAS,In Progress,Account Review
+2023-05-29,Customer segment: active,Low,003g5000002EfDSAA0,00Tg5000000RkunEAC,Completed,Birthday Greeting
+2024-02-09,Customer segment: at_risk,High,003g5000002EfDTAA0,00Tg5000000RkuoEAC,In Progress,Account Review
+2024-11-20,Customer segment: active,Normal,003g5000002EflKAAS,00Tg5000000RkupEAC,Completed,Welcome Call
+2024-11-01,Customer segment: active,High,003g5000002EfDSAA0,00Tg5000000RkwPEAS,Completed,Retention Call
+2025-01-05,Customer segment: active,Normal,003g5000002EfgTAAS,00Tg5000000RkwQEAS,Completed,Follow-up Call
+2024-12-22,Customer segment: at_risk,Low,003g5000002EfN9AAK,00Tg5000000RkwREAS,Completed,Survey Follow-up
+2023-03-19,Customer segment: active,Normal,003g5000002EfrlAAC,00Tg5000000RkwSEAS,In Progress,Product Inquiry Response
+2025-11-20,Customer segment: at_risk,Normal,003g5000002EgmFAAS,00Tg5000000RkwTEAS,In Progress,Product Inquiry Response
+2023-04-25,Customer segment: active,Low,003g5000002Efa2AAC,00Tg5000000RkwUEAS,In Progress,Survey Follow-up
+2024-06-07,Customer segment: at_risk,Normal,003g5000002EgCkAAK,00Tg5000000RkwVEAS,Not Started,Follow-up Call
+2025-02-01,Customer segment: active,High,003g5000002EfDSAA0,00Tg5000000Rky1EAC,Not Started,Retention Call
+2024-03-20,Customer segment: churned,Normal,003g5000002EfmvAAC,00Tg5000000Rky2EAC,Not Started,Follow-up Call
+2025-07-23,Customer segment: active,Low,003g5000002Eeu6AAC,00Tg5000000RkzdEAC,Completed,Birthday Greeting
+2025-06-22,Customer segment: active,Normal,003g5000002EfgTAAS,00Tg5000000Rl1FEAS,In Progress,Welcome Call
+2025-04-17,Customer segment: active,Low,003g5000002EhFGAA0,00Tg5000000Rl1GEAS,Completed,Birthday Greeting
+2025-05-22,Customer segment: at_risk,Normal,003g5000002EfQMAA0,00Tg5000000Rl2rEAC,In Progress,Product Inquiry Response
+2025-12-25,Customer segment: at_risk,Normal,003g5000002Efi6AAC,00Tg5000000Rl2sEAC,Completed,Cross-sell Opportunity
+2024-03-04,Customer segment: active,Normal,003g5000002Efi5AAC,00Tg5000000Rl4TEAS,Not Started,Cross-sell Opportunity
+2025-07-18,Customer segment: churned,Normal,003g5000002Eh0jAAC,00Tg5000000Rl4UEAS,Completed,Product Inquiry Response
+2024-04-27,Customer segment: active,Low,003g5000002EgEMAA0,00Tg5000000Rl4VEAS,Completed,Birthday Greeting
+2025-11-25,Customer segment: at_risk,Normal,003g5000002EhS9AAK,00Tg5000000Rl4WEAS,Not Started,Follow-up Call
+2025-03-27,Customer segment: active,High,003g5000002EeywAAC,00Tg5000000Rl65EAC,Not Started,Account Review
+2024-10-27,Customer segment: at_risk,High,003g5000002EhyQAAS,00Tg5000000Rl66EAC,Not Started,Retention Call
+2025-08-01,Customer segment: active,Normal,003g5000002EiEXAA0,00Tg5000000Rl67EAC,Not Started,Cross-sell Opportunity
+2024-02-12,Customer segment: active,Normal,003g5000002Ei02AAC,00Tg5000000Rl68EAC,Completed,Product Inquiry Response
+2025-12-04,Customer segment: at_risk,High,003g5000002EiJOAA0,00Tg5000000Rl69EAC,In Progress,Account Review
+2024-07-15,Customer segment: active,High,003g5000002EhDfAAK,00Tg5000000Rl6AEAS,Not Started,Retention Call
+2024-05-04,Customer segment: active,Low,003g5000002EeywAAC,00Tg5000000Rl7hEAC,In Progress,Survey Follow-up
+2024-10-10,Customer segment: active,High,003g5000002EiknAAC,00Tg5000000Rl7iEAC,In Progress,Account Review
+2023-12-02,Customer segment: active,Low,003g5000002Ej4AAAS,00Tg5000000Rl7jEAC,Not Started,Birthday Greeting
+2024-02-11,Customer segment: at_risk,Low,003g5000002EhDgAAK,00Tg5000000Rl7kEAC,In Progress,Birthday Greeting
+2025-02-02,Customer segment: active,Normal,003g5000002EjSLAA0,00Tg5000000Rl7lEAC,Not Started,Product Inquiry Response
+2024-01-27,Customer segment: active,Low,003g5000002EfWoAAK,00Tg5000000Rl9JEAS,In Progress,Survey Follow-up
+2025-08-12,Customer segment: active,Normal,003g5000002EfQNAA0,00Tg5000000Rl9KEAS,In Progress,Follow-up Call
+2024-06-11,Customer segment: active,Normal,003g5000002Ei01AAC,00Tg5000000Rl9LEAS,Completed,Follow-up Call
+2025-05-26,Customer segment: active,Normal,003g5000002EesXAAS,00Tg5000000Rl9MEAS,In Progress,Welcome Call
+2025-05-03,Customer segment: at_risk,High,003g5000002EiCwAAK,00Tg5000000Rl9NEAS,Not Started,Account Review
+2025-08-06,Customer segment: active,Normal,003g5000002EiRRAA0,00Tg5000000Rl9OEAS,In Progress,Cross-sell Opportunity
+2025-12-05,Customer segment: active,Normal,003g5000002EjTxAAK,00Tg5000000Rl9PEAS,Completed,Product Inquiry Response
+2023-10-27,Customer segment: active,High,003g5000002EfWoAAK,00Tg5000000RlAvEAK,Completed,Retention Call
+2024-08-07,Customer segment: at_risk,Normal,003g5000002EfN9AAK,00Tg5000000RlAwEAK,In Progress,Welcome Call
+2025-03-28,Customer segment: churned,Normal,003g5000002Egj0AAC,00Tg5000000RlAxEAK,Completed,Welcome Call
+2023-11-09,Customer segment: at_risk,Normal,003g5000002Ef3rAAC,00Tg5000000RlAyEAK,In Progress,Welcome Call
+2025-09-06,Customer segment: churned,High,003g5000002EfOkAAK,00Tg5000000RlCXEA0,In Progress,Retention Call
+2024-12-28,Customer segment: active,Normal,003g5000002EflJAAS,00Tg5000000RlCYEA0,Completed,Product Inquiry Response
+2025-04-05,Customer segment: at_risk,Normal,003g5000002Efi6AAC,00Tg5000000RlCZEA0,Not Started,Follow-up Call
+2025-02-07,Customer segment: churned,Low,003g5000002EhrxAAC,00Tg5000000RlCaEAK,Completed,Survey Follow-up
+2026-01-08,Customer segment: active,High,003g5000002EflJAAS,00Tg5000000RlE9EAK,Completed,Retention Call
+2023-12-10,Customer segment: active,High,003g5000002EfoXAAS,00Tg5000000RlEAEA0,Completed,Retention Call
+2025-10-18,Customer segment: at_risk,Normal,003g5000002EgMRAA0,00Tg5000000RlEBEA0,In Progress,Follow-up Call
+2023-12-12,Customer segment: churned,Normal,003g5000002EguHAAS,00Tg5000000RlECEA0,In Progress,Product Inquiry Response
+2024-07-24,Customer segment: active,Normal,003g5000002Efa2AAC,00Tg5000000RlEDEA0,Not Started,Cross-sell Opportunity
+2025-11-12,Customer segment: at_risk,High,003g5000002EgCkAAK,00Tg5000000RlEEEA0,In Progress,Retention Call
+2024-08-11,Customer segment: at_risk,Low,003g5000002EgHbAAK,00Tg5000000RlEFEA0,In Progress,Survey Follow-up
+2023-02-07,Customer segment: at_risk,Low,003g5000002EhVNAA0,00Tg5000000RlEGEA0,In Progress,Birthday Greeting
+2025-12-01,Customer segment: churned,Normal,003g5000002EhqLAAS,00Tg5000000RlEHEA0,Completed,Follow-up Call
+2024-02-20,Customer segment: active,High,003g5000002EhyRAAS,00Tg5000000RlEIEA0,Not Started,Retention Call
+2023-11-30,Customer segment: active,Normal,003g5000002EeiwAAC,00Tg5000000RlEJEA0,In Progress,Product Inquiry Response
+2023-07-31,Customer segment: churned,Normal,003g5000002EfgVAAS,00Tg5000000RlEKEA0,Completed,Welcome Call
+2024-06-09,Customer segment: active,Normal,003g5000002EirFAAS,00Tg5000000RlELEA0,Completed,Welcome Call
+2023-02-25,Customer segment: churned,Normal,003g5000002EixhAAC,00Tg5000000RlEMEA0,Completed,Follow-up Call
+2024-02-13,Customer segment: active,Normal,003g5000002EjTxAAK,00Tg5000000RlENEA0,In Progress,Product Inquiry Response
+2024-05-06,Customer segment: active,High,003g5000002Eh5bAAC,00Tg5000000RlEOEA0,Completed,Account Review
+2024-06-14,Customer segment: active,Normal,003g5000002EflJAAS,00Tg5000000RlFlEAK,Completed,Product Inquiry Response
+2025-06-13,Customer segment: active,Low,003g5000002Ei4rAAC,00Tg5000000RlFmEAK,In Progress,Birthday Greeting
+2023-01-17,Customer segment: active,High,003g5000002Egj2AAC,00Tg5000000RlFnEAK,In Progress,Account Review
+2023-01-17,Customer segment: active,Normal,003g5000002EifxAAC,00Tg5000000RlFoEAK,In Progress,Product Inquiry Response
+2025-12-13,Customer segment: at_risk,Normal,003g5000002EhYcAAK,00Tg5000000RlFpEAK,In Progress,Follow-up Call
+2024-03-30,Customer segment: at_risk,Normal,003g5000002EiXwAAK,00Tg5000000RlFqEAK,Not Started,Cross-sell Opportunity
+2025-06-02,Customer segment: at_risk,Normal,003g5000002EiL1AAK,00Tg5000000RlFrEAK,In Progress,Cross-sell Opportunity
+2025-03-09,Customer segment: churned,Low,003g5000002Eh7FAAS,00Tg5000000RlFsEAK,In Progress,Survey Follow-up
+2025-12-18,Customer segment: churned,Normal,003g5000002EfmvAAC,00Tg5000000RlHNEA0,Completed,Cross-sell Opportunity
+2023-07-11,Customer segment: churned,Normal,003g5000002Eg1SAAS,00Tg5000000RlHOEA0,Completed,Cross-sell Opportunity
+2025-08-06,Customer segment: churned,Normal,003g5000002EhC1AAK,00Tg5000000RlHPEA0,Completed,Follow-up Call
+2023-04-11,Customer segment: churned,Low,003g5000002EftOAAS,00Tg5000000RlHQEA0,Not Started,Birthday Greeting
+2023-01-31,Customer segment: churned,High,003g5000002EftOAAS,00Tg5000000RlHREA0,Not Started,Account Review
+2023-11-13,Customer segment: active,High,003g5000002EguJAAS,00Tg5000000RlHSEA0,In Progress,Account Review
+2025-08-12,Customer segment: churned,High,003g5000002EfmvAAC,00Tg5000000RlIzEAK,In Progress,Account Review
+2024-09-12,Customer segment: active,Normal,003g5000002EftNAAS,00Tg5000000RlJ0EAK,Completed,Product Inquiry Response
+2024-09-05,Customer segment: active,High,003g5000002EgO1AAK,00Tg5000000RlJ1EAK,Not Started,Retention Call
+2024-08-09,Customer segment: active,High,003g5000002EfDUAA0,00Tg5000000RlJ2EAK,Not Started,Retention Call
+2025-06-30,Customer segment: active,Low,003g5000002EeMFAA0,00Tg5000000RlJ3EAK,In Progress,Survey Follow-up
+2025-11-04,Customer segment: active,High,003g5000002Eh2MAAS,00Tg5000000RlJ4EAK,In Progress,Retention Call
+2025-07-21,Customer segment: active,Normal,003g5000002EgxXAAS,00Tg5000000RlJ5EAK,Completed,Follow-up Call
+2023-05-09,Customer segment: active,Normal,003g5000002EgJDAA0,00Tg5000000RlJ6EAK,In Progress,Cross-sell Opportunity
+2024-02-02,Customer segment: at_risk,Low,003g5000002EehEAAS,00Tg5000000RlJ7EAK,Not Started,Survey Follow-up
+2023-08-18,Customer segment: active,Low,003g5000002Ef2EAAS,00Tg5000000RlJ8EAK,Not Started,Survey Follow-up
+2025-05-20,Customer segment: active,Normal,003g5000002EiWHAA0,00Tg5000000RlJ9EAK,Completed,Cross-sell Opportunity
+2023-11-11,Customer segment: at_risk,Normal,003g5000002EgxZAAS,00Tg5000000RlJAEA0,Completed,Product Inquiry Response
+2025-04-23,Customer segment: at_risk,Normal,003g5000002Efq9AAC,00Tg5000000RlKbEAK,In Progress,Follow-up Call
+2024-02-10,Customer segment: active,Normal,003g5000002EfrlAAC,00Tg5000000RlMDEA0,In Progress,Welcome Call
+2024-12-19,Customer segment: churned,Normal,003g5000002EgB7AAK,00Tg5000000RlMEEA0,Completed,Welcome Call
+2023-11-25,Customer segment: at_risk,Low,003g5000002EfNBAA0,00Tg5000000RlMFEA0,Completed,Birthday Greeting
+2024-12-11,Customer segment: churned,Normal,003g5000002EgkbAAC,00Tg5000000RlMGEA0,In Progress,Follow-up Call
+2024-06-21,Customer segment: active,Normal,003g5000002EgmGAAS,00Tg5000000RlMHEA0,In Progress,Follow-up Call
+2024-04-29,Customer segment: active,High,003g5000002Efa2AAC,00Tg5000000RlMIEA0,Completed,Account Review
+2025-05-19,Customer segment: at_risk,Normal,003g5000002Egj3AAC,00Tg5000000RlMJEA0,In Progress,Product Inquiry Response
+2025-04-04,Customer segment: churned,Normal,003g5000002EiL0AAK,00Tg5000000RlMKEA0,Not Started,Cross-sell Opportunity
+2023-08-23,Customer segment: active,Normal,003g5000002EfQNAA0,00Tg5000000RlNpEAK,Completed,Follow-up Call
+2023-03-25,Customer segment: at_risk,High,003g5000002EfuzAAC,00Tg5000000RlNqEAK,Completed,Account Review
+2025-06-04,Customer segment: at_risk,Normal,003g5000002EfmyAAC,00Tg5000000RlNrEAK,Not Started,Welcome Call
+2024-03-16,Customer segment: at_risk,High,003g5000002EeJjAAK,00Tg5000000RlNsEAK,Completed,Account Review
+2023-10-13,Customer segment: active,Normal,003g5000002EhIUAA0,00Tg5000000RlNtEAK,Not Started,Product Inquiry Response
+2025-02-17,Customer segment: active,Normal,003g5000002EiODAA0,00Tg5000000RlNuEAK,Completed,Product Inquiry Response
+2023-10-03,Customer segment: churned,Low,003g5000002EhVOAA0,00Tg5000000RlNvEAK,Completed,Survey Follow-up
+2023-06-21,Customer segment: at_risk,Normal,003g5000002EfuzAAC,00Tg5000000RlPREA0,Not Started,Welcome Call
+2025-01-09,Customer segment: active,Normal,003g5000002Eg1RAAS,00Tg5000000RlPSEA0,Completed,Cross-sell Opportunity
+2024-07-25,Customer segment: active,High,003g5000002Egr5AAC,00Tg5000000RlPTEA0,Completed,Account Review
+2023-01-16,Customer segment: active,Low,003g5000002EiPpAAK,00Tg5000000RlPUEA0,In Progress,Survey Follow-up
+2023-11-02,Customer segment: active,Low,003g5000002EgxYAAS,00Tg5000000RlPVEA0,In Progress,Birthday Greeting
+2024-08-22,Customer segment: churned,Low,003g5000002EjXBAA0,00Tg5000000RlPWEA0,In Progress,Survey Follow-up
+2025-07-09,Customer segment: active,High,003g5000002EfwbAAC,00Tg5000000RlR3EAK,Completed,Account Review
+2025-05-10,Customer segment: active,Normal,003g5000002EhDfAAK,00Tg5000000RlR4EAK,Not Started,Welcome Call
+2023-01-01,Customer segment: active,Normal,003g5000002EfwbAAC,00Tg5000000RlSfEAK,Not Started,Welcome Call
+2025-11-22,Customer segment: churned,Normal,003g5000002EgMQAA0,00Tg5000000RlSgEAK,In Progress,Product Inquiry Response
+2023-03-01,Customer segment: active,High,003g5000002Eg34AAC,00Tg5000000RlShEAK,Not Started,Retention Call
+2025-12-27,Customer segment: active,Low,003g5000002Eg34AAC,00Tg5000000RlSiEAK,Not Started,Survey Follow-up
+2023-07-24,Customer segment: active,High,003g5000002EgzAAAS,00Tg5000000RlSjEAK,Not Started,Retention Call
+2024-03-18,Customer segment: active,Normal,003g5000002EfqAAAS,00Tg5000000RlSkEAK,In Progress,Cross-sell Opportunity
+2023-06-16,Customer segment: active,Normal,003g5000002EfyDAAS,00Tg5000000RlUHEA0,In Progress,Welcome Call
+2024-11-13,Customer segment: active,Normal,003g5000002EfzpAAC,00Tg5000000RlVtEAK,Completed,Product Inquiry Response
+2024-08-08,Customer segment: at_risk,Low,003g5000002Eg4gAAC,00Tg5000000RlVuEAK,Not Started,Survey Follow-up
+2023-09-02,Customer segment: at_risk,Normal,003g5000002EgZJAA0,00Tg5000000RlVvEAK,In Progress,Welcome Call
+2023-12-23,Customer segment: at_risk,High,003g5000002EgcXAAS,00Tg5000000RlVwEAK,In Progress,Account Review
+2025-01-06,Customer segment: active,Low,003g5000002EgFzAAK,00Tg5000000RlVxEAK,Completed,Birthday Greeting
+2023-05-07,Customer segment: at_risk,Normal,003g5000002EhTlAAK,00Tg5000000RlVyEAK,Not Started,Follow-up Call
+2025-02-28,Customer segment: active,Normal,003g5000002EfBsAAK,00Tg5000000RlVzEAK,Completed,Follow-up Call
+2023-02-06,Customer segment: at_risk,High,003g5000002EhC4AAK,00Tg5000000RlW0EAK,Completed,Retention Call
+2025-10-01,Customer segment: churned,Low,003g5000002EhrxAAC,00Tg5000000RlW1EAK,In Progress,Birthday Greeting
+2024-03-30,Customer segment: active,Normal,003g5000002Eg33AAC,00Tg5000000RlXVEA0,In Progress,Follow-up Call
+2024-12-22,Customer segment: churned,Low,003g5000002EgFxAAK,00Tg5000000RlXWEA0,Not Started,Birthday Greeting
+2025-10-18,Customer segment: active,Low,003g5000002Ef0YAAS,00Tg5000000RlXXEA0,Completed,Survey Follow-up
+2024-02-15,Customer segment: churned,Normal,003g5000002EgMQAA0,00Tg5000000RlXYEA0,Not Started,Welcome Call
+2025-07-20,Customer segment: at_risk,Normal,003g5000002EgcYAAS,00Tg5000000RlXZEA0,In Progress,Cross-sell Opportunity
+2023-07-11,Customer segment: active,Low,003g5000002EgmGAAS,00Tg5000000RlXaEAK,Not Started,Birthday Greeting
+2024-01-30,Customer segment: churned,Low,003g5000002EhaDAAS,00Tg5000000RlXbEAK,Not Started,Birthday Greeting
+2023-10-17,Customer segment: at_risk,Low,003g5000002EhjtAAC,00Tg5000000RlXcEAK,Completed,Birthday Greeting
+2024-05-03,Customer segment: at_risk,Normal,003g5000002EgKoAAK,00Tg5000000RlXdEAK,Completed,Welcome Call
+2025-08-28,Customer segment: active,Normal,003g5000002Eg33AAC,00Tg5000000RlZ7EAK,In Progress,Follow-up Call
+2024-09-30,Customer segment: active,Normal,003g5000002EgW5AAK,00Tg5000000RlZ8EAK,In Progress,Cross-sell Opportunity
+2025-02-18,Customer segment: active,Low,003g5000002Eg33AAC,00Tg5000000RlajEAC,Completed,Birthday Greeting
+2023-05-17,Customer segment: churned,Normal,003g5000002EixhAAC,00Tg5000000RlakEAC,Completed,Product Inquiry Response
+2024-02-24,Customer segment: at_risk,High,003g5000002Eg4fAAC,00Tg5000000RlcLEAS,Not Started,Account Review
+2025-01-12,Customer segment: active,High,003g5000002Eg9VAAS,00Tg5000000RlcMEAS,Completed,Account Review
+2024-05-11,Customer segment: at_risk,Normal,003g5000002Eg4fAAC,00Tg5000000RldxEAC,Not Started,Follow-up Call
+2023-09-29,Customer segment: active,High,003g5000002EhDdAAK,00Tg5000000RldyEAC,Completed,Account Review
+2024-09-24,Customer segment: at_risk,Normal,003g5000002Ei85AAC,00Tg5000000RldzEAC,Not Started,Product Inquiry Response
+2023-04-02,Customer segment: active,High,003g5000002EeitAAC,00Tg5000000Rle0EAC,Completed,Account Review
+2025-03-12,Customer segment: active,Normal,003g5000002EiOEAA0,00Tg5000000Rle1EAC,Completed,Product Inquiry Response
+2023-03-17,Customer segment: active,Normal,003g5000002EhK8AAK,00Tg5000000Rle2EAC,Not Started,Follow-up Call
+2025-07-26,Customer segment: at_risk,Normal,003g5000002Eg4fAAC,00Tg5000000RlfZEAS,In Progress,Welcome Call
+2025-09-05,Customer segment: at_risk,High,003g5000002EgZJAA0,00Tg5000000RlfaEAC,Not Started,Retention Call
+2023-08-16,Customer segment: at_risk,Low,003g5000002EeMHAA0,00Tg5000000RlfbEAC,Not Started,Survey Follow-up
+2023-11-23,Customer segment: at_risk,Normal,003g5000002Eg6HAAS,00Tg5000000RlhBEAS,In Progress,Follow-up Call
+2025-02-15,Customer segment: at_risk,Low,003g5000002Eg6HAAS,00Tg5000000RlinEAC,Completed,Survey Follow-up
+2023-05-13,Customer segment: at_risk,Low,003g5000002Eg4hAAC,00Tg5000000RlioEAC,In Progress,Birthday Greeting
+2025-12-13,Customer segment: at_risk,Low,003g5000002Egz9AAC,00Tg5000000RlipEAC,Completed,Survey Follow-up
+2025-09-15,Customer segment: churned,High,003g5000002Ef0aAAC,00Tg5000000RliqEAC,In Progress,Retention Call
+2023-05-22,Customer segment: churned,Normal,003g5000002Ehs0AAC,00Tg5000000RlirEAC,In Progress,Cross-sell Opportunity
+2025-03-31,Customer segment: churned,Normal,003g5000002EfzsAAC,00Tg5000000RlisEAC,In Progress,Follow-up Call
+2023-11-16,Customer segment: active,Low,003g5000002EfbgAAC,00Tg5000000RlitEAC,Completed,Birthday Greeting
+2024-12-20,Customer segment: active,Normal,003g5000002EfRzAAK,00Tg5000000RliuEAC,Not Started,Cross-sell Opportunity
+2023-06-27,Customer segment: at_risk,High,003g5000002Eg7tAAC,00Tg5000000RlkPEAS,Completed,Account Review
+2025-10-23,Customer segment: active,Low,003g5000002Efv3AAC,00Tg5000000RlkQEAS,Not Started,Survey Follow-up
+2024-03-15,Customer segment: at_risk,Normal,003g5000002Eg7tAAC,00Tg5000000Rlm1EAC,In Progress,Cross-sell Opportunity
+2024-05-11,Customer segment: at_risk,High,003g5000002EgCjAAK,00Tg5000000Rlm2EAC,Not Started,Retention Call
+2023-11-30,Customer segment: churned,Normal,003g5000002EgFxAAK,00Tg5000000Rlm3EAC,In Progress,Cross-sell Opportunity
+2023-06-24,Customer segment: at_risk,Normal,003g5000002EfwcAAC,00Tg5000000Rlm4EAC,Not Started,Cross-sell Opportunity
+2025-10-15,Customer segment: active,Normal,003g5000002Eg6JAAS,00Tg5000000Rlm5EAC,In Progress,Product Inquiry Response
+2025-02-28,Customer segment: active,Normal,003g5000002Eg9WAAS,00Tg5000000Rlm6EAC,In Progress,Follow-up Call
+2025-05-31,Customer segment: at_risk,Normal,003g5000002EhyQAAS,00Tg5000000Rlm7EAC,In Progress,Welcome Call
+2025-04-03,Customer segment: active,High,003g5000002EiJNAA0,00Tg5000000Rlm8EAC,Completed,Account Review
+2024-11-07,Customer segment: churned,Normal,003g5000002EfzsAAC,00Tg5000000Rlm9EAC,Not Started,Welcome Call
+2025-11-14,Customer segment: active,Low,003g5000002EizJAAS,00Tg5000000RlmAEAS,Not Started,Birthday Greeting
+2024-06-16,Customer segment: active,High,003g5000002EfVEAA0,00Tg5000000RlmBEAS,Not Started,Retention Call
+2023-11-13,Customer segment: active,Low,003g5000002EfdGAAS,00Tg5000000RlndEAC,In Progress,Survey Follow-up
+2024-09-25,Customer segment: active,Low,003g5000002Ef5PAAS,00Tg5000000RlneEAC,In Progress,Survey Follow-up
+2025-08-19,Customer segment: at_risk,Low,003g5000002EhC4AAK,00Tg5000000RlnfEAC,Not Started,Survey Follow-up
+2023-08-30,Customer segment: churned,Low,003g5000002EeneAAC,00Tg5000000RlngEAC,Completed,Birthday Greeting
+2023-03-03,Customer segment: active,Normal,003g5000002EhyRAAS,00Tg5000000RlnhEAC,Completed,Cross-sell Opportunity
+2023-11-17,Customer segment: churned,Low,003g5000002EfzsAAC,00Tg5000000RlniEAC,In Progress,Survey Follow-up
+2024-12-29,Customer segment: churned,High,003g5000002EiL0AAK,00Tg5000000RlnjEAC,Not Started,Retention Call
+2023-01-02,Customer segment: active,Normal,003g5000002Ej2ZAAS,00Tg5000000RlnkEAC,Completed,Follow-up Call
+2023-08-22,Customer segment: active,Normal,003g5000002EhC5AAK,00Tg5000000RlnlEAC,Completed,Cross-sell Opportunity
+2023-11-29,Customer segment: churned,Normal,003g5000002EjKJAA0,00Tg5000000RlnmEAC,Completed,Welcome Call
+2023-01-17,Customer segment: churned,Normal,003g5000002EgB7AAK,00Tg5000000RlpFEAS,In Progress,Cross-sell Opportunity
+2025-06-15,Customer segment: churned,Normal,003g5000002EgMQAA0,00Tg5000000RlpGEAS,Completed,Welcome Call
+2023-12-19,Customer segment: active,Normal,003g5000002EgO1AAK,00Tg5000000RlpHEAS,Not Started,Product Inquiry Response
+2023-09-25,Customer segment: churned,Normal,003g5000002EgB7AAK,00Tg5000000RlqrEAC,Not Started,Follow-up Call
+2025-01-21,Customer segment: churned,Normal,003g5000002EgFxAAK,00Tg5000000RlqsEAC,Not Started,Welcome Call
+2025-02-22,Customer segment: churned,Normal,003g5000002EgHaAAK,00Tg5000000RlqtEAC,Completed,Welcome Call
+2025-04-25,Customer segment: active,High,003g5000002EhtZAAS,00Tg5000000RlquEAC,Completed,Account Review
+2024-06-19,Customer segment: active,Normal,003g5000002Egj1AAC,00Tg5000000RlqvEAC,Completed,Follow-up Call
+2025-04-04,Customer segment: active,Normal,003g5000002EiBKAA0,00Tg5000000RlqwEAC,In Progress,Cross-sell Opportunity
+2023-08-03,Customer segment: active,Low,003g5000002EiCvAAK,00Tg5000000RlqxEAC,Not Started,Birthday Greeting
+2024-07-08,Customer segment: churned,Normal,003g5000002EhVOAA0,00Tg5000000RlqyEAC,Not Started,Cross-sell Opportunity
+2024-04-09,Customer segment: at_risk,Normal,003g5000002EgxZAAS,00Tg5000000RlqzEAC,Completed,Product Inquiry Response
+2024-06-21,Customer segment: active,Normal,003g5000002EfrmAAC,00Tg5000000Rlr0EAC,In Progress,Welcome Call
+2023-05-16,Customer segment: active,Normal,003g5000002Ei3IAAS,00Tg5000000Rlr1EAC,Not Started,Cross-sell Opportunity
+2023-05-27,Customer segment: at_risk,Normal,003g5000002EgCjAAK,00Tg5000000RlsTEAS,In Progress,Follow-up Call
+2023-10-15,Customer segment: active,Normal,003g5000002EgvtAAC,00Tg5000000RlsUEAS,In Progress,Cross-sell Opportunity
+2024-03-09,Customer segment: active,Normal,003g5000002EiXuAAK,00Tg5000000RlsVEAS,Not Started,Follow-up Call
+2023-12-12,Customer segment: active,Normal,003g5000002EgELAA0,00Tg5000000Rlu5EAC,Completed,Product Inquiry Response
+2024-04-09,Customer segment: active,Normal,003g5000002EgMPAA0,00Tg5000000Rlu6EAC,Not Started,Product Inquiry Response
+2025-02-21,Customer segment: active,Low,003g5000002Ei3FAAS,00Tg5000000Rlu7EAC,In Progress,Survey Follow-up
+2024-11-19,Customer segment: active,Normal,003g5000002Ei6TAAS,00Tg5000000Rlu8EAC,Completed,Follow-up Call
+2024-12-05,Customer segment: churned,Normal,003g5000002EenfAAC,00Tg5000000Rlu9EAC,In Progress,Follow-up Call
+2024-05-13,Customer segment: at_risk,High,003g5000002EhvDAAS,00Tg5000000RluAEAS,Not Started,Retention Call
+2025-06-11,Customer segment: active,Normal,003g5000002Egj2AAC,00Tg5000000RluBEAS,In Progress,Product Inquiry Response
+2023-06-15,Customer segment: at_risk,Low,003g5000002EgcaAAC,00Tg5000000RluCEAS,In Progress,Survey Follow-up
+2023-01-31,Customer segment: active,Normal,003g5000002EiWHAA0,00Tg5000000RluDEAS,Completed,Follow-up Call
+2024-04-05,Customer segment: active,Normal,003g5000002Ei3GAAS,00Tg5000000RluEEAS,In Progress,Product Inquiry Response
+2025-07-11,Customer segment: active,High,003g5000002EicjAAC,00Tg5000000RluFEAS,Not Started,Retention Call
+2025-06-19,Customer segment: active,Normal,003g5000002EicjAAC,00Tg5000000RluGEAS,In Progress,Product Inquiry Response
+2024-08-20,Customer segment: at_risk,High,003g5000002EiL1AAK,00Tg5000000RluHEAS,Not Started,Retention Call
+2024-03-31,Customer segment: active,Low,003g5000002EjKIAA0,00Tg5000000RluIEAS,In Progress,Survey Follow-up
+2025-08-29,Customer segment: active,Normal,003g5000002EgELAA0,00Tg5000000RlvhEAC,In Progress,Follow-up Call
+2023-05-13,Customer segment: active,High,003g5000002EhK6AAK,00Tg5000000RlviEAC,Completed,Account Review
+2024-07-04,Customer segment: churned,Low,003g5000002EguIAAS,00Tg5000000RlvjEAC,Not Started,Survey Follow-up
+2024-06-18,Customer segment: churned,Low,003g5000002EguIAAS,00Tg5000000RlvkEAC,Not Started,Birthday Greeting
+2024-02-12,Customer segment: active,Normal,003g5000002EiUgAAK,00Tg5000000RlvlEAC,In Progress,Cross-sell Opportunity
+2025-05-13,Customer segment: churned,High,003g5000002EgFxAAK,00Tg5000000RlxJEAS,In Progress,Account Review
+2024-05-03,Customer segment: active,Low,003g5000002EgxWAAS,00Tg5000000RlxKEAS,Completed,Birthday Greeting
+2023-07-20,Customer segment: at_risk,Normal,003g5000002Eh7BAAS,00Tg5000000RlxLEAS,Completed,Product Inquiry Response
+2024-02-12,Customer segment: active,High,003g5000002Eg6LAAS,00Tg5000000RlxMEAS,Not Started,Account Review
+2024-02-11,Customer segment: active,Normal,003g5000002EgHcAAK,00Tg5000000RlxNEAS,In Progress,Product Inquiry Response
+2025-06-25,Customer segment: active,High,003g5000002EenhAAC,00Tg5000000RlxOEAS,Not Started,Account Review
+2025-02-04,Customer segment: churned,Normal,003g5000002Eg6OAAS,00Tg5000000RlxPEAS,Not Started,Welcome Call
+2023-09-13,Customer segment: at_risk,High,003g5000002Eg6QAAS,00Tg5000000RlxQEAS,Not Started,Account Review
+2025-11-26,Customer segment: active,Normal,003g5000002EhK8AAK,00Tg5000000RlxREAS,Not Started,Follow-up Call
+2024-01-30,Customer segment: active,High,003g5000002EgHZAA0,00Tg5000000RlyvEAC,Not Started,Retention Call
+2025-12-13,Customer segment: active,High,003g5000002EeXqAAK,00Tg5000000RlywEAC,In Progress,Account Review
+2025-12-06,Customer segment: active,High,003g5000002EgFzAAK,00Tg5000000RlyxEAC,Completed,Retention Call
+2024-09-19,Customer segment: churned,High,003g5000002EhK5AAK,00Tg5000000RlyyEAC,Not Started,Retention Call
+2025-08-31,Customer segment: at_risk,High,003g5000002EhTlAAK,00Tg5000000RlyzEAC,Not Started,Retention Call
+2024-08-07,Customer segment: active,Normal,003g5000002EfzrAAC,00Tg5000000Rlz0EAC,Completed,Welcome Call
+2024-10-29,Customer segment: at_risk,High,003g5000002Eg1UAAS,00Tg5000000Rlz1EAC,Completed,Account Review
+2025-05-20,Customer segment: active,Normal,003g5000002EgHZAA0,00Tg5000000Rm0XEAS,In Progress,Welcome Call
+2025-06-13,Customer segment: at_risk,Normal,003g5000002EgUTAA0,00Tg5000000Rm0YEAS,Completed,Follow-up Call
+2023-02-24,Customer segment: at_risk,Low,003g5000002EgcXAAS,00Tg5000000Rm0ZEAS,Completed,Survey Follow-up
+2023-01-27,Customer segment: churned,Low,003g5000002EfbfAAC,00Tg5000000Rm0aEAC,Not Started,Birthday Greeting
+2025-04-29,Customer segment: active,Normal,003g5000002EgHZAA0,00Tg5000000Rm29EAC,In Progress,Product Inquiry Response
+2025-11-12,Customer segment: at_risk,Low,003g5000002Eeu7AAC,00Tg5000000Rm2AEAS,In Progress,Birthday Greeting
+2024-08-04,Customer segment: at_risk,Normal,003g5000002Egz9AAC,00Tg5000000Rm2BEAS,In Progress,Cross-sell Opportunity
+2024-07-08,Customer segment: active,High,003g5000002Ei3FAAS,00Tg5000000Rm2CEAS,In Progress,Retention Call
+2024-05-21,Customer segment: active,Normal,003g5000002EeiuAAC,00Tg5000000Rm2DEAS,Not Started,Follow-up Call
+2023-03-01,Customer segment: active,Normal,003g5000002EihZAAS,00Tg5000000Rm2EEAS,In Progress,Cross-sell Opportunity
+2024-10-12,Customer segment: at_risk,High,003g5000002EfTaAAK,00Tg5000000Rm3lEAC,Completed,Account Review
+2024-12-08,Customer segment: active,Low,003g5000002Ei01AAC,00Tg5000000Rm3mEAC,In Progress,Survey Follow-up
+2024-04-20,Customer segment: churned,Normal,003g5000002Ej0wAAC,00Tg5000000Rm3nEAC,In Progress,Welcome Call
+2024-02-22,Customer segment: active,High,003g5000002EfBqAAK,00Tg5000000Rm5NEAS,Not Started,Retention Call
+2025-08-20,Customer segment: active,Normal,003g5000002EeKcAAK,00Tg5000000Rm5OEAS,Completed,Welcome Call
+2023-04-27,Customer segment: active,Normal,003g5000002Egr5AAC,00Tg5000000Rm5PEAS,Not Started,Product Inquiry Response
+2023-01-09,Customer segment: active,Normal,003g5000002Efv0AAC,00Tg5000000Rm5QEAS,In Progress,Cross-sell Opportunity
+2023-07-20,Customer segment: active,Normal,003g5000002EhLiAAK,00Tg5000000Rm5REAS,In Progress,Welcome Call
+2025-11-23,Customer segment: active,Normal,003g5000002EfYTAA0,00Tg5000000Rm5SEAS,In Progress,Cross-sell Opportunity
+2023-10-14,Customer segment: churned,Normal,003g5000002Eh7FAAS,00Tg5000000Rm5TEAS,In Progress,Follow-up Call
+2024-02-05,Customer segment: active,Low,003g5000002EfBqAAK,00Tg5000000Rm6zEAC,Not Started,Birthday Greeting
+2025-12-27,Customer segment: active,High,003g5000002Ef2BAAS,00Tg5000000Rm70EAC,In Progress,Account Review
+2025-07-29,Customer segment: active,High,003g5000002EfzqAAC,00Tg5000000Rm71EAC,Not Started,Retention Call
+2025-01-25,Customer segment: churned,Normal,003g5000002EfbfAAC,00Tg5000000Rm72EAC,In Progress,Welcome Call
+2023-02-15,Customer segment: active,Normal,003g5000002EgPeAAK,00Tg5000000Rm73EAC,Completed,Welcome Call
+2025-04-06,Customer segment: active,High,003g5000002EgJCAA0,00Tg5000000Rm74EAC,In Progress,Account Review
+2023-02-11,Customer segment: at_risk,High,003g5000002EhTmAAK,00Tg5000000Rm75EAC,In Progress,Account Review
+2023-01-15,Customer segment: active,Normal,003g5000002EgxXAAS,00Tg5000000Rm76EAC,Completed,Welcome Call
+2025-09-06,Customer segment: churned,High,003g5000002EftOAAS,00Tg5000000Rm77EAC,Not Started,Retention Call
+2023-04-06,Customer segment: active,Normal,003g5000002EhiHAAS,00Tg5000000Rm78EAC,In Progress,Cross-sell Opportunity
+2024-10-08,Customer segment: churned,Low,003g5000002EiKzAAK,00Tg5000000Rm79EAC,Completed,Birthday Greeting
+2024-05-16,Customer segment: active,Normal,003g5000002EisrAAC,00Tg5000000Rm7AEAS,In Progress,Product Inquiry Response
+2023-02-12,Customer segment: active,Normal,003g5000002EiuTAAS,00Tg5000000Rm7BEAS,In Progress,Welcome Call
+2025-04-08,Customer segment: active,Normal,003g5000002EhQYAA0,00Tg5000000Rm7CEAS,In Progress,Cross-sell Opportunity
+2023-02-07,Customer segment: active,High,003g5000002EjH4AAK,00Tg5000000Rm7DEAS,In Progress,Retention Call
+2025-04-24,Customer segment: churned,Normal,003g5000002Ef5QAAS,00Tg5000000Rm7EEAS,Completed,Welcome Call
+2024-09-14,Customer segment: active,Normal,003g5000002EgJBAA0,00Tg5000000Rm8bEAC,Completed,Product Inquiry Response
+2023-09-18,Customer segment: at_risk,High,003g5000002EeirAAC,00Tg5000000Rm8cEAC,Completed,Account Review
+2025-09-01,Customer segment: active,High,003g5000002EgvtAAC,00Tg5000000Rm8dEAC,Not Started,Retention Call
+2024-04-19,Customer segment: churned,High,003g5000002Eh0jAAC,00Tg5000000Rm8eEAC,In Progress,Retention Call
+2024-01-02,Customer segment: active,High,003g5000002EhbpAAC,00Tg5000000Rm8fEAC,In Progress,Retention Call
+2026-01-03,Customer segment: active,High,003g5000002EiHlAAK,00Tg5000000Rm8gEAC,In Progress,Retention Call
+2025-03-08,Customer segment: active,Low,003g5000002EiEYAA0,00Tg5000000Rm8hEAC,Not Started,Birthday Greeting
+2023-10-06,Customer segment: active,Normal,003g5000002EhvEAAS,00Tg5000000Rm8iEAC,In Progress,Cross-sell Opportunity
+2024-12-03,Customer segment: active,High,003g5000002EgJBAA0,00Tg5000000RmADEA0,In Progress,Account Review
+2025-03-08,Customer segment: churned,High,003g5000002EgkbAAC,00Tg5000000RmAEEA0,Completed,Account Review
+2024-05-20,Customer segment: active,High,003g5000002EeMEAA0,00Tg5000000RmAFEA0,Not Started,Account Review
+2024-05-28,Customer segment: churned,High,003g5000002Ehs0AAC,00Tg5000000RmAGEA0,Completed,Retention Call
+2024-03-08,Customer segment: at_risk,Normal,003g5000002EiXtAAK,00Tg5000000RmAHEA0,In Progress,Welcome Call
+2025-11-19,Customer segment: at_risk,High,003g5000002EiXtAAK,00Tg5000000RmAIEA0,Completed,Retention Call
+2023-10-25,Customer segment: active,Normal,003g5000002EhToAAK,00Tg5000000RmAJEA0,In Progress,Product Inquiry Response
+2024-11-08,Customer segment: active,Normal,003g5000002EgKnAAK,00Tg5000000RmBpEAK,Not Started,Cross-sell Opportunity
+2025-10-20,Customer segment: active,Normal,003g5000002EgZLAA0,00Tg5000000RmBqEAK,Not Started,Cross-sell Opportunity
+2023-05-14,Customer segment: active,High,003g5000002EfBsAAK,00Tg5000000RmBrEAK,In Progress,Retention Call
+2024-04-25,Customer segment: at_risk,Normal,003g5000002Eh3yAAC,00Tg5000000RmBsEAK,Completed,Welcome Call
+2025-10-27,Customer segment: churned,Normal,003g5000002EixhAAC,00Tg5000000RmBtEAK,Not Started,Welcome Call
+2023-11-25,Customer segment: active,Normal,003g5000002EgKnAAK,00Tg5000000RmDREA0,In Progress,Product Inquiry Response
+2023-03-07,Customer segment: at_risk,High,003g5000002EgmFAAS,00Tg5000000RmDSEA0,Not Started,Retention Call
+2025-01-15,Customer segment: active,High,003g5000002EgJCAA0,00Tg5000000RmDTEA0,Not Started,Retention Call
+2025-09-24,Customer segment: active,Low,003g5000002EfzrAAC,00Tg5000000RmDUEA0,Completed,Survey Follow-up
+2024-09-02,Customer segment: at_risk,High,003g5000002Eg6KAAS,00Tg5000000RmDVEA0,In Progress,Retention Call
+2023-05-16,Customer segment: active,Normal,003g5000002Ei4rAAC,00Tg5000000RmDWEA0,Not Started,Cross-sell Opportunity
+2024-11-06,Customer segment: active,Normal,003g5000002Ei9hAAC,00Tg5000000RmDXEA0,Completed,Product Inquiry Response
+2023-07-19,Customer segment: at_risk,Normal,003g5000002EgcZAAS,00Tg5000000RmDYEA0,Completed,Cross-sell Opportunity
+2023-11-26,Customer segment: active,Normal,003g5000002EfRyAAK,00Tg5000000RmF3EAK,Not Started,Welcome Call
+2025-12-25,Customer segment: at_risk,Low,003g5000002Eg6KAAS,00Tg5000000RmF4EAK,In Progress,Survey Follow-up
+2024-06-22,Customer segment: active,Low,003g5000002EfRyAAK,00Tg5000000RmGfEAK,Completed,Survey Follow-up
+2025-07-04,Customer segment: active,Normal,003g5000002EfWpAAK,00Tg5000000RmIHEA0,Completed,Product Inquiry Response
+2025-03-25,Customer segment: at_risk,Low,003g5000002Eeu7AAC,00Tg5000000RmIIEA0,In Progress,Birthday Greeting
+2025-01-05,Customer segment: active,Low,003g5000002Eh2OAAS,00Tg5000000RmIJEA0,Completed,Survey Follow-up
+2023-08-17,Customer segment: active,High,003g5000002EfYTAA0,00Tg5000000RmIKEA0,Not Started,Retention Call
+2024-07-22,Customer segment: active,High,003g5000002Ef0YAAS,00Tg5000000RmJtEAK,Not Started,Account Review
+2025-04-08,Customer segment: active,Normal,003g5000002EeyxAAC,00Tg5000000RmJuEAK,Completed,Welcome Call
+2025-03-02,Customer segment: at_risk,Normal,003g5000002EfwcAAC,00Tg5000000RmJvEAK,Not Started,Welcome Call
+2025-01-20,Customer segment: at_risk,Normal,003g5000002EgzBAAS,00Tg5000000RmJwEAK,In Progress,Cross-sell Opportunity
+2025-01-26,Customer segment: at_risk,Normal,003g5000002EesUAAS,00Tg5000000RmJxEAK,Not Started,Cross-sell Opportunity
+2024-11-18,Customer segment: active,Normal,003g5000002Ei6UAAS,00Tg5000000RmJyEAK,Completed,Welcome Call
+2023-03-14,Customer segment: at_risk,Normal,003g5000002EghPAAS,00Tg5000000RmJzEAK,Completed,Product Inquiry Response
+2023-12-02,Customer segment: active,Normal,003g5000002EfVDAA0,00Tg5000000RmK0EAK,Not Started,Cross-sell Opportunity
+2023-11-02,Customer segment: active,Normal,003g5000002EgO1AAK,00Tg5000000RmLVEA0,Not Started,Cross-sell Opportunity
+2024-05-10,Customer segment: at_risk,Normal,003g5000002EeirAAC,00Tg5000000RmLWEA0,Completed,Cross-sell Opportunity
+2025-04-12,Customer segment: active,Normal,003g5000002Eh2LAAS,00Tg5000000RmLXEA0,In Progress,Welcome Call
+2025-04-10,Customer segment: active,Low,003g5000002EgmEAAS,00Tg5000000RmLYEA0,Not Started,Birthday Greeting
+2023-05-22,Customer segment: active,High,003g5000002EhojAAC,00Tg5000000RmLZEA0,Not Started,Account Review
+2025-11-06,Customer segment: active,Low,003g5000002EfNAAA0,00Tg5000000RmN7EAK,In Progress,Birthday Greeting
+2025-03-26,Customer segment: at_risk,Normal,003g5000002EgpRAAS,00Tg5000000RmN8EAK,In Progress,Welcome Call
+2024-05-31,Customer segment: at_risk,Low,003g5000002EgO2AAK,00Tg5000000RmN9EAK,Completed,Survey Follow-up
+2023-04-11,Customer segment: active,Low,003g5000002EhK6AAK,00Tg5000000RmNAEA0,Completed,Survey Follow-up
+2024-10-03,Customer segment: at_risk,Normal,003g5000002EhTmAAK,00Tg5000000RmNBEA0,In Progress,Cross-sell Opportunity
+2023-02-28,Customer segment: active,Normal,003g5000002EfmxAAC,00Tg5000000RmNCEA0,In Progress,Cross-sell Opportunity
+2024-06-17,Customer segment: active,High,003g5000002Ef2DAAS,00Tg5000000RmNDEA0,Not Started,Retention Call
+2025-12-06,Customer segment: at_risk,Normal,003g5000002EfmyAAC,00Tg5000000RmNEEA0,In Progress,Follow-up Call
+2024-01-06,Customer segment: active,Low,003g5000002EfNAAA0,00Tg5000000RmOjEAK,In Progress,Survey Follow-up
+2024-09-12,Customer segment: churned,Normal,003g5000002Ej0yAAC,00Tg5000000RmOkEAK,In Progress,Follow-up Call
+2024-05-29,Customer segment: churned,Low,003g5000002Ej0yAAC,00Tg5000000RmOlEAK,In Progress,Birthday Greeting
+2023-02-07,Customer segment: active,High,003g5000002EhvFAAS,00Tg5000000RmOmEAK,Not Started,Retention Call
+2025-09-17,Customer segment: at_risk,Normal,003g5000002Eg4gAAC,00Tg5000000RmQLEA0,Not Started,Product Inquiry Response
+2024-01-15,Customer segment: active,Low,003g5000002Ef70AAC,00Tg5000000RmQMEA0,Not Started,Survey Follow-up
+2023-05-24,Customer segment: active,Normal,003g5000002EgPeAAK,00Tg5000000RmQNEA0,Completed,Follow-up Call
+2025-09-18,Customer segment: active,Normal,003g5000002EeNrAAK,00Tg5000000RmQOEA0,Not Started,Welcome Call
+2025-10-01,Customer segment: at_risk,High,003g5000002EhC2AAK,00Tg5000000RmQPEA0,Completed,Account Review
+2024-09-25,Customer segment: active,Normal,003g5000002EhC3AAK,00Tg5000000RmQQEA0,In Progress,Product Inquiry Response
+2023-07-16,Customer segment: active,Normal,003g5000002Ehf4AAC,00Tg5000000RmQREA0,Not Started,Product Inquiry Response
+2024-02-08,Customer segment: active,High,003g5000002Eg7uAAC,00Tg5000000RmRxEAK,In Progress,Account Review
+2024-05-15,Customer segment: active,High,003g5000002EfmwAAC,00Tg5000000RmRyEAK,In Progress,Account Review
+2025-01-16,Customer segment: active,High,003g5000002EgRFAA0,00Tg5000000RmTZEA0,Completed,Retention Call
+2023-11-04,Customer segment: active,High,003g5000002EgZKAA0,00Tg5000000RmTaEAK,Not Started,Account Review
+2023-03-28,Customer segment: at_risk,Normal,003g5000002EgcZAAS,00Tg5000000RmTbEAK,Not Started,Follow-up Call
+2025-01-26,Customer segment: active,Normal,003g5000002Eg7vAAC,00Tg5000000RmVBEA0,In Progress,Cross-sell Opportunity
+2024-10-13,Customer segment: active,Normal,003g5000002Ef2BAAS,00Tg5000000RmVCEA0,Completed,Welcome Call
+2024-09-09,Customer segment: churned,Low,003g5000002EfdIAAS,00Tg5000000RmVDEA0,Not Started,Birthday Greeting
+2024-04-08,Customer segment: at_risk,Low,003g5000002EgZMAA0,00Tg5000000RmVEEA0,Not Started,Survey Follow-up
+2023-06-30,Customer segment: active,High,003g5000002Eg7vAAC,00Tg5000000RmWnEAK,Not Started,Account Review
+2024-08-28,Customer segment: at_risk,High,003g5000002EgavAAC,00Tg5000000RmWoEAK,Completed,Retention Call
+2025-08-26,Customer segment: churned,Normal,003g5000002EgxVAAS,00Tg5000000RmWpEAK,Not Started,Follow-up Call
+2024-05-05,Customer segment: churned,Normal,003g5000002Eh0jAAC,00Tg5000000RmWqEAK,Completed,Follow-up Call
+2024-10-21,Customer segment: at_risk,High,003g5000002EgfmAAC,00Tg5000000RmWrEAK,Not Started,Account Review
+2025-09-21,Customer segment: at_risk,Low,003g5000002EfDTAA0,00Tg5000000RmWsEAK,In Progress,Birthday Greeting
+2024-07-30,Customer segment: churned,Normal,003g5000002EfbfAAC,00Tg5000000RmWtEAK,In Progress,Follow-up Call
+2023-12-28,Customer segment: active,Normal,003g5000002EhK8AAK,00Tg5000000RmWuEAK,In Progress,Follow-up Call
+2024-10-07,Customer segment: at_risk,Normal,003g5000002Ef3rAAC,00Tg5000000RmWvEAK,In Progress,Welcome Call
+2024-09-01,Customer segment: active,Normal,003g5000002EgSrAAK,00Tg5000000RmYPEA0,In Progress,Cross-sell Opportunity
+2025-07-08,Customer segment: active,Low,003g5000002Ei1dAAC,00Tg5000000RmYQEA0,Completed,Birthday Greeting
+2023-08-29,Customer segment: at_risk,Low,003g5000002Eg6MAAS,00Tg5000000RmYREA0,In Progress,Birthday Greeting
+2024-02-08,Customer segment: at_risk,Normal,003g5000002EhdSAAS,00Tg5000000RmYSEA0,Completed,Follow-up Call
+2025-05-28,Customer segment: at_risk,Normal,003g5000002EgZJAA0,00Tg5000000Rma1EAC,In Progress,Product Inquiry Response
+2025-01-09,Customer segment: churned,High,003g5000002EhqLAAS,00Tg5000000Rma2EAC,Not Started,Retention Call
+2024-10-21,Customer segment: at_risk,Normal,003g5000002Eg4hAAC,00Tg5000000RmbdEAC,In Progress,Product Inquiry Response
+2023-06-27,Customer segment: churned,High,003g5000002EguHAAS,00Tg5000000RmbeEAC,In Progress,Account Review
+2025-04-22,Customer segment: at_risk,Low,003g5000002EhQXAA0,00Tg5000000RmbfEAC,Completed,Birthday Greeting
+2024-09-26,Customer segment: churned,High,003g5000002EguIAAS,00Tg5000000RmbgEAC,Completed,Retention Call
+2023-01-16,Customer segment: churned,Low,003g5000002EhqLAAS,00Tg5000000RmbhEAC,Completed,Survey Follow-up
+2024-07-02,Customer segment: at_risk,High,003g5000002Eh3yAAC,00Tg5000000RmbiEAC,In Progress,Account Review
+2025-08-07,Customer segment: churned,Low,003g5000002EeneAAC,00Tg5000000RmbjEAC,Not Started,Birthday Greeting
+2023-12-30,Customer segment: at_risk,High,003g5000002Eg4hAAC,00Tg5000000RmdFEAS,Not Started,Account Review
+2023-03-23,Customer segment: churned,Normal,003g5000002EeG6AAK,00Tg5000000RmdGEAS,In Progress,Cross-sell Opportunity
+2024-06-15,Customer segment: active,Low,003g5000002Ef2DAAS,00Tg5000000RmdHEAS,Not Started,Survey Follow-up
+2025-01-06,Customer segment: at_risk,Normal,003g5000002EgcXAAS,00Tg5000000RmerEAC,Not Started,Welcome Call
+2024-04-05,Customer segment: at_risk,Low,003g5000002Eh7CAAS,00Tg5000000RmesEAC,Not Started,Birthday Greeting
+2025-01-19,Customer segment: active,Low,003g5000002EiXxAAK,00Tg5000000RmetEAC,Completed,Birthday Greeting
+2024-04-30,Customer segment: active,Normal,003g5000002EjQjAAK,00Tg5000000RmeuEAC,Completed,Follow-up Call
+2024-05-28,Customer segment: active,Normal,003g5000002EixiAAC,00Tg5000000RmevEAC,Not Started,Follow-up Call
+2025-03-23,Customer segment: churned,Normal,003g5000002Eg1SAAS,00Tg5000000RmgTEAS,Not Started,Follow-up Call
+2025-07-17,Customer segment: active,Normal,003g5000002EeMEAA0,00Tg5000000RmgUEAS,In Progress,Follow-up Call
+2024-05-03,Customer segment: active,High,003g5000002EfYQAA0,00Tg5000000RmgVEAS,In Progress,Account Review
+2024-02-16,Customer segment: active,High,003g5000002EhLhAAK,00Tg5000000RmgWEAS,Not Started,Retention Call
+2023-01-13,Customer segment: churned,High,003g5000002Eh7DAAS,00Tg5000000RmgXEAS,In Progress,Account Review
+2025-05-25,Customer segment: active,Normal,003g5000002EfdJAAS,00Tg5000000RmgYEAS,Not Started,Follow-up Call
+2023-05-19,Customer segment: churned,Low,003g5000002Efv2AAC,00Tg5000000RmgZEAS,In Progress,Birthday Greeting
+2024-03-31,Customer segment: churned,High,003g5000002EeJkAAK,00Tg5000000RmgaEAC,In Progress,Account Review
+2025-06-16,Customer segment: active,High,003g5000002EhvGAAS,00Tg5000000RmgbEAC,In Progress,Account Review
+2025-02-18,Customer segment: churned,High,003g5000002Eg1SAAS,00Tg5000000Rmi5EAC,Not Started,Retention Call
+2024-07-04,Customer segment: churned,Normal,003g5000002EipdAAC,00Tg5000000Rmi6EAC,Completed,Welcome Call
+2024-12-15,Customer segment: at_risk,Low,003g5000002EhX0AAK,00Tg5000000Rmi7EAC,Completed,Survey Follow-up
+2025-04-18,Customer segment: active,Normal,003g5000002EgZKAA0,00Tg5000000RmjhEAC,Completed,Product Inquiry Response
+2024-06-25,Customer segment: at_risk,Normal,003g5000002EgpRAAS,00Tg5000000RmjiEAC,In Progress,Follow-up Call
+2023-11-18,Customer segment: churned,Normal,003g5000002EguHAAS,00Tg5000000RmjjEAC,In Progress,Welcome Call
+2023-04-20,Customer segment: churned,High,003g5000002EfbfAAC,00Tg5000000RmjkEAC,Not Started,Retention Call
+2024-01-15,Customer segment: active,High,003g5000002EhK6AAK,00Tg5000000RmjlEAC,In Progress,Account Review
+2024-04-23,Customer segment: active,Low,003g5000002EhgfAAC,00Tg5000000RmjmEAC,In Progress,Survey Follow-up
+2025-08-23,Customer segment: active,Low,003g5000002Ei9hAAC,00Tg5000000RmjnEAC,Completed,Birthday Greeting
+2025-01-21,Customer segment: at_risk,High,003g5000002Ef2GAAS,00Tg5000000RmjoEAC,Completed,Retention Call
+2024-03-01,Customer segment: active,Normal,003g5000002EgKpAAK,00Tg5000000RmjpEAC,Not Started,Cross-sell Opportunity
+2023-07-21,Customer segment: churned,High,003g5000002EjKHAA0,00Tg5000000RmjqEAC,Completed,Account Review
+2025-07-17,Customer segment: active,Normal,003g5000002EjLtAAK,00Tg5000000RmjrEAC,In Progress,Follow-up Call
+2025-12-26,Customer segment: active,Normal,003g5000002Ege9AAC,00Tg5000000RmlJEAS,Completed,Follow-up Call
+2025-10-31,Customer segment: active,Normal,003g5000002EgeBAAS,00Tg5000000RmlKEAS,In Progress,Cross-sell Opportunity
+2025-04-14,Customer segment: active,Normal,003g5000002Eg6PAAS,00Tg5000000RmlLEAS,Not Started,Follow-up Call
+2024-03-05,Customer segment: active,High,003g5000002EfyEAAS,00Tg5000000RmlMEAS,In Progress,Retention Call
+2024-02-22,Customer segment: active,Low,003g5000002EhDhAAK,00Tg5000000RmlNEAS,Not Started,Survey Follow-up
+2025-12-30,Customer segment: active,Low,003g5000002Eg34AAC,00Tg5000000RmmvEAC,In Progress,Survey Follow-up
+2024-04-19,Customer segment: at_risk,Normal,003g5000002Egr3AAC,00Tg5000000RmmwEAC,Not Started,Follow-up Call
+2024-01-08,Customer segment: active,Low,003g5000002EiBJAA0,00Tg5000000RmmxEAC,In Progress,Birthday Greeting
+2023-09-01,Customer segment: active,Low,003g5000002EeKcAAK,00Tg5000000RmoXEAS,Completed,Survey Follow-up
+2023-03-09,Customer segment: active,High,003g5000002Egr5AAC,00Tg5000000RmoYEAS,Completed,Retention Call
+2025-01-16,Customer segment: at_risk,High,003g5000002EgflAAC,00Tg5000000Rmq9EAC,In Progress,Retention Call
+2025-06-27,Customer segment: active,High,003g5000002EfjiAAC,00Tg5000000RmqAEAS,Not Started,Account Review
+2025-02-02,Customer segment: at_risk,Normal,003g5000002EgflAAC,00Tg5000000RmrlEAC,Completed,Welcome Call
+2023-09-19,Customer segment: active,High,003g5000002EgmDAAS,00Tg5000000RmrmEAC,In Progress,Retention Call
+2025-11-15,Customer segment: active,Normal,003g5000002EgaxAAC,00Tg5000000RmrnEAC,Completed,Product Inquiry Response
+2025-03-25,Customer segment: active,Low,003g5000002EgizAAC,00Tg5000000RmtNEAS,Not Started,Survey Follow-up
+2024-06-01,Customer segment: active,Normal,003g5000002EflKAAS,00Tg5000000RmtOEAS,Completed,Cross-sell Opportunity
+2025-05-10,Customer segment: active,Normal,003g5000002Eh2OAAS,00Tg5000000RmtPEAS,Completed,Product Inquiry Response
+2025-01-21,Customer segment: at_risk,Normal,003g5000002Eeu7AAC,00Tg5000000RmuzEAC,Not Started,Welcome Call
+2024-04-14,Customer segment: at_risk,Low,003g5000002Ef8dAAC,00Tg5000000Rmv0EAC,Not Started,Survey Follow-up
+2023-10-08,Customer segment: active,High,003g5000002EhGrAAK,00Tg5000000Rmv1EAC,Completed,Account Review
+2025-01-26,Customer segment: active,High,003g5000002EfWqAAK,00Tg5000000Rmv2EAC,In Progress,Account Review
+2025-03-26,Customer segment: active,High,003g5000002EfWqAAK,00Tg5000000Rmv3EAC,In Progress,Account Review
+2025-06-25,Customer segment: churned,Normal,003g5000002EhaDAAS,00Tg5000000Rmv4EAC,Completed,Cross-sell Opportunity
+2023-09-22,Customer segment: active,Low,003g5000002Ehf5AAC,00Tg5000000Rmv5EAC,Completed,Birthday Greeting
+2025-07-07,Customer segment: at_risk,Normal,003g5000002EeMHAA0,00Tg5000000Rmv6EAC,In Progress,Product Inquiry Response
+2024-11-21,Customer segment: at_risk,Normal,003g5000002Efi7AAC,00Tg5000000Rmv7EAC,In Progress,Welcome Call
+2025-03-03,Customer segment: active,Normal,003g5000002EgmDAAS,00Tg5000000RmwbEAC,Completed,Product Inquiry Response
+2023-04-07,Customer segment: at_risk,Low,003g5000002EgpRAAS,00Tg5000000RmwcEAC,Not Started,Birthday Greeting
+2023-05-28,Customer segment: churned,Normal,003g5000002EgxVAAS,00Tg5000000RmwdEAC,Completed,Welcome Call
+2023-06-14,Customer segment: at_risk,Normal,003g5000002Eh3xAAC,00Tg5000000RmweEAC,Completed,Follow-up Call
+2024-10-24,Customer segment: at_risk,Normal,003g5000002Eh5ZAAS,00Tg5000000RmwfEAC,Completed,Follow-up Call
+2025-10-05,Customer segment: at_risk,Low,003g5000002EeyyAAC,00Tg5000000RmwgEAC,Not Started,Birthday Greeting
+2025-12-19,Customer segment: active,High,003g5000002Ehn7AAC,00Tg5000000RmwhEAC,Completed,Retention Call
+2024-09-10,Customer segment: at_risk,High,003g5000002EgxZAAS,00Tg5000000RmwiEAC,Not Started,Retention Call
+2023-08-16,Customer segment: active,High,003g5000002EeMEAA0,00Tg5000000RmyDEAS,Completed,Account Review
+2024-03-31,Customer segment: active,Normal,003g5000002EgxWAAS,00Tg5000000RmyEEAS,In Progress,Follow-up Call
+2023-03-10,Customer segment: active,Low,003g5000002EgEMAA0,00Tg5000000RmyFEAS,Completed,Birthday Greeting
+2025-04-15,Customer segment: at_risk,Low,003g5000002EhNKAA0,00Tg5000000RmyGEAS,In Progress,Birthday Greeting
+2023-08-19,Customer segment: at_risk,High,003g5000002EhS9AAK,00Tg5000000RmyHEAS,In Progress,Retention Call
+2024-07-19,Customer segment: active,Low,003g5000002EiMbAAK,00Tg5000000RmyIEAS,Not Started,Survey Follow-up
+2024-01-24,Customer segment: active,High,003g5000002Ef3qAAC,00Tg5000000RmyJEAS,Completed,Retention Call
+2024-07-28,Customer segment: active,High,003g5000002EgnpAAC,00Tg5000000RmzpEAC,Completed,Account Review
+2023-01-01,Customer segment: active,Normal,003g5000002EfYQAA0,00Tg5000000RmzqEAC,Not Started,Follow-up Call
+2024-01-08,Customer segment: active,Low,003g5000002EeNrAAK,00Tg5000000RmzrEAC,Not Started,Survey Follow-up
+2024-08-31,Customer segment: at_risk,Normal,003g5000002Eh8oAAC,00Tg5000000RmzsEAC,In Progress,Product Inquiry Response
+2023-09-25,Customer segment: at_risk,Low,003g5000002EeirAAC,00Tg5000000Rn1REAS,In Progress,Birthday Greeting
+2024-11-27,Customer segment: churned,Normal,003g5000002EixhAAC,00Tg5000000Rn1SEAS,In Progress,Welcome Call
+2025-01-08,Customer segment: churned,Normal,003g5000002EiL0AAK,00Tg5000000Rn1TEAS,Not Started,Product Inquiry Response
+2023-07-13,Customer segment: at_risk,Low,003g5000002EgpRAAS,00Tg5000000Rn33EAC,Not Started,Survey Follow-up
+2025-07-23,Customer segment: active,High,003g5000002EhITAA0,00Tg5000000Rn34EAC,Not Started,Retention Call
+2023-10-26,Customer segment: at_risk,High,003g5000002EhjtAAC,00Tg5000000Rn35EAC,In Progress,Account Review
+2024-05-03,Customer segment: at_risk,Normal,003g5000002Eh3yAAC,00Tg5000000Rn36EAC,In Progress,Product Inquiry Response
+2025-11-01,Customer segment: at_risk,High,003g5000002EfesAAC,00Tg5000000Rn37EAC,In Progress,Retention Call
+2024-05-28,Customer segment: churned,High,003g5000002Eh0mAAC,00Tg5000000Rn38EAC,Not Started,Account Review
+2024-09-19,Customer segment: active,Normal,003g5000002EeivAAC,00Tg5000000Rn39EAC,Completed,Follow-up Call
+2024-03-22,Customer segment: active,High,003g5000002Ehs1AAC,00Tg5000000Rn3AEAS,Completed,Account Review
+2025-12-15,Customer segment: at_risk,High,003g5000002Eem2AAC,00Tg5000000Rn3BEAS,In Progress,Retention Call
+2023-11-25,Customer segment: at_risk,High,003g5000002Egr3AAC,00Tg5000000Rn4fEAC,Not Started,Retention Call
+2024-03-29,Customer segment: churned,High,003g5000002EeG6AAK,00Tg5000000Rn4gEAC,Not Started,Retention Call
+2025-11-26,Customer segment: active,High,003g5000002EhlVAAS,00Tg5000000Rn4hEAC,In Progress,Retention Call
+2023-11-09,Customer segment: active,Normal,003g5000002EiG9AAK,00Tg5000000Rn4iEAC,In Progress,Follow-up Call
+2025-07-28,Customer segment: active,Normal,003g5000002Ef2FAAS,00Tg5000000Rn4jEAC,Completed,Cross-sell Opportunity
+2025-12-04,Customer segment: active,High,003g5000002EeivAAC,00Tg5000000Rn4kEAC,In Progress,Retention Call
+2025-04-22,Customer segment: churned,High,003g5000002EgsfAAC,00Tg5000000Rn6HEAS,In Progress,Retention Call
+2025-12-09,Customer segment: active,Normal,003g5000002EgFyAAK,00Tg5000000Rn6IEAS,Not Started,Follow-up Call
+2025-09-05,Customer segment: at_risk,Normal,003g5000002EhNJAA0,00Tg5000000Rn6JEAS,Completed,Product Inquiry Response
+2023-10-15,Customer segment: active,Low,003g5000002EeMGAA0,00Tg5000000Rn6KEAS,Not Started,Birthday Greeting
+2023-09-26,Customer segment: at_risk,Normal,003g5000002EhS9AAK,00Tg5000000Rn6LEAS,Not Started,Follow-up Call
+2025-04-28,Customer segment: active,High,003g5000002EhWzAAK,00Tg5000000Rn6MEAS,In Progress,Retention Call
+2023-05-15,Customer segment: churned,Normal,003g5000002EftOAAS,00Tg5000000Rn6NEAS,In Progress,Cross-sell Opportunity
+2023-04-16,Customer segment: at_risk,Normal,003g5000002Eg6NAAS,00Tg5000000Rn6OEAS,Not Started,Product Inquiry Response
+2025-07-29,Customer segment: active,High,003g5000002EiBJAA0,00Tg5000000Rn6PEAS,Not Started,Account Review
+2023-10-07,Customer segment: active,Normal,003g5000002EirFAAS,00Tg5000000Rn6QEAS,Completed,Cross-sell Opportunity
+2024-03-30,Customer segment: churned,Normal,003g5000002Ej5lAAC,00Tg5000000Rn6REAS,Not Started,Follow-up Call
+2025-10-25,Customer segment: churned,High,003g5000002EgsfAAC,00Tg5000000Rn7tEAC,Not Started,Account Review
+2024-10-19,Customer segment: active,Normal,003g5000002Ef2CAAS,00Tg5000000Rn7uEAC,In Progress,Follow-up Call
+2023-07-13,Customer segment: active,Normal,003g5000002EgFyAAK,00Tg5000000Rn9VEAS,Not Started,Product Inquiry Response
+2024-12-17,Customer segment: at_risk,High,003g5000002EgfmAAC,00Tg5000000Rn9WEAS,Completed,Account Review
+2023-07-21,Customer segment: active,Normal,003g5000002EhSAAA0,00Tg5000000Rn9XEAS,Not Started,Follow-up Call
+2023-03-02,Customer segment: active,Low,003g5000002EeyxAAC,00Tg5000000RnB7EAK,In Progress,Birthday Greeting
+2023-02-08,Customer segment: active,Normal,003g5000002EgxWAAS,00Tg5000000RnB8EAK,In Progress,Follow-up Call
+2024-03-07,Customer segment: churned,Normal,003g5000002EfDVAA0,00Tg5000000RnB9EAK,In Progress,Welcome Call
+2025-10-10,Customer segment: at_risk,High,003g5000002EgHbAAK,00Tg5000000RnBAEA0,Completed,Account Review
+2026-01-02,Customer segment: at_risk,Low,003g5000002EgHbAAK,00Tg5000000RnBBEA0,In Progress,Survey Follow-up
+2024-09-08,Customer segment: churned,Low,003g5000002EhdRAAS,00Tg5000000RnBCEA0,In Progress,Survey Follow-up
+2025-12-25,Customer segment: active,Normal,003g5000002Eh3zAAC,00Tg5000000RnBDEA0,Completed,Product Inquiry Response
+2023-11-27,Customer segment: churned,Normal,003g5000002EguHAAS,00Tg5000000RnCjEAK,In Progress,Welcome Call
+2023-11-03,Customer segment: at_risk,Normal,003g5000002Eh7BAAS,00Tg5000000RnCkEAK,Completed,Cross-sell Opportunity
+2025-06-12,Customer segment: active,Normal,003g5000002Eg9WAAS,00Tg5000000RnClEAK,Completed,Follow-up Call
+2024-05-12,Customer segment: active,Normal,003g5000002EgZNAA0,00Tg5000000RnCmEAK,Not Started,Follow-up Call
+2025-05-11,Customer segment: active,Normal,003g5000002EgxYAAS,00Tg5000000RnCnEAK,In Progress,Welcome Call
+2023-02-18,Customer segment: active,Normal,003g5000002EgxYAAS,00Tg5000000RnCoEAK,Not Started,Follow-up Call
+2023-01-11,Customer segment: active,Normal,003g5000002EfVCAA0,00Tg5000000RnCpEAK,In Progress,Cross-sell Opportunity
+2025-09-24,Customer segment: active,Normal,003g5000002EjAbAAK,00Tg5000000RnCqEAK,Completed,Welcome Call
+2023-11-24,Customer segment: active,Normal,003g5000002Eg1TAAS,00Tg5000000RnELEA0,In Progress,Welcome Call
+2023-03-01,Customer segment: active,Normal,003g5000002Egr4AAC,00Tg5000000RnEMEA0,Not Started,Welcome Call
+2024-06-11,Customer segment: active,Normal,003g5000002EgmGAAS,00Tg5000000RnENEA0,In Progress,Follow-up Call
+2024-07-29,Customer segment: churned,Normal,003g5000002EesYAAS,00Tg5000000RnEOEA0,Not Started,Follow-up Call
+2023-07-07,Customer segment: active,Normal,003g5000002Eg9YAAS,00Tg5000000RnEPEA0,Not Started,Product Inquiry Response
+2023-09-09,Customer segment: active,Normal,003g5000002Egr4AAC,00Tg5000000RnFxEAK,Completed,Cross-sell Opportunity
+2023-07-27,Customer segment: active,Normal,003g5000002Eh8nAAC,00Tg5000000RnFyEAK,In Progress,Cross-sell Opportunity
+2024-11-09,Customer segment: at_risk,Normal,003g5000002EhjtAAC,00Tg5000000RnFzEAK,Completed,Welcome Call
+2023-08-24,Customer segment: at_risk,Normal,003g5000002Eh7CAAS,00Tg5000000RnG0EAK,Completed,Cross-sell Opportunity
+2024-06-20,Customer segment: active,Normal,003g5000002EhwnAAC,00Tg5000000RnG1EAK,Completed,Cross-sell Opportunity
+2023-01-11,Customer segment: active,Normal,003g5000002EftQAAS,00Tg5000000RnG2EAK,Completed,Cross-sell Opportunity
+2023-04-01,Customer segment: active,High,003g5000002Egz7AAC,00Tg5000000RnHZEA0,Not Started,Retention Call
+2025-06-25,Customer segment: active,Low,003g5000002EghOAAS,00Tg5000000RnHaEAK,In Progress,Survey Follow-up
+2025-11-20,Customer segment: active,Normal,003g5000002EiHmAAK,00Tg5000000RnHbEAK,Not Started,Product Inquiry Response
+2025-04-21,Customer segment: at_risk,Normal,003g5000002EirGAAS,00Tg5000000RnHcEAK,In Progress,Product Inquiry Response
+2025-08-15,Customer segment: active,Normal,003g5000002Egz7AAC,00Tg5000000RnJBEA0,Completed,Product Inquiry Response
+2024-01-03,Customer segment: active,Normal,003g5000002EfDUAA0,00Tg5000000RnJCEA0,In Progress,Cross-sell Opportunity
+2024-11-26,Customer segment: active,Low,003g5000002EfDUAA0,00Tg5000000RnJDEA0,In Progress,Birthday Greeting
+2025-03-05,Customer segment: active,High,003g5000002EfYQAA0,00Tg5000000RnJEEA0,Completed,Account Review
+2025-03-19,Customer segment: at_risk,Normal,003g5000002EfwcAAC,00Tg5000000RnJFEA0,Not Started,Follow-up Call
+2025-06-21,Customer segment: at_risk,Low,003g5000002Eg1UAAS,00Tg5000000RnJGEA0,Completed,Survey Follow-up
+2024-09-16,Customer segment: active,Normal,003g5000002EhFGAA0,00Tg5000000RnJHEA0,Not Started,Follow-up Call
+2023-11-02,Customer segment: at_risk,High,003g5000002Eg6IAAS,00Tg5000000RnKnEAK,Not Started,Retention Call
+2023-08-29,Customer segment: active,Normal,003g5000002EfzqAAC,00Tg5000000RnKoEAK,Completed,Cross-sell Opportunity
+2025-07-14,Customer segment: active,Normal,003g5000002EgClAAK,00Tg5000000RnKpEAK,In Progress,Welcome Call
+2025-10-20,Customer segment: active,Normal,003g5000002EhgfAAC,00Tg5000000RnKqEAK,In Progress,Cross-sell Opportunity
+2025-11-15,Customer segment: active,Normal,003g5000002EhwnAAC,00Tg5000000RnKrEAK,Completed,Product Inquiry Response
+2024-09-03,Customer segment: active,Low,003g5000002EhwnAAC,00Tg5000000RnKsEAK,Completed,Survey Follow-up
+2024-02-04,Customer segment: active,Normal,003g5000002Eh2LAAS,00Tg5000000RnMPEA0,Not Started,Product Inquiry Response
+2024-10-17,Customer segment: churned,Normal,003g5000002Ef0aAAC,00Tg5000000RnMQEA0,Not Started,Welcome Call
+2024-02-01,Customer segment: churned,Normal,003g5000002EhaDAAS,00Tg5000000RnMREA0,Not Started,Product Inquiry Response
+2023-12-12,Customer segment: at_risk,Normal,003g5000002EeyzAAC,00Tg5000000RnMSEA0,Completed,Product Inquiry Response
+2025-10-27,Customer segment: active,Normal,003g5000002EjLtAAK,00Tg5000000RnMTEA0,In Progress,Product Inquiry Response
+2023-03-22,Customer segment: at_risk,Normal,003g5000002Eh3xAAC,00Tg5000000RnO1EAK,Not Started,Product Inquiry Response
+2023-08-10,Customer segment: active,Normal,003g5000002EfBrAAK,00Tg5000000RnO2EAK,Not Started,Follow-up Call
+2024-10-13,Customer segment: at_risk,High,003g5000002EhNKAA0,00Tg5000000RnO3EAK,Completed,Retention Call
+2025-03-26,Customer segment: active,Normal,003g5000002EgmEAAS,00Tg5000000RnPdEAK,In Progress,Welcome Call
+2025-08-23,Customer segment: at_risk,Low,003g5000002EhAPAA0,00Tg5000000RnPeEAK,In Progress,Survey Follow-up
+2023-06-08,Customer segment: at_risk,High,003g5000002EhNJAA0,00Tg5000000RnPfEAK,In Progress,Account Review
+2023-02-06,Customer segment: at_risk,Normal,003g5000002EhC2AAK,00Tg5000000RnPgEAK,Not Started,Follow-up Call
+2024-09-09,Customer segment: active,Low,003g5000002EhWzAAK,00Tg5000000RnPhEAK,In Progress,Survey Follow-up
+2026-01-03,Customer segment: churned,High,003g5000002EeneAAC,00Tg5000000RnPiEAK,Completed,Account Review
+2024-05-31,Customer segment: at_risk,Normal,003g5000002Ei85AAC,00Tg5000000RnPjEAK,In Progress,Product Inquiry Response
+2025-09-12,Customer segment: at_risk,High,003g5000002EgmFAAS,00Tg5000000RnRFEA0,Completed,Retention Call
+2023-10-23,Customer segment: at_risk,High,003g5000002EgKoAAK,00Tg5000000RnRGEA0,In Progress,Retention Call
+2024-12-02,Customer segment: at_risk,Low,003g5000002EhaEAAS,00Tg5000000RnRHEA0,In Progress,Birthday Greeting
+2023-10-13,Customer segment: active,Normal,003g5000002EiHmAAK,00Tg5000000RnRIEA0,In Progress,Product Inquiry Response
+2025-05-06,Customer segment: at_risk,High,003g5000002EfDTAA0,00Tg5000000RnSrEAK,Not Started,Retention Call
+2024-10-10,Customer segment: at_risk,Normal,003g5000002EhjtAAC,00Tg5000000RnSsEAK,In Progress,Product Inquiry Response
+2023-04-04,Customer segment: active,High,003g5000002Eh8nAAC,00Tg5000000RnUTEA0,In Progress,Account Review
+2024-08-12,Customer segment: active,High,003g5000002EeMFAA0,00Tg5000000RnW5EAK,Completed,Account Review
+2024-08-03,Customer segment: active,High,003g5000002Eh0kAAC,00Tg5000000RnW6EAK,Completed,Account Review
+2025-05-25,Customer segment: at_risk,High,003g5000002Eh7CAAS,00Tg5000000RnW7EAK,Not Started,Account Review
+2024-03-23,Customer segment: active,Normal,003g5000002EgFzAAK,00Tg5000000RnXhEAK,In Progress,Product Inquiry Response
+2023-12-02,Customer segment: at_risk,High,003g5000002EhS9AAK,00Tg5000000RnXiEAK,Not Started,Retention Call
+2023-02-07,Customer segment: active,Low,003g5000002EhbpAAC,00Tg5000000RnXjEAK,Completed,Birthday Greeting
+2024-02-15,Customer segment: at_risk,Low,003g5000002EhyPAAS,00Tg5000000RnXkEAK,Not Started,Survey Follow-up
+2025-02-17,Customer segment: active,Normal,003g5000002EepIAAS,00Tg5000000RnXlEAK,Completed,Welcome Call
+2025-09-20,Customer segment: active,Normal,003g5000002Eiw5AAC,00Tg5000000RnXmEAK,Completed,Welcome Call
+2023-03-08,Customer segment: active,Low,003g5000002Ej7NAAS,00Tg5000000RnXnEAK,In Progress,Survey Follow-up
+2025-11-27,Customer segment: active,High,003g5000002Eh7EAAS,00Tg5000000RnXoEAK,In Progress,Account Review
+2024-04-08,Customer segment: churned,Normal,003g5000002EgpSAAS,00Tg5000000RnZJEA0,Completed,Cross-sell Opportunity
+2023-07-16,Customer segment: active,High,003g5000002EeNqAAK,00Tg5000000RnZKEA0,Completed,Account Review
+2025-06-08,Customer segment: active,Normal,003g5000002EhlVAAS,00Tg5000000RnZLEA0,In Progress,Follow-up Call
+2024-11-17,Customer segment: active,High,003g5000002EiHmAAK,00Tg5000000RnZMEA0,In Progress,Retention Call
+2025-09-30,Customer segment: churned,Normal,003g5000002EgpSAAS,00Tg5000000RnavEAC,Completed,Follow-up Call
+2025-10-03,Customer segment: active,Normal,003g5000002EeNqAAK,00Tg5000000RnawEAC,Completed,Follow-up Call
+2024-02-21,Customer segment: at_risk,Low,003g5000002EhNJAA0,00Tg5000000RnaxEAC,Completed,Birthday Greeting
+2024-03-29,Customer segment: at_risk,Normal,003g5000002EfgUAAS,00Tg5000000RnayEAC,Not Started,Cross-sell Opportunity
+2023-11-12,Customer segment: churned,Normal,003g5000002EhC1AAK,00Tg5000000RncXEAS,Completed,Follow-up Call
+2024-07-23,Customer segment: at_risk,Low,003g5000002EgHbAAK,00Tg5000000RncYEAS,In Progress,Survey Follow-up
+2024-11-26,Customer segment: active,Normal,003g5000002EgJDAA0,00Tg5000000RncZEAS,Completed,Welcome Call
+2025-01-06,Customer segment: active,High,003g5000002EguJAAS,00Tg5000000RncaEAC,Not Started,Account Review
+2025-10-21,Customer segment: active,High,003g5000002EhAQAA0,00Tg5000000Rne9EAC,Not Started,Account Review
+2024-02-10,Customer segment: churned,Normal,003g5000002EfDVAA0,00Tg5000000RneAEAS,Not Started,Product Inquiry Response
+2024-01-16,Customer segment: active,Low,003g5000002EhC3AAK,00Tg5000000RneBEAS,In Progress,Survey Follow-up
+2023-05-05,Customer segment: active,Low,003g5000002EfmwAAC,00Tg5000000RneCEAS,In Progress,Birthday Greeting
+2023-08-26,Customer segment: churned,Low,003g5000002EhrxAAC,00Tg5000000RneDEAS,Completed,Survey Follow-up
+2025-08-06,Customer segment: active,High,003g5000002EhAQAA0,00Tg5000000RnflEAC,Completed,Retention Call
+2025-08-20,Customer segment: churned,Normal,003g5000002EhaDAAS,00Tg5000000RnfmEAC,Not Started,Follow-up Call
+2025-06-11,Customer segment: churned,Low,003g5000002EhaDAAS,00Tg5000000RnfnEAC,Not Started,Birthday Greeting
+2026-01-09,Customer segment: at_risk,High,003g5000002EhC4AAK,00Tg5000000RnfoEAC,Not Started,Retention Call
+2024-06-04,Customer segment: active,High,003g5000002EfdHAAS,00Tg5000000RnfpEAC,Completed,Retention Call
+2024-11-26,Customer segment: active,High,003g5000002EiMdAAK,00Tg5000000RnfqEAC,Not Started,Retention Call
+2023-08-13,Customer segment: active,Normal,003g5000002Ej4AAAS,00Tg5000000RnfrEAC,In Progress,Follow-up Call
+2025-03-05,Customer segment: active,Normal,003g5000002EgXiAAK,00Tg5000000RnfsEAC,Completed,Product Inquiry Response
+2025-11-19,Customer segment: active,Low,003g5000002EhAQAA0,00Tg5000000RnhNEAS,In Progress,Survey Follow-up
+2025-06-11,Customer segment: churned,Normal,003g5000002EfDVAA0,00Tg5000000RnhOEAS,Completed,Product Inquiry Response
+2024-08-15,Customer segment: at_risk,Normal,003g5000002EfwcAAC,00Tg5000000RnhPEAS,Completed,Welcome Call
+2024-08-01,Customer segment: active,Normal,003g5000002EhSBAA0,00Tg5000000RnhQEAS,In Progress,Product Inquiry Response
+2024-10-20,Customer segment: churned,Normal,003g5000002EeG6AAK,00Tg5000000RnhREAS,In Progress,Product Inquiry Response
+2024-04-20,Customer segment: at_risk,Normal,003g5000002EgZMAA0,00Tg5000000RnhSEAS,Not Started,Follow-up Call
+2023-09-16,Customer segment: at_risk,High,003g5000002EgcaAAC,00Tg5000000RnhTEAS,Completed,Retention Call
+2025-04-22,Customer segment: active,Low,003g5000002EgKrAAK,00Tg5000000RnhUEAS,In Progress,Birthday Greeting
+2023-11-17,Customer segment: active,Normal,003g5000002Ej2ZAAS,00Tg5000000RnhVEAS,Completed,Welcome Call
+2024-11-09,Customer segment: at_risk,High,003g5000002Eem2AAC,00Tg5000000RnhWEAS,Completed,Account Review
+2024-01-01,Customer segment: at_risk,Low,003g5000002EhOxAAK,00Tg5000000RnhXEAS,Not Started,Birthday Greeting
+2025-10-08,Customer segment: active,High,003g5000002EhFFAA0,00Tg5000000RnizEAC,Not Started,Retention Call
+2025-05-13,Customer segment: active,Normal,003g5000002Egz8AAC,00Tg5000000Rnj0EAC,Not Started,Product Inquiry Response
+2024-08-06,Customer segment: at_risk,Normal,003g5000002Egz9AAC,00Tg5000000Rnj1EAC,Completed,Follow-up Call
+2023-01-11,Customer segment: at_risk,High,003g5000002EhOvAAK,00Tg5000000Rnj2EAC,In Progress,Retention Call
+2024-03-13,Customer segment: active,Normal,003g5000002EhARAA0,00Tg5000000Rnj3EAC,Completed,Welcome Call
+2025-10-21,Customer segment: active,High,003g5000002EgJCAA0,00Tg5000000Rnj4EAC,In Progress,Retention Call
+2023-03-30,Customer segment: at_risk,Normal,003g5000002EghPAAS,00Tg5000000Rnj5EAC,Completed,Cross-sell Opportunity
+2025-10-03,Customer segment: churned,Normal,003g5000002EjKHAA0,00Tg5000000Rnj6EAC,Not Started,Follow-up Call
+2024-05-23,Customer segment: churned,Normal,003g5000002Ej0yAAC,00Tg5000000Rnj7EAC,Completed,Product Inquiry Response
+2023-01-25,Customer segment: active,Normal,003g5000002EhqMAAS,00Tg5000000Rnj8EAC,Completed,Cross-sell Opportunity
+2023-01-05,Customer segment: active,High,003g5000002Eh2MAAS,00Tg5000000RnkbEAC,Completed,Retention Call
+2025-01-19,Customer segment: active,Normal,003g5000002EfwdAAC,00Tg5000000RnkcEAC,Completed,Follow-up Call
+2024-03-17,Customer segment: active,Low,003g5000002EhITAA0,00Tg5000000RnmDEAS,In Progress,Birthday Greeting
+2024-08-08,Customer segment: active,High,003g5000002EgxXAAS,00Tg5000000RnmEEAS,Not Started,Retention Call
+2023-04-10,Customer segment: churned,Normal,003g5000002EjXBAA0,00Tg5000000RnmFEAS,Completed,Cross-sell Opportunity
+2023-11-15,Customer segment: churned,Normal,003g5000002EhK5AAK,00Tg5000000RnnpEAC,Not Started,Product Inquiry Response
+2024-10-15,Customer segment: churned,Low,003g5000002Ef0aAAC,00Tg5000000RnnqEAC,Completed,Survey Follow-up
+2023-01-05,Customer segment: active,Normal,003g5000002EfzrAAC,00Tg5000000RnnrEAC,In Progress,Product Inquiry Response
+2024-03-12,Customer segment: active,Low,003g5000002Eg6JAAS,00Tg5000000RnnsEAC,Not Started,Birthday Greeting
+2024-07-12,Customer segment: active,Normal,003g5000002Ei6UAAS,00Tg5000000RnntEAC,In Progress,Product Inquiry Response
+2023-02-05,Customer segment: churned,Low,003g5000002EipdAAC,00Tg5000000RnnuEAC,Not Started,Birthday Greeting
+2024-07-10,Customer segment: at_risk,Normal,003g5000002EhNKAA0,00Tg5000000RnpREAS,Not Started,Product Inquiry Response
+2025-03-21,Customer segment: active,Low,003g5000002EijBAAS,00Tg5000000RnpSEAS,Completed,Birthday Greeting
+2025-08-02,Customer segment: at_risk,Normal,003g5000002EhNKAA0,00Tg5000000Rnr3EAC,Completed,Welcome Call
+2024-01-16,Customer segment: active,Low,003g5000002EhARAA0,00Tg5000000RnsfEAC,In Progress,Survey Follow-up
+2023-02-17,Customer segment: at_risk,High,003g5000002EhTlAAK,00Tg5000000RnsgEAC,Not Started,Account Review
+2024-04-04,Customer segment: at_risk,Normal,003g5000002EhTlAAK,00Tg5000000RnshEAC,In Progress,Product Inquiry Response
+2024-12-14,Customer segment: active,High,003g5000002EhWzAAK,00Tg5000000RnsiEAC,Completed,Retention Call
+2025-02-12,Customer segment: churned,Normal,003g5000002EhrxAAC,00Tg5000000RnsjEAC,Completed,Follow-up Call
+2024-08-11,Customer segment: at_risk,Normal,003g5000002Eg6NAAS,00Tg5000000RnskEAC,Not Started,Welcome Call
+2025-06-05,Customer segment: churned,High,003g5000002EfdIAAS,00Tg5000000RnslEAC,Not Started,Retention Call
+2024-05-21,Customer segment: active,Normal,003g5000002EhK7AAK,00Tg5000000RnsmEAC,In Progress,Product Inquiry Response
+2024-11-22,Customer segment: at_risk,Low,003g5000002EhASAA0,00Tg5000000RnsnEAC,Completed,Birthday Greeting
+2025-11-29,Customer segment: active,Normal,003g5000002EizJAAS,00Tg5000000RnsoEAC,Completed,Follow-up Call
+2025-09-06,Customer segment: churned,High,003g5000002EguIAAS,00Tg5000000RnuHEAS,Completed,Retention Call
+2025-03-04,Customer segment: at_risk,Low,003g5000002EhVNAA0,00Tg5000000RnvtEAC,Not Started,Survey Follow-up
+2023-03-28,Customer segment: churned,Low,003g5000002EftOAAS,00Tg5000000RnvuEAC,Not Started,Birthday Greeting
+2023-03-22,Customer segment: churned,Normal,003g5000002EenfAAC,00Tg5000000RnvvEAC,Not Started,Follow-up Call
+2023-03-15,Customer segment: churned,Normal,003g5000002EhFIAA0,00Tg5000000RnvwEAC,Not Started,Product Inquiry Response
+2024-08-29,Customer segment: churned,Normal,003g5000002Eh7DAAS,00Tg5000000RnvxEAC,In Progress,Follow-up Call
+2024-09-20,Customer segment: active,Normal,003g5000002EgHdAAK,00Tg5000000RnvyEAC,Completed,Cross-sell Opportunity
+2026-01-05,Customer segment: at_risk,Low,003g5000002EhTmAAK,00Tg5000000RnxVEAS,In Progress,Survey Follow-up
+2024-07-11,Customer segment: churned,Normal,003g5000002EhdRAAS,00Tg5000000RnxWEAS,Completed,Product Inquiry Response
+2023-02-23,Customer segment: active,Normal,003g5000002EhYbAAK,00Tg5000000Rnz7EAC,In Progress,Product Inquiry Response
+2024-12-29,Customer segment: active,Low,003g5000002EhlVAAS,00Tg5000000Rnz8EAC,Not Started,Birthday Greeting
+2023-12-20,Customer segment: active,Normal,003g5000002Eh2NAAS,00Tg5000000Rnz9EAC,Completed,Product Inquiry Response
+2025-11-04,Customer segment: at_risk,Normal,003g5000002EfgUAAS,00Tg5000000Ro0jEAC,In Progress,Follow-up Call
+2023-10-21,Customer segment: active,Normal,003g5000002EfwdAAC,00Tg5000000Ro0kEAC,In Progress,Follow-up Call
+2024-06-20,Customer segment: active,Normal,003g5000002EgENAA0,00Tg5000000Ro0lEAC,Not Started,Cross-sell Opportunity
+2024-11-17,Customer segment: at_risk,High,003g5000002Eg1UAAS,00Tg5000000Ro2LEAS,Completed,Retention Call
+2025-06-10,Customer segment: active,Normal,003g5000002EgeAAAS,00Tg5000000Ro2MEAS,In Progress,Follow-up Call
+2025-10-28,Customer segment: at_risk,High,003g5000002EfmyAAC,00Tg5000000Ro2NEAS,Completed,Retention Call
+2024-02-11,Customer segment: active,Low,003g5000002Eg9WAAS,00Tg5000000Ro3xEAC,In Progress,Survey Follow-up
+2024-03-09,Customer segment: at_risk,Normal,003g5000002Eh8oAAC,00Tg5000000Ro5ZEAS,In Progress,Product Inquiry Response
+2023-08-04,Customer segment: active,Low,003g5000002Ehf5AAC,00Tg5000000Ro5aEAC,Completed,Survey Follow-up
+2024-10-03,Customer segment: active,Normal,003g5000002EfmxAAC,00Tg5000000Ro5bEAC,In Progress,Welcome Call
+2023-06-20,Customer segment: active,Low,003g5000002EhFGAA0,00Tg5000000Ro5cEAC,Not Started,Birthday Greeting
+2025-10-04,Customer segment: active,Normal,003g5000002Ei3FAAS,00Tg5000000Ro5dEAC,Completed,Cross-sell Opportunity
+2024-07-11,Customer segment: active,Low,003g5000002Ei6TAAS,00Tg5000000Ro5eEAC,Completed,Birthday Greeting
+2025-08-31,Customer segment: active,Normal,003g5000002Eg4iAAC,00Tg5000000Ro5fEAC,Not Started,Follow-up Call
+2025-09-16,Customer segment: active,Normal,003g5000002EfoYAAS,00Tg5000000Ro5gEAC,In Progress,Welcome Call
+2024-06-30,Customer segment: active,Normal,003g5000002EgeBAAS,00Tg5000000Ro7BEAS,Not Started,Product Inquiry Response
+2024-12-29,Customer segment: active,Low,003g5000002EgJEAA0,00Tg5000000Ro7CEAS,Completed,Birthday Greeting
+2024-12-08,Customer segment: at_risk,Normal,003g5000002Eh7CAAS,00Tg5000000Ro8nEAC,Completed,Follow-up Call
+2023-10-23,Customer segment: at_risk,High,003g5000002EeKdAAK,00Tg5000000Ro8oEAC,In Progress,Retention Call
+2024-08-25,Customer segment: active,Normal,003g5000002Ei4rAAC,00Tg5000000Ro8pEAC,In Progress,Cross-sell Opportunity
+2023-05-21,Customer segment: active,High,003g5000002Ei3GAAS,00Tg5000000Ro8qEAC,In Progress,Account Review
+2026-01-08,Customer segment: active,Normal,003g5000002EgENAA0,00Tg5000000RoAPEA0,Not Started,Product Inquiry Response
+2024-06-08,Customer segment: active,Normal,003g5000002EeG7AAK,00Tg5000000RoC1EAK,Completed,Cross-sell Opportunity
+2023-12-27,Customer segment: active,Normal,003g5000002EeG7AAK,00Tg5000000RoC2EAK,Completed,Cross-sell Opportunity
+2025-10-06,Customer segment: active,Normal,003g5000002Ej2XAAS,00Tg5000000RoC3EAK,In Progress,Cross-sell Opportunity
+2023-08-17,Customer segment: active,High,003g5000002Ej2XAAS,00Tg5000000RoC4EAK,In Progress,Account Review
+2025-04-26,Customer segment: active,High,003g5000002EhSCAA0,00Tg5000000RoDdEAK,Not Started,Retention Call
+2023-06-18,Customer segment: active,Normal,003g5000002Eh3zAAC,00Tg5000000RoFFEA0,In Progress,Follow-up Call
+2025-01-13,Customer segment: at_risk,Low,003g5000002EgzBAAS,00Tg5000000RoGrEAK,Completed,Survey Follow-up
+2025-04-03,Customer segment: active,Normal,003g5000002EeisAAC,00Tg5000000RoGsEAK,In Progress,Welcome Call
+2025-02-21,Customer segment: at_risk,Normal,003g5000002EhASAA0,00Tg5000000RoGtEAK,Completed,Follow-up Call
+2023-07-09,Customer segment: at_risk,Low,003g5000002EhvCAAS,00Tg5000000RoITEA0,In Progress,Survey Follow-up
+2024-08-26,Customer segment: active,High,003g5000002EhryAAC,00Tg5000000RoK5EAK,In Progress,Retention Call
+2026-01-09,Customer segment: active,High,003g5000002EifxAAC,00Tg5000000RoK6EAK,Not Started,Account Review
+2025-03-03,Customer segment: at_risk,Normal,003g5000002EhYcAAK,00Tg5000000RoK7EAK,In Progress,Cross-sell Opportunity
+2025-08-23,Customer segment: at_risk,Low,003g5000002EhFHAA0,00Tg5000000RoLhEAK,Not Started,Birthday Greeting
+2024-05-10,Customer segment: active,Normal,003g5000002EesVAAS,00Tg5000000RoNJEA0,Completed,Welcome Call
+2024-08-06,Customer segment: active,High,003g5000002EgaxAAC,00Tg5000000RoNKEA0,Completed,Account Review
+2023-01-21,Customer segment: active,Normal,003g5000002EesVAAS,00Tg5000000RoOvEAK,Not Started,Cross-sell Opportunity
+2025-06-26,Customer segment: churned,Normal,003g5000002EiKzAAK,00Tg5000000RoOwEAK,Completed,Product Inquiry Response
+2025-08-20,Customer segment: active,High,003g5000002EhtaAAC,00Tg5000000RoQXEA0,Not Started,Account Review
+2025-12-31,Customer segment: active,High,003g5000002EgKqAAK,00Tg5000000RoQYEA0,Not Started,Account Review
+2023-12-12,Customer segment: churned,Normal,003g5000002Eh7FAAS,00Tg5000000RoQZEA0,Completed,Welcome Call
+2025-05-15,Customer segment: active,Normal,003g5000002EhtaAAC,00Tg5000000RoS9EAK,Completed,Product Inquiry Response
+2023-12-20,Customer segment: at_risk,Normal,003g5000002Efi8AAC,00Tg5000000RoTlEAK,Completed,Product Inquiry Response
+2023-02-11,Customer segment: at_risk,High,003g5000002Efi8AAC,00Tg5000000RoVNEA0,Completed,Retention Call
+2024-05-13,Customer segment: at_risk,High,003g5000002Efi8AAC,00Tg5000000RoWzEAK,In Progress,Account Review
+2024-04-04,Customer segment: active,Low,003g5000002EesWAAS,00Tg5000000RoX0EAK,Not Started,Survey Follow-up
+2025-06-28,Customer segment: churned,Normal,003g5000002EhFIAA0,00Tg5000000RoX1EAK,Not Started,Welcome Call
+2025-06-13,Customer segment: churned,High,003g5000002EeJkAAK,00Tg5000000RoX2EAK,Not Started,Account Review
+2025-03-05,Customer segment: at_risk,High,003g5000002Eh0lAAC,00Tg5000000RoYbEAK,In Progress,Retention Call
+2024-09-12,Customer segment: active,High,003g5000002EiMdAAK,00Tg5000000RoYcEAK,Not Started,Retention Call
+2023-10-20,Customer segment: active,Low,003g5000002EizJAAS,00Tg5000000RoYdEAK,Not Started,Survey Follow-up
+2025-11-24,Customer segment: churned,High,003g5000002Ef5QAAS,00Tg5000000RoYeEAK,Not Started,Account Review
+2023-11-25,Customer segment: active,Normal,003g5000002EfYRAA0,00Tg5000000RoaDEAS,Not Started,Follow-up Call
+2024-03-30,Customer segment: active,Low,003g5000002Ej0vAAC,00Tg5000000RoaEEAS,Completed,Birthday Greeting
+2025-09-29,Customer segment: active,Low,003g5000002Ej0vAAC,00Tg5000000RoaFEAS,Completed,Birthday Greeting
+2023-06-06,Customer segment: active,Normal,003g5000002EjAbAAK,00Tg5000000RoaGEAS,Completed,Welcome Call
+2023-04-07,Customer segment: at_risk,High,003g5000002Ei85AAC,00Tg5000000RobpEAC,Completed,Retention Call
+2024-03-26,Customer segment: active,Normal,003g5000002EiMbAAK,00Tg5000000RobqEAC,In Progress,Welcome Call
+2023-07-10,Customer segment: at_risk,Normal,003g5000002Ei85AAC,00Tg5000000RodREAS,Not Started,Follow-up Call
+2025-10-17,Customer segment: active,High,003g5000002Egj1AAC,00Tg5000000RodSEAS,Completed,Retention Call
+2024-03-31,Customer segment: churned,High,003g5000002EhFIAA0,00Tg5000000RodTEAS,Completed,Retention Call
+2025-04-20,Customer segment: churned,Normal,003g5000002EfdIAAS,00Tg5000000RodUEAS,Completed,Product Inquiry Response
+2025-04-10,Customer segment: active,Normal,003g5000002EfbgAAC,00Tg5000000RodVEAS,Not Started,Follow-up Call
+2023-06-02,Customer segment: churned,High,003g5000002EjH3AAK,00Tg5000000RodWEAS,Completed,Retention Call
+2023-01-30,Customer segment: churned,High,003g5000002EenfAAC,00Tg5000000Rof3EAC,Completed,Account Review
+2023-07-22,Customer segment: churned,High,003g5000002Efv2AAC,00Tg5000000Rof4EAC,In Progress,Account Review
+2023-01-20,Customer segment: active,Normal,003g5000002EfyEAAS,00Tg5000000Rof5EAC,In Progress,Cross-sell Opportunity
+2023-10-27,Customer segment: active,High,003g5000002EgKrAAK,00Tg5000000Rof6EAC,In Progress,Retention Call
+2023-12-06,Customer segment: at_risk,Normal,003g5000002EhaEAAS,00Tg5000000RogfEAC,In Progress,Follow-up Call
+2024-06-07,Customer segment: active,Normal,003g5000002EgawAAC,00Tg5000000RoggEAC,In Progress,Follow-up Call
+2024-05-09,Customer segment: active,Normal,003g5000002EiMcAAK,00Tg5000000RoghEAC,Not Started,Cross-sell Opportunity
+2023-09-28,Customer segment: at_risk,Normal,003g5000002EieLAAS,00Tg5000000RogiEAC,Completed,Cross-sell Opportunity
+2025-10-17,Customer segment: at_risk,High,003g5000002EeJjAAK,00Tg5000000RoiHEAS,Not Started,Account Review
+2025-01-01,Customer segment: active,Low,003g5000002Eio1AAC,00Tg5000000RoiIEAS,Completed,Survey Follow-up
+2023-07-24,Customer segment: active,High,003g5000002EiXvAAK,00Tg5000000RoiJEAS,Not Started,Account Review
+2025-02-08,Customer segment: at_risk,High,003g5000002EeJjAAK,00Tg5000000RojtEAC,In Progress,Retention Call
+2025-02-05,Customer segment: active,Low,003g5000002EeisAAC,00Tg5000000RojuEAC,Not Started,Survey Follow-up
+2023-09-27,Customer segment: active,High,003g5000002EesXAAS,00Tg5000000RolVEAS,In Progress,Account Review
+2025-06-14,Customer segment: active,High,003g5000002EhIUAA0,00Tg5000000RolWEAS,Completed,Account Review
+2025-12-15,Customer segment: active,Normal,003g5000002EeisAAC,00Tg5000000RolXEAS,In Progress,Welcome Call
+2024-06-28,Customer segment: churned,High,003g5000002EeNsAAK,00Tg5000000RolYEAS,Not Started,Account Review
+2025-08-08,Customer segment: active,Low,003g5000002EeNtAAK,00Tg5000000RolZEAS,Not Started,Survey Follow-up
+2025-09-23,Customer segment: at_risk,High,003g5000002EhX0AAK,00Tg5000000RolaEAC,In Progress,Account Review
+2025-02-19,Customer segment: active,High,003g5000002EesXAAS,00Tg5000000Ron7EAC,Completed,Retention Call
+2024-01-28,Customer segment: active,Low,003g5000002EiHlAAK,00Tg5000000RoojEAC,Completed,Birthday Greeting
+2025-03-26,Customer segment: active,Low,003g5000002Ef2EAAS,00Tg5000000RoqLEAS,In Progress,Birthday Greeting
+2024-11-17,Customer segment: active,Normal,003g5000002EhIUAA0,00Tg5000000RorxEAC,Not Started,Follow-up Call
+2023-11-25,Customer segment: active,High,003g5000002EgJEAA0,00Tg5000000RoryEAC,Not Started,Retention Call
+2024-12-02,Customer segment: active,High,003g5000002EhvEAAS,00Tg5000000RorzEAC,In Progress,Retention Call
+2024-01-13,Customer segment: active,Normal,003g5000002EhtbAAC,00Tg5000000Ros0EAC,Completed,Product Inquiry Response
+2024-08-20,Customer segment: churned,Normal,003g5000002EfdIAAS,00Tg5000000RotZEAS,Completed,Product Inquiry Response
+2025-10-03,Customer segment: at_risk,High,003g5000002EhDeAAK,00Tg5000000RotaEAC,In Progress,Account Review
+2025-07-11,Customer segment: active,Normal,003g5000002EgJFAA0,00Tg5000000RotbEAC,Not Started,Follow-up Call
+2023-09-21,Customer segment: active,Low,003g5000002EiknAAC,00Tg5000000RotcEAC,In Progress,Birthday Greeting
+2025-02-28,Customer segment: at_risk,High,003g5000002EhOxAAK,00Tg5000000RotdEAC,Not Started,Account Review
+2024-09-06,Customer segment: churned,Low,003g5000002EjDqAAK,00Tg5000000RoteEAC,Not Started,Survey Follow-up
+2023-11-13,Customer segment: at_risk,Normal,003g5000002EhDeAAK,00Tg5000000RovBEAS,In Progress,Cross-sell Opportunity
+2023-07-02,Customer segment: active,Normal,003g5000002Efv1AAC,00Tg5000000RovCEAS,Not Started,Cross-sell Opportunity
+2024-01-29,Customer segment: active,Normal,003g5000002EgawAAC,00Tg5000000RovDEAS,Not Started,Cross-sell Opportunity
+2024-03-05,Customer segment: at_risk,Normal,003g5000002EjIfAAK,00Tg5000000RovEEAS,In Progress,Follow-up Call
+2025-11-28,Customer segment: active,Low,003g5000002EhvFAAS,00Tg5000000RovFEAS,Not Started,Survey Follow-up
+2025-07-08,Customer segment: at_risk,High,003g5000002EhDeAAK,00Tg5000000RownEAC,Completed,Account Review
+2025-09-27,Customer segment: at_risk,Low,003g5000002EguKAAS,00Tg5000000RowoEAC,Completed,Birthday Greeting
+2025-10-28,Customer segment: active,Normal,003g5000002EiEYAA0,00Tg5000000RoyPEAS,Completed,Follow-up Call
+2023-11-27,Customer segment: active,Normal,003g5000002Eg6PAAS,00Tg5000000RoyQEAS,In Progress,Follow-up Call
+2024-01-20,Customer segment: active,Normal,003g5000002EhK7AAK,00Tg5000000RoyREAS,In Progress,Cross-sell Opportunity
+2024-07-31,Customer segment: active,Normal,003g5000002EhK7AAK,00Tg5000000RoySEAS,In Progress,Cross-sell Opportunity
+2024-04-24,Customer segment: active,Normal,003g5000002EhTnAAK,00Tg5000000RoyTEAS,In Progress,Product Inquiry Response
+2025-11-08,Customer segment: at_risk,High,003g5000002EfS0AAK,00Tg5000000RoyUEAS,In Progress,Retention Call
+2024-06-16,Customer segment: churned,Normal,003g5000002Ej0yAAC,00Tg5000000RoyVEAS,In Progress,Product Inquiry Response
+2025-06-13,Customer segment: active,High,003g5000002Ef2FAAS,00Tg5000000Rp01EAC,Completed,Account Review
+2025-08-13,Customer segment: at_risk,Normal,003g5000002Ef2GAAS,00Tg5000000Rp02EAC,Not Started,Product Inquiry Response
+2025-05-26,Customer segment: at_risk,Normal,003g5000002EfesAAC,00Tg5000000Rp03EAC,In Progress,Follow-up Call
+2024-11-21,Customer segment: churned,Low,003g5000002Eh0mAAC,00Tg5000000Rp04EAC,Completed,Birthday Greeting
+2023-11-10,Customer segment: active,Low,003g5000002EgHdAAK,00Tg5000000Rp05EAC,Not Started,Survey Follow-up
+2024-02-04,Customer segment: churned,Low,003g5000002Ej49AAC,00Tg5000000Rp06EAC,Not Started,Birthday Greeting
+2024-12-18,Customer segment: churned,Normal,003g5000002Ej49AAC,00Tg5000000Rp07EAC,Not Started,Welcome Call
+2025-10-27,Customer segment: churned,Normal,003g5000002EiKzAAK,00Tg5000000Rp1dEAC,Completed,Product Inquiry Response
+2023-08-24,Customer segment: active,High,003g5000002Eg1VAAS,00Tg5000000Rp1eEAC,Not Started,Retention Call
+2025-10-03,Customer segment: at_risk,Low,003g5000002Ef2GAAS,00Tg5000000Rp3FEAS,Not Started,Birthday Greeting
+2023-06-26,Customer segment: at_risk,Normal,003g5000002Egj3AAC,00Tg5000000Rp3GEAS,Not Started,Follow-up Call
+2024-02-03,Customer segment: active,Normal,003g5000002EeiuAAC,00Tg5000000Rp3HEAS,In Progress,Welcome Call
+2025-11-02,Customer segment: active,Normal,003g5000002EiOEAA0,00Tg5000000Rp3IEAS,Not Started,Cross-sell Opportunity
+2024-09-12,Customer segment: at_risk,Normal,003g5000002EftRAAS,00Tg5000000Rp3JEAS,Completed,Welcome Call
+2024-07-13,Customer segment: active,Normal,003g5000002Eh7EAAS,00Tg5000000Rp3KEAS,Completed,Follow-up Call
+2024-06-10,Customer segment: active,Normal,003g5000002EhC5AAK,00Tg5000000Rp3LEAS,In Progress,Product Inquiry Response
+2025-11-09,Customer segment: active,Normal,003g5000002EftPAAS,00Tg5000000Rp4rEAC,Completed,Follow-up Call
+2023-05-27,Customer segment: at_risk,Normal,003g5000002EhvDAAS,00Tg5000000Rp4sEAC,In Progress,Welcome Call
+2024-02-17,Customer segment: active,High,003g5000002EftPAAS,00Tg5000000Rp6TEAS,Completed,Account Review
+2023-08-03,Customer segment: at_risk,High,003g5000002EfesAAC,00Tg5000000Rp6UEAS,In Progress,Retention Call
+2023-11-20,Customer segment: active,High,003g5000002EfYSAA0,00Tg5000000Rp85EAC,Not Started,Retention Call
+2023-12-02,Customer segment: active,High,003g5000002EixiAAC,00Tg5000000Rp86EAC,Not Started,Retention Call
+2025-10-17,Customer segment: active,Low,003g5000002EhyRAAS,00Tg5000000Rp9hEAC,In Progress,Birthday Greeting
+2024-12-21,Customer segment: active,Normal,003g5000002Eib7AAC,00Tg5000000Rp9iEAC,In Progress,Follow-up Call
+2024-11-02,Customer segment: at_risk,Normal,003g5000002EipeAAC,00Tg5000000Rp9jEAC,Not Started,Follow-up Call
+2024-04-17,Customer segment: active,Normal,003g5000002EhGsAAK,00Tg5000000RpBJEA0,Completed,Follow-up Call
+2024-06-26,Customer segment: active,Normal,003g5000002EjKIAA0,00Tg5000000RpBKEA0,In Progress,Cross-sell Opportunity
+2025-12-06,Customer segment: churned,High,003g5000002Ej4BAAS,00Tg5000000RpBLEA0,Not Started,Account Review
+2023-12-22,Customer segment: active,Normal,003g5000002EgKpAAK,00Tg5000000RpCvEAK,Not Started,Follow-up Call
+2024-08-01,Customer segment: at_risk,Normal,003g5000002EgcaAAC,00Tg5000000RpEXEA0,Completed,Cross-sell Opportunity
+2023-01-12,Customer segment: at_risk,High,003g5000002EghPAAS,00Tg5000000RpEYEA0,Completed,Retention Call
+2023-07-02,Customer segment: churned,Low,003g5000002Efv2AAC,00Tg5000000RpEZEA0,In Progress,Survey Follow-up
+2024-08-09,Customer segment: churned,Normal,003g5000002EeJkAAK,00Tg5000000RpEaEAK,In Progress,Follow-up Call
+2024-01-22,Customer segment: churned,Normal,003g5000002Ej2YAAS,00Tg5000000RpEbEAK,Not Started,Cross-sell Opportunity
+2025-03-14,Customer segment: active,Normal,003g5000002EenhAAC,00Tg5000000RpG9EAK,In Progress,Product Inquiry Response
+2025-11-12,Customer segment: active,Normal,003g5000002EfdKAAS,00Tg5000000RpGAEA0,Not Started,Product Inquiry Response
+2025-01-28,Customer segment: active,Normal,003g5000002EfyEAAS,00Tg5000000RpGBEA0,Not Started,Product Inquiry Response
+2023-07-27,Customer segment: active,High,003g5000002EjP7AAK,00Tg5000000RpGCEA0,In Progress,Account Review
+2023-05-19,Customer segment: churned,Normal,003g5000002Eh0mAAC,00Tg5000000RpHlEAK,Not Started,Product Inquiry Response
+2023-03-27,Customer segment: churned,High,003g5000002Eh0mAAC,00Tg5000000RpHmEAK,Not Started,Account Review
+2023-03-11,Customer segment: churned,Low,003g5000002Eh7DAAS,00Tg5000000RpHnEAK,In Progress,Birthday Greeting
+2023-09-25,Customer segment: churned,Normal,003g5000002Eh0mAAC,00Tg5000000RpJNEA0,Not Started,Follow-up Call
+2023-10-08,Customer segment: active,High,003g5000002EiPpAAK,00Tg5000000RpKzEAK,Completed,Retention Call
+2023-06-23,Customer segment: active,Normal,003g5000002EiUgAAK,00Tg5000000RpL0EAK,In Progress,Product Inquiry Response
+2023-08-21,Customer segment: active,High,003g5000002EeNtAAK,00Tg5000000RpL1EAK,Completed,Account Review
+2024-01-18,Customer segment: active,Normal,003g5000002EfRzAAK,00Tg5000000RpL2EAK,In Progress,Follow-up Call
+2024-11-12,Customer segment: at_risk,Low,003g5000002EiL1AAK,00Tg5000000RpL3EAK,Completed,Birthday Greeting
+2023-01-25,Customer segment: active,Low,003g5000002EhOwAAK,00Tg5000000RpL4EAK,Not Started,Birthday Greeting
+2023-10-09,Customer segment: active,Normal,003g5000002Ei3IAAS,00Tg5000000RpL5EAK,Completed,Cross-sell Opportunity
+2023-12-26,Customer segment: active,High,003g5000002EgJFAA0,00Tg5000000RpMbEAK,Completed,Account Review
+2023-02-12,Customer segment: active,High,003g5000002EgJFAA0,00Tg5000000RpODEA0,Completed,Retention Call
+2023-04-24,Customer segment: churned,Normal,003g5000002Ej4BAAS,00Tg5000000RpOEEA0,In Progress,Product Inquiry Response
+2023-06-01,Customer segment: churned,Low,003g5000002EjXBAA0,00Tg5000000RpOFEA0,In Progress,Birthday Greeting
+2024-07-08,Customer segment: active,Normal,003g5000002EiRRAA0,00Tg5000000RpPpEAK,Not Started,Cross-sell Opportunity
+2024-09-04,Customer segment: churned,High,003g5000002EgcbAAC,00Tg5000000RpPqEAK,Not Started,Retention Call
+2025-08-19,Customer segment: active,Normal,003g5000002EfdJAAS,00Tg5000000RpRREA0,Completed,Follow-up Call
+2025-07-27,Customer segment: churned,Low,003g5000002EiL0AAK,00Tg5000000RpRSEA0,Not Started,Survey Follow-up
+2023-08-30,Customer segment: at_risk,Normal,003g5000002EghPAAS,00Tg5000000RpT3EAK,Not Started,Cross-sell Opportunity
+2024-05-12,Customer segment: churned,High,003g5000002EeJkAAK,00Tg5000000RpT4EAK,In Progress,Account Review
+2023-11-10,Customer segment: active,Normal,003g5000002EfdLAAS,00Tg5000000RpUfEAK,Completed,Welcome Call
+2025-06-18,Customer segment: churned,Normal,003g5000002Ehs0AAC,00Tg5000000RpWHEA0,Not Started,Cross-sell Opportunity
+2025-08-03,Customer segment: active,High,003g5000002EgEOAA0,00Tg5000000RpWIEA0,Completed,Retention Call
+2024-03-21,Customer segment: active,Normal,003g5000002Efv3AAC,00Tg5000000RpXtEAK,Completed,Follow-up Call
+2024-08-03,Customer segment: active,Low,003g5000002Eg1VAAS,00Tg5000000RpXuEAK,Completed,Birthday Greeting
+2023-08-24,Customer segment: at_risk,Normal,003g5000002Egj3AAC,00Tg5000000RpZVEA0,In Progress,Product Inquiry Response
+2024-11-29,Customer segment: active,Normal,003g5000002Eib7AAC,00Tg5000000Rpb7EAC,Completed,Product Inquiry Response
+2025-05-13,Customer segment: churned,Normal,003g5000002EgcbAAC,00Tg5000000Rpb8EAC,In Progress,Follow-up Call
+2024-10-16,Customer segment: churned,Normal,003g5000002EesYAAS,00Tg5000000RpcjEAC,Not Started,Product Inquiry Response
+2025-02-14,Customer segment: active,Normal,003g5000002Ej7NAAS,00Tg5000000RpckEAC,Completed,Cross-sell Opportunity
+2025-01-31,Customer segment: active,High,003g5000002EhTnAAK,00Tg5000000RpeLEAS,Not Started,Account Review
+2025-09-19,Customer segment: active,Normal,003g5000002EihZAAS,00Tg5000000RpeMEAS,Not Started,Welcome Call
+2025-11-06,Customer segment: active,Normal,003g5000002EgHdAAK,00Tg5000000RpfxEAC,Completed,Cross-sell Opportunity
+2023-12-20,Customer segment: active,High,003g5000002EimPAAS,00Tg5000000RphZEAS,Completed,Account Review
+2023-03-04,Customer segment: churned,High,003g5000002Ef5QAAS,00Tg5000000RphaEAC,In Progress,Retention Call
+2023-10-06,Customer segment: churned,Normal,003g5000002EipdAAC,00Tg5000000RpjBEAS,Not Started,Cross-sell Opportunity
+2025-08-15,Customer segment: churned,Normal,003g5000002EipdAAC,00Tg5000000RpknEAC,Completed,Cross-sell Opportunity
+2025-03-21,Customer segment: active,Low,003g5000002EirFAAS,00Tg5000000RpkoEAC,Not Started,Survey Follow-up
+2023-04-20,Customer segment: at_risk,Normal,003g5000002EeviAAC,00Tg5000000RpkpEAC,Not Started,Product Inquiry Response
+2024-04-26,Customer segment: churned,Normal,003g5000002EeNsAAK,00Tg5000000RpmPEAS,Not Started,Cross-sell Opportunity
+2024-05-18,Customer segment: active,Normal,003g5000002EjSLAA0,00Tg5000000RpmQEAS,Completed,Cross-sell Opportunity
+2025-03-02,Customer segment: churned,Normal,003g5000002Ej5lAAC,00Tg5000000Rpo1EAC,In Progress,Cross-sell Opportunity
+2024-08-30,Customer segment: churned,Normal,003g5000002EjKHAA0,00Tg5000000Rpo2EAC,In Progress,Cross-sell Opportunity
+2024-07-05,Customer segment: at_risk,Normal,003g5000002Eem2AAC,00Tg5000000Rpo3EAC,Not Started,Follow-up Call
+2023-04-04,Customer segment: active,High,003g5000002Ej7NAAS,00Tg5000000RppdEAC,In Progress,Retention Call
+2023-06-08,Customer segment: at_risk,Low,003g5000002EhX0AAK,00Tg5000000RprFEAS,In Progress,Birthday Greeting
+2024-01-26,Customer segment: active,High,003g5000002Ej8zAAC,00Tg5000000RpsrEAC,Not Started,Retention Call
+2023-07-12,Customer segment: at_risk,Low,003g5000002EiXwAAK,00Tg5000000RpssEAC,Not Started,Birthday Greeting
+2023-11-11,Customer segment: active,Normal,003g5000002Ej8zAAC,00Tg5000000RpuTEAS,In Progress,Product Inquiry Response
+2025-06-19,Customer segment: active,High,003g5000002EjCDAA0,00Tg5000000Rpw5EAC,Not Started,Account Review
+2024-11-25,Customer segment: active,Low,003g5000002EhToAAK,00Tg5000000Rpw6EAC,Not Started,Birthday Greeting
+2025-01-11,Customer segment: active,Normal,003g5000002Eh7EAAS,00Tg5000000Rpw7EAC,Not Started,Cross-sell Opportunity
+2025-03-20,Customer segment: churned,Normal,003g5000002Ej0wAAC,00Tg5000000RpxhEAC,Completed,Follow-up Call
+2024-05-21,Customer segment: active,High,003g5000002EhToAAK,00Tg5000000RpxiEAC,In Progress,Account Review
+2024-07-19,Customer segment: churned,Low,003g5000002Ej0wAAC,00Tg5000000RpzJEAS,Completed,Survey Follow-up
+2024-03-07,Customer segment: active,High,003g5000002EhC5AAK,00Tg5000000RpzKEAS,In Progress,Retention Call
+2024-07-09,Customer segment: at_risk,Low,003g5000002Ei3HAAS,00Tg5000000RpzLEAS,In Progress,Survey Follow-up
+2025-06-29,Customer segment: churned,Normal,003g5000002EeHiAAK,00Tg5000000Rq0vEAC,Completed,Product Inquiry Response
+2023-11-13,Customer segment: active,Normal,003g5000002EjDpAAK,00Tg5000000Rq2XEAS,Not Started,Cross-sell Opportunity
+2025-05-22,Customer segment: active,Normal,003g5000002Ej0xAAC,00Tg5000000Rq49EAC,Completed,Product Inquiry Response
+2023-10-29,Customer segment: at_risk,High,003g5000002EiXwAAK,00Tg5000000Rq5lEAC,In Progress,Retention Call
+2025-06-21,Customer segment: active,Normal,003g5000002EhqMAAS,00Tg5000000Rq5mEAC,Completed,Product Inquiry Response
+2023-10-14,Customer segment: active,Normal,003g5000002EhDhAAK,00Tg5000000Rq5nEAC,In Progress,Cross-sell Opportunity
+2024-06-22,Customer segment: at_risk,High,003g5000002EiL1AAK,00Tg5000000Rq7NEAS,Completed,Retention Call
+2023-02-06,Customer segment: active,Low,003g5000002EhOwAAK,00Tg5000000Rq8zEAC,In Progress,Birthday Greeting
+2023-07-24,Customer segment: at_risk,Normal,003g5000002EjIfAAK,00Tg5000000RqAbEAK,Completed,Follow-up Call
+2025-07-10,Customer segment: at_risk,High,003g5000002EirGAAS,00Tg5000000RqAcEAK,In Progress,Account Review
+2025-07-22,Customer segment: churned,Low,003g5000002EjKHAA0,00Tg5000000RqCDEA0,Not Started,Survey Follow-up
+2024-08-13,Customer segment: at_risk,High,003g5000002Eh5aAAC,00Tg5000000RqCEEA0,In Progress,Account Review
+2025-08-10,Customer segment: active,Low,003g5000002EjLtAAK,00Tg5000000RqDpEAK,Completed,Birthday Greeting
+2025-03-27,Customer segment: active,High,003g5000002Eh5bAAC,00Tg5000000RqDqEAK,Completed,Retention Call
+2025-01-25,Customer segment: active,Normal,003g5000002EiXxAAK,00Tg5000000RqFREA0,Completed,Welcome Call
+2023-01-02,Customer segment: at_risk,Normal,003g5000002EjNVAA0,00Tg5000000RqH3EAK,In Progress,Cross-sell Opportunity
+2024-12-26,Customer segment: active,High,003g5000002EhvFAAS,00Tg5000000RqH4EAK,In Progress,Retention Call
+2023-01-05,Customer segment: active,Normal,003g5000002EjQjAAK,00Tg5000000RqIfEAK,In Progress,Welcome Call
+2023-07-05,Customer segment: at_risk,High,003g5000002EhOxAAK,00Tg5000000RqKHEA0,In Progress,Account Review
+2025-05-10,Customer segment: churned,High,003g5000002Ej4BAAS,00Tg5000000RqLtEAK,Not Started,Retention Call
+2024-06-09,Customer segment: churned,Normal,003g5000002Ej4BAAS,00Tg5000000RqNVEA0,Completed,Follow-up Call
+2023-11-03,Customer segment: churned,Normal,003g5000002Ej4BAAS,00Tg5000000RqP7EAK,Completed,Cross-sell Opportunity
+2025-05-07,Customer segment: active,Low,003g5000002EjTxAAK,00Tg5000000RqP8EAK,Completed,Survey Follow-up
+2024-07-12,Customer segment: active,Normal,003g5000002EjH4AAK,00Tg5000000RqQjEAK,Completed,Follow-up Call
+2024-11-08,Customer segment: active,High,003g5000002EhqMAAS,00Tg5000000RqQkEAK,Not Started,Account Review
+2023-10-05,Customer segment: churned,Low,003g5000002EjDqAAK,00Tg5000000RqSLEA0,Completed,Survey Follow-up

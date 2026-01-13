@@ -1,0 +1,1084 @@
+branch_id,created_by,customer_email,note_date,note_id,note_text,note_type
+BR008,C. Wilson,adnan.begum45@gmail.com,2024-03-07,N00001,"Interested in mortgage products, follow up next quarter",positive
+BR008,S. Davis,adnan.begum45@gmail.com,2024-08-11,N00002,"Long-term customer, strong relationship",positive
+BR008,K. Williams,adnan.begum45@gmail.com,2025-07-22,N00003,"Very satisfied with service, left positive feedback",positive
+BR003,M. Garcia,adnan.begum26@gmail.com,2023-07-08,N00004,Excellent customer - always maintains high balance,positive
+BR010,C. Wilson,adnan.begum26@gmail.com,2025-05-06,N00005,"Upgraded to premium account, engaged customer",positive
+BR006,P. Anderson,adnan.malik70@gmail.com,2023-03-27,N00006,Reduced account activity noticed,warning
+BR006,R. Johnson,adnan.malik70@gmail.com,2023-06-15,N00007,Follow-up call scheduled for retention,neutral
+BR006,P. Anderson,adnan.malik70@gmail.com,2024-09-22,N00008,Unhappy with recent service experience,warning
+BR009,R. Johnson,adnan.malik79@gmail.com,2023-12-20,N00009,Routine account review completed,neutral
+BR009,E. Taylor,adnan.malik79@gmail.com,2025-11-20,N00010,Routine account review completed,neutral
+BR004,S. Davis,adnan.rahman84@gmail.com,2024-11-03,N00011,Referred 2 new customers this month,positive
+BR003,A. Miller,adnan.sheikh96@gmail.com,2023-02-14,N00012,Excellent customer - always maintains high balance,positive
+BR008,P. Anderson,adnan.sheikh96@gmail.com,2024-08-29,N00013,"Very satisfied with service, left positive feedback",positive
+BR004,K. Williams,adnan.sheikh96@gmail.com,2024-11-21,N00014,Excellent customer - always maintains high balance,positive
+BR001,J. Smith,adnan.siddiqui45@gmail.com,2024-07-19,N00015,Complained about monthly fees - consider waiver,warning
+BR001,J. Smith,adnan.siddiqui45@gmail.com,2024-08-19,N00016,Complained about monthly fees - consider waiver,warning
+BR006,P. Anderson,adnan.siddiqui45@gmail.com,2024-12-25,N00017,Requested statement for external review,warning
+BR009,E. Taylor,adnan.uddin37@gmail.com,2024-06-19,N00018,Complained about monthly fees - consider waiver,warning
+BR001,R. Johnson,adnan.uddin37@gmail.com,2024-06-23,N00019,Requested statement for external review,warning
+BR008,S. Davis,adnan.uddin37@gmail.com,2024-12-15,N00020,Asked about account closure process,warning
+BR003,K. Williams,adnan.uddin37@gmail.com,2025-08-03,N00021,Asked about account closure process,warning
+BR004,E. Taylor,ahmed.ahmed53@gmail.com,2023-01-27,N00022,Referred 2 new customers this month,positive
+BR001,C. Wilson,ahmed.ahmed53@gmail.com,2023-04-04,N00023,"Long-term customer, strong relationship",positive
+BR007,L. Brown,ahmed.ahmed53@gmail.com,2024-11-04,N00024,Excellent customer - always maintains high balance,positive
+BR004,M. Garcia,ahmed.ahmed34@gmail.com,2025-05-25,N00025,Account closed per customer request,negative
+BR009,K. Williams,ahmed.ahmed34@gmail.com,2025-06-25,N00026,Account closed per customer request,negative
+BR005,C. Wilson,ahmed.ahmed34@gmail.com,2025-07-11,N00027,Relocating out of service area,negative
+BR010,K. Williams,ahmed.ahmed34@gmail.com,2025-07-28,N00028,"Closed all accounts, dissatisfied with fees",negative
+BR010,A. Miller,ahmed.ahmed34@gmail.com,2025-08-27,N00029,Customer requested account closure,negative
+BR002,C. Wilson,ahmed.hassan2@gmail.com,2024-11-08,N00030,Reduced account activity noticed,warning
+BR007,C. Wilson,ahmed.hassan2@gmail.com,2024-12-18,N00031,Mentioned competitor rates during call,warning
+BR008,C. Wilson,ahmed.hossain53@gmail.com,2023-10-07,N00032,"Upgraded to premium account, engaged customer",positive
+BR009,L. Brown,ahmed.hossain53@gmail.com,2024-06-04,N00033,Excellent customer - always maintains high balance,positive
+BR010,K. Williams,ahmed.hossain53@gmail.com,2025-10-21,N00034,"Upgraded to premium account, engaged customer",positive
+BR004,K. Williams,ahmed.hossain63@gmail.com,2023-06-25,N00035,Asked about account closure process,warning
+BR004,P. Anderson,ahmed.hossain63@gmail.com,2023-10-06,N00036,Unhappy with recent service experience,warning
+BR001,A. Miller,ahmed.hossain63@gmail.com,2024-03-29,N00037,"Balance declining, may be moving funds",warning
+BR008,E. Taylor,ahmed.hossain63@gmail.com,2024-10-23,N00038,Complained about monthly fees - consider waiver,warning
+BR001,E. Taylor,ahmed.islam39@gmail.com,2023-04-17,N00039,"Very satisfied with service, left positive feedback",positive
+BR006,M. Garcia,ahmed.islam39@gmail.com,2024-04-24,N00040,Excellent customer - always maintains high balance,positive
+BR008,E. Taylor,ahmed.islam39@gmail.com,2025-07-30,N00041,Excellent customer - always maintains high balance,positive
+BR001,J. Smith,ahmed.khan97@gmail.com,2023-05-08,N00042,Updated contact information,neutral
+BR010,L. Brown,ahmed.khan97@gmail.com,2024-08-10,N00043,"Long-term customer, strong relationship",positive
+BR003,M. Garcia,ahmed.khan97@gmail.com,2025-08-03,N00044,"Upgraded to premium account, engaged customer",positive
+BR009,R. Johnson,ahmed.mirza45@gmail.com,2023-02-08,N00045,Complained about monthly fees - consider waiver,warning
+BR009,S. Davis,ahmed.mirza45@gmail.com,2023-08-15,N00046,Unhappy with recent service experience,warning
+BR007,S. Davis,ahmed.mirza45@gmail.com,2024-06-25,N00047,Requested statement for external review,warning
+BR001,P. Anderson,ahmed.mirza45@gmail.com,2024-09-06,N00048,Requested statement for external review,warning
+BR007,R. Johnson,ahmed.mirza21@gmail.com,2023-02-16,N00049,"Upgraded to premium account, engaged customer",positive
+BR005,L. Brown,ahmed.mirza21@gmail.com,2024-06-09,N00050,Updated contact information,neutral
+BR003,E. Taylor,ahmed.mirza21@gmail.com,2024-10-15,N00051,Routine account review completed,neutral
+BR002,J. Smith,ahmed.rahman80@gmail.com,2024-04-25,N00052,Routine account review completed,neutral
+BR008,A. Miller,ahmed.rahman80@gmail.com,2025-10-31,N00053,"Upgraded to premium account, engaged customer",positive
+BR010,J. Smith,ahmed.rahman80@gmail.com,2025-12-22,N00054,Updated contact information,neutral
+BR002,K. Williams,ahmed.shah64@gmail.com,2023-10-10,N00055,Referred 2 new customers this month,positive
+BR009,P. Anderson,ahmed.shah64@gmail.com,2024-04-21,N00056,Excellent customer - always maintains high balance,positive
+BR006,P. Anderson,ahmed.shah99@gmail.com,2023-02-08,N00057,Updated contact information,neutral
+BR007,C. Wilson,ahmed.shah99@gmail.com,2024-06-28,N00058,"Interested in mortgage products, follow up next quarter",positive
+BR008,K. Williams,ahmed.shah99@gmail.com,2025-12-15,N00059,Updated contact information,neutral
+BR003,S. Davis,ali.ahmed9@gmail.com,2023-08-05,N00060,"Long-term customer, strong relationship",positive
+BR010,M. Garcia,ali.ahmed9@gmail.com,2025-07-07,N00061,"Upgraded to premium account, engaged customer",positive
+BR005,L. Brown,ali.ahmed9@gmail.com,2025-09-14,N00062,"Upgraded to premium account, engaged customer",positive
+BR008,L. Brown,ali.akter2@gmail.com,2024-03-27,N00063,Reduced account activity noticed,warning
+BR001,R. Johnson,ali.akter2@gmail.com,2024-11-25,N00064,Unhappy with recent service experience,warning
+BR009,K. Williams,ali.akter2@gmail.com,2025-09-29,N00065,Complained about monthly fees - consider waiver,warning
+BR004,J. Smith,ali.akter2@gmail.com,2025-10-29,N00066,Mentioned competitor rates during call,warning
+BR010,M. Garcia,ali.ali69@gmail.com,2025-08-28,N00067,"Closed all accounts, dissatisfied with fees",negative
+BR002,M. Garcia,ali.ali69@gmail.com,2025-08-31,N00068,Filed formal complaint before leaving,negative
+BR003,S. Davis,ali.ali69@gmail.com,2025-09-29,N00069,Lost to digital-only bank,negative
+BR002,P. Anderson,ali.ali69@gmail.com,2025-11-27,N00070,Account closed per customer request,negative
+BR008,R. Johnson,ali.ali91@gmail.com,2024-07-31,N00071,Routine account review completed,neutral
+BR002,E. Taylor,ali.ali91@gmail.com,2025-04-27,N00072,"Long-term customer, strong relationship",positive
+BR010,P. Anderson,ali.hassan52@gmail.com,2023-07-27,N00073,"Upgraded to premium account, engaged customer",positive
+BR007,C. Wilson,ali.hassan52@gmail.com,2023-12-15,N00074,"Interested in mortgage products, follow up next quarter",positive
+BR010,J. Smith,ali.hassan52@gmail.com,2024-02-17,N00075,"Very satisfied with service, left positive feedback",positive
+BR003,R. Johnson,ali.hassan99@gmail.com,2024-07-13,N00076,Updated contact information,neutral
+BR005,K. Williams,ali.hassan99@gmail.com,2024-10-21,N00077,Referred 2 new customers this month,positive
+BR002,E. Taylor,ali.khan18@gmail.com,2025-04-27,N00078,"Upgraded to premium account, engaged customer",positive
+BR004,K. Williams,ali.rahman94@gmail.com,2023-01-11,N00079,Asked about account closure process,warning
+BR009,E. Taylor,ali.rahman94@gmail.com,2023-03-28,N00080,Reduced account activity noticed,warning
+BR001,P. Anderson,ali.rahman94@gmail.com,2023-06-25,N00081,Reduced account activity noticed,warning
+BR002,A. Miller,ali.rahman45@gmail.com,2025-10-19,N00082,"Very satisfied with service, left positive feedback",positive
+BR008,R. Johnson,ali.rahman72@gmail.com,2024-06-02,N00083,"Interested in mortgage products, follow up next quarter",positive
+BR006,L. Brown,ali.rahman72@gmail.com,2024-06-15,N00084,"Upgraded to premium account, engaged customer",positive
+BR004,P. Anderson,ali.shah46@gmail.com,2023-10-05,N00085,Updated contact information,neutral
+BR002,K. Williams,ali.shah46@gmail.com,2024-01-17,N00086,Excellent customer - always maintains high balance,positive
+BR005,A. Miller,ali.shah46@gmail.com,2025-02-26,N00087,Routine account review completed,neutral
+BR007,L. Brown,ali.sheikh90@gmail.com,2023-08-25,N00088,Referred 2 new customers this month,positive
+BR002,M. Garcia,ali.sheikh90@gmail.com,2023-10-04,N00089,"Upgraded to premium account, engaged customer",positive
+BR010,E. Taylor,ali.sheikh90@gmail.com,2024-08-06,N00090,"Long-term customer, strong relationship",positive
+BR005,C. Wilson,ali.siddiqui28@gmail.com,2023-09-23,N00091,"Interested in mortgage products, follow up next quarter",positive
+BR008,E. Taylor,ali.siddiqui28@gmail.com,2023-12-28,N00092,Referred 2 new customers this month,positive
+BR004,K. Williams,amina.ahmed99@gmail.com,2024-03-23,N00093,Referred 2 new customers this month,positive
+BR003,P. Anderson,amina.ahmed99@gmail.com,2025-09-26,N00094,"Very satisfied with service, left positive feedback",positive
+BR002,L. Brown,amina.ahmed71@gmail.com,2024-01-31,N00095,"Long-term customer, strong relationship",positive
+BR008,P. Anderson,amina.ahmed71@gmail.com,2025-05-16,N00096,"Long-term customer, strong relationship",positive
+BR007,L. Brown,amina.ahmed39@gmail.com,2023-03-03,N00097,"Upgraded to premium account, engaged customer",positive
+BR010,J. Smith,amina.ahmed39@gmail.com,2025-11-16,N00098,"Very satisfied with service, left positive feedback",positive
+BR001,E. Taylor,amina.ahmed39@gmail.com,2025-12-08,N00099,"Long-term customer, strong relationship",positive
+BR008,A. Miller,amina.akter3@gmail.com,2023-12-30,N00100,Reduced account activity noticed,warning
+BR007,E. Taylor,amina.akter3@gmail.com,2024-12-02,N00101,Complained about monthly fees - consider waiver,warning
+BR006,C. Wilson,amina.akter3@gmail.com,2025-04-07,N00102,Mentioned competitor rates during call,warning
+BR002,R. Johnson,amina.begum69@gmail.com,2023-07-09,N00103,"Interested in mortgage products, follow up next quarter",positive
+BR006,S. Davis,amina.begum69@gmail.com,2024-02-04,N00104,Routine account review completed,neutral
+BR009,S. Davis,amina.begum69@gmail.com,2025-11-11,N00105,Excellent customer - always maintains high balance,positive
+BR001,J. Smith,amina.hossain19@gmail.com,2025-10-06,N00106,Final retention attempt unsuccessful,warning
+BR004,E. Taylor,amina.hossain19@gmail.com,2025-11-07,N00107,Customer requested account closure,negative
+BR001,R. Johnson,amina.islam81@gmail.com,2025-09-11,N00108,Moving to competitor - cited better rates,negative
+BR009,A. Miller,amina.islam81@gmail.com,2025-10-18,N00109,Moving to competitor - cited better rates,negative
+BR010,S. Davis,amina.islam51@gmail.com,2023-06-04,N00110,"Interested in mortgage products, follow up next quarter",positive
+BR005,E. Taylor,amina.malik8@gmail.com,2025-07-20,N00111,Filed formal complaint before leaving,negative
+BR004,S. Davis,amina.malik8@gmail.com,2025-08-06,N00112,Filed formal complaint before leaving,negative
+BR005,M. Garcia,amina.malik8@gmail.com,2025-09-08,N00113,Filed formal complaint before leaving,negative
+BR002,E. Taylor,amina.malik8@gmail.com,2025-09-15,N00114,Lost to digital-only bank,negative
+BR003,L. Brown,amina.malik8@gmail.com,2025-09-16,N00115,Moving to competitor - cited better rates,negative
+BR006,P. Anderson,amina.mirza57@gmail.com,2023-02-23,N00116,Follow-up call scheduled for retention,neutral
+BR005,A. Miller,amina.mirza57@gmail.com,2025-03-21,N00117,Unhappy with recent service experience,warning
+BR003,M. Garcia,amina.mirza57@gmail.com,2025-11-28,N00118,Unhappy with recent service experience,warning
+BR002,R. Johnson,amina.rahman53@gmail.com,2023-05-29,N00119,"Balance declining, may be moving funds",warning
+BR010,L. Brown,amina.rahman53@gmail.com,2023-06-05,N00120,Reduced account activity noticed,warning
+BR010,P. Anderson,amina.rahman53@gmail.com,2023-11-25,N00121,Reduced account activity noticed,warning
+BR003,L. Brown,amina.rahman53@gmail.com,2025-10-27,N00122,Follow-up call scheduled for retention,neutral
+BR001,S. Davis,amina.rahman24@gmail.com,2023-10-01,N00123,Complained about monthly fees - consider waiver,warning
+BR004,A. Miller,amina.rahman24@gmail.com,2024-12-19,N00124,Requested statement for external review,warning
+BR003,C. Wilson,amina.sheikh25@gmail.com,2023-06-30,N00125,Routine account review completed,neutral
+BR003,S. Davis,amina.sheikh25@gmail.com,2024-10-17,N00126,Referred 2 new customers this month,positive
+BR009,M. Garcia,amina.siddiqui5@gmail.com,2023-06-22,N00127,Referred 2 new customers this month,positive
+BR004,C. Wilson,amina.siddiqui5@gmail.com,2024-01-21,N00128,"Very satisfied with service, left positive feedback",positive
+BR009,K. Williams,amina.siddiqui61@gmail.com,2025-07-31,N00129,"Very satisfied with service, left positive feedback",positive
+BR008,E. Taylor,amina.uddin34@gmail.com,2023-11-19,N00130,Reduced account activity noticed,warning
+BR005,R. Johnson,amina.uddin34@gmail.com,2025-01-11,N00131,Unhappy with recent service experience,warning
+BR006,P. Anderson,amina.uddin34@gmail.com,2025-08-22,N00132,Requested statement for external review,warning
+BR005,J. Smith,amina.uddin34@gmail.com,2025-10-06,N00133,"Balance declining, may be moving funds",warning
+BR006,E. Taylor,ayesha.ahmed94@gmail.com,2023-05-26,N00134,"Long-term customer, strong relationship",positive
+BR004,M. Garcia,ayesha.ahmed94@gmail.com,2024-09-04,N00135,Referred 2 new customers this month,positive
+BR003,M. Garcia,ayesha.akter66@gmail.com,2024-06-14,N00136,"Upgraded to premium account, engaged customer",positive
+BR009,P. Anderson,ayesha.akter66@gmail.com,2024-09-10,N00137,"Very satisfied with service, left positive feedback",positive
+BR003,J. Smith,ayesha.begum4@gmail.com,2023-11-12,N00138,"Very satisfied with service, left positive feedback",positive
+BR009,A. Miller,ayesha.begum4@gmail.com,2023-12-14,N00139,Excellent customer - always maintains high balance,positive
+BR010,J. Smith,ayesha.begum4@gmail.com,2025-11-22,N00140,Updated contact information,neutral
+BR005,K. Williams,ayesha.begum92@gmail.com,2023-01-25,N00141,Routine account review completed,neutral
+BR004,P. Anderson,ayesha.begum92@gmail.com,2024-04-17,N00142,"Very satisfied with service, left positive feedback",positive
+BR001,P. Anderson,ayesha.begum92@gmail.com,2025-04-27,N00143,"Upgraded to premium account, engaged customer",positive
+BR009,A. Miller,ayesha.begum1@gmail.com,2023-05-26,N00144,Follow-up call scheduled for retention,neutral
+BR010,S. Davis,ayesha.begum1@gmail.com,2023-11-08,N00145,Unhappy with recent service experience,warning
+BR009,R. Johnson,ayesha.begum1@gmail.com,2025-04-09,N00146,Complained about monthly fees - consider waiver,warning
+BR006,C. Wilson,ayesha.chowdhury29@gmail.com,2023-07-29,N00147,"Balance declining, may be moving funds",warning
+BR005,C. Wilson,ayesha.chowdhury29@gmail.com,2024-08-06,N00148,Complained about monthly fees - consider waiver,warning
+BR010,K. Williams,ayesha.chowdhury29@gmail.com,2025-08-22,N00149,"Balance declining, may be moving funds",warning
+BR003,K. Williams,ayesha.chowdhury29@gmail.com,2025-11-16,N00150,Requested statement for external review,warning
+BR004,S. Davis,ayesha.chowdhury3@gmail.com,2024-04-24,N00151,Requested statement for external review,warning
+BR007,M. Garcia,ayesha.chowdhury3@gmail.com,2024-11-03,N00152,Mentioned competitor rates during call,warning
+BR003,S. Davis,ayesha.hassan4@gmail.com,2023-06-24,N00153,Updated contact information,neutral
+BR007,A. Miller,ayesha.hassan4@gmail.com,2025-02-17,N00154,Referred 2 new customers this month,positive
+BR009,S. Davis,ayesha.islam90@gmail.com,2025-08-11,N00155,Lost to digital-only bank,negative
+BR010,S. Davis,ayesha.islam90@gmail.com,2025-08-28,N00156,Final retention attempt unsuccessful,warning
+BR007,A. Miller,ayesha.khan28@gmail.com,2023-02-24,N00157,Requested statement for external review,warning
+BR007,M. Garcia,ayesha.khan28@gmail.com,2025-05-07,N00158,Follow-up call scheduled for retention,neutral
+BR004,S. Davis,ayesha.khan28@gmail.com,2025-07-20,N00159,Reduced account activity noticed,warning
+BR004,P. Anderson,ayesha.mirza52@gmail.com,2023-02-25,N00160,"Upgraded to premium account, engaged customer",positive
+BR006,K. Williams,ayesha.mirza41@gmail.com,2025-08-28,N00161,Final retention attempt unsuccessful,warning
+BR002,P. Anderson,ayesha.mirza41@gmail.com,2025-09-14,N00162,Final retention attempt unsuccessful,warning
+BR003,M. Garcia,ayesha.mirza41@gmail.com,2025-10-02,N00163,"Closed all accounts, dissatisfied with fees",negative
+BR008,S. Davis,ayesha.mirza41@gmail.com,2025-10-18,N00164,Moving to competitor - cited better rates,negative
+BR006,K. Williams,ayesha.mirza41@gmail.com,2025-10-22,N00165,Moving to competitor - cited better rates,negative
+BR006,S. Davis,ayesha.shah29@gmail.com,2024-02-20,N00166,"Very satisfied with service, left positive feedback",positive
+BR006,E. Taylor,ayesha.shah29@gmail.com,2024-04-14,N00167,"Very satisfied with service, left positive feedback",positive
+BR003,L. Brown,ayesha.shah29@gmail.com,2025-07-28,N00168,"Long-term customer, strong relationship",positive
+BR010,P. Anderson,ayesha.shah98@gmail.com,2024-09-12,N00169,Asked about account closure process,warning
+BR001,E. Taylor,ayesha.shah98@gmail.com,2025-02-28,N00170,Follow-up call scheduled for retention,neutral
+BR010,A. Miller,ayesha.shah61@gmail.com,2024-05-12,N00171,"Long-term customer, strong relationship",positive
+BR001,J. Smith,ayesha.shah61@gmail.com,2025-07-19,N00172,Routine account review completed,neutral
+BR007,L. Brown,ayesha.sheikh71@gmail.com,2023-12-08,N00173,"Interested in mortgage products, follow up next quarter",positive
+BR007,E. Taylor,ayesha.sheikh71@gmail.com,2025-06-26,N00174,Referred 2 new customers this month,positive
+BR003,M. Garcia,ayesha.siddiqui75@gmail.com,2024-08-06,N00175,"Interested in mortgage products, follow up next quarter",positive
+BR009,S. Davis,ayesha.siddiqui75@gmail.com,2024-10-22,N00176,Excellent customer - always maintains high balance,positive
+BR003,J. Smith,ayesha.siddiqui43@gmail.com,2023-04-05,N00177,"Interested in mortgage products, follow up next quarter",positive
+BR009,J. Smith,ayesha.siddiqui43@gmail.com,2024-12-17,N00178,"Interested in mortgage products, follow up next quarter",positive
+BR005,P. Anderson,bilal.hassan25@gmail.com,2023-12-10,N00179,"Long-term customer, strong relationship",positive
+BR005,C. Wilson,bilal.hassan25@gmail.com,2025-06-24,N00180,Referred 2 new customers this month,positive
+BR001,C. Wilson,bilal.islam51@gmail.com,2025-08-06,N00181,Relocating out of service area,negative
+BR004,A. Miller,bilal.islam51@gmail.com,2025-09-14,N00182,Customer requested account closure,negative
+BR008,E. Taylor,bilal.islam51@gmail.com,2025-10-03,N00183,Filed formal complaint before leaving,negative
+BR001,K. Williams,bilal.islam51@gmail.com,2025-10-04,N00184,Relocating out of service area,negative
+BR006,K. Williams,bilal.islam51@gmail.com,2025-10-11,N00185,Relocating out of service area,negative
+BR007,K. Williams,bilal.malik26@gmail.com,2023-11-08,N00186,Routine account review completed,neutral
+BR010,P. Anderson,bilal.shah72@gmail.com,2025-04-27,N00187,Moving to competitor - cited better rates,negative
+BR008,K. Williams,bilal.shah72@gmail.com,2025-07-14,N00188,Filed formal complaint before leaving,negative
+BR002,M. Garcia,bilal.shah72@gmail.com,2025-07-31,N00189,Customer requested account closure,negative
+BR007,J. Smith,bilal.shah72@gmail.com,2025-08-11,N00190,Moving to competitor - cited better rates,negative
+BR004,L. Brown,bilal.shah72@gmail.com,2025-08-15,N00191,Final retention attempt unsuccessful,warning
+BR007,C. Wilson,bilal.siddiqui19@gmail.com,2023-03-12,N00192,"Balance declining, may be moving funds",warning
+BR004,C. Wilson,bilal.siddiqui19@gmail.com,2023-10-20,N00193,"Balance declining, may be moving funds",warning
+BR003,M. Garcia,bilal.siddiqui19@gmail.com,2024-12-18,N00194,"Balance declining, may be moving funds",warning
+BR008,P. Anderson,bilal.siddiqui19@gmail.com,2025-12-26,N00195,Mentioned competitor rates during call,warning
+BR007,P. Anderson,dalia.ahmed40@gmail.com,2024-12-16,N00196,Routine account review completed,neutral
+BR008,E. Taylor,dalia.ahmed40@gmail.com,2025-02-02,N00197,Routine account review completed,neutral
+BR002,J. Smith,dalia.ahmed23@gmail.com,2023-10-24,N00198,Requested statement for external review,warning
+BR003,R. Johnson,dalia.ahmed23@gmail.com,2024-08-13,N00199,Mentioned competitor rates during call,warning
+BR004,S. Davis,dalia.ahmed23@gmail.com,2025-03-21,N00200,Requested statement for external review,warning
+BR002,K. Williams,dalia.ahmed86@gmail.com,2024-09-01,N00201,Referred 2 new customers this month,positive
+BR001,P. Anderson,dalia.ahmed86@gmail.com,2025-09-25,N00202,Routine account review completed,neutral
+BR008,R. Johnson,dalia.ahmed86@gmail.com,2025-12-20,N00203,Updated contact information,neutral
+BR007,S. Davis,dalia.hossain49@gmail.com,2025-08-31,N00204,"Very satisfied with service, left positive feedback",positive
+BR002,J. Smith,dalia.islam15@gmail.com,2023-05-26,N00205,Updated contact information,neutral
+BR001,M. Garcia,dalia.islam15@gmail.com,2023-11-02,N00206,"Very satisfied with service, left positive feedback",positive
+BR006,P. Anderson,dalia.islam15@gmail.com,2025-12-23,N00207,Routine account review completed,neutral
+BR007,M. Garcia,dalia.rahman36@gmail.com,2023-03-21,N00208,Asked about account closure process,warning
+BR010,L. Brown,dalia.rahman36@gmail.com,2025-08-24,N00209,Mentioned competitor rates during call,warning
+BR002,K. Williams,dalia.rahman27@gmail.com,2023-03-12,N00210,"Interested in mortgage products, follow up next quarter",positive
+BR004,J. Smith,dalia.rahman27@gmail.com,2025-06-14,N00211,Routine account review completed,neutral
+BR009,M. Garcia,dalia.sheikh63@gmail.com,2025-03-27,N00212,"Interested in mortgage products, follow up next quarter",positive
+BR002,R. Johnson,dalia.sheikh63@gmail.com,2025-09-15,N00213,"Long-term customer, strong relationship",positive
+BR005,J. Smith,dalia.sheikh63@gmail.com,2025-12-05,N00214,"Long-term customer, strong relationship",positive
+BR007,J. Smith,dalia.sheikh50@gmail.com,2023-03-17,N00215,Reduced account activity noticed,warning
+BR007,M. Garcia,dalia.sheikh50@gmail.com,2023-10-22,N00216,"Balance declining, may be moving funds",warning
+BR001,C. Wilson,dalia.sheikh50@gmail.com,2025-04-03,N00217,Follow-up call scheduled for retention,neutral
+BR001,C. Wilson,dalia.sheikh50@gmail.com,2025-06-08,N00218,Complained about monthly fees - consider waiver,warning
+BR005,K. Williams,dalia.siddiqui71@gmail.com,2024-09-22,N00219,Complained about monthly fees - consider waiver,warning
+BR003,A. Miller,dalia.siddiqui71@gmail.com,2025-10-26,N00220,"Balance declining, may be moving funds",warning
+BR005,C. Wilson,dalia.siddiqui52@gmail.com,2024-07-25,N00221,Follow-up call scheduled for retention,neutral
+BR009,M. Garcia,dalia.siddiqui52@gmail.com,2025-11-29,N00222,"Balance declining, may be moving funds",warning
+BR009,C. Wilson,dalia.uddin20@gmail.com,2023-08-15,N00223,Reduced account activity noticed,warning
+BR009,R. Johnson,dalia.uddin20@gmail.com,2024-01-03,N00224,Unhappy with recent service experience,warning
+BR005,M. Garcia,dalia.uddin20@gmail.com,2024-11-18,N00225,Complained about monthly fees - consider waiver,warning
+BR007,K. Williams,dalia.uddin20@gmail.com,2025-11-15,N00226,Asked about account closure process,warning
+BR006,R. Johnson,dalia.uddin73@gmail.com,2023-09-06,N00227,Reduced account activity noticed,warning
+BR001,A. Miller,dalia.uddin73@gmail.com,2024-12-01,N00228,Complained about monthly fees - consider waiver,warning
+BR007,J. Smith,dalia.uddin73@gmail.com,2025-02-22,N00229,Asked about account closure process,warning
+BR002,M. Garcia,dalia.uddin73@gmail.com,2025-03-27,N00230,Mentioned competitor rates during call,warning
+BR008,C. Wilson,dalia.uddin37@gmail.com,2025-07-08,N00231,Moving to competitor - cited better rates,negative
+BR008,M. Garcia,dalia.uddin37@gmail.com,2025-07-25,N00232,Account closed per customer request,negative
+BR009,P. Anderson,faisal.akter52@gmail.com,2025-09-04,N00233,"Interested in mortgage products, follow up next quarter",positive
+BR007,R. Johnson,faisal.akter52@gmail.com,2025-10-31,N00234,Updated contact information,neutral
+BR001,J. Smith,faisal.akter49@gmail.com,2025-05-24,N00235,Routine account review completed,neutral
+BR010,P. Anderson,faisal.akter49@gmail.com,2025-11-05,N00236,Routine account review completed,neutral
+BR003,S. Davis,faisal.islam70@gmail.com,2023-05-11,N00237,"Very satisfied with service, left positive feedback",positive
+BR002,L. Brown,faisal.islam70@gmail.com,2024-01-25,N00238,Referred 2 new customers this month,positive
+BR005,C. Wilson,faisal.islam30@gmail.com,2024-11-18,N00239,Complained about monthly fees - consider waiver,warning
+BR007,A. Miller,faisal.islam30@gmail.com,2025-05-28,N00240,Follow-up call scheduled for retention,neutral
+BR007,M. Garcia,faisal.malik42@gmail.com,2023-03-08,N00241,Routine account review completed,neutral
+BR008,A. Miller,faisal.malik42@gmail.com,2023-06-24,N00242,Referred 2 new customers this month,positive
+BR007,P. Anderson,faisal.malik42@gmail.com,2023-08-13,N00243,"Very satisfied with service, left positive feedback",positive
+BR010,M. Garcia,faisal.mirza78@gmail.com,2024-07-15,N00244,"Upgraded to premium account, engaged customer",positive
+BR010,P. Anderson,faisal.mirza78@gmail.com,2025-10-16,N00245,Updated contact information,neutral
+BR004,K. Williams,faisal.mirza50@gmail.com,2023-10-04,N00246,Complained about monthly fees - consider waiver,warning
+BR007,A. Miller,faisal.mirza50@gmail.com,2024-03-19,N00247,Unhappy with recent service experience,warning
+BR007,R. Johnson,faisal.mirza50@gmail.com,2024-12-03,N00248,"Balance declining, may be moving funds",warning
+BR010,E. Taylor,faisal.mirza50@gmail.com,2025-03-14,N00249,Unhappy with recent service experience,warning
+BR010,R. Johnson,faisal.mirza57@gmail.com,2023-09-18,N00250,Unhappy with recent service experience,warning
+BR004,S. Davis,faisal.mirza57@gmail.com,2025-02-01,N00251,Asked about account closure process,warning
+BR010,A. Miller,faisal.mirza57@gmail.com,2025-05-15,N00252,Requested statement for external review,warning
+BR006,P. Anderson,faisal.rahman5@gmail.com,2025-06-23,N00253,Relocating out of service area,negative
+BR009,S. Davis,faisal.rahman5@gmail.com,2025-08-23,N00254,Final retention attempt unsuccessful,warning
+BR008,L. Brown,faisal.rahman5@gmail.com,2025-09-20,N00255,"Closed all accounts, dissatisfied with fees",negative
+BR001,S. Davis,faisal.rahman40@gmail.com,2023-10-03,N00256,"Upgraded to premium account, engaged customer",positive
+BR004,R. Johnson,faisal.rahman40@gmail.com,2024-03-25,N00257,Referred 2 new customers this month,positive
+BR007,J. Smith,faisal.rahman40@gmail.com,2024-05-06,N00258,Referred 2 new customers this month,positive
+BR002,M. Garcia,faisal.shah75@gmail.com,2023-04-25,N00259,"Upgraded to premium account, engaged customer",positive
+BR004,K. Williams,faisal.shah75@gmail.com,2024-03-02,N00260,Excellent customer - always maintains high balance,positive
+BR005,M. Garcia,faisal.shah75@gmail.com,2025-05-12,N00261,Routine account review completed,neutral
+BR003,J. Smith,faisal.sheikh21@gmail.com,2023-06-25,N00262,"Interested in mortgage products, follow up next quarter",positive
+BR001,S. Davis,faisal.sheikh21@gmail.com,2023-08-31,N00263,Referred 2 new customers this month,positive
+BR008,R. Johnson,faisal.sheikh35@gmail.com,2025-05-13,N00264,Mentioned competitor rates during call,warning
+BR001,J. Smith,faisal.sheikh35@gmail.com,2025-09-25,N00265,"Balance declining, may be moving funds",warning
+BR009,K. Williams,faisal.sheikh35@gmail.com,2025-10-25,N00266,Complained about monthly fees - consider waiver,warning
+BR004,C. Wilson,faisal.siddiqui4@gmail.com,2023-04-12,N00267,Reduced account activity noticed,warning
+BR009,J. Smith,faisal.siddiqui4@gmail.com,2024-10-08,N00268,Complained about monthly fees - consider waiver,warning
+BR010,M. Garcia,faisal.siddiqui4@gmail.com,2025-02-14,N00269,Asked about account closure process,warning
+BR008,P. Anderson,fatima.akter50@gmail.com,2023-08-21,N00270,Mentioned competitor rates during call,warning
+BR002,S. Davis,fatima.akter50@gmail.com,2024-03-24,N00271,Mentioned competitor rates during call,warning
+BR008,P. Anderson,fatima.akter50@gmail.com,2025-11-25,N00272,Follow-up call scheduled for retention,neutral
+BR009,J. Smith,fatima.akter52@gmail.com,2023-03-18,N00273,Unhappy with recent service experience,warning
+BR010,S. Davis,fatima.akter52@gmail.com,2023-04-28,N00274,Follow-up call scheduled for retention,neutral
+BR007,R. Johnson,fatima.akter52@gmail.com,2024-12-26,N00275,Follow-up call scheduled for retention,neutral
+BR009,S. Davis,fatima.akter52@gmail.com,2025-02-13,N00276,Complained about monthly fees - consider waiver,warning
+BR003,P. Anderson,fatima.ali1@gmail.com,2025-06-02,N00277,Filed formal complaint before leaving,negative
+BR004,L. Brown,fatima.ali1@gmail.com,2025-06-29,N00278,Account closed per customer request,negative
+BR004,E. Taylor,fatima.ali1@gmail.com,2025-09-14,N00279,Moving to competitor - cited better rates,negative
+BR004,P. Anderson,fatima.ali1@gmail.com,2025-09-15,N00280,Customer requested account closure,negative
+BR004,C. Wilson,fatima.begum73@gmail.com,2024-02-01,N00281,"Very satisfied with service, left positive feedback",positive
+BR003,E. Taylor,fatima.islam5@gmail.com,2023-06-29,N00282,Updated contact information,neutral
+BR001,E. Taylor,fatima.islam5@gmail.com,2024-12-11,N00283,Routine account review completed,neutral
+BR001,S. Davis,fatima.malik29@gmail.com,2025-08-04,N00284,Customer requested account closure,negative
+BR002,E. Taylor,fatima.malik29@gmail.com,2025-08-07,N00285,Relocating out of service area,negative
+BR009,P. Anderson,fatima.malik29@gmail.com,2025-09-22,N00286,Relocating out of service area,negative
+BR001,C. Wilson,fatima.malik29@gmail.com,2025-11-06,N00287,Filed formal complaint before leaving,negative
+BR004,K. Williams,fatima.mirza97@gmail.com,2024-03-10,N00288,Requested statement for external review,warning
+BR005,R. Johnson,fatima.mirza97@gmail.com,2024-04-09,N00289,Follow-up call scheduled for retention,neutral
+BR003,J. Smith,fatima.mirza97@gmail.com,2025-01-03,N00290,Reduced account activity noticed,warning
+BR001,S. Davis,fatima.mirza8@gmail.com,2023-11-06,N00291,Routine account review completed,neutral
+BR008,E. Taylor,fatima.mirza8@gmail.com,2024-08-27,N00292,"Interested in mortgage products, follow up next quarter",positive
+BR006,C. Wilson,fatima.mirza8@gmail.com,2025-04-24,N00293,"Very satisfied with service, left positive feedback",positive
+BR010,J. Smith,fatima.uddin72@gmail.com,2024-02-24,N00294,"Long-term customer, strong relationship",positive
+BR004,A. Miller,fatima.uddin55@gmail.com,2023-07-08,N00295,Excellent customer - always maintains high balance,positive
+BR008,R. Johnson,fatima.uddin55@gmail.com,2024-07-17,N00296,Referred 2 new customers this month,positive
+BR004,A. Miller,fatima.uddin7@gmail.com,2025-04-28,N00297,Customer requested account closure,negative
+BR003,S. Davis,fatima.uddin7@gmail.com,2025-05-12,N00298,Customer requested account closure,negative
+BR006,P. Anderson,fatima.uddin7@gmail.com,2025-06-18,N00299,Customer requested account closure,negative
+BR001,M. Garcia,fatima.uddin7@gmail.com,2025-07-23,N00300,Relocating out of service area,negative
+BR010,A. Miller,fatima.uddin7@gmail.com,2025-08-11,N00301,Account closed per customer request,negative
+BR003,M. Garcia,hana.ahmed82@gmail.com,2023-04-26,N00302,Referred 2 new customers this month,positive
+BR006,K. Williams,hana.ahmed82@gmail.com,2024-01-26,N00303,Referred 2 new customers this month,positive
+BR009,C. Wilson,hana.ahmed82@gmail.com,2024-04-12,N00304,"Very satisfied with service, left positive feedback",positive
+BR004,P. Anderson,hana.ali43@gmail.com,2024-01-14,N00305,Excellent customer - always maintains high balance,positive
+BR005,M. Garcia,hana.ali43@gmail.com,2024-11-03,N00306,"Interested in mortgage products, follow up next quarter",positive
+BR005,C. Wilson,hana.ali43@gmail.com,2025-08-05,N00307,Updated contact information,neutral
+BR004,P. Anderson,hana.ali70@gmail.com,2025-06-18,N00308,Filed formal complaint before leaving,negative
+BR001,E. Taylor,hana.ali70@gmail.com,2025-08-03,N00309,Relocating out of service area,negative
+BR009,C. Wilson,hana.ali70@gmail.com,2025-08-20,N00310,Moving to competitor - cited better rates,negative
+BR007,M. Garcia,hana.ali70@gmail.com,2025-09-29,N00311,Filed formal complaint before leaving,negative
+BR002,P. Anderson,hana.hassan28@gmail.com,2023-06-23,N00312,"Balance declining, may be moving funds",warning
+BR007,R. Johnson,hana.hassan28@gmail.com,2024-10-30,N00313,Unhappy with recent service experience,warning
+BR009,L. Brown,hana.hassan41@gmail.com,2023-05-22,N00314,Unhappy with recent service experience,warning
+BR001,J. Smith,hana.hassan41@gmail.com,2024-10-30,N00315,Unhappy with recent service experience,warning
+BR001,M. Garcia,hana.hassan41@gmail.com,2025-04-26,N00316,Complained about monthly fees - consider waiver,warning
+BR010,J. Smith,hana.khan49@gmail.com,2023-09-22,N00317,"Very satisfied with service, left positive feedback",positive
+BR002,S. Davis,hana.khan98@gmail.com,2024-05-05,N00318,Complained about monthly fees - consider waiver,warning
+BR010,A. Miller,hana.khan98@gmail.com,2024-05-17,N00319,Mentioned competitor rates during call,warning
+BR002,J. Smith,hana.khan98@gmail.com,2025-11-04,N00320,Complained about monthly fees - consider waiver,warning
+BR010,M. Garcia,hana.khan64@gmail.com,2023-05-20,N00321,Updated contact information,neutral
+BR007,K. Williams,hana.mirza69@gmail.com,2023-01-20,N00322,Reduced account activity noticed,warning
+BR001,C. Wilson,hana.mirza69@gmail.com,2023-10-19,N00323,Asked about account closure process,warning
+BR005,P. Anderson,hana.mirza69@gmail.com,2024-07-10,N00324,Asked about account closure process,warning
+BR003,C. Wilson,hana.mirza69@gmail.com,2025-06-11,N00325,Unhappy with recent service experience,warning
+BR006,E. Taylor,hana.shah48@gmail.com,2023-07-03,N00326,"Balance declining, may be moving funds",warning
+BR003,A. Miller,hana.shah48@gmail.com,2023-10-21,N00327,Asked about account closure process,warning
+BR004,R. Johnson,hana.shah48@gmail.com,2025-01-30,N00328,"Balance declining, may be moving funds",warning
+BR010,L. Brown,hana.shah48@gmail.com,2025-09-21,N00329,Requested statement for external review,warning
+BR001,E. Taylor,hana.shah76@gmail.com,2023-02-10,N00330,"Interested in mortgage products, follow up next quarter",positive
+BR006,L. Brown,hana.shah76@gmail.com,2024-04-13,N00331,Updated contact information,neutral
+BR004,R. Johnson,hana.shah76@gmail.com,2025-07-27,N00332,"Long-term customer, strong relationship",positive
+BR003,P. Anderson,hana.sheikh34@gmail.com,2023-04-01,N00333,Requested statement for external review,warning
+BR006,J. Smith,hana.sheikh34@gmail.com,2024-10-08,N00334,Mentioned competitor rates during call,warning
+BR009,K. Williams,hana.siddiqui56@gmail.com,2023-12-13,N00335,"Balance declining, may be moving funds",warning
+BR007,L. Brown,hana.siddiqui56@gmail.com,2023-12-18,N00336,"Balance declining, may be moving funds",warning
+BR006,M. Garcia,hana.siddiqui56@gmail.com,2025-05-06,N00337,Complained about monthly fees - consider waiver,warning
+BR003,E. Taylor,hana.siddiqui56@gmail.com,2025-12-18,N00338,Reduced account activity noticed,warning
+BR003,P. Anderson,hana.uddin98@gmail.com,2023-09-27,N00339,Reduced account activity noticed,warning
+BR005,J. Smith,hana.uddin98@gmail.com,2024-01-14,N00340,Follow-up call scheduled for retention,neutral
+BR008,P. Anderson,hana.uddin98@gmail.com,2024-04-04,N00341,Requested statement for external review,warning
+BR003,R. Johnson,hana.uddin98@gmail.com,2025-02-17,N00342,"Balance declining, may be moving funds",warning
+BR003,K. Williams,hassan.ahmed49@gmail.com,2024-07-13,N00343,Excellent customer - always maintains high balance,positive
+BR006,C. Wilson,hassan.ahmed49@gmail.com,2025-11-29,N00344,"Interested in mortgage products, follow up next quarter",positive
+BR007,E. Taylor,hassan.ahmed32@gmail.com,2023-09-18,N00345,Referred 2 new customers this month,positive
+BR004,A. Miller,hassan.ahmed32@gmail.com,2024-12-22,N00346,"Very satisfied with service, left positive feedback",positive
+BR006,C. Wilson,hassan.akter96@gmail.com,2024-07-05,N00347,Routine account review completed,neutral
+BR004,P. Anderson,hassan.akter96@gmail.com,2025-02-07,N00348,"Long-term customer, strong relationship",positive
+BR010,J. Smith,hassan.akter96@gmail.com,2025-10-06,N00349,Routine account review completed,neutral
+BR002,S. Davis,hassan.ali4@gmail.com,2024-06-09,N00350,"Upgraded to premium account, engaged customer",positive
+BR004,M. Garcia,hassan.ali50@gmail.com,2024-05-29,N00351,"Long-term customer, strong relationship",positive
+BR010,S. Davis,hassan.ali50@gmail.com,2025-04-11,N00352,"Very satisfied with service, left positive feedback",positive
+BR003,A. Miller,hassan.ali50@gmail.com,2025-08-19,N00353,"Interested in mortgage products, follow up next quarter",positive
+BR005,K. Williams,hassan.hassan49@gmail.com,2024-03-14,N00354,"Very satisfied with service, left positive feedback",positive
+BR007,R. Johnson,hassan.hassan49@gmail.com,2024-09-30,N00355,Excellent customer - always maintains high balance,positive
+BR003,A. Miller,hassan.hassan49@gmail.com,2024-12-24,N00356,Updated contact information,neutral
+BR002,R. Johnson,hassan.hassan45@gmail.com,2023-06-13,N00357,"Interested in mortgage products, follow up next quarter",positive
+BR010,K. Williams,hassan.hassan45@gmail.com,2024-08-18,N00358,"Long-term customer, strong relationship",positive
+BR007,P. Anderson,hassan.hossain82@gmail.com,2025-06-04,N00359,Customer requested account closure,negative
+BR006,K. Williams,hassan.hossain82@gmail.com,2025-06-11,N00360,Relocating out of service area,negative
+BR008,K. Williams,hassan.hossain82@gmail.com,2025-07-26,N00361,Moving to competitor - cited better rates,negative
+BR006,J. Smith,hassan.hossain82@gmail.com,2025-08-20,N00362,Filed formal complaint before leaving,negative
+BR004,R. Johnson,hassan.hossain82@gmail.com,2025-09-01,N00363,Final retention attempt unsuccessful,warning
+BR006,S. Davis,hassan.hossain11@gmail.com,2023-07-16,N00364,"Balance declining, may be moving funds",warning
+BR010,J. Smith,hassan.hossain11@gmail.com,2023-10-26,N00365,Unhappy with recent service experience,warning
+BR002,P. Anderson,hassan.hossain11@gmail.com,2025-03-08,N00366,Follow-up call scheduled for retention,neutral
+BR009,P. Anderson,hassan.hossain11@gmail.com,2025-10-12,N00367,Unhappy with recent service experience,warning
+BR008,A. Miller,hassan.islam43@gmail.com,2025-06-09,N00368,Filed formal complaint before leaving,negative
+BR003,K. Williams,hassan.islam43@gmail.com,2025-07-27,N00369,Customer requested account closure,negative
+BR009,P. Anderson,hassan.khan48@gmail.com,2024-08-22,N00370,"Long-term customer, strong relationship",positive
+BR006,S. Davis,hassan.malik57@gmail.com,2024-04-07,N00371,Referred 2 new customers this month,positive
+BR009,E. Taylor,hassan.malik57@gmail.com,2025-01-09,N00372,"Upgraded to premium account, engaged customer",positive
+BR005,K. Williams,hassan.malik57@gmail.com,2025-03-24,N00373,"Long-term customer, strong relationship",positive
+BR007,R. Johnson,hassan.rahman90@gmail.com,2025-09-30,N00374,Customer requested account closure,negative
+BR004,E. Taylor,hassan.rahman90@gmail.com,2025-10-13,N00375,Filed formal complaint before leaving,negative
+BR005,M. Garcia,hassan.rahman90@gmail.com,2025-10-15,N00376,Relocating out of service area,negative
+BR001,J. Smith,hassan.rahman10@gmail.com,2025-11-17,N00377,Customer requested account closure,negative
+BR007,S. Davis,hassan.rahman10@gmail.com,2025-12-07,N00378,Account closed per customer request,negative
+BR004,A. Miller,hassan.rahman77@gmail.com,2023-07-26,N00379,Routine account review completed,neutral
+BR004,R. Johnson,hassan.rahman77@gmail.com,2023-09-17,N00380,Updated contact information,neutral
+BR008,J. Smith,hassan.rahman77@gmail.com,2024-05-18,N00381,Referred 2 new customers this month,positive
+BR006,K. Williams,hassan.shah47@gmail.com,2023-10-11,N00382,"Interested in mortgage products, follow up next quarter",positive
+BR005,C. Wilson,hassan.siddiqui62@gmail.com,2023-02-14,N00383,"Very satisfied with service, left positive feedback",positive
+BR002,R. Johnson,hassan.siddiqui62@gmail.com,2025-05-09,N00384,"Interested in mortgage products, follow up next quarter",positive
+BR009,E. Taylor,ibrahim.ahmed59@gmail.com,2023-08-17,N00385,"Long-term customer, strong relationship",positive
+BR009,A. Miller,ibrahim.akter81@gmail.com,2025-05-29,N00386,Excellent customer - always maintains high balance,positive
+BR007,L. Brown,ibrahim.akter68@gmail.com,2023-08-02,N00387,Updated contact information,neutral
+BR001,L. Brown,ibrahim.begum21@gmail.com,2023-12-05,N00388,"Very satisfied with service, left positive feedback",positive
+BR008,P. Anderson,ibrahim.begum21@gmail.com,2024-07-03,N00389,Updated contact information,neutral
+BR006,M. Garcia,ibrahim.hassan28@gmail.com,2024-01-28,N00390,Excellent customer - always maintains high balance,positive
+BR010,R. Johnson,ibrahim.hassan28@gmail.com,2024-11-23,N00391,Routine account review completed,neutral
+BR003,K. Williams,ibrahim.hassan28@gmail.com,2025-04-29,N00392,"Long-term customer, strong relationship",positive
+BR008,J. Smith,ibrahim.islam99@gmail.com,2025-08-20,N00393,Customer requested account closure,negative
+BR004,S. Davis,ibrahim.islam99@gmail.com,2025-09-23,N00394,Final retention attempt unsuccessful,warning
+BR008,K. Williams,ibrahim.islam99@gmail.com,2025-09-26,N00395,Lost to digital-only bank,negative
+BR008,C. Wilson,ibrahim.shah94@gmail.com,2023-04-28,N00396,Excellent customer - always maintains high balance,positive
+BR003,J. Smith,ibrahim.shah94@gmail.com,2024-09-25,N00397,"Long-term customer, strong relationship",positive
+BR005,J. Smith,ibrahim.shah94@gmail.com,2024-10-14,N00398,"Very satisfied with service, left positive feedback",positive
+BR002,C. Wilson,ibrahim.siddiqui86@gmail.com,2023-06-15,N00399,"Balance declining, may be moving funds",warning
+BR009,C. Wilson,ibrahim.siddiqui86@gmail.com,2023-07-08,N00400,Complained about monthly fees - consider waiver,warning
+BR002,L. Brown,ibrahim.siddiqui86@gmail.com,2025-08-06,N00401,Complained about monthly fees - consider waiver,warning
+BR007,S. Davis,ibrahim.siddiqui89@gmail.com,2023-06-18,N00402,Complained about monthly fees - consider waiver,warning
+BR008,M. Garcia,ibrahim.siddiqui89@gmail.com,2024-07-13,N00403,Follow-up call scheduled for retention,neutral
+BR006,C. Wilson,ibrahim.siddiqui89@gmail.com,2026-01-09,N00404,Requested statement for external review,warning
+BR003,K. Williams,ibrahim.uddin60@gmail.com,2023-11-02,N00405,Asked about account closure process,warning
+BR001,R. Johnson,ibrahim.uddin60@gmail.com,2024-02-29,N00406,"Balance declining, may be moving funds",warning
+BR002,C. Wilson,ibrahim.uddin60@gmail.com,2024-12-15,N00407,Unhappy with recent service experience,warning
+BR005,K. Williams,ibrahim.uddin60@gmail.com,2025-04-15,N00408,Follow-up call scheduled for retention,neutral
+BR001,K. Williams,jamal.ahmed76@gmail.com,2024-09-26,N00409,Reduced account activity noticed,warning
+BR001,A. Miller,jamal.ahmed76@gmail.com,2025-01-12,N00410,Follow-up call scheduled for retention,neutral
+BR006,P. Anderson,jamal.akter73@gmail.com,2023-07-15,N00411,"Balance declining, may be moving funds",warning
+BR004,P. Anderson,jamal.akter73@gmail.com,2023-12-07,N00412,Follow-up call scheduled for retention,neutral
+BR009,E. Taylor,jamal.akter38@gmail.com,2025-06-09,N00413,Relocating out of service area,negative
+BR003,K. Williams,jamal.akter38@gmail.com,2025-07-22,N00414,Lost to digital-only bank,negative
+BR005,K. Williams,jamal.akter38@gmail.com,2025-09-10,N00415,Account closed per customer request,negative
+BR005,J. Smith,jamal.begum33@gmail.com,2024-07-09,N00416,"Long-term customer, strong relationship",positive
+BR006,E. Taylor,jamal.begum33@gmail.com,2024-07-23,N00417,Referred 2 new customers this month,positive
+BR010,A. Miller,jamal.begum33@gmail.com,2024-11-22,N00418,"Upgraded to premium account, engaged customer",positive
+BR008,C. Wilson,jamal.begum38@gmail.com,2023-01-08,N00419,Follow-up call scheduled for retention,neutral
+BR006,R. Johnson,jamal.begum38@gmail.com,2023-03-21,N00420,Mentioned competitor rates during call,warning
+BR010,C. Wilson,jamal.begum38@gmail.com,2023-12-03,N00421,"Balance declining, may be moving funds",warning
+BR002,K. Williams,jamal.begum38@gmail.com,2024-01-20,N00422,"Balance declining, may be moving funds",warning
+BR001,S. Davis,jamal.chowdhury46@gmail.com,2023-05-09,N00423,Unhappy with recent service experience,warning
+BR001,R. Johnson,jamal.chowdhury46@gmail.com,2023-05-10,N00424,Requested statement for external review,warning
+BR006,R. Johnson,jamal.chowdhury46@gmail.com,2024-03-18,N00425,Requested statement for external review,warning
+BR008,R. Johnson,jamal.chowdhury46@gmail.com,2025-08-24,N00426,Unhappy with recent service experience,warning
+BR004,P. Anderson,jamal.chowdhury57@gmail.com,2024-04-23,N00427,Referred 2 new customers this month,positive
+BR008,A. Miller,jamal.chowdhury57@gmail.com,2025-06-05,N00428,Excellent customer - always maintains high balance,positive
+BR007,R. Johnson,jamal.chowdhury39@gmail.com,2023-01-21,N00429,Requested statement for external review,warning
+BR008,P. Anderson,jamal.chowdhury39@gmail.com,2023-09-21,N00430,Unhappy with recent service experience,warning
+BR007,J. Smith,jamal.chowdhury39@gmail.com,2024-03-26,N00431,Complained about monthly fees - consider waiver,warning
+BR001,E. Taylor,jamal.khan21@gmail.com,2025-06-04,N00432,"Long-term customer, strong relationship",positive
+BR005,K. Williams,jamal.khan21@gmail.com,2025-09-22,N00433,"Interested in mortgage products, follow up next quarter",positive
+BR006,S. Davis,jamal.malik50@gmail.com,2023-03-02,N00434,Mentioned competitor rates during call,warning
+BR008,S. Davis,jamal.malik50@gmail.com,2023-09-17,N00435,Asked about account closure process,warning
+BR006,P. Anderson,jamal.malik50@gmail.com,2024-11-09,N00436,"Balance declining, may be moving funds",warning
+BR004,C. Wilson,jamal.rahman1@gmail.com,2024-05-15,N00437,Mentioned competitor rates during call,warning
+BR003,S. Davis,jamal.rahman1@gmail.com,2024-06-04,N00438,"Balance declining, may be moving funds",warning
+BR002,E. Taylor,jamal.rahman1@gmail.com,2024-10-05,N00439,Follow-up call scheduled for retention,neutral
+BR002,M. Garcia,jamal.shah15@gmail.com,2023-01-11,N00440,Reduced account activity noticed,warning
+BR010,J. Smith,jamal.shah15@gmail.com,2025-02-09,N00441,Unhappy with recent service experience,warning
+BR004,R. Johnson,jamal.shah15@gmail.com,2025-08-08,N00442,Complained about monthly fees - consider waiver,warning
+BR006,C. Wilson,jamal.shah23@gmail.com,2023-11-18,N00443,Referred 2 new customers this month,positive
+BR002,A. Miller,jamal.sheikh31@gmail.com,2025-09-20,N00444,Lost to digital-only bank,negative
+BR006,R. Johnson,jamal.sheikh31@gmail.com,2025-11-20,N00445,Customer requested account closure,negative
+BR002,S. Davis,jamal.sheikh84@gmail.com,2024-05-10,N00446,Mentioned competitor rates during call,warning
+BR007,A. Miller,jamal.sheikh84@gmail.com,2024-06-20,N00447,Requested statement for external review,warning
+BR001,J. Smith,jamal.sheikh84@gmail.com,2025-10-11,N00448,Asked about account closure process,warning
+BR007,P. Anderson,jamal.siddiqui32@gmail.com,2025-08-25,N00449,"Long-term customer, strong relationship",positive
+BR003,R. Johnson,karim.akter25@gmail.com,2023-10-05,N00450,"Balance declining, may be moving funds",warning
+BR006,R. Johnson,karim.akter25@gmail.com,2024-03-29,N00451,Requested statement for external review,warning
+BR007,L. Brown,karim.akter25@gmail.com,2025-07-24,N00452,Reduced account activity noticed,warning
+BR006,M. Garcia,karim.akter25@gmail.com,2025-08-01,N00453,"Balance declining, may be moving funds",warning
+BR003,L. Brown,karim.akter27@gmail.com,2025-03-18,N00454,Excellent customer - always maintains high balance,positive
+BR004,L. Brown,karim.begum78@gmail.com,2023-04-29,N00455,"Long-term customer, strong relationship",positive
+BR010,M. Garcia,karim.begum78@gmail.com,2025-01-31,N00456,Updated contact information,neutral
+BR010,M. Garcia,karim.begum78@gmail.com,2025-10-12,N00457,"Long-term customer, strong relationship",positive
+BR004,J. Smith,karim.islam50@gmail.com,2025-03-02,N00458,Updated contact information,neutral
+BR008,M. Garcia,karim.malik7@gmail.com,2025-09-25,N00459,Routine account review completed,neutral
+BR003,C. Wilson,karim.mirza25@gmail.com,2025-10-05,N00460,Account closed per customer request,negative
+BR003,E. Taylor,karim.mirza25@gmail.com,2025-10-11,N00461,Final retention attempt unsuccessful,warning
+BR001,L. Brown,karim.mirza25@gmail.com,2025-11-14,N00462,Final retention attempt unsuccessful,warning
+BR002,E. Taylor,karim.rahman3@gmail.com,2025-05-28,N00463,"Long-term customer, strong relationship",positive
+BR009,K. Williams,karim.rahman3@gmail.com,2025-12-12,N00464,"Very satisfied with service, left positive feedback",positive
+BR010,R. Johnson,karim.sheikh81@gmail.com,2023-10-06,N00465,Asked about account closure process,warning
+BR006,L. Brown,karim.sheikh81@gmail.com,2025-03-10,N00466,"Balance declining, may be moving funds",warning
+BR003,P. Anderson,karim.sheikh81@gmail.com,2025-06-01,N00467,"Balance declining, may be moving funds",warning
+BR002,C. Wilson,karim.sheikh59@gmail.com,2025-07-30,N00468,Customer requested account closure,negative
+BR003,P. Anderson,karim.sheikh59@gmail.com,2025-08-27,N00469,"Closed all accounts, dissatisfied with fees",negative
+BR007,L. Brown,karim.sheikh59@gmail.com,2025-09-14,N00470,Moving to competitor - cited better rates,negative
+BR010,J. Smith,karim.sheikh59@gmail.com,2025-11-11,N00471,Final retention attempt unsuccessful,warning
+BR010,C. Wilson,karim.sheikh59@gmail.com,2025-11-12,N00472,Relocating out of service area,negative
+BR008,A. Miller,khalid.akter6@gmail.com,2023-05-20,N00473,Reduced account activity noticed,warning
+BR007,C. Wilson,khalid.akter6@gmail.com,2023-06-05,N00474,Complained about monthly fees - consider waiver,warning
+BR005,K. Williams,khalid.akter6@gmail.com,2024-08-06,N00475,Unhappy with recent service experience,warning
+BR010,S. Davis,khalid.akter6@gmail.com,2025-05-31,N00476,Mentioned competitor rates during call,warning
+BR005,S. Davis,khalid.ali6@gmail.com,2025-07-20,N00477,Account closed per customer request,negative
+BR003,C. Wilson,khalid.ali6@gmail.com,2025-07-24,N00478,Customer requested account closure,negative
+BR006,S. Davis,khalid.ali6@gmail.com,2025-10-25,N00479,"Closed all accounts, dissatisfied with fees",negative
+BR007,K. Williams,khalid.begum17@gmail.com,2023-04-26,N00480,Excellent customer - always maintains high balance,positive
+BR009,L. Brown,khalid.begum17@gmail.com,2023-05-28,N00481,Referred 2 new customers this month,positive
+BR002,E. Taylor,khalid.begum17@gmail.com,2024-08-02,N00482,"Very satisfied with service, left positive feedback",positive
+BR008,E. Taylor,khalid.begum18@gmail.com,2023-06-18,N00483,Excellent customer - always maintains high balance,positive
+BR002,E. Taylor,khalid.begum18@gmail.com,2024-02-20,N00484,Referred 2 new customers this month,positive
+BR008,R. Johnson,khalid.begum14@gmail.com,2025-10-13,N00485,"Upgraded to premium account, engaged customer",positive
+BR009,A. Miller,khalid.begum67@gmail.com,2025-03-11,N00486,"Long-term customer, strong relationship",positive
+BR009,L. Brown,khalid.begum37@gmail.com,2023-02-05,N00487,"Very satisfied with service, left positive feedback",positive
+BR003,K. Williams,khalid.begum37@gmail.com,2024-01-31,N00488,Routine account review completed,neutral
+BR007,E. Taylor,khalid.begum37@gmail.com,2025-08-05,N00489,Excellent customer - always maintains high balance,positive
+BR008,E. Taylor,khalid.chowdhury28@gmail.com,2023-09-04,N00490,Unhappy with recent service experience,warning
+BR001,E. Taylor,khalid.chowdhury28@gmail.com,2025-05-19,N00491,Follow-up call scheduled for retention,neutral
+BR005,A. Miller,khalid.hassan4@gmail.com,2023-06-05,N00492,"Interested in mortgage products, follow up next quarter",positive
+BR001,M. Garcia,khalid.hassan4@gmail.com,2023-12-15,N00493,"Upgraded to premium account, engaged customer",positive
+BR002,A. Miller,khalid.hassan4@gmail.com,2024-06-24,N00494,Updated contact information,neutral
+BR005,A. Miller,khalid.hossain19@gmail.com,2023-07-14,N00495,Requested statement for external review,warning
+BR003,K. Williams,khalid.hossain19@gmail.com,2024-03-24,N00496,"Balance declining, may be moving funds",warning
+BR006,C. Wilson,khalid.hossain19@gmail.com,2025-02-09,N00497,Unhappy with recent service experience,warning
+BR008,R. Johnson,khalid.hossain19@gmail.com,2026-01-10,N00498,Asked about account closure process,warning
+BR005,M. Garcia,khalid.malik2@gmail.com,2023-07-06,N00499,Asked about account closure process,warning
+BR003,E. Taylor,khalid.malik2@gmail.com,2023-07-15,N00500,"Balance declining, may be moving funds",warning
+BR003,L. Brown,khalid.malik2@gmail.com,2024-01-14,N00501,Reduced account activity noticed,warning
+BR001,S. Davis,khalid.malik34@gmail.com,2025-08-31,N00502,Lost to digital-only bank,negative
+BR006,L. Brown,khalid.malik34@gmail.com,2025-09-01,N00503,Filed formal complaint before leaving,negative
+BR006,R. Johnson,khalid.malik34@gmail.com,2025-09-18,N00504,"Closed all accounts, dissatisfied with fees",negative
+BR010,P. Anderson,khalid.malik34@gmail.com,2025-12-01,N00505,Lost to digital-only bank,negative
+BR005,A. Miller,khalid.malik34@gmail.com,2025-12-05,N00506,Lost to digital-only bank,negative
+BR001,L. Brown,khalid.rahman31@gmail.com,2024-01-31,N00507,"Very satisfied with service, left positive feedback",positive
+BR007,C. Wilson,khalid.shah7@gmail.com,2023-06-27,N00508,Requested statement for external review,warning
+BR004,P. Anderson,khalid.shah7@gmail.com,2023-10-02,N00509,"Balance declining, may be moving funds",warning
+BR008,J. Smith,khalid.shah7@gmail.com,2025-01-16,N00510,Follow-up call scheduled for retention,neutral
+BR010,J. Smith,khalid.shah7@gmail.com,2025-03-28,N00511,Mentioned competitor rates during call,warning
+BR010,A. Miller,khalid.shah87@gmail.com,2024-06-02,N00512,Routine account review completed,neutral
+BR003,S. Davis,khalid.siddiqui80@gmail.com,2024-09-10,N00513,Excellent customer - always maintains high balance,positive
+BR006,K. Williams,khalid.siddiqui80@gmail.com,2025-02-15,N00514,Updated contact information,neutral
+BR006,A. Miller,khalid.uddin41@gmail.com,2023-03-24,N00515,"Long-term customer, strong relationship",positive
+BR007,J. Smith,khalid.uddin41@gmail.com,2025-09-09,N00516,Routine account review completed,neutral
+BR004,P. Anderson,khalid.uddin41@gmail.com,2025-11-27,N00517,"Very satisfied with service, left positive feedback",positive
+BR002,E. Taylor,khalid.uddin6@gmail.com,2023-05-15,N00518,Routine account review completed,neutral
+BR007,S. Davis,khalid.uddin6@gmail.com,2024-05-02,N00519,"Interested in mortgage products, follow up next quarter",positive
+BR005,K. Williams,khalid.uddin6@gmail.com,2024-12-10,N00520,Referred 2 new customers this month,positive
+BR004,C. Wilson,layla.chowdhury24@gmail.com,2023-03-31,N00521,"Very satisfied with service, left positive feedback",positive
+BR001,C. Wilson,layla.chowdhury24@gmail.com,2024-03-28,N00522,Referred 2 new customers this month,positive
+BR005,J. Smith,layla.chowdhury24@gmail.com,2025-09-04,N00523,"Upgraded to premium account, engaged customer",positive
+BR002,M. Garcia,layla.islam54@gmail.com,2024-02-05,N00524,Reduced account activity noticed,warning
+BR010,R. Johnson,layla.islam54@gmail.com,2024-08-01,N00525,Follow-up call scheduled for retention,neutral
+BR008,J. Smith,layla.islam54@gmail.com,2024-10-06,N00526,Complained about monthly fees - consider waiver,warning
+BR007,S. Davis,layla.khan42@gmail.com,2023-03-28,N00527,Excellent customer - always maintains high balance,positive
+BR002,A. Miller,layla.khan23@gmail.com,2024-09-21,N00528,"Upgraded to premium account, engaged customer",positive
+BR003,E. Taylor,layla.mirza43@gmail.com,2025-06-14,N00529,Account closed per customer request,negative
+BR004,E. Taylor,layla.mirza43@gmail.com,2025-06-17,N00530,Moving to competitor - cited better rates,negative
+BR007,M. Garcia,layla.mirza43@gmail.com,2025-06-20,N00531,Lost to digital-only bank,negative
+BR002,S. Davis,layla.mirza43@gmail.com,2025-07-18,N00532,Customer requested account closure,negative
+BR003,M. Garcia,layla.mirza43@gmail.com,2025-09-20,N00533,"Closed all accounts, dissatisfied with fees",negative
+BR007,P. Anderson,layla.mirza42@gmail.com,2023-12-17,N00534,Requested statement for external review,warning
+BR002,K. Williams,layla.mirza42@gmail.com,2024-07-29,N00535,Asked about account closure process,warning
+BR003,P. Anderson,layla.mirza42@gmail.com,2024-09-09,N00536,Reduced account activity noticed,warning
+BR004,L. Brown,layla.mirza42@gmail.com,2025-09-09,N00537,Mentioned competitor rates during call,warning
+BR007,R. Johnson,layla.shah52@gmail.com,2023-08-30,N00538,Excellent customer - always maintains high balance,positive
+BR006,A. Miller,layla.shah52@gmail.com,2024-06-19,N00539,Excellent customer - always maintains high balance,positive
+BR001,M. Garcia,layla.shah84@gmail.com,2025-05-04,N00540,Customer requested account closure,negative
+BR009,M. Garcia,layla.shah84@gmail.com,2025-05-27,N00541,"Closed all accounts, dissatisfied with fees",negative
+BR001,P. Anderson,layla.siddiqui2@gmail.com,2024-12-08,N00542,"Interested in mortgage products, follow up next quarter",positive
+BR005,C. Wilson,layla.siddiqui2@gmail.com,2024-12-27,N00543,"Interested in mortgage products, follow up next quarter",positive
+BR002,P. Anderson,layla.uddin85@gmail.com,2023-04-24,N00544,Mentioned competitor rates during call,warning
+BR005,R. Johnson,layla.uddin85@gmail.com,2024-07-18,N00545,Mentioned competitor rates during call,warning
+BR010,R. Johnson,layla.uddin85@gmail.com,2025-12-11,N00546,Mentioned competitor rates during call,warning
+BR008,A. Miller,layla.uddin96@gmail.com,2024-10-23,N00547,"Very satisfied with service, left positive feedback",positive
+BR005,A. Miller,layla.uddin96@gmail.com,2025-07-11,N00548,"Interested in mortgage products, follow up next quarter",positive
+BR006,L. Brown,leena.ahmed38@gmail.com,2023-03-12,N00549,Mentioned competitor rates during call,warning
+BR006,M. Garcia,leena.ahmed38@gmail.com,2023-07-03,N00550,Unhappy with recent service experience,warning
+BR006,C. Wilson,leena.ahmed38@gmail.com,2023-12-02,N00551,Reduced account activity noticed,warning
+BR007,K. Williams,leena.ahmed38@gmail.com,2025-10-14,N00552,Mentioned competitor rates during call,warning
+BR005,R. Johnson,leena.ahmed59@gmail.com,2023-02-24,N00553,"Long-term customer, strong relationship",positive
+BR008,K. Williams,leena.ahmed58@gmail.com,2023-01-08,N00554,"Long-term customer, strong relationship",positive
+BR007,M. Garcia,leena.ahmed58@gmail.com,2023-11-26,N00555,Referred 2 new customers this month,positive
+BR009,M. Garcia,leena.ahmed58@gmail.com,2023-12-18,N00556,Excellent customer - always maintains high balance,positive
+BR004,A. Miller,leena.akter33@gmail.com,2023-03-13,N00557,"Upgraded to premium account, engaged customer",positive
+BR006,C. Wilson,leena.akter33@gmail.com,2024-04-12,N00558,"Long-term customer, strong relationship",positive
+BR010,E. Taylor,leena.akter33@gmail.com,2025-04-19,N00559,Updated contact information,neutral
+BR004,J. Smith,leena.ali17@gmail.com,2025-05-18,N00560,Routine account review completed,neutral
+BR004,E. Taylor,leena.khan53@gmail.com,2023-01-22,N00561,Requested statement for external review,warning
+BR005,E. Taylor,leena.khan53@gmail.com,2023-03-30,N00562,"Balance declining, may be moving funds",warning
+BR002,E. Taylor,leena.khan53@gmail.com,2024-07-08,N00563,Reduced account activity noticed,warning
+BR010,M. Garcia,leena.sheikh75@gmail.com,2024-07-13,N00564,Referred 2 new customers this month,positive
+BR004,A. Miller,leena.sheikh75@gmail.com,2024-09-09,N00565,"Long-term customer, strong relationship",positive
+BR004,E. Taylor,leena.sheikh75@gmail.com,2025-12-31,N00566,Referred 2 new customers this month,positive
+BR008,K. Williams,leena.siddiqui68@gmail.com,2024-11-07,N00567,Reduced account activity noticed,warning
+BR007,S. Davis,leena.siddiqui68@gmail.com,2025-06-19,N00568,Mentioned competitor rates during call,warning
+BR001,J. Smith,leena.uddin3@gmail.com,2023-02-25,N00569,Follow-up call scheduled for retention,neutral
+BR004,J. Smith,leena.uddin3@gmail.com,2024-01-03,N00570,Mentioned competitor rates during call,warning
+BR005,L. Brown,mariam.ali3@gmail.com,2024-06-16,N00571,Follow-up call scheduled for retention,neutral
+BR001,E. Taylor,mariam.ali3@gmail.com,2025-07-04,N00572,Mentioned competitor rates during call,warning
+BR009,C. Wilson,mariam.ali22@gmail.com,2023-09-16,N00573,Mentioned competitor rates during call,warning
+BR001,E. Taylor,mariam.ali22@gmail.com,2024-03-31,N00574,Requested statement for external review,warning
+BR002,E. Taylor,mariam.ali22@gmail.com,2024-09-19,N00575,Reduced account activity noticed,warning
+BR002,A. Miller,mariam.ali22@gmail.com,2024-10-06,N00576,Follow-up call scheduled for retention,neutral
+BR001,K. Williams,mariam.chowdhury55@gmail.com,2023-01-14,N00577,Mentioned competitor rates during call,warning
+BR003,K. Williams,mariam.chowdhury55@gmail.com,2025-11-02,N00578,Mentioned competitor rates during call,warning
+BR004,E. Taylor,mariam.chowdhury55@gmail.com,2025-12-14,N00579,Unhappy with recent service experience,warning
+BR004,P. Anderson,mariam.chowdhury69@gmail.com,2023-02-01,N00580,Updated contact information,neutral
+BR009,E. Taylor,mariam.chowdhury69@gmail.com,2023-03-26,N00581,"Long-term customer, strong relationship",positive
+BR004,P. Anderson,mariam.chowdhury69@gmail.com,2024-10-31,N00582,"Upgraded to premium account, engaged customer",positive
+BR002,J. Smith,mariam.islam54@gmail.com,2024-12-07,N00583,Routine account review completed,neutral
+BR008,P. Anderson,mariam.khan49@gmail.com,2025-10-19,N00584,Excellent customer - always maintains high balance,positive
+BR010,R. Johnson,mariam.mirza37@gmail.com,2024-07-28,N00585,Excellent customer - always maintains high balance,positive
+BR007,P. Anderson,mariam.mirza37@gmail.com,2025-05-04,N00586,"Very satisfied with service, left positive feedback",positive
+BR004,K. Williams,mariam.mirza61@gmail.com,2024-07-28,N00587,Requested statement for external review,warning
+BR010,L. Brown,mariam.mirza61@gmail.com,2026-01-02,N00588,Follow-up call scheduled for retention,neutral
+BR002,R. Johnson,mariam.mirza74@gmail.com,2023-01-26,N00589,Referred 2 new customers this month,positive
+BR002,K. Williams,mariam.mirza74@gmail.com,2023-06-16,N00590,"Interested in mortgage products, follow up next quarter",positive
+BR009,P. Anderson,mariam.rahman58@gmail.com,2023-04-08,N00591,Follow-up call scheduled for retention,neutral
+BR009,E. Taylor,mariam.rahman58@gmail.com,2024-07-23,N00592,Requested statement for external review,warning
+BR008,J. Smith,mariam.rahman58@gmail.com,2025-06-20,N00593,Reduced account activity noticed,warning
+BR009,P. Anderson,mariam.uddin73@gmail.com,2023-02-23,N00594,Follow-up call scheduled for retention,neutral
+BR010,M. Garcia,mariam.uddin73@gmail.com,2023-11-14,N00595,Asked about account closure process,warning
+BR003,R. Johnson,mariam.uddin73@gmail.com,2024-09-01,N00596,Mentioned competitor rates during call,warning
+BR006,C. Wilson,mariam.uddin73@gmail.com,2025-01-05,N00597,"Balance declining, may be moving funds",warning
+BR008,J. Smith,mariam.uddin13@gmail.com,2024-01-14,N00598,"Upgraded to premium account, engaged customer",positive
+BR003,M. Garcia,mariam.uddin13@gmail.com,2024-10-25,N00599,Excellent customer - always maintains high balance,positive
+BR006,K. Williams,mariam.uddin13@gmail.com,2025-01-03,N00600,Updated contact information,neutral
+BR006,A. Miller,mohammad.ahmed13@gmail.com,2023-11-09,N00601,Mentioned competitor rates during call,warning
+BR006,L. Brown,mohammad.ahmed13@gmail.com,2024-03-23,N00602,"Balance declining, may be moving funds",warning
+BR003,P. Anderson,mohammad.ahmed13@gmail.com,2024-11-05,N00603,Follow-up call scheduled for retention,neutral
+BR010,C. Wilson,mohammad.ahmed13@gmail.com,2025-01-24,N00604,Follow-up call scheduled for retention,neutral
+BR003,M. Garcia,mohammad.ahmed24@gmail.com,2025-05-29,N00605,Routine account review completed,neutral
+BR005,A. Miller,mohammad.ahmed24@gmail.com,2025-11-28,N00606,"Very satisfied with service, left positive feedback",positive
+BR002,P. Anderson,mohammad.ahmed27@gmail.com,2024-09-16,N00607,Mentioned competitor rates during call,warning
+BR001,A. Miller,mohammad.ahmed27@gmail.com,2025-03-11,N00608,Unhappy with recent service experience,warning
+BR007,E. Taylor,mohammad.ahmed27@gmail.com,2025-06-11,N00609,"Balance declining, may be moving funds",warning
+BR003,K. Williams,mohammad.ahmed5@gmail.com,2025-08-22,N00610,"Interested in mortgage products, follow up next quarter",positive
+BR002,P. Anderson,mohammad.chowdhury17@gmail.com,2023-11-21,N00611,"Balance declining, may be moving funds",warning
+BR007,S. Davis,mohammad.chowdhury17@gmail.com,2025-02-01,N00612,"Balance declining, may be moving funds",warning
+BR002,A. Miller,mohammad.chowdhury64@gmail.com,2023-07-27,N00613,"Long-term customer, strong relationship",positive
+BR004,E. Taylor,mohammad.chowdhury64@gmail.com,2024-01-29,N00614,"Interested in mortgage products, follow up next quarter",positive
+BR007,R. Johnson,mohammad.hassan69@gmail.com,2023-03-24,N00615,"Interested in mortgage products, follow up next quarter",positive
+BR003,J. Smith,mohammad.hassan69@gmail.com,2023-05-17,N00616,Routine account review completed,neutral
+BR002,S. Davis,mohammad.hassan65@gmail.com,2025-03-31,N00617,Requested statement for external review,warning
+BR010,J. Smith,mohammad.hassan65@gmail.com,2025-12-25,N00618,Asked about account closure process,warning
+BR009,P. Anderson,mohammad.mirza98@gmail.com,2023-08-08,N00619,Excellent customer - always maintains high balance,positive
+BR006,J. Smith,mohammad.mirza98@gmail.com,2024-05-09,N00620,"Long-term customer, strong relationship",positive
+BR002,P. Anderson,mohammad.mirza98@gmail.com,2025-09-29,N00621,Routine account review completed,neutral
+BR002,S. Davis,mohammad.mirza94@gmail.com,2024-05-05,N00622,Asked about account closure process,warning
+BR002,K. Williams,mohammad.mirza94@gmail.com,2024-12-20,N00623,Asked about account closure process,warning
+BR002,P. Anderson,mohammad.sheikh14@gmail.com,2025-08-17,N00624,Customer requested account closure,negative
+BR006,S. Davis,mohammad.sheikh14@gmail.com,2025-10-26,N00625,Moving to competitor - cited better rates,negative
+BR006,R. Johnson,mohammad.siddiqui49@gmail.com,2024-09-24,N00626,Complained about monthly fees - consider waiver,warning
+BR004,P. Anderson,mohammad.siddiqui49@gmail.com,2024-12-14,N00627,Unhappy with recent service experience,warning
+BR006,M. Garcia,mohammad.uddin7@gmail.com,2023-06-21,N00628,Unhappy with recent service experience,warning
+BR004,K. Williams,mohammad.uddin7@gmail.com,2025-08-19,N00629,Mentioned competitor rates during call,warning
+BR004,L. Brown,mustafa.ahmed78@gmail.com,2025-06-16,N00630,Lost to digital-only bank,negative
+BR006,S. Davis,mustafa.ahmed78@gmail.com,2025-08-10,N00631,Customer requested account closure,negative
+BR005,L. Brown,mustafa.ahmed78@gmail.com,2025-09-03,N00632,Customer requested account closure,negative
+BR006,A. Miller,mustafa.ahmed99@gmail.com,2025-09-07,N00633,Moving to competitor - cited better rates,negative
+BR003,K. Williams,mustafa.ahmed99@gmail.com,2025-10-14,N00634,Filed formal complaint before leaving,negative
+BR010,M. Garcia,mustafa.ahmed99@gmail.com,2025-10-24,N00635,Account closed per customer request,negative
+BR007,A. Miller,mustafa.ahmed99@gmail.com,2025-11-01,N00636,Customer requested account closure,negative
+BR010,P. Anderson,mustafa.akter33@gmail.com,2023-03-21,N00637,Complained about monthly fees - consider waiver,warning
+BR010,L. Brown,mustafa.akter33@gmail.com,2023-06-24,N00638,Reduced account activity noticed,warning
+BR003,P. Anderson,mustafa.akter33@gmail.com,2024-07-01,N00639,Requested statement for external review,warning
+BR004,L. Brown,mustafa.akter33@gmail.com,2024-09-26,N00640,"Balance declining, may be moving funds",warning
+BR008,M. Garcia,mustafa.ali17@gmail.com,2024-04-11,N00641,Routine account review completed,neutral
+BR009,M. Garcia,mustafa.ali17@gmail.com,2025-11-22,N00642,Excellent customer - always maintains high balance,positive
+BR002,J. Smith,mustafa.begum17@gmail.com,2024-11-20,N00643,Updated contact information,neutral
+BR009,P. Anderson,mustafa.chowdhury70@gmail.com,2023-03-12,N00644,"Upgraded to premium account, engaged customer",positive
+BR006,E. Taylor,mustafa.chowdhury70@gmail.com,2023-04-02,N00645,Excellent customer - always maintains high balance,positive
+BR003,P. Anderson,mustafa.chowdhury70@gmail.com,2025-09-08,N00646,Routine account review completed,neutral
+BR010,M. Garcia,mustafa.islam9@gmail.com,2024-08-07,N00647,Excellent customer - always maintains high balance,positive
+BR003,J. Smith,mustafa.islam84@gmail.com,2024-09-06,N00648,Complained about monthly fees - consider waiver,warning
+BR010,E. Taylor,mustafa.islam84@gmail.com,2024-10-26,N00649,Mentioned competitor rates during call,warning
+BR005,K. Williams,mustafa.islam84@gmail.com,2025-01-21,N00650,Reduced account activity noticed,warning
+BR010,C. Wilson,mustafa.islam30@gmail.com,2023-05-13,N00651,Routine account review completed,neutral
+BR005,A. Miller,mustafa.islam30@gmail.com,2024-07-27,N00652,"Interested in mortgage products, follow up next quarter",positive
+BR005,E. Taylor,mustafa.islam30@gmail.com,2025-03-15,N00653,Referred 2 new customers this month,positive
+BR001,A. Miller,mustafa.khan95@gmail.com,2024-05-06,N00654,Mentioned competitor rates during call,warning
+BR010,E. Taylor,mustafa.khan95@gmail.com,2025-10-26,N00655,Complained about monthly fees - consider waiver,warning
+BR006,K. Williams,mustafa.khan50@gmail.com,2024-05-22,N00656,"Upgraded to premium account, engaged customer",positive
+BR007,S. Davis,mustafa.khan50@gmail.com,2025-03-12,N00657,"Very satisfied with service, left positive feedback",positive
+BR004,L. Brown,mustafa.malik20@gmail.com,2023-06-17,N00658,"Long-term customer, strong relationship",positive
+BR005,C. Wilson,mustafa.sheikh6@gmail.com,2025-04-29,N00659,Relocating out of service area,negative
+BR010,C. Wilson,mustafa.sheikh6@gmail.com,2025-06-25,N00660,Customer requested account closure,negative
+BR001,C. Wilson,mustafa.sheikh6@gmail.com,2025-08-09,N00661,Moving to competitor - cited better rates,negative
+BR005,P. Anderson,mustafa.siddiqui14@gmail.com,2023-12-14,N00662,"Interested in mortgage products, follow up next quarter",positive
+BR004,E. Taylor,mustafa.siddiqui14@gmail.com,2025-02-18,N00663,Referred 2 new customers this month,positive
+BR008,E. Taylor,nadia.ali78@gmail.com,2025-06-12,N00664,Account closed per customer request,negative
+BR001,S. Davis,nadia.ali78@gmail.com,2025-09-01,N00665,"Closed all accounts, dissatisfied with fees",negative
+BR003,E. Taylor,nadia.ali78@gmail.com,2025-09-04,N00666,Moving to competitor - cited better rates,negative
+BR005,J. Smith,nadia.chowdhury46@gmail.com,2023-05-21,N00667,"Upgraded to premium account, engaged customer",positive
+BR003,P. Anderson,nadia.chowdhury46@gmail.com,2025-10-10,N00668,Updated contact information,neutral
+BR004,M. Garcia,nadia.chowdhury53@gmail.com,2024-12-17,N00669,Complained about monthly fees - consider waiver,warning
+BR005,L. Brown,nadia.chowdhury53@gmail.com,2025-06-12,N00670,Asked about account closure process,warning
+BR001,P. Anderson,nadia.khan37@gmail.com,2023-01-04,N00671,"Balance declining, may be moving funds",warning
+BR006,A. Miller,nadia.khan37@gmail.com,2024-07-12,N00672,"Balance declining, may be moving funds",warning
+BR008,K. Williams,nadia.khan37@gmail.com,2025-09-23,N00673,Mentioned competitor rates during call,warning
+BR003,A. Miller,nadia.malik61@gmail.com,2023-07-21,N00674,Updated contact information,neutral
+BR010,K. Williams,nadia.malik61@gmail.com,2023-07-23,N00675,Excellent customer - always maintains high balance,positive
+BR003,E. Taylor,nadia.mirza34@gmail.com,2023-02-23,N00676,"Very satisfied with service, left positive feedback",positive
+BR006,M. Garcia,nadia.mirza34@gmail.com,2023-05-14,N00677,Updated contact information,neutral
+BR005,J. Smith,nadia.mirza34@gmail.com,2025-10-18,N00678,"Long-term customer, strong relationship",positive
+BR002,J. Smith,nadia.shah50@gmail.com,2025-11-03,N00679,Relocating out of service area,negative
+BR002,J. Smith,nadia.shah50@gmail.com,2025-11-05,N00680,"Closed all accounts, dissatisfied with fees",negative
+BR008,J. Smith,nadia.siddiqui35@gmail.com,2023-06-01,N00681,Requested statement for external review,warning
+BR004,R. Johnson,nadia.siddiqui35@gmail.com,2025-07-05,N00682,Unhappy with recent service experience,warning
+BR006,M. Garcia,noura.ahmed25@gmail.com,2024-03-14,N00683,Asked about account closure process,warning
+BR003,S. Davis,noura.ahmed25@gmail.com,2025-07-29,N00684,"Balance declining, may be moving funds",warning
+BR002,E. Taylor,noura.ahmed25@gmail.com,2025-10-10,N00685,Follow-up call scheduled for retention,neutral
+BR001,S. Davis,noura.ali25@gmail.com,2024-12-09,N00686,Excellent customer - always maintains high balance,positive
+BR005,E. Taylor,noura.ali25@gmail.com,2025-06-07,N00687,"Long-term customer, strong relationship",positive
+BR006,L. Brown,noura.begum67@gmail.com,2025-02-20,N00688,Excellent customer - always maintains high balance,positive
+BR010,K. Williams,noura.begum67@gmail.com,2025-04-05,N00689,Routine account review completed,neutral
+BR007,J. Smith,noura.begum67@gmail.com,2025-11-23,N00690,"Upgraded to premium account, engaged customer",positive
+BR009,R. Johnson,noura.chowdhury79@gmail.com,2023-05-04,N00691,"Balance declining, may be moving funds",warning
+BR008,M. Garcia,noura.chowdhury79@gmail.com,2024-11-16,N00692,Reduced account activity noticed,warning
+BR008,C. Wilson,noura.chowdhury79@gmail.com,2025-12-25,N00693,Asked about account closure process,warning
+BR005,P. Anderson,noura.hassan30@gmail.com,2023-04-30,N00694,"Interested in mortgage products, follow up next quarter",positive
+BR005,L. Brown,noura.hassan30@gmail.com,2025-05-21,N00695,"Upgraded to premium account, engaged customer",positive
+BR003,J. Smith,noura.islam45@gmail.com,2024-03-16,N00696,"Long-term customer, strong relationship",positive
+BR004,L. Brown,noura.mirza99@gmail.com,2024-04-20,N00697,Referred 2 new customers this month,positive
+BR005,M. Garcia,noura.mirza99@gmail.com,2024-09-01,N00698,"Interested in mortgage products, follow up next quarter",positive
+BR008,R. Johnson,noura.rahman60@gmail.com,2023-01-12,N00699,Excellent customer - always maintains high balance,positive
+BR007,P. Anderson,noura.rahman83@gmail.com,2024-06-21,N00700,"Upgraded to premium account, engaged customer",positive
+BR005,P. Anderson,noura.siddiqui38@gmail.com,2023-08-31,N00701,"Interested in mortgage products, follow up next quarter",positive
+BR009,M. Garcia,noura.siddiqui38@gmail.com,2024-03-06,N00702,Excellent customer - always maintains high balance,positive
+BR008,M. Garcia,noura.siddiqui38@gmail.com,2025-08-08,N00703,Routine account review completed,neutral
+BR002,C. Wilson,noura.uddin85@gmail.com,2023-04-17,N00704,Reduced account activity noticed,warning
+BR004,R. Johnson,noura.uddin85@gmail.com,2025-03-15,N00705,Reduced account activity noticed,warning
+BR010,K. Williams,omar.ahmed58@gmail.com,2025-06-25,N00706,Moving to competitor - cited better rates,negative
+BR001,E. Taylor,omar.ahmed58@gmail.com,2025-07-28,N00707,Relocating out of service area,negative
+BR005,P. Anderson,omar.ahmed58@gmail.com,2025-10-10,N00708,Account closed per customer request,negative
+BR001,L. Brown,omar.ahmed58@gmail.com,2025-10-14,N00709,Final retention attempt unsuccessful,warning
+BR001,C. Wilson,omar.ahmed23@gmail.com,2023-01-11,N00710,Excellent customer - always maintains high balance,positive
+BR001,P. Anderson,omar.ahmed23@gmail.com,2025-04-02,N00711,"Upgraded to premium account, engaged customer",positive
+BR003,L. Brown,omar.begum33@gmail.com,2023-11-25,N00712,"Interested in mortgage products, follow up next quarter",positive
+BR010,L. Brown,omar.chowdhury60@gmail.com,2023-03-18,N00713,"Very satisfied with service, left positive feedback",positive
+BR005,J. Smith,omar.chowdhury60@gmail.com,2023-07-20,N00714,Referred 2 new customers this month,positive
+BR004,S. Davis,omar.chowdhury60@gmail.com,2025-10-10,N00715,"Upgraded to premium account, engaged customer",positive
+BR009,S. Davis,omar.chowdhury12@gmail.com,2023-07-10,N00716,Requested statement for external review,warning
+BR008,K. Williams,omar.chowdhury12@gmail.com,2024-11-02,N00717,Unhappy with recent service experience,warning
+BR007,S. Davis,omar.hossain19@gmail.com,2025-01-24,N00718,Excellent customer - always maintains high balance,positive
+BR001,M. Garcia,omar.hossain8@gmail.com,2023-11-02,N00719,Mentioned competitor rates during call,warning
+BR008,A. Miller,omar.hossain8@gmail.com,2024-09-10,N00720,"Balance declining, may be moving funds",warning
+BR002,A. Miller,omar.hossain8@gmail.com,2025-01-03,N00721,"Balance declining, may be moving funds",warning
+BR009,R. Johnson,omar.hossain8@gmail.com,2025-04-20,N00722,Reduced account activity noticed,warning
+BR003,K. Williams,omar.hossain34@gmail.com,2023-09-07,N00723,Excellent customer - always maintains high balance,positive
+BR003,S. Davis,omar.hossain34@gmail.com,2024-09-22,N00724,"Interested in mortgage products, follow up next quarter",positive
+BR001,C. Wilson,omar.hossain34@gmail.com,2025-03-10,N00725,Excellent customer - always maintains high balance,positive
+BR005,L. Brown,omar.rahman94@gmail.com,2024-09-25,N00726,Excellent customer - always maintains high balance,positive
+BR004,C. Wilson,omar.rahman94@gmail.com,2025-02-21,N00727,"Very satisfied with service, left positive feedback",positive
+BR007,K. Williams,omar.rahman94@gmail.com,2025-03-24,N00728,"Interested in mortgage products, follow up next quarter",positive
+BR002,A. Miller,omar.rahman38@gmail.com,2025-08-23,N00729,Lost to digital-only bank,negative
+BR005,P. Anderson,omar.rahman38@gmail.com,2025-09-21,N00730,Customer requested account closure,negative
+BR010,S. Davis,omar.rahman38@gmail.com,2025-11-13,N00731,Final retention attempt unsuccessful,warning
+BR007,A. Miller,omar.rahman38@gmail.com,2025-12-01,N00732,"Closed all accounts, dissatisfied with fees",negative
+BR003,P. Anderson,omar.shah36@gmail.com,2025-08-25,N00733,Lost to digital-only bank,negative
+BR006,A. Miller,omar.shah36@gmail.com,2025-09-02,N00734,Account closed per customer request,negative
+BR010,J. Smith,omar.shah36@gmail.com,2025-10-15,N00735,Account closed per customer request,negative
+BR009,A. Miller,omar.sheikh98@gmail.com,2025-08-18,N00736,"Upgraded to premium account, engaged customer",positive
+BR005,J. Smith,omar.sheikh98@gmail.com,2026-01-08,N00737,Updated contact information,neutral
+BR006,M. Garcia,omar.siddiqui40@gmail.com,2025-07-02,N00738,Referred 2 new customers this month,positive
+BR002,S. Davis,omar.uddin94@gmail.com,2023-12-08,N00739,Routine account review completed,neutral
+BR005,K. Williams,omar.uddin94@gmail.com,2024-05-04,N00740,"Long-term customer, strong relationship",positive
+BR006,A. Miller,omar.uddin94@gmail.com,2025-03-08,N00741,Updated contact information,neutral
+BR003,M. Garcia,omar.uddin57@gmail.com,2024-11-14,N00742,Complained about monthly fees - consider waiver,warning
+BR002,A. Miller,omar.uddin57@gmail.com,2025-05-21,N00743,"Balance declining, may be moving funds",warning
+BR006,M. Garcia,omar.uddin57@gmail.com,2025-06-08,N00744,Requested statement for external review,warning
+BR006,R. Johnson,omar.uddin57@gmail.com,2026-01-10,N00745,Requested statement for external review,warning
+BR007,A. Miller,omar.uddin63@gmail.com,2025-08-20,N00746,"Closed all accounts, dissatisfied with fees",negative
+BR002,C. Wilson,omar.uddin63@gmail.com,2025-08-22,N00747,Customer requested account closure,negative
+BR004,M. Garcia,omar.uddin63@gmail.com,2025-10-13,N00748,"Closed all accounts, dissatisfied with fees",negative
+BR005,L. Brown,omar.uddin63@gmail.com,2025-12-03,N00749,Lost to digital-only bank,negative
+BR009,J. Smith,rahman.ahmed62@gmail.com,2025-04-19,N00750,"Long-term customer, strong relationship",positive
+BR002,R. Johnson,rahman.ahmed62@gmail.com,2026-01-08,N00751,Updated contact information,neutral
+BR007,R. Johnson,rahman.akter21@gmail.com,2023-05-08,N00752,Asked about account closure process,warning
+BR005,K. Williams,rahman.akter21@gmail.com,2023-10-29,N00753,Follow-up call scheduled for retention,neutral
+BR009,P. Anderson,rahman.akter21@gmail.com,2024-03-14,N00754,Reduced account activity noticed,warning
+BR002,A. Miller,rahman.akter67@gmail.com,2023-01-06,N00755,"Balance declining, may be moving funds",warning
+BR001,K. Williams,rahman.akter67@gmail.com,2024-07-09,N00756,Asked about account closure process,warning
+BR003,R. Johnson,rahman.akter67@gmail.com,2024-07-10,N00757,Unhappy with recent service experience,warning
+BR009,E. Taylor,rahman.akter67@gmail.com,2025-12-11,N00758,Unhappy with recent service experience,warning
+BR007,R. Johnson,rahman.ali95@gmail.com,2023-09-06,N00759,Updated contact information,neutral
+BR006,J. Smith,rahman.ali95@gmail.com,2025-06-25,N00760,Referred 2 new customers this month,positive
+BR001,J. Smith,rahman.ali95@gmail.com,2025-11-22,N00761,"Very satisfied with service, left positive feedback",positive
+BR007,R. Johnson,rahman.begum96@gmail.com,2023-03-17,N00762,"Interested in mortgage products, follow up next quarter",positive
+BR007,A. Miller,rahman.begum96@gmail.com,2025-08-12,N00763,"Upgraded to premium account, engaged customer",positive
+BR003,M. Garcia,rahman.chowdhury63@gmail.com,2023-05-12,N00764,"Long-term customer, strong relationship",positive
+BR004,P. Anderson,rahman.hassan67@gmail.com,2023-05-11,N00765,Mentioned competitor rates during call,warning
+BR005,A. Miller,rahman.hassan67@gmail.com,2024-03-04,N00766,Asked about account closure process,warning
+BR009,K. Williams,rahman.hassan67@gmail.com,2024-03-24,N00767,Requested statement for external review,warning
+BR005,E. Taylor,rahman.hossain92@gmail.com,2024-08-06,N00768,"Long-term customer, strong relationship",positive
+BR008,L. Brown,rahman.islam47@gmail.com,2025-05-30,N00769,"Interested in mortgage products, follow up next quarter",positive
+BR005,R. Johnson,rahman.khan96@gmail.com,2025-09-10,N00770,Customer requested account closure,negative
+BR004,P. Anderson,rahman.khan96@gmail.com,2025-10-01,N00771,Lost to digital-only bank,negative
+BR009,M. Garcia,rahman.khan96@gmail.com,2025-10-23,N00772,Lost to digital-only bank,negative
+BR004,J. Smith,rahman.khan96@gmail.com,2025-10-24,N00773,Lost to digital-only bank,negative
+BR007,C. Wilson,rahman.khan96@gmail.com,2025-11-10,N00774,Lost to digital-only bank,negative
+BR004,K. Williams,rahman.rahman95@gmail.com,2023-02-27,N00775,Updated contact information,neutral
+BR005,C. Wilson,rahman.rahman95@gmail.com,2024-03-23,N00776,"Long-term customer, strong relationship",positive
+BR005,E. Taylor,rahman.rahman33@gmail.com,2024-12-30,N00777,Reduced account activity noticed,warning
+BR006,R. Johnson,rahman.rahman33@gmail.com,2025-07-12,N00778,"Balance declining, may be moving funds",warning
+BR006,A. Miller,rahman.rahman33@gmail.com,2025-07-31,N00779,Reduced account activity noticed,warning
+BR001,L. Brown,rahman.shah17@gmail.com,2025-10-18,N00780,Relocating out of service area,negative
+BR008,E. Taylor,rahman.shah17@gmail.com,2025-11-05,N00781,Filed formal complaint before leaving,negative
+BR009,C. Wilson,rahman.shah17@gmail.com,2025-11-18,N00782,Account closed per customer request,negative
+BR008,R. Johnson,rahman.shah17@gmail.com,2025-11-20,N00783,Final retention attempt unsuccessful,warning
+BR003,J. Smith,rahman.siddiqui74@gmail.com,2023-07-02,N00784,Referred 2 new customers this month,positive
+BR006,J. Smith,rahman.siddiqui74@gmail.com,2023-09-29,N00785,"Very satisfied with service, left positive feedback",positive
+BR006,C. Wilson,rahman.siddiqui74@gmail.com,2024-12-24,N00786,Excellent customer - always maintains high balance,positive
+BR002,A. Miller,rahman.uddin37@gmail.com,2023-02-16,N00787,Unhappy with recent service experience,warning
+BR008,C. Wilson,rahman.uddin37@gmail.com,2024-04-01,N00788,"Balance declining, may be moving funds",warning
+BR004,C. Wilson,rahman.uddin11@gmail.com,2024-03-04,N00789,"Long-term customer, strong relationship",positive
+BR003,K. Williams,rahman.uddin11@gmail.com,2024-06-14,N00790,Routine account review completed,neutral
+BR008,P. Anderson,rahman.uddin71@gmail.com,2024-11-28,N00791,"Interested in mortgage products, follow up next quarter",positive
+BR002,K. Williams,rahman.uddin71@gmail.com,2025-03-03,N00792,Routine account review completed,neutral
+BR008,A. Miller,rania.akter83@gmail.com,2025-08-26,N00793,"Closed all accounts, dissatisfied with fees",negative
+BR004,P. Anderson,rania.akter83@gmail.com,2025-08-31,N00794,Account closed per customer request,negative
+BR002,M. Garcia,rania.akter83@gmail.com,2025-10-19,N00795,Lost to digital-only bank,negative
+BR010,P. Anderson,rania.akter54@gmail.com,2025-01-04,N00796,"Interested in mortgage products, follow up next quarter",positive
+BR005,R. Johnson,rania.akter54@gmail.com,2025-12-31,N00797,"Interested in mortgage products, follow up next quarter",positive
+BR007,L. Brown,rania.ali89@gmail.com,2024-12-29,N00798,"Interested in mortgage products, follow up next quarter",positive
+BR005,A. Miller,rania.begum55@gmail.com,2025-04-25,N00799,"Upgraded to premium account, engaged customer",positive
+BR010,M. Garcia,rania.begum55@gmail.com,2025-04-30,N00800,Referred 2 new customers this month,positive
+BR002,S. Davis,rania.begum55@gmail.com,2026-01-08,N00801,"Very satisfied with service, left positive feedback",positive
+BR009,E. Taylor,rania.begum92@gmail.com,2023-08-29,N00802,Excellent customer - always maintains high balance,positive
+BR006,A. Miller,rania.begum92@gmail.com,2024-03-11,N00803,"Upgraded to premium account, engaged customer",positive
+BR007,M. Garcia,rania.hossain20@gmail.com,2023-11-24,N00804,"Interested in mortgage products, follow up next quarter",positive
+BR004,L. Brown,rania.hossain20@gmail.com,2025-01-24,N00805,Referred 2 new customers this month,positive
+BR004,M. Garcia,rania.hossain27@gmail.com,2023-10-25,N00806,"Upgraded to premium account, engaged customer",positive
+BR002,R. Johnson,rania.hossain27@gmail.com,2023-12-03,N00807,"Very satisfied with service, left positive feedback",positive
+BR008,J. Smith,rania.hossain27@gmail.com,2025-12-16,N00808,"Upgraded to premium account, engaged customer",positive
+BR001,A. Miller,rania.hossain47@gmail.com,2025-07-25,N00809,Customer requested account closure,negative
+BR006,L. Brown,rania.hossain47@gmail.com,2025-08-15,N00810,Relocating out of service area,negative
+BR007,S. Davis,rania.hossain47@gmail.com,2025-10-02,N00811,Relocating out of service area,negative
+BR004,E. Taylor,rania.hossain47@gmail.com,2025-10-04,N00812,Moving to competitor - cited better rates,negative
+BR006,R. Johnson,rania.hossain47@gmail.com,2025-10-07,N00813,Account closed per customer request,negative
+BR003,E. Taylor,rania.islam34@gmail.com,2023-06-22,N00814,"Long-term customer, strong relationship",positive
+BR001,R. Johnson,rania.islam34@gmail.com,2024-05-19,N00815,Routine account review completed,neutral
+BR010,R. Johnson,rania.mirza31@gmail.com,2023-08-19,N00816,Mentioned competitor rates during call,warning
+BR009,P. Anderson,rania.mirza31@gmail.com,2024-01-20,N00817,"Balance declining, may be moving funds",warning
+BR007,A. Miller,rania.mirza31@gmail.com,2024-10-01,N00818,Complained about monthly fees - consider waiver,warning
+BR002,P. Anderson,rania.mirza31@gmail.com,2025-02-25,N00819,Reduced account activity noticed,warning
+BR010,K. Williams,rania.mirza41@gmail.com,2024-12-21,N00820,Complained about monthly fees - consider waiver,warning
+BR006,K. Williams,rania.mirza41@gmail.com,2025-08-07,N00821,Requested statement for external review,warning
+BR005,A. Miller,rania.mirza41@gmail.com,2025-09-13,N00822,Requested statement for external review,warning
+BR007,P. Anderson,rania.mirza41@gmail.com,2025-12-24,N00823,Unhappy with recent service experience,warning
+BR006,M. Garcia,rania.rahman70@gmail.com,2024-05-25,N00824,Referred 2 new customers this month,positive
+BR009,P. Anderson,rania.rahman70@gmail.com,2024-11-10,N00825,"Very satisfied with service, left positive feedback",positive
+BR007,L. Brown,rania.shah46@gmail.com,2023-07-10,N00826,"Balance declining, may be moving funds",warning
+BR002,A. Miller,rania.shah46@gmail.com,2024-03-30,N00827,Unhappy with recent service experience,warning
+BR003,K. Williams,rania.shah46@gmail.com,2024-05-02,N00828,Complained about monthly fees - consider waiver,warning
+BR009,M. Garcia,rania.shah46@gmail.com,2025-07-05,N00829,Mentioned competitor rates during call,warning
+BR006,C. Wilson,rania.siddiqui18@gmail.com,2024-12-20,N00830,"Upgraded to premium account, engaged customer",positive
+BR004,P. Anderson,rania.siddiqui18@gmail.com,2024-12-27,N00831,"Long-term customer, strong relationship",positive
+BR006,E. Taylor,rashid.ahmed45@gmail.com,2025-01-06,N00832,Follow-up call scheduled for retention,neutral
+BR004,P. Anderson,rashid.ahmed45@gmail.com,2025-05-30,N00833,Requested statement for external review,warning
+BR006,L. Brown,rashid.ahmed1@gmail.com,2025-01-05,N00834,Referred 2 new customers this month,positive
+BR008,P. Anderson,rashid.akter2@gmail.com,2023-02-10,N00835,"Very satisfied with service, left positive feedback",positive
+BR009,K. Williams,rashid.akter2@gmail.com,2023-04-21,N00836,Excellent customer - always maintains high balance,positive
+BR005,P. Anderson,rashid.begum91@gmail.com,2025-07-19,N00837,Relocating out of service area,negative
+BR001,C. Wilson,rashid.begum91@gmail.com,2025-08-24,N00838,Moving to competitor - cited better rates,negative
+BR008,R. Johnson,rashid.begum4@gmail.com,2023-04-27,N00839,Complained about monthly fees - consider waiver,warning
+BR008,P. Anderson,rashid.begum4@gmail.com,2023-06-01,N00840,Reduced account activity noticed,warning
+BR002,A. Miller,rashid.begum4@gmail.com,2025-02-13,N00841,Mentioned competitor rates during call,warning
+BR006,M. Garcia,rashid.hassan5@gmail.com,2023-06-03,N00842,Excellent customer - always maintains high balance,positive
+BR002,K. Williams,rashid.hassan5@gmail.com,2023-06-05,N00843,Excellent customer - always maintains high balance,positive
+BR005,J. Smith,rashid.malik46@gmail.com,2024-04-29,N00844,"Interested in mortgage products, follow up next quarter",positive
+BR003,P. Anderson,rashid.malik46@gmail.com,2025-07-25,N00845,Updated contact information,neutral
+BR010,K. Williams,rashid.mirza50@gmail.com,2024-08-12,N00846,"Interested in mortgage products, follow up next quarter",positive
+BR001,A. Miller,rashid.mirza50@gmail.com,2025-06-20,N00847,Excellent customer - always maintains high balance,positive
+BR008,E. Taylor,rashid.mirza50@gmail.com,2025-09-28,N00848,Referred 2 new customers this month,positive
+BR006,L. Brown,rashid.mirza13@gmail.com,2023-02-16,N00849,Excellent customer - always maintains high balance,positive
+BR008,P. Anderson,rashid.rahman75@gmail.com,2023-06-22,N00850,"Long-term customer, strong relationship",positive
+BR008,E. Taylor,rashid.rahman75@gmail.com,2024-05-03,N00851,"Upgraded to premium account, engaged customer",positive
+BR007,K. Williams,rashid.rahman75@gmail.com,2025-09-05,N00852,Excellent customer - always maintains high balance,positive
+BR005,R. Johnson,rashid.rahman81@gmail.com,2023-03-31,N00853,Complained about monthly fees - consider waiver,warning
+BR010,R. Johnson,rashid.rahman81@gmail.com,2024-03-07,N00854,Unhappy with recent service experience,warning
+BR009,C. Wilson,rashid.rahman81@gmail.com,2025-07-02,N00855,"Balance declining, may be moving funds",warning
+BR008,L. Brown,rashid.rahman84@gmail.com,2023-01-05,N00856,Excellent customer - always maintains high balance,positive
+BR004,J. Smith,rashid.rahman84@gmail.com,2025-05-23,N00857,"Very satisfied with service, left positive feedback",positive
+BR007,M. Garcia,rashid.siddiqui22@gmail.com,2023-02-26,N00858,Asked about account closure process,warning
+BR010,E. Taylor,rashid.siddiqui22@gmail.com,2024-02-01,N00859,Follow-up call scheduled for retention,neutral
+BR002,J. Smith,rashid.siddiqui22@gmail.com,2025-03-15,N00860,Unhappy with recent service experience,warning
+BR005,M. Garcia,salma.ahmed8@gmail.com,2024-07-20,N00861,Excellent customer - always maintains high balance,positive
+BR006,P. Anderson,salma.ahmed91@gmail.com,2024-07-01,N00862,"Very satisfied with service, left positive feedback",positive
+BR008,R. Johnson,salma.ahmed91@gmail.com,2024-07-17,N00863,"Interested in mortgage products, follow up next quarter",positive
+BR007,S. Davis,salma.ahmed91@gmail.com,2025-01-17,N00864,Routine account review completed,neutral
+BR009,L. Brown,salma.akter16@gmail.com,2023-09-27,N00865,"Very satisfied with service, left positive feedback",positive
+BR002,K. Williams,salma.akter93@gmail.com,2023-05-06,N00866,"Long-term customer, strong relationship",positive
+BR008,J. Smith,salma.akter93@gmail.com,2024-12-12,N00867,Updated contact information,neutral
+BR005,L. Brown,salma.akter93@gmail.com,2025-02-07,N00868,"Very satisfied with service, left positive feedback",positive
+BR003,K. Williams,salma.ali86@gmail.com,2024-03-31,N00869,Follow-up call scheduled for retention,neutral
+BR005,C. Wilson,salma.ali86@gmail.com,2025-02-13,N00870,Asked about account closure process,warning
+BR001,K. Williams,salma.ali69@gmail.com,2025-10-01,N00871,Moving to competitor - cited better rates,negative
+BR002,M. Garcia,salma.ali69@gmail.com,2025-11-22,N00872,Filed formal complaint before leaving,negative
+BR009,K. Williams,salma.begum66@gmail.com,2024-01-19,N00873,Updated contact information,neutral
+BR010,R. Johnson,salma.malik41@gmail.com,2024-01-04,N00874,"Long-term customer, strong relationship",positive
+BR003,P. Anderson,salma.malik41@gmail.com,2024-03-22,N00875,Updated contact information,neutral
+BR010,M. Garcia,salma.malik41@gmail.com,2024-11-07,N00876,Routine account review completed,neutral
+BR009,M. Garcia,salma.malik13@gmail.com,2024-04-02,N00877,"Upgraded to premium account, engaged customer",positive
+BR005,R. Johnson,salma.malik13@gmail.com,2024-12-02,N00878,"Long-term customer, strong relationship",positive
+BR002,M. Garcia,salma.malik13@gmail.com,2025-04-29,N00879,Referred 2 new customers this month,positive
+BR007,S. Davis,salma.mirza41@gmail.com,2025-09-10,N00880,Moving to competitor - cited better rates,negative
+BR007,A. Miller,salma.mirza41@gmail.com,2025-09-16,N00881,Moving to competitor - cited better rates,negative
+BR001,R. Johnson,salma.mirza41@gmail.com,2025-10-16,N00882,Final retention attempt unsuccessful,warning
+BR005,P. Anderson,salma.mirza41@gmail.com,2025-10-22,N00883,Customer requested account closure,negative
+BR001,J. Smith,salma.shah39@gmail.com,2024-08-24,N00884,"Upgraded to premium account, engaged customer",positive
+BR002,E. Taylor,salma.sheikh73@gmail.com,2024-02-08,N00885,Complained about monthly fees - consider waiver,warning
+BR010,C. Wilson,salma.sheikh73@gmail.com,2024-07-31,N00886,Asked about account closure process,warning
+BR006,R. Johnson,salma.sheikh73@gmail.com,2024-10-17,N00887,Follow-up call scheduled for retention,neutral
+BR008,K. Williams,salma.sheikh87@gmail.com,2023-03-19,N00888,Referred 2 new customers this month,positive
+BR009,C. Wilson,salma.sheikh3@gmail.com,2023-12-07,N00889,Unhappy with recent service experience,warning
+BR009,A. Miller,salma.sheikh3@gmail.com,2024-10-10,N00890,Asked about account closure process,warning
+BR010,L. Brown,salma.sheikh3@gmail.com,2025-10-09,N00891,Asked about account closure process,warning
+BR003,M. Garcia,salma.sheikh3@gmail.com,2025-12-18,N00892,Requested statement for external review,warning
+BR008,S. Davis,salma.siddiqui23@gmail.com,2023-09-28,N00893,"Long-term customer, strong relationship",positive
+BR009,M. Garcia,salma.siddiqui23@gmail.com,2025-10-12,N00894,"Upgraded to premium account, engaged customer",positive
+BR007,J. Smith,samira.ahmed49@gmail.com,2023-09-26,N00895,Asked about account closure process,warning
+BR002,M. Garcia,samira.ahmed49@gmail.com,2024-03-08,N00896,Requested statement for external review,warning
+BR002,C. Wilson,samira.ahmed49@gmail.com,2024-11-28,N00897,"Balance declining, may be moving funds",warning
+BR003,P. Anderson,samira.ahmed7@gmail.com,2023-12-30,N00898,"Upgraded to premium account, engaged customer",positive
+BR006,C. Wilson,samira.ahmed7@gmail.com,2025-07-09,N00899,Referred 2 new customers this month,positive
+BR007,P. Anderson,samira.ahmed7@gmail.com,2025-08-16,N00900,Excellent customer - always maintains high balance,positive
+BR003,C. Wilson,samira.akter24@gmail.com,2025-06-21,N00901,Filed formal complaint before leaving,negative
+BR010,L. Brown,samira.akter24@gmail.com,2025-07-04,N00902,Account closed per customer request,negative
+BR010,S. Davis,samira.akter24@gmail.com,2025-07-04,N00903,"Closed all accounts, dissatisfied with fees",negative
+BR002,K. Williams,samira.akter24@gmail.com,2025-08-06,N00904,Moving to competitor - cited better rates,negative
+BR001,A. Miller,samira.akter24@gmail.com,2025-10-02,N00905,Lost to digital-only bank,negative
+BR005,M. Garcia,samira.begum63@gmail.com,2025-05-06,N00906,Customer requested account closure,negative
+BR001,R. Johnson,samira.begum63@gmail.com,2025-05-18,N00907,Final retention attempt unsuccessful,warning
+BR002,R. Johnson,samira.begum63@gmail.com,2025-06-12,N00908,"Closed all accounts, dissatisfied with fees",negative
+BR006,K. Williams,samira.begum63@gmail.com,2025-06-26,N00909,Account closed per customer request,negative
+BR001,K. Williams,samira.begum63@gmail.com,2025-07-09,N00910,Moving to competitor - cited better rates,negative
+BR010,M. Garcia,samira.begum84@gmail.com,2023-10-22,N00911,"Long-term customer, strong relationship",positive
+BR005,E. Taylor,samira.begum84@gmail.com,2024-09-22,N00912,Excellent customer - always maintains high balance,positive
+BR005,A. Miller,samira.hossain49@gmail.com,2023-01-09,N00913,Excellent customer - always maintains high balance,positive
+BR005,A. Miller,samira.hossain49@gmail.com,2025-08-14,N00914,Excellent customer - always maintains high balance,positive
+BR005,C. Wilson,samira.islam33@gmail.com,2023-02-11,N00915,"Long-term customer, strong relationship",positive
+BR008,S. Davis,samira.islam33@gmail.com,2023-09-01,N00916,Referred 2 new customers this month,positive
+BR008,A. Miller,samira.islam33@gmail.com,2024-09-19,N00917,Referred 2 new customers this month,positive
+BR010,L. Brown,samira.islam80@gmail.com,2024-02-13,N00918,Referred 2 new customers this month,positive
+BR005,L. Brown,samira.islam80@gmail.com,2024-09-01,N00919,Routine account review completed,neutral
+BR001,J. Smith,samira.islam80@gmail.com,2025-05-07,N00920,Referred 2 new customers this month,positive
+BR003,C. Wilson,samira.islam77@gmail.com,2025-06-10,N00921,"Interested in mortgage products, follow up next quarter",positive
+BR007,S. Davis,samira.islam77@gmail.com,2025-12-07,N00922,"Very satisfied with service, left positive feedback",positive
+BR006,P. Anderson,samira.khan15@gmail.com,2025-07-06,N00923,Final retention attempt unsuccessful,warning
+BR007,L. Brown,samira.khan15@gmail.com,2025-07-29,N00924,"Closed all accounts, dissatisfied with fees",negative
+BR005,A. Miller,samira.shah5@gmail.com,2025-10-09,N00925,Moving to competitor - cited better rates,negative
+BR007,M. Garcia,samira.shah5@gmail.com,2025-10-13,N00926,"Closed all accounts, dissatisfied with fees",negative
+BR010,J. Smith,samira.shah5@gmail.com,2025-12-30,N00927,Final retention attempt unsuccessful,warning
+BR003,C. Wilson,samira.shah92@gmail.com,2025-09-23,N00928,"Upgraded to premium account, engaged customer",positive
+BR005,J. Smith,samira.sheikh34@gmail.com,2025-08-04,N00929,Final retention attempt unsuccessful,warning
+BR009,K. Williams,samira.sheikh34@gmail.com,2025-08-08,N00930,Customer requested account closure,negative
+BR010,K. Williams,samira.sheikh34@gmail.com,2025-08-26,N00931,Moving to competitor - cited better rates,negative
+BR008,M. Garcia,samira.sheikh34@gmail.com,2025-11-25,N00932,Filed formal complaint before leaving,negative
+BR004,L. Brown,samira.siddiqui57@gmail.com,2025-07-03,N00933,Requested statement for external review,warning
+BR005,E. Taylor,samira.siddiqui57@gmail.com,2025-07-20,N00934,Follow-up call scheduled for retention,neutral
+BR005,E. Taylor,samira.uddin96@gmail.com,2025-09-29,N00935,Lost to digital-only bank,negative
+BR008,K. Williams,samira.uddin96@gmail.com,2025-10-18,N00936,Relocating out of service area,negative
+BR010,R. Johnson,sara.akter34@gmail.com,2025-08-31,N00937,"Closed all accounts, dissatisfied with fees",negative
+BR007,K. Williams,sara.akter34@gmail.com,2025-11-09,N00938,Filed formal complaint before leaving,negative
+BR005,C. Wilson,sara.akter34@gmail.com,2025-11-19,N00939,Filed formal complaint before leaving,negative
+BR009,P. Anderson,sara.akter66@gmail.com,2024-01-11,N00940,"Interested in mortgage products, follow up next quarter",positive
+BR002,P. Anderson,sara.akter66@gmail.com,2024-05-23,N00941,Updated contact information,neutral
+BR008,R. Johnson,sara.akter66@gmail.com,2025-10-16,N00942,Routine account review completed,neutral
+BR006,C. Wilson,sara.begum15@gmail.com,2024-05-16,N00943,Updated contact information,neutral
+BR003,M. Garcia,sara.begum15@gmail.com,2025-04-14,N00944,Updated contact information,neutral
+BR010,R. Johnson,sara.begum15@gmail.com,2025-10-28,N00945,"Very satisfied with service, left positive feedback",positive
+BR010,C. Wilson,sara.begum85@gmail.com,2023-01-24,N00946,Referred 2 new customers this month,positive
+BR007,K. Williams,sara.begum85@gmail.com,2023-03-05,N00947,"Interested in mortgage products, follow up next quarter",positive
+BR006,R. Johnson,sara.begum89@gmail.com,2025-01-25,N00948,Routine account review completed,neutral
+BR009,L. Brown,sara.begum89@gmail.com,2025-10-09,N00949,Routine account review completed,neutral
+BR005,M. Garcia,sara.hossain60@gmail.com,2023-07-19,N00950,"Very satisfied with service, left positive feedback",positive
+BR007,M. Garcia,sara.hossain63@gmail.com,2025-10-02,N00951,Customer requested account closure,negative
+BR002,J. Smith,sara.hossain63@gmail.com,2025-12-02,N00952,Customer requested account closure,negative
+BR002,E. Taylor,sara.hossain84@gmail.com,2025-09-02,N00953,Moving to competitor - cited better rates,negative
+BR003,E. Taylor,sara.hossain84@gmail.com,2025-11-25,N00954,Moving to competitor - cited better rates,negative
+BR005,A. Miller,sara.islam99@gmail.com,2023-01-21,N00955,Requested statement for external review,warning
+BR009,L. Brown,sara.islam99@gmail.com,2023-06-09,N00956,Complained about monthly fees - consider waiver,warning
+BR004,M. Garcia,sara.islam99@gmail.com,2024-12-25,N00957,Mentioned competitor rates during call,warning
+BR008,E. Taylor,sara.islam99@gmail.com,2025-07-24,N00958,Unhappy with recent service experience,warning
+BR003,R. Johnson,sara.islam99@gmail.com,2024-05-07,N00959,"Balance declining, may be moving funds",warning
+BR006,C. Wilson,sara.islam99@gmail.com,2025-01-10,N00960,Complained about monthly fees - consider waiver,warning
+BR009,K. Williams,sara.islam99@gmail.com,2025-07-04,N00961,Follow-up call scheduled for retention,neutral
+BR008,K. Williams,sara.islam99@gmail.com,2025-07-22,N00962,Follow-up call scheduled for retention,neutral
+BR007,R. Johnson,sara.islam28@gmail.com,2024-11-02,N00963,"Very satisfied with service, left positive feedback",positive
+BR005,E. Taylor,sara.islam28@gmail.com,2025-02-01,N00964,"Interested in mortgage products, follow up next quarter",positive
+BR003,A. Miller,sara.islam28@gmail.com,2025-07-05,N00965,"Long-term customer, strong relationship",positive
+BR007,K. Williams,sara.khan37@gmail.com,2025-06-25,N00966,"Interested in mortgage products, follow up next quarter",positive
+BR002,P. Anderson,sara.mirza72@gmail.com,2023-08-06,N00967,Asked about account closure process,warning
+BR007,J. Smith,sara.mirza72@gmail.com,2023-11-20,N00968,Unhappy with recent service experience,warning
+BR001,P. Anderson,sara.mirza72@gmail.com,2025-09-12,N00969,Reduced account activity noticed,warning
+BR009,J. Smith,sara.mirza72@gmail.com,2025-12-21,N00970,Asked about account closure process,warning
+BR004,M. Garcia,sara.mirza64@gmail.com,2023-06-06,N00971,Routine account review completed,neutral
+BR002,A. Miller,sara.mirza64@gmail.com,2024-08-12,N00972,Routine account review completed,neutral
+BR002,P. Anderson,sara.mirza64@gmail.com,2025-08-27,N00973,Excellent customer - always maintains high balance,positive
+BR001,S. Davis,sara.shah31@gmail.com,2023-07-24,N00974,Referred 2 new customers this month,positive
+BR007,M. Garcia,sara.shah31@gmail.com,2024-01-08,N00975,Updated contact information,neutral
+BR001,C. Wilson,sara.shah31@gmail.com,2024-07-24,N00976,Excellent customer - always maintains high balance,positive
+BR006,P. Anderson,sara.shah21@gmail.com,2024-04-15,N00977,"Interested in mortgage products, follow up next quarter",positive
+BR009,K. Williams,sara.shah21@gmail.com,2024-11-12,N00978,Referred 2 new customers this month,positive
+BR010,S. Davis,sara.shah21@gmail.com,2025-03-04,N00979,Referred 2 new customers this month,positive
+BR009,M. Garcia,sara.siddiqui92@gmail.com,2023-11-08,N00980,Asked about account closure process,warning
+BR009,J. Smith,sara.siddiqui92@gmail.com,2025-03-06,N00981,Follow-up call scheduled for retention,neutral
+BR002,K. Williams,sara.uddin24@gmail.com,2023-10-23,N00982,Updated contact information,neutral
+BR006,C. Wilson,sara.uddin24@gmail.com,2024-09-29,N00983,"Upgraded to premium account, engaged customer",positive
+BR009,J. Smith,tariq.akter45@gmail.com,2023-11-24,N00984,Unhappy with recent service experience,warning
+BR001,E. Taylor,tariq.akter45@gmail.com,2024-10-28,N00985,Unhappy with recent service experience,warning
+BR007,J. Smith,tariq.akter92@gmail.com,2024-08-11,N00986,Excellent customer - always maintains high balance,positive
+BR008,A. Miller,tariq.akter92@gmail.com,2024-09-22,N00987,Routine account review completed,neutral
+BR010,J. Smith,tariq.hassan9@gmail.com,2025-07-29,N00988,Moving to competitor - cited better rates,negative
+BR008,C. Wilson,tariq.hassan9@gmail.com,2025-08-22,N00989,Customer requested account closure,negative
+BR006,S. Davis,tariq.hassan9@gmail.com,2025-08-23,N00990,Relocating out of service area,negative
+BR004,J. Smith,tariq.hassan9@gmail.com,2025-09-08,N00991,Final retention attempt unsuccessful,warning
+BR009,J. Smith,tariq.hassan9@gmail.com,2025-10-05,N00992,Lost to digital-only bank,negative
+BR007,K. Williams,tariq.malik92@gmail.com,2023-07-13,N00993,Follow-up call scheduled for retention,neutral
+BR003,E. Taylor,tariq.malik92@gmail.com,2023-10-08,N00994,Unhappy with recent service experience,warning
+BR005,R. Johnson,tariq.malik92@gmail.com,2025-11-30,N00995,Asked about account closure process,warning
+BR004,S. Davis,tariq.shah68@gmail.com,2023-11-12,N00996,"Interested in mortgage products, follow up next quarter",positive
+BR002,C. Wilson,tariq.shah68@gmail.com,2024-01-19,N00997,"Long-term customer, strong relationship",positive
+BR008,C. Wilson,tariq.shah68@gmail.com,2025-08-26,N00998,"Upgraded to premium account, engaged customer",positive
+BR010,A. Miller,tariq.siddiqui73@gmail.com,2023-08-05,N00999,Complained about monthly fees - consider waiver,warning
+BR005,M. Garcia,tariq.siddiqui73@gmail.com,2025-02-01,N01000,Complained about monthly fees - consider waiver,warning
+BR003,A. Miller,tariq.siddiqui39@gmail.com,2023-01-11,N01001,Routine account review completed,neutral
+BR007,K. Williams,tariq.siddiqui39@gmail.com,2024-07-19,N01002,Referred 2 new customers this month,positive
+BR008,L. Brown,tariq.siddiqui39@gmail.com,2025-11-20,N01003,Excellent customer - always maintains high balance,positive
+BR001,R. Johnson,tariq.uddin1@gmail.com,2025-10-05,N01004,Customer requested account closure,negative
+BR002,C. Wilson,tariq.uddin1@gmail.com,2025-11-02,N01005,Lost to digital-only bank,negative
+BR002,L. Brown,yusuf.akter29@gmail.com,2024-01-29,N01006,"Interested in mortgage products, follow up next quarter",positive
+BR002,A. Miller,yusuf.akter29@gmail.com,2024-04-28,N01007,Updated contact information,neutral
+BR006,C. Wilson,yusuf.akter29@gmail.com,2025-04-17,N01008,Referred 2 new customers this month,positive
+BR008,K. Williams,yusuf.ali73@gmail.com,2024-08-25,N01009,"Upgraded to premium account, engaged customer",positive
+BR002,A. Miller,yusuf.ali73@gmail.com,2025-07-10,N01010,"Interested in mortgage products, follow up next quarter",positive
+BR001,S. Davis,yusuf.ali73@gmail.com,2025-12-20,N01011,"Long-term customer, strong relationship",positive
+BR005,L. Brown,yusuf.begum38@gmail.com,2025-07-15,N01012,Customer requested account closure,negative
+BR002,A. Miller,yusuf.begum38@gmail.com,2025-07-31,N01013,Relocating out of service area,negative
+BR001,A. Miller,yusuf.hassan43@gmail.com,2024-08-17,N01014,Complained about monthly fees - consider waiver,warning
+BR009,S. Davis,yusuf.hassan43@gmail.com,2025-03-01,N01015,Reduced account activity noticed,warning
+BR010,A. Miller,yusuf.hassan43@gmail.com,2025-11-28,N01016,Complained about monthly fees - consider waiver,warning
+BR010,E. Taylor,yusuf.hassan76@gmail.com,2023-08-27,N01017,"Upgraded to premium account, engaged customer",positive
+BR006,M. Garcia,yusuf.hassan76@gmail.com,2024-09-27,N01018,Routine account review completed,neutral
+BR007,C. Wilson,yusuf.hassan76@gmail.com,2025-11-04,N01019,"Interested in mortgage products, follow up next quarter",positive
+BR003,M. Garcia,yusuf.islam88@gmail.com,2025-10-19,N01020,"Very satisfied with service, left positive feedback",positive
+BR010,R. Johnson,yusuf.malik51@gmail.com,2023-02-23,N01021,Follow-up call scheduled for retention,neutral
+BR010,M. Garcia,yusuf.malik51@gmail.com,2023-04-29,N01022,Complained about monthly fees - consider waiver,warning
+BR001,S. Davis,yusuf.malik51@gmail.com,2025-05-23,N01023,Reduced account activity noticed,warning
+BR001,J. Smith,yusuf.mirza77@gmail.com,2023-04-15,N01024,Mentioned competitor rates during call,warning
+BR010,M. Garcia,yusuf.mirza77@gmail.com,2024-07-24,N01025,Unhappy with recent service experience,warning
+BR010,R. Johnson,yusuf.mirza77@gmail.com,2025-01-10,N01026,Reduced account activity noticed,warning
+BR003,S. Davis,yusuf.mirza77@gmail.com,2025-11-03,N01027,Mentioned competitor rates during call,warning
+BR001,S. Davis,yusuf.mirza80@gmail.com,2024-01-05,N01028,"Very satisfied with service, left positive feedback",positive
+BR003,R. Johnson,yusuf.mirza8@gmail.com,2025-06-26,N01029,Requested statement for external review,warning
+BR004,E. Taylor,yusuf.mirza8@gmail.com,2025-06-29,N01030,"Balance declining, may be moving funds",warning
+BR007,M. Garcia,yusuf.rahman37@gmail.com,2023-08-02,N01031,"Upgraded to premium account, engaged customer",positive
+BR001,A. Miller,yusuf.rahman37@gmail.com,2023-12-19,N01032,"Very satisfied with service, left positive feedback",positive
+BR003,P. Anderson,yusuf.rahman37@gmail.com,2024-09-07,N01033,"Interested in mortgage products, follow up next quarter",positive
+BR008,A. Miller,yusuf.shah15@gmail.com,2024-01-16,N01034,"Long-term customer, strong relationship",positive
+BR010,A. Miller,yusuf.shah15@gmail.com,2024-05-04,N01035,"Interested in mortgage products, follow up next quarter",positive
+BR009,L. Brown,yusuf.shah60@gmail.com,2025-08-26,N01036,Moving to competitor - cited better rates,negative
+BR005,E. Taylor,yusuf.shah60@gmail.com,2025-10-11,N01037,Filed formal complaint before leaving,negative
+BR004,L. Brown,yusuf.shah60@gmail.com,2025-11-07,N01038,Moving to competitor - cited better rates,negative
+BR001,A. Miller,yusuf.shah13@gmail.com,2023-02-26,N01039,"Very satisfied with service, left positive feedback",positive
+BR002,E. Taylor,yusuf.shah13@gmail.com,2024-02-28,N01040,"Long-term customer, strong relationship",positive
+BR004,E. Taylor,yusuf.uddin28@gmail.com,2025-09-11,N01041,Relocating out of service area,negative
+BR007,R. Johnson,yusuf.uddin28@gmail.com,2025-10-06,N01042,"Closed all accounts, dissatisfied with fees",negative
+BR006,L. Brown,yusuf.uddin28@gmail.com,2025-11-11,N01043,Final retention attempt unsuccessful,warning
+BR010,J. Smith,yusuf.uddin28@gmail.com,2025-11-24,N01044,Moving to competitor - cited better rates,negative
+BR001,R. Johnson,yusuf.uddin28@gmail.com,2025-11-25,N01045,Filed formal complaint before leaving,negative
+BR009,E. Taylor,zainab.ahmed27@gmail.com,2024-03-24,N01046,"Interested in mortgage products, follow up next quarter",positive
+BR003,P. Anderson,zainab.ahmed27@gmail.com,2024-11-20,N01047,"Upgraded to premium account, engaged customer",positive
+BR007,S. Davis,zainab.ahmed27@gmail.com,2024-12-24,N01048,"Very satisfied with service, left positive feedback",positive
+BR006,A. Miller,zainab.akter77@gmail.com,2025-08-19,N01049,Filed formal complaint before leaving,negative
+BR004,E. Taylor,zainab.akter77@gmail.com,2025-09-11,N01050,Filed formal complaint before leaving,negative
+BR009,L. Brown,zainab.ali31@gmail.com,2025-07-23,N01051,Relocating out of service area,negative
+BR007,S. Davis,zainab.ali31@gmail.com,2025-08-13,N01052,Account closed per customer request,negative
+BR004,J. Smith,zainab.ali31@gmail.com,2025-10-31,N01053,Customer requested account closure,negative
+BR005,J. Smith,zainab.ali31@gmail.com,2025-11-05,N01054,Final retention attempt unsuccessful,warning
+BR005,C. Wilson,zainab.ali55@gmail.com,2023-12-03,N01055,Updated contact information,neutral
+BR005,M. Garcia,zainab.ali55@gmail.com,2024-12-18,N01056,"Very satisfied with service, left positive feedback",positive
+BR004,K. Williams,zainab.ali55@gmail.com,2025-08-26,N01057,Updated contact information,neutral
+BR006,M. Garcia,zainab.begum17@gmail.com,2023-05-09,N01058,Requested statement for external review,warning
+BR010,A. Miller,zainab.begum17@gmail.com,2023-12-21,N01059,Requested statement for external review,warning
+BR004,K. Williams,zainab.begum17@gmail.com,2024-03-26,N01060,Unhappy with recent service experience,warning
+BR010,R. Johnson,zainab.begum17@gmail.com,2024-11-05,N01061,"Balance declining, may be moving funds",warning
+BR005,K. Williams,zainab.chowdhury54@gmail.com,2023-07-03,N01062,"Balance declining, may be moving funds",warning
+BR007,E. Taylor,zainab.chowdhury54@gmail.com,2023-12-02,N01063,Reduced account activity noticed,warning
+BR003,L. Brown,zainab.chowdhury54@gmail.com,2024-11-20,N01064,Follow-up call scheduled for retention,neutral
+BR007,A. Miller,zainab.chowdhury54@gmail.com,2025-11-02,N01065,Unhappy with recent service experience,warning
+BR005,E. Taylor,zainab.chowdhury64@gmail.com,2023-08-13,N01066,Unhappy with recent service experience,warning
+BR003,S. Davis,zainab.chowdhury64@gmail.com,2024-06-23,N01067,Requested statement for external review,warning
+BR004,R. Johnson,zainab.chowdhury64@gmail.com,2024-09-30,N01068,Follow-up call scheduled for retention,neutral
+BR009,E. Taylor,zainab.chowdhury64@gmail.com,2025-09-19,N01069,"Balance declining, may be moving funds",warning
+BR004,J. Smith,zainab.hassan85@gmail.com,2023-12-12,N01070,Unhappy with recent service experience,warning
+BR006,R. Johnson,zainab.hassan85@gmail.com,2024-03-09,N01071,"Balance declining, may be moving funds",warning
+BR008,M. Garcia,zainab.hassan85@gmail.com,2025-09-24,N01072,"Balance declining, may be moving funds",warning
+BR004,C. Wilson,zainab.khan26@gmail.com,2023-07-07,N01073,"Upgraded to premium account, engaged customer",positive
+BR010,R. Johnson,zainab.khan26@gmail.com,2024-10-25,N01074,"Interested in mortgage products, follow up next quarter",positive
+BR006,C. Wilson,zainab.khan90@gmail.com,2025-08-31,N01075,"Closed all accounts, dissatisfied with fees",negative
+BR010,M. Garcia,zainab.khan90@gmail.com,2025-09-04,N01076,Final retention attempt unsuccessful,warning
+BR001,L. Brown,zainab.khan90@gmail.com,2025-10-09,N01077,Customer requested account closure,negative
+BR006,P. Anderson,zainab.khan90@gmail.com,2025-10-11,N01078,Final retention attempt unsuccessful,warning
+BR007,R. Johnson,zainab.mirza82@gmail.com,2025-08-11,N01079,Customer requested account closure,negative
+BR006,K. Williams,zainab.mirza82@gmail.com,2025-08-15,N01080,"Closed all accounts, dissatisfied with fees",negative
+BR009,S. Davis,zainab.mirza82@gmail.com,2025-10-24,N01081,Moving to competitor - cited better rates,negative
+BR010,E. Taylor,zainab.sheikh68@gmail.com,2023-09-08,N01082,"Upgraded to premium account, engaged customer",positive
+BR007,S. Davis,zainab.sheikh68@gmail.com,2025-11-02,N01083,"Very satisfied with service, left positive feedback",positive

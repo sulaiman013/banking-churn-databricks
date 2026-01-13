@@ -1,0 +1,155 @@
+version: 2
+
+models:
+  # ERPNext Staging Models
+  - name: stg_erp_customers
+    description: "Staged customer data from ERPNext with standardized column names"
+    columns:
+      - name: customer_id
+        description: "Unique customer identifier from ERPNext"
+        tests:
+          - not_null
+          - unique
+      - name: customer_name
+        description: "Full customer name"
+      - name: customer_group
+        description: "Customer segment"
+      - name: territory
+        description: "Geographic territory code"
+      - name: source_system
+        description: "Source system identifier"
+
+  - name: stg_erp_products
+    description: "Staged product/item data from ERPNext"
+    columns:
+      - name: product_id
+        description: "Unique product identifier"
+        tests:
+          - not_null
+          - unique
+      - name: product_name
+        description: "Product display name"
+      - name: product_group
+        description: "Product category"
+
+  - name: stg_erp_transactions
+    description: "Staged transaction data from ERPNext"
+    columns:
+      - name: transaction_id
+        description: "Unique transaction identifier"
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: "Customer reference"
+        tests:
+          - not_null
+      - name: transaction_amount
+        description: "Transaction value"
+      - name: transaction_date
+        description: "Date of transaction"
+
+  # Salesforce Staging Models
+  - name: stg_sf_contacts
+    description: "Staged contact data from Salesforce"
+    columns:
+      - name: contact_id
+        description: "Salesforce contact ID"
+        tests:
+          - not_null
+          - unique
+      - name: email
+        description: "Contact email address"
+      - name: first_name
+        description: "First name"
+      - name: last_name
+        description: "Last name"
+
+  - name: stg_sf_cases
+    description: "Staged support cases from Salesforce"
+    columns:
+      - name: case_id
+        description: "Case identifier"
+        tests:
+          - not_null
+          - unique
+      - name: contact_id
+        description: "Related contact"
+      - name: case_status
+        description: "Current status"
+      - name: case_priority
+        description: "Priority level"
+
+  - name: stg_sf_tasks
+    description: "Staged task/activity data from Salesforce"
+    columns:
+      - name: task_id
+        description: "Task identifier"
+        tests:
+          - not_null
+          - unique
+      - name: contact_id
+        description: "Related contact"
+      - name: task_subject
+        description: "Task description"
+
+  # Supabase Staging Models
+  - name: stg_app_sessions
+    description: "Staged app session data from Supabase"
+    columns:
+      - name: session_id
+        description: "Session identifier"
+        tests:
+          - not_null
+          - unique
+      - name: customer_id
+        description: "Customer reference"
+      - name: session_start_at
+        description: "Session start timestamp"
+      - name: session_end_at
+        description: "Session end timestamp"
+      - name: device_type
+        description: "Device type"
+
+  - name: stg_app_events
+    description: "Staged app events from Supabase"
+    columns:
+      - name: event_id
+        description: "Event identifier"
+        tests:
+          - not_null
+          - unique
+      - name: session_id
+        description: "Related session"
+      - name: event_type
+        description: "Type of event"
+      - name: event_at
+        description: "Event timestamp"
+
+  # Google Sheets Staging Models
+  - name: stg_branches
+    description: "Staged branch data from Google Sheets"
+    columns:
+      - name: branch_code
+        description: "Branch identifier"
+        tests:
+          - not_null
+          - unique
+      - name: branch_name
+        description: "Branch name"
+      - name: region
+        description: "Geographic region"
+
+  - name: stg_customer_notes
+    description: "Staged customer notes from Google Sheets"
+    columns:
+      - name: customer_id
+        description: "Customer reference"
+        tests:
+          - not_null
+      - name: note_date
+        description: "Date of note"
+      - name: note_text
+        description: "Note content"
+      - name: note_type
+        description: "Type of note"

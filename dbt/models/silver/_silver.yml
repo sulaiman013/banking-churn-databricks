@@ -1,0 +1,130 @@
+version: 2
+
+models:
+  # Unified Customer Dimension
+  - name: dim_customer_unified
+    description: |
+      Unified customer dimension combining data from all source systems.
+      Uses ERPNext as the master system with enrichment from Salesforce, Supabase, and Google Sheets.
+      This is the foundation for customer_360 view.
+    columns:
+      - name: unified_customer_id
+        description: "Surrogate key for unified customer"
+        tests:
+          - not_null
+          - unique
+      - name: erp_customer_id
+        description: "Customer ID from ERPNext (core banking)"
+      - name: sf_contact_id
+        description: "Contact ID from Salesforce (CRM)"
+      - name: app_customer_id
+        description: "Customer ID from Supabase (digital channels)"
+      - name: customer_name
+        description: "Primary customer name"
+      - name: email
+        description: "Primary email address"
+      - name: is_active
+        description: "Whether customer is currently active"
+
+  # Geographic Dimension
+  - name: dim_geography
+    description: "Geographic dimension combining territory and branch data"
+    columns:
+      - name: geography_key
+        description: "Surrogate key"
+        tests:
+          - not_null
+          - unique
+      - name: territory_code
+        description: "Territory code from ERPNext"
+      - name: territory_name
+        description: "Territory display name"
+      - name: region
+        description: "Region from branch data"
+
+  # Product Dimension
+  - name: dim_product
+    description: "Banking product dimension from ERPNext"
+    columns:
+      - name: product_key
+        description: "Surrogate key"
+        tests:
+          - not_null
+          - unique
+      - name: product_id
+        description: "Product ID from ERPNext"
+      - name: product_name
+        description: "Product name"
+      - name: product_group
+        description: "Product category"
+
+  # Transaction Fact
+  - name: fct_transactions
+    description: "Clean transaction fact table"
+    columns:
+      - name: transaction_key
+        description: "Surrogate key"
+        tests:
+          - not_null
+          - unique
+      - name: unified_customer_id
+        description: "Foreign key to dim_customer_unified"
+        tests:
+          - not_null
+      - name: transaction_date
+        description: "Date of transaction"
+      - name: transaction_amount
+        description: "Transaction value"
+
+  # Support Cases Fact
+  - name: fct_support_cases
+    description: "Support cases/complaints fact table - key churn indicator"
+    columns:
+      - name: case_key
+        description: "Surrogate key"
+        tests:
+          - not_null
+          - unique
+      - name: unified_customer_id
+        description: "Foreign key to dim_customer_unified"
+      - name: case_status
+        description: "Current status of case"
+      - name: case_priority
+        description: "Priority level"
+      - name: is_closed
+        description: "Whether case is resolved"
+
+  # Digital Engagement Fact
+  - name: fct_digital_engagement
+    description: "Aggregated digital engagement metrics per customer per day"
+    columns:
+      - name: engagement_key
+        description: "Surrogate key"
+        tests:
+          - not_null
+          - unique
+      - name: unified_customer_id
+        description: "Foreign key to dim_customer_unified"
+        tests:
+          - not_null
+      - name: engagement_date
+        description: "Date of engagement"
+      - name: session_count
+        description: "Number of app sessions"
+      - name: total_session_duration_seconds
+        description: "Total time spent in app"
+      - name: event_count
+        description: "Number of events/interactions"
+
+  # Customer Mapping Bridge
+  - name: bridge_customer_ids
+    description: "Bridge table mapping customer IDs across all source systems"
+    columns:
+      - name: unified_customer_id
+        description: "Unified customer ID"
+        tests:
+          - not_null
+      - name: source_system
+        description: "Source system name"
+      - name: source_customer_id
+        description: "Customer ID in source system"

@@ -1,0 +1,1108 @@
+closed_date,created_date,description,origin,priority,sf_case_id,sf_contact_id,status,subject,type
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,High,500g5000004h3XpAAI,003g5000002B75fAAC,Closed,Performance inadequate for second consecutive week,Electrical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,High,500g5000004h3XqAAI,003g5000002B75OAAS,Closed,Starting generator after electrical failure,Electrical
+,2026-01-06T10:58:10.000+0000,,Web,Low,500g5000004h3XrAAI,003g5000002B75VAAS,New,Seeking guidance on electrical wiring installation for GC5060,Electrical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Low,500g5000004h3XsAAI,003g5000002B75XAAS,Closed,Easy installation process,Other
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,Medium,500g5000004h3XtAAI,003g5000002B75XAAS,Closed,Maintenance guidelines for generator unclear,Other
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,Medium,500g5000004h3XuAAI,003g5000002B75YAAS,Closed,Electrical circuit malfunctioning,Electrical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,Low,500g5000004h3XvAAI,003g5000002B75eAAC,Closed,Generator assembly instructions unclear,Other
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,Medium,500g5000004h3XwAAI,003g5000002B75TAAS,Closed,Structural breakdown of rotor assembly,Structural
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Low,500g5000004h3XxAAI,003g5000002B75TAAS,Closed,Customer service for portable generators needs beefing up,Other
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,Medium,500g5000004h3XyAAI,003g5000002B75bAAC,Closed,Mechanical maintenance guidelines for generator misleading,Mechanical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Low,500g5000004h3XzAAI,003g5000002B75cAAC,Closed,Maintenance guidelines for generator unclear,Other
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Medium,500g5000004h3Y0AAI,003g5000002B75dAAC,Closed,Electronic panel fitting loose,Electronic
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Medium,500g5000004h3Y1AAI,003g5000002B75ZAAS,Closed,Repeated motor breakdown while shutting off,Electrical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Medium,500g5000004h3Y2AAI,003g5000002B75UAAS,Closed,Starting up generator consumes excessive power,Other
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,High,500g5000004h3Y3AAI,003g5000002B75UAAS,Closed,Delay in installation; spare parts unavailable,Other
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Medium,500g5000004h3Y4AAI,003g5000002B75dAAC,Closed,Frequent mechanical breakdown,Mechanical
+,2026-01-06T10:58:10.000+0000,,Web,Low,500g5000004h3Y5AAI,003g5000002B75eAAC,New,Maintenance guidelines for generator unclear,Other
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Medium,500g5000004h3Y6AAI,003g5000002B75PAAS,Closed,Shutting down of generator,Mechanical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,Medium,500g5000004h3Y7AAI,003g5000002B75PAAS,Closed,Cannot start generator after electrical failure,Electrical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,High,500g5000004h3Y8AAI,003g5000002B75QAAS,Closed,Structural failure of generator base,Structural
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,Medium,500g5000004h3Y9AAI,003g5000002B75QAAS,Closed,Power generation below stated level,Electrical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,High,500g5000004h3YAAAY,003g5000002B75VAAS,Closed,Generator GC3060 platform structure is weakening,Structural
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Web,Medium,500g5000004h3YBAAY,003g5000002B75VAAS,Closed,Signal panel on GC5060 blinks intermittently,Electronic
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,High,500g5000004h3YCAAY,003g5000002B75VAAS,Closed,Electric surge damaging adjacent equipment,Electrical
+,2026-01-06T10:58:10.000+0000,,Web,Low,500g5000004h3ZpAAI,003g5000002B75WAAS,New,Design issue with mechanical rotor,Mechanical
+2024-11-17T18:59:51.000+0000,2026-01-06T10:58:10.000+0000,,Phone,Medium,500g5000004h3ZqAAI,003g5000002B75WAAS,Closed,Motor design hindering performance,Electrical
+2026-01-11T03:31:15.000+0000,2026-01-11T03:31:15.000+0000,Customer segment: at_risk. Created: 2023-12-14,Mobile App,Medium,500g5000004wYFAAA2,003g5000002EhOvAAK,Closed,Loan Inquiry,Question
+,2026-01-11T03:29:53.000+0000,Customer segment: churned. Created: 2023-11-06,Web,Medium,500g5000004whi9AAA,003g5000002EfRxAAK,Escalated,Mobile App Problem,Problem
+,2026-01-11T03:31:17.000+0000,Customer segment: active. Created: 2023-03-27,Web,Medium,500g5000004wkrOAAQ,003g5000002EeMGAA0,New,Loan Inquiry,Question
+2026-01-11T03:31:32.000+0000,2026-01-11T03:31:32.000+0000,Customer segment: active. Created: 2025-12-07,Phone,High,500g5000004wkrPAAQ,003g5000002EhgfAAC,Closed,Account Access Issue,Problem
+2026-01-11T03:31:57.000+0000,2026-01-11T03:31:57.000+0000,Customer segment: at_risk. Created: 2024-12-24,Email,High,500g5000004wkrQAAQ,003g5000002EhFHAA0,Closed,Account Access Issue,Problem
+2026-01-11T03:32:07.000+0000,2026-01-11T03:32:07.000+0000,Customer segment: active. Created: 2024-12-18,Web,Medium,500g5000004wkrRAAQ,003g5000002Egj1AAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:20.000+0000,2026-01-11T03:32:20.000+0000,Customer segment: active. Created: 2024-10-15,Email,Low,500g5000004wkrSAAQ,003g5000002Efv1AAC,Closed,Interest Rate Question,Question
+,2026-01-11T03:32:34.000+0000,Customer segment: churned. Created: 2025-06-22,Mobile App,High,500g5000004wkrTAAQ,003g5000002Eh7DAAS,Working,Transaction Dispute,Problem
+,2026-01-11T03:32:57.000+0000,Customer segment: at_risk. Created: 2025-05-07,Web,High,500g5000004wkrUAAQ,003g5000002Ef3rAAC,New,Account Access Issue,Problem
+,2026-01-11T03:33:17.000+0000,Customer segment: churned. Created: 2023-10-29,Email,High,500g5000004wkrVAAQ,003g5000002EeHiAAK,Working,ATM Card Issue,Problem
+2026-01-11T03:31:48.000+0000,2026-01-11T03:31:48.000+0000,Customer segment: active. Created: 2023-05-01,Phone,High,500g5000004wl7eAAA,003g5000002EhwnAAC,Closed,Account Access Issue,Problem
+,2026-01-11T03:32:13.000+0000,Customer segment: churned. Created: 2024-11-23,Web,Medium,500g5000004wl7lAAA,003g5000002EfdIAAS,Working,Card Renewal,Request
+,2026-01-11T03:33:08.000+0000,Customer segment: active. Created: 2023-08-30,Web,High,500g5000004wl81AAA,003g5000002Ej4AAAS,New,Transaction Dispute,Problem
+,2026-01-11T03:33:13.000+0000,Customer segment: churned. Created: 2023-06-22,Mobile App,High,500g5000004wl82AAA,003g5000002EgcbAAC,Working,ATM Card Issue,Problem
+,2026-01-11T03:33:14.000+0000,Customer segment: churned. Created: 2025-04-08,Web,Medium,500g5000004wl83AAA,003g5000002EgcbAAC,Escalated,Loan Inquiry,Question
+,2026-01-11T03:32:06.000+0000,Customer segment: at_risk. Created: 2024-02-28,Web,Low,500g5000004wl9YAAQ,003g5000002EhaEAAS,New,Statement Request,Request
+2026-01-11T03:32:13.000+0000,2026-01-11T03:32:13.000+0000,Customer segment: churned. Created: 2023-10-07,Mobile App,High,500g5000004wl9bAAA,003g5000002EfdIAAS,Closed,Fraud Alert,Problem
+,2026-01-11T03:32:14.000+0000,Customer segment: churned. Created: 2025-04-15,Email,Medium,500g5000004wl9eAAA,003g5000002EfdIAAS,Escalated,Loan Inquiry,Question
+,2026-01-11T03:33:24.000+0000,Customer segment: churned. Created: 2025-03-24,Mobile App,High,500g5000004wlA2AAI,003g5000002EjH3AAK,Working,Account Access Issue,Problem
+,2026-01-11T03:33:44.000+0000,Customer segment: churned. Created: 2025-12-28,Web,Medium,500g5000004wlAEAAY,003g5000002EjDqAAK,Escalated,Loan Inquiry,Question
+2026-01-11T03:30:15.000+0000,2026-01-11T03:30:15.000+0000,Customer segment: churned. Created: 2025-02-01,Web,High,500g5000004wlF6AAI,003g5000002EgFxAAK,Closed,Transaction Dispute,Problem
+2026-01-11T03:30:38.000+0000,2026-01-11T03:30:38.000+0000,Customer segment: churned. Created: 2023-12-08,Web,High,500g5000004wlF8AAI,003g5000002EgkbAAC,Closed,ATM Card Issue,Problem
+,2026-01-11T03:32:26.000+0000,Customer segment: at_risk. Created: 2025-08-18,Phone,Medium,500g5000004wlFKAAY,003g5000002EfesAAC,Working,Fee Inquiry,Question
+,2026-01-11T03:32:46.000+0000,Customer segment: churned. Created: 2025-04-27,Phone,Low,500g5000004wlMIAAY,003g5000002EesYAAS,Escalated,Interest Rate Question,Question
+2026-01-11T03:30:16.000+0000,2026-01-11T03:30:16.000+0000,Customer segment: active. Created: 2023-01-10,Web,High,500g5000004wlzcAAA,003g5000002EgHZAA0,Closed,ATM Card Issue,Problem
+,2026-01-11T03:31:09.000+0000,Customer segment: at_risk. Created: 2025-08-12,Email,High,500g5000004wlzjAAA,003g5000002EfwcAAC,Working,ATM Card Issue,Problem
+,2026-01-11T03:30:15.000+0000,Customer segment: churned. Created: 2023-07-21,Email,High,500g5000004wmEgAAI,003g5000002EgFxAAK,Working,Fraud Alert,Problem
+2026-01-11T03:31:55.000+0000,2026-01-11T03:31:55.000+0000,Customer segment: active. Created: 2024-08-08,Email,High,500g5000004wmGNAAY,003g5000002EhryAAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:32:09.000+0000,2026-01-11T03:32:09.000+0000,Customer segment: at_risk. Created: 2025-03-02,Phone,High,500g5000004wmMtAAI,003g5000002EeJjAAK,Closed,Fraud Alert,Problem
+,2026-01-11T03:29:51.000+0000,Customer segment: at_risk. Created: 2023-12-20,Web,Medium,500g5000004wmZUAAY,003g5000002EfQLAA0,Working,Fee Inquiry,Question
+,2026-01-11T03:29:52.000+0000,Customer segment: at_risk. Created: 2023-06-17,Mobile App,High,500g5000004wmZVAAY,003g5000002EfQLAA0,Working,Account Access Issue,Problem
+,2026-01-11T03:30:32.000+0000,Customer segment: churned. Created: 2023-12-16,Email,High,500g5000004wmZbAAI,003g5000002Eg1SAAS,Escalated,Account Access Issue,Problem
+,2026-01-11T03:33:31.000+0000,Customer segment: at_risk. Created: 2023-07-28,Web,Medium,500g5000004wmvUAAQ,003g5000002EjNVAA0,New,Mobile App Problem,Problem
+2026-01-11T03:31:56.000+0000,2026-01-11T03:31:56.000+0000,Customer segment: active. Created: 2024-09-08,Mobile App,High,500g5000004wmzpAAA,003g5000002Eg6LAAS,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:59.000+0000,Customer segment: active. Created: 2023-04-21,Phone,High,500g5000004wmzqAAA,003g5000002Ei4rAAC,New,Fraud Alert,Problem
+,2026-01-11T03:33:43.000+0000,Customer segment: churned. Created: 2023-03-14,Web,Medium,500g5000004wmzrAAA,003g5000002EjDqAAK,Working,Fee Inquiry,Question
+,2026-01-11T03:31:49.000+0000,Customer segment: at_risk. Created: 2025-12-24,Web,Medium,500g5000004wn7iAAA,003g5000002EeKdAAK,New,Card Renewal,Request
+,2026-01-11T03:32:03.000+0000,Customer segment: at_risk. Created: 2024-02-04,Phone,Medium,500g5000004wn7jAAA,003g5000002Ei85AAC,New,Loan Inquiry,Question
+,2026-01-11T03:31:23.000+0000,Customer segment: at_risk. Created: 2024-07-15,Web,Medium,500g5000004wn9KAAQ,003g5000002EhVNAA0,Working,Card Renewal,Request
+2026-01-11T03:31:38.000+0000,2026-01-11T03:31:38.000+0000,Customer segment: active. Created: 2023-10-28,Phone,Medium,500g5000004wn9LAAQ,003g5000002Eg9WAAS,Closed,Card Renewal,Request
+,2026-01-11T03:32:21.000+0000,Customer segment: at_risk. Created: 2024-01-23,Mobile App,Low,500g5000004wn9MAAQ,003g5000002Ef2GAAS,Working,Statement Request,Request
+2026-01-11T03:32:46.000+0000,2026-01-11T03:32:46.000+0000,Customer segment: churned. Created: 2023-09-19,Phone,Medium,500g5000004wn9NAAQ,003g5000002EesYAAS,Closed,Loan Inquiry,Question
+2026-01-11T03:32:55.000+0000,2026-01-11T03:32:55.000+0000,Customer segment: active. Created: 2024-05-09,Mobile App,High,500g5000004wn9OAAQ,003g5000002EgKrAAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:33:08.000+0000,Customer segment: churned. Created: 2024-02-18,Email,Medium,500g5000004wn9PAAQ,003g5000002Ej49AAC,Escalated,Mobile App Problem,Problem
+2026-01-11T03:33:19.000+0000,2026-01-11T03:33:19.000+0000,Customer segment: active. Created: 2023-06-11,Mobile App,High,500g5000004wn9QAAQ,003g5000002EhToAAK,Closed,Transaction Dispute,Problem
+,2026-01-11T03:30:04.000+0000,Customer segment: at_risk. Created: 2023-03-01,Mobile App,Low,500g5000004wnAwAAI,003g5000002Efq9AAC,Working,Statement Request,Request
+2026-01-11T03:30:44.000+0000,2026-01-11T03:30:44.000+0000,Customer segment: churned. Created: 2023-09-16,Email,Medium,500g5000004wnAxAAI,003g5000002EguHAAS,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:59.000+0000,Customer segment: at_risk. Created: 2025-09-30,Web,Low,500g5000004wnAyAAI,003g5000002EhAPAA0,Working,Statement Request,Request
+2026-01-11T03:30:37.000+0000,2026-01-11T03:30:37.000+0000,Customer segment: churned. Created: 2023-04-10,Web,High,500g5000004wnCYAAY,003g5000002EgkbAAC,Closed,Fraud Alert,Problem
+2026-01-11T03:30:45.000+0000,2026-01-11T03:30:45.000+0000,Customer segment: at_risk. Created: 2023-12-18,Phone,Medium,500g5000004wnCZAAY,003g5000002EgO2AAK,Closed,Fee Inquiry,Question
+2026-01-11T03:30:53.000+0000,2026-01-11T03:30:53.000+0000,Customer segment: active. Created: 2025-11-30,Phone,Medium,500g5000004wnCaAAI,003g5000002EgmEAAS,Closed,Card Renewal,Request
+2026-01-11T03:31:02.000+0000,2026-01-11T03:31:02.000+0000,Customer segment: churned. Created: 2024-10-30,Mobile App,Low,500g5000004wnCbAAI,003g5000002EfDVAA0,Closed,Statement Request,Request
+,2026-01-11T03:31:23.000+0000,Customer segment: at_risk. Created: 2023-12-08,Web,Low,500g5000004wnCcAAI,003g5000002EhVNAA0,Working,Statement Request,Request
+,2026-01-11T03:31:33.000+0000,Customer segment: at_risk. Created: 2025-08-09,Phone,Medium,500g5000004wnCdAAI,003g5000002EhjtAAC,New,Fee Inquiry,Question
+,2026-01-11T03:31:57.000+0000,Customer segment: active. Created: 2023-08-19,Email,Low,500g5000004wnCeAAI,003g5000002EhtaAAC,New,Interest Rate Question,Question
+2026-01-11T03:32:05.000+0000,2026-01-11T03:32:05.000+0000,Customer segment: churned. Created: 2025-06-21,Email,High,500g5000004wnCfAAI,003g5000002EenfAAC,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:54.000+0000,Customer segment: at_risk. Created: 2024-04-29,Phone,Medium,500g5000004wnEAAAY,003g5000002EesUAAS,New,Fee Inquiry,Question
+,2026-01-11T03:30:45.000+0000,Customer segment: at_risk. Created: 2024-04-01,Email,Medium,500g5000004wnFmAAI,003g5000002EgO2AAK,New,Mobile App Problem,Problem
+,2026-01-11T03:30:45.000+0000,Customer segment: churned. Created: 2025-03-25,Phone,Medium,500g5000004wnFnAAI,003g5000002EgxVAAS,Working,Mobile App Problem,Problem
+2026-01-11T03:32:14.000+0000,2026-01-11T03:32:14.000+0000,Customer segment: churned. Created: 2023-03-24,Mobile App,Medium,500g5000004wnFoAAI,003g5000002EfdIAAS,Closed,Mobile App Problem,Problem
+,2026-01-11T03:30:04.000+0000,Customer segment: at_risk. Created: 2023-06-07,Mobile App,High,500g5000004wnHzAAI,003g5000002Efq9AAC,Working,ATM Card Issue,Problem
+,2026-01-11T03:32:16.000+0000,Customer segment: at_risk. Created: 2024-01-04,Web,High,500g5000004wnI0AAI,003g5000002EhDeAAK,New,ATM Card Issue,Problem
+,2026-01-11T03:32:18.000+0000,Customer segment: churned. Created: 2024-10-04,Mobile App,High,500g5000004wnI1AAI,003g5000002EiKzAAK,Escalated,Account Access Issue,Problem
+,2026-01-11T03:32:19.000+0000,Customer segment: at_risk. Created: 2024-10-29,Mobile App,Low,500g5000004wnI2AAI,003g5000002EgcZAAS,New,Interest Rate Question,Question
+,2026-01-11T03:32:19.000+0000,Customer segment: at_risk. Created: 2024-03-03,Web,Low,500g5000004wnI3AAI,003g5000002EgZMAA0,New,Interest Rate Question,Question
+2026-01-11T03:32:27.000+0000,2026-01-11T03:32:27.000+0000,Customer segment: at_risk. Created: 2023-09-21,Mobile App,Medium,500g5000004wnI4AAI,003g5000002EgcaAAC,Closed,Loan Inquiry,Question
+2026-01-11T03:32:31.000+0000,2026-01-11T03:32:31.000+0000,Customer segment: active. Created: 2025-07-25,Mobile App,Medium,500g5000004wnI5AAI,003g5000002EgJFAA0,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:44.000+0000,Customer segment: active. Created: 2025-04-13,Email,Medium,500g5000004wnI6AAI,003g5000002EiZVAA0,New,Fee Inquiry,Question
+,2026-01-11T03:32:48.000+0000,Customer segment: at_risk. Created: 2025-08-01,Web,High,500g5000004wnI7AAI,003g5000002EgxZAAS,New,Fraud Alert,Problem
+2026-01-11T03:33:15.000+0000,2026-01-11T03:33:15.000+0000,Customer segment: churned. Created: 2024-10-15,Mobile App,Medium,500g5000004wnI8AAI,003g5000002Ej2YAAS,Closed,Loan Inquiry,Question
+2026-01-11T03:32:42.000+0000,2026-01-11T03:32:42.000+0000,Customer segment: at_risk. Created: 2024-06-22,Web,Medium,500g5000004wnVuAAI,003g5000002Egj3AAC,Closed,Fee Inquiry,Question
+2026-01-11T03:33:02.000+0000,2026-01-11T03:33:02.000+0000,Customer segment: at_risk. Created: 2023-03-27,Email,Medium,500g5000004wnVvAAI,003g5000002EipeAAC,Closed,Loan Inquiry,Question
+2026-01-11T03:31:18.000+0000,2026-01-11T03:31:18.000+0000,Customer segment: at_risk. Created: 2024-02-14,Email,Medium,500g5000004wnXXAAY,003g5000002EhS9AAK,Closed,Fee Inquiry,Question
+,2026-01-11T03:31:34.000+0000,Customer segment: at_risk. Created: 2024-03-03,Email,Medium,500g5000004wnXYAAY,003g5000002Eg1UAAS,New,Mobile App Problem,Problem
+,2026-01-11T03:31:46.000+0000,Customer segment: at_risk. Created: 2025-09-16,Mobile App,Low,500g5000004wnXZAAY,003g5000002Eh3yAAC,Working,Statement Request,Request
+2026-01-11T03:32:53.000+0000,2026-01-11T03:32:53.000+0000,Customer segment: active. Created: 2025-12-19,Web,Low,500g5000004wnZiAAI,003g5000002EgEOAA0,Closed,Statement Request,Request
+,2026-01-11T03:33:16.000+0000,Customer segment: churned. Created: 2023-05-15,Web,High,500g5000004wnZmAAI,003g5000002Ej0wAAC,Escalated,Account Access Issue,Problem
+,2026-01-11T03:29:41.000+0000,Customer segment: at_risk. Created: 2024-09-20,Mobile App,High,500g5000004wnbXAAQ,003g5000002Ef29AAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:30:03.000+0000,Customer segment: at_risk. Created: 2025-10-07,Phone,Medium,500g5000004wnbYAAQ,003g5000002EfN9AAK,New,Mobile App Problem,Problem
+,2026-01-11T03:30:09.000+0000,Customer segment: at_risk. Created: 2023-01-19,Web,Medium,500g5000004wnbZAAQ,003g5000002Eg4fAAC,New,Fee Inquiry,Question
+,2026-01-11T03:30:16.000+0000,Customer segment: churned. Created: 2023-10-09,Phone,Medium,500g5000004wnbdAAA,003g5000002EgFxAAK,Escalated,Card Renewal,Request
+2026-01-11T03:33:23.000+0000,2026-01-11T03:33:23.000+0000,Customer segment: churned. Created: 2023-12-25,Web,High,500g5000004wnbmAAA,003g5000002EjH3AAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:29:47.000+0000,Customer segment: active. Created: 2023-07-03,Web,High,500g5000004wncMAAQ,003g5000002EfF3AAK,New,Fraud Alert,Problem
+,2026-01-11T03:30:39.000+0000,Customer segment: active. Created: 2024-05-21,Mobile App,Low,500g5000004wncNAAQ,003g5000002EeMEAA0,New,Statement Request,Request
+,2026-01-11T03:32:32.000+0000,Customer segment: at_risk. Created: 2023-12-29,Email,High,500g5000004wncOAAQ,003g5000002Efi9AAC,Working,Account Access Issue,Problem
+,2026-01-11T03:32:33.000+0000,Customer segment: churned. Created: 2023-02-06,Web,Medium,500g5000004wncPAAQ,003g5000002Eh7DAAS,Working,Card Renewal,Request
+,2026-01-11T03:30:06.000+0000,Customer segment: at_risk. Created: 2023-09-06,Mobile App,Medium,500g5000004wnfaAAA,003g5000002EfuzAAC,New,Mobile App Problem,Problem
+2026-01-11T03:32:30.000+0000,2026-01-11T03:32:30.000+0000,Customer segment: churned. Created: 2025-05-25,Email,Low,500g5000004wnfbAAA,003g5000002Eg6OAAS,Closed,Interest Rate Question,Question
+2026-01-11T03:32:31.000+0000,2026-01-11T03:32:31.000+0000,Customer segment: active. Created: 2023-01-13,Mobile App,Medium,500g5000004wnfcAAA,003g5000002EiRRAA0,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:47.000+0000,2026-01-11T03:32:47.000+0000,Customer segment: active. Created: 2023-12-09,Phone,Medium,500g5000004wnfdAAA,003g5000002EicjAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:33:02.000+0000,2026-01-11T03:33:02.000+0000,Customer segment: active. Created: 2024-12-21,Phone,Medium,500g5000004wnfeAAA,003g5000002EisrAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:33:22.000+0000,2026-01-11T03:33:22.000+0000,Customer segment: at_risk. Created: 2024-08-24,Phone,Low,500g5000004wnffAAA,003g5000002EfS0AAK,Closed,Statement Request,Request
+,2026-01-11T03:32:54.000+0000,Customer segment: active. Created: 2025-03-26,Mobile App,Medium,500g5000004woAPAAY,003g5000002EeiwAAC,New,Mobile App Problem,Problem
+2026-01-11T03:33:04.000+0000,2026-01-11T03:33:04.000+0000,Customer segment: at_risk. Created: 2025-10-03,Email,Medium,500g5000004woAQAAY,003g5000002EhASAA0,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:29.000+0000,Customer segment: churned. Created: 2025-02-20,Phone,High,500g5000004woN8AAI,003g5000002Eh0mAAC,Working,ATM Card Issue,Problem
+,2026-01-11T03:30:24.000+0000,Customer segment: churned. Created: 2024-04-27,Mobile App,Medium,500g5000004woQNAAY,003g5000002EgMQAA0,Escalated,Loan Inquiry,Question
+,2026-01-11T03:30:33.000+0000,Customer segment: churned. Created: 2024-09-19,Web,Low,500g5000004woQOAAY,003g5000002Eg1SAAS,Working,Interest Rate Question,Question
+,2026-01-11T03:31:07.000+0000,Customer segment: active. Created: 2023-12-15,Email,Medium,500g5000004woQPAAY,003g5000002Ef0ZAAS,New,Card Renewal,Request
+,2026-01-11T03:29:56.000+0000,Customer segment: at_risk. Created: 2023-10-16,Email,Medium,500g5000004woVCAAY,003g5000002EfQMAA0,New,Mobile App Problem,Problem
+2026-01-11T03:33:35.000+0000,2026-01-11T03:33:35.000+0000,Customer segment: churned. Created: 2025-03-29,Mobile App,High,500g5000004woVDAAY,003g5000002Ej4BAAS,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:31.000+0000,Customer segment: churned. Created: 2025-08-31,Email,Medium,500g5000004woWoAAI,003g5000002EhdRAAS,Working,Fee Inquiry,Question
+2026-01-11T03:32:37.000+0000,2026-01-11T03:32:37.000+0000,Customer segment: active. Created: 2023-03-05,Mobile App,Medium,500g5000004wobeAAA,003g5000002EiHmAAK,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:38.000+0000,2026-01-11T03:32:38.000+0000,Customer segment: active. Created: 2024-08-26,Web,Medium,500g5000004wobfAAA,003g5000002Ei3GAAS,Closed,Card Renewal,Request
+,2026-01-11T03:31:35.000+0000,Customer segment: at_risk. Created: 2023-06-25,Email,Low,500g5000004wodHAAQ,003g5000002EehEAAS,New,Interest Rate Question,Question
+2026-01-11T03:32:54.000+0000,2026-01-11T03:32:54.000+0000,Customer segment: active. Created: 2023-06-15,Phone,Medium,500g5000004wodIAAQ,003g5000002EhtbAAC,Closed,Fee Inquiry,Question
+2026-01-11T03:31:17.000+0000,2026-01-11T03:31:17.000+0000,Customer segment: at_risk. Created: 2025-03-10,Email,Medium,500g5000004wohqAAA,003g5000002EhS9AAK,Closed,Fee Inquiry,Question
+2026-01-11T03:31:21.000+0000,2026-01-11T03:31:21.000+0000,Customer segment: active. Created: 2023-11-03,Web,High,500g5000004wohrAAA,003g5000002EhK6AAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:31:54.000+0000,Customer segment: at_risk. Created: 2025-11-12,Phone,High,500g5000004woi2AAA,003g5000002EesUAAS,Working,ATM Card Issue,Problem
+2026-01-11T03:29:52.000+0000,2026-01-11T03:29:52.000+0000,Customer segment: at_risk. Created: 2024-08-07,Web,Medium,500g5000004wolPAAQ,003g5000002EfQLAA0,Closed,Card Renewal,Request
+,2026-01-11T03:29:52.000+0000,Customer segment: at_risk. Created: 2025-05-25,Email,Medium,500g5000004wolQAAQ,003g5000002EfQLAA0,New,Loan Inquiry,Question
+,2026-01-11T03:30:14.000+0000,Customer segment: churned. Created: 2024-05-18,Phone,Low,500g5000004wolRAAQ,003g5000002EgFxAAK,Escalated,Interest Rate Question,Question
+2026-01-11T03:30:20.000+0000,2026-01-11T03:30:20.000+0000,Customer segment: active. Created: 2023-04-19,Web,Medium,500g5000004wolSAAQ,003g5000002Ef0YAAS,Closed,Mobile App Problem,Problem
+,2026-01-11T03:32:52.000+0000,Customer segment: churned. Created: 2023-12-13,Web,Low,500g5000004wolTAAQ,003g5000002EeJkAAK,Escalated,Statement Request,Request
+2026-01-11T03:32:52.000+0000,2026-01-11T03:32:52.000+0000,Customer segment: churned. Created: 2023-05-16,Phone,High,500g5000004wolUAAQ,003g5000002EeJkAAK,Closed,ATM Card Issue,Problem
+2026-01-11T03:33:05.000+0000,2026-01-11T03:33:05.000+0000,Customer segment: churned. Created: 2023-01-09,Phone,High,500g5000004wolVAAQ,003g5000002EeNsAAK,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:33.000+0000,Customer segment: at_risk. Created: 2023-06-05,Web,Low,500g5000004wopsAAA,003g5000002EhjtAAC,Working,Interest Rate Question,Question
+2026-01-11T03:31:52.000+0000,2026-01-11T03:31:52.000+0000,Customer segment: active. Created: 2024-08-05,Web,Medium,500g5000004woq1AAA,003g5000002EhFGAA0,Closed,Loan Inquiry,Question
+2026-01-11T03:33:28.000+0000,2026-01-11T03:33:28.000+0000,Customer segment: churned. Created: 2024-12-25,Email,High,500g5000004woq3AAA,003g5000002EjKHAA0,Closed,Fraud Alert,Problem
+,2026-01-11T03:33:30.000+0000,Customer segment: at_risk. Created: 2023-07-19,Phone,High,500g5000004woq4AAA,003g5000002EjNVAA0,Working,Fraud Alert,Problem
+,2026-01-11T03:30:27.000+0000,Customer segment: at_risk. Created: 2024-05-13,Mobile App,High,500g5000004woqAAAQ,003g5000002EgUTAA0,New,Fraud Alert,Problem
+2026-01-11T03:30:45.000+0000,2026-01-11T03:30:45.000+0000,Customer segment: churned. Created: 2023-04-16,Email,High,500g5000004woqBAAQ,003g5000002EgxVAAS,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:23.000+0000,Customer segment: at_risk. Created: 2025-05-04,Web,Medium,500g5000004woqCAAQ,003g5000002EhTmAAK,New,Mobile App Problem,Problem
+2026-01-11T03:32:56.000+0000,2026-01-11T03:32:56.000+0000,Customer segment: active. Created: 2024-04-19,Web,Medium,500g5000004woqDAAQ,003g5000002EifxAAC,Closed,Card Renewal,Request
+,2026-01-11T03:30:06.000+0000,Customer segment: at_risk. Created: 2025-05-05,Email,High,500g5000004wov0AAA,003g5000002EfuzAAC,Working,Account Access Issue,Problem
+,2026-01-11T03:31:40.000+0000,Customer segment: churned. Created: 2023-08-24,Email,Low,500g5000004wov1AAA,003g5000002EhqLAAS,Working,Interest Rate Question,Question
+,2026-01-11T03:32:04.000+0000,Customer segment: churned. Created: 2023-04-17,Phone,Medium,500g5000004wov2AAA,003g5000002Egj0AAC,Escalated,Loan Inquiry,Question
+,2026-01-11T03:30:24.000+0000,Customer segment: churned. Created: 2024-11-21,Phone,Medium,500g5000004wozrAAA,003g5000002EgMQAA0,Working,Loan Inquiry,Question
+,2026-01-11T03:31:03.000+0000,Customer segment: churned. Created: 2024-09-25,Mobile App,Medium,500g5000004wozsAAA,003g5000002EfbfAAC,Escalated,Loan Inquiry,Question
+,2026-01-11T03:31:40.000+0000,Customer segment: at_risk. Created: 2023-06-16,Phone,High,500g5000004woztAAA,003g5000002EhC4AAK,Working,Account Access Issue,Problem
+2026-01-11T03:31:46.000+0000,2026-01-11T03:31:46.000+0000,Customer segment: active. Created: 2024-11-28,Phone,Medium,500g5000004wozuAAA,003g5000002Eh2NAAS,Closed,Mobile App Problem,Problem
+,2026-01-11T03:31:50.000+0000,Customer segment: at_risk. Created: 2024-01-12,Email,Low,500g5000004wozvAAA,003g5000002Efi7AAC,Working,Statement Request,Request
+2026-01-11T03:33:11.000+0000,2026-01-11T03:33:11.000+0000,Customer segment: churned. Created: 2024-11-09,Web,High,500g5000004wozwAAA,003g5000002EiL0AAK,Closed,ATM Card Issue,Problem
+,2026-01-11T03:29:46.000+0000,Customer segment: churned. Created: 2023-07-29,Mobile App,Medium,500g5000004wp2RAAQ,003g5000002Ef3mAAC,Escalated,Card Renewal,Request
+,2026-01-11T03:29:50.000+0000,Customer segment: at_risk. Created: 2025-12-08,Web,Low,500g5000004wp2SAAQ,003g5000002EfJtAAK,New,Interest Rate Question,Question
+2026-01-11T03:29:55.000+0000,2026-01-11T03:29:55.000+0000,Customer segment: active. Created: 2024-03-13,Phone,Low,500g5000004wp2TAAQ,003g5000002Ef8cAAC,Closed,Statement Request,Request
+,2026-01-11T03:29:56.000+0000,Customer segment: active. Created: 2024-06-17,Web,High,500g5000004wp2UAAQ,003g5000002EfDSAA0,New,Transaction Dispute,Problem
+,2026-01-11T03:31:47.000+0000,Customer segment: active. Created: 2025-02-21,Mobile App,Medium,500g5000004wp2aAAA,003g5000002EhLiAAK,New,Card Renewal,Request
+2026-01-11T03:31:58.000+0000,2026-01-11T03:31:58.000+0000,Customer segment: active. Created: 2026-01-01,Phone,High,500g5000004wp2bAAA,003g5000002EesWAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:32:00.000+0000,Customer segment: churned. Created: 2024-11-25,Phone,Medium,500g5000004wp2cAAA,003g5000002EeneAAC,Working,Fee Inquiry,Question
+,2026-01-11T03:32:04.000+0000,Customer segment: churned. Created: 2023-09-27,Mobile App,Low,500g5000004wp2dAAA,003g5000002Egj0AAC,Escalated,Statement Request,Request
+,2026-01-11T03:32:15.000+0000,Customer segment: at_risk. Created: 2024-04-26,Email,Medium,500g5000004wp2eAAA,003g5000002EhDeAAK,New,Loan Inquiry,Question
+,2026-01-11T03:32:49.000+0000,Customer segment: at_risk. Created: 2025-06-18,Phone,Low,500g5000004wp2lAAA,003g5000002EgxZAAS,New,Interest Rate Question,Question
+2026-01-11T03:32:50.000+0000,2026-01-11T03:32:50.000+0000,Customer segment: at_risk. Created: 2025-01-21,Email,High,500g5000004wp2oAAA,003g5000002EieLAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:32:53.000+0000,Customer segment: at_risk. Created: 2023-01-11,Mobile App,High,500g5000004wp2pAAA,003g5000002EguKAAS,Working,Account Access Issue,Problem
+,2026-01-11T03:33:13.000+0000,Customer segment: churned. Created: 2023-12-02,Mobile App,High,500g5000004wp2vAAA,003g5000002EgcbAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:33:14.000+0000,Customer segment: churned. Created: 2024-07-31,Web,Low,500g5000004wp2zAAA,003g5000002Ej2YAAS,Escalated,Interest Rate Question,Question
+,2026-01-11T03:30:39.000+0000,Customer segment: active. Created: 2024-01-13,Mobile App,High,500g5000004wp4IAAQ,003g5000002EgmDAAS,New,ATM Card Issue,Problem
+,2026-01-11T03:33:41.000+0000,Customer segment: at_risk. Created: 2025-02-04,Mobile App,Medium,500g5000004wp4NAAQ,003g5000002EeviAAC,Working,Loan Inquiry,Question
+2026-01-11T03:29:54.000+0000,2026-01-11T03:29:54.000+0000,Customer segment: active. Created: 2024-04-07,Mobile App,High,500g5000004wp6IAAQ,003g5000002EfYPAA0,Closed,Fraud Alert,Problem
+,2026-01-11T03:30:11.000+0000,Customer segment: churned. Created: 2025-08-11,Email,Medium,500g5000004wp6JAAQ,003g5000002EgB7AAK,Escalated,Fee Inquiry,Question
+,2026-01-11T03:31:29.000+0000,Customer segment: churned. Created: 2024-08-28,Web,Low,500g5000004wp6KAAQ,003g5000002EftOAAS,Working,Statement Request,Request
+2026-01-11T03:31:30.000+0000,2026-01-11T03:31:30.000+0000,Customer segment: at_risk. Created: 2025-11-25,Phone,Low,500g5000004wp6LAAQ,003g5000002EfgUAAS,Closed,Statement Request,Request
+2026-01-11T03:31:30.000+0000,2026-01-11T03:31:30.000+0000,Customer segment: churned. Created: 2023-08-02,Email,High,500g5000004wp6MAAQ,003g5000002EhdRAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:33:24.000+0000,Customer segment: churned. Created: 2023-08-25,Web,High,500g5000004wp6NAAQ,003g5000002EjH3AAK,Escalated,Fraud Alert,Problem
+2026-01-11T03:30:07.000+0000,2026-01-11T03:30:07.000+0000,Customer segment: active. Created: 2025-08-22,Mobile App,Low,500g5000004wp92AAA,003g5000002EfwbAAC,Closed,Statement Request,Request
+,2026-01-11T03:30:33.000+0000,Customer segment: churned. Created: 2024-09-05,Phone,Medium,500g5000004wp9AAAQ,003g5000002Eg1SAAS,Working,Loan Inquiry,Question
+,2026-01-11T03:30:36.000+0000,Customer segment: at_risk. Created: 2025-06-20,Web,High,500g5000004wp9BAAQ,003g5000002Eeu7AAC,New,Transaction Dispute,Problem
+,2026-01-11T03:33:32.000+0000,Customer segment: at_risk. Created: 2023-10-22,Email,Medium,500g5000004wpCdAAI,003g5000002Eem2AAC,New,Mobile App Problem,Problem
+2026-01-11T03:33:39.000+0000,2026-01-11T03:33:39.000+0000,Customer segment: active. Created: 2023-11-09,Mobile App,High,500g5000004wpCeAAI,003g5000002EjH4AAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:30:52.000+0000,Customer segment: at_risk. Created: 2024-05-07,Mobile App,Medium,500g5000004wpEOAAY,003g5000002Eh3xAAC,Working,Loan Inquiry,Question
+,2026-01-11T03:32:35.000+0000,Customer segment: active. Created: 2023-07-15,Phone,High,500g5000004wpEPAAY,003g5000002EfdKAAS,New,Account Access Issue,Problem
+2026-01-11T03:32:36.000+0000,2026-01-11T03:32:36.000+0000,Customer segment: at_risk. Created: 2025-09-02,Email,Low,500g5000004wpEQAAY,003g5000002EiT3AAK,Closed,Interest Rate Question,Question
+,2026-01-11T03:29:50.000+0000,Customer segment: at_risk. Created: 2024-07-02,Phone,High,500g5000004wpGgAAI,003g5000002EfJtAAK,Working,Transaction Dispute,Problem
+,2026-01-11T03:30:02.000+0000,Customer segment: active. Created: 2025-06-14,Phone,Low,500g5000004wpGhAAI,003g5000002EfoXAAS,New,Statement Request,Request
+,2026-01-11T03:31:53.000+0000,Customer segment: at_risk. Created: 2024-02-10,Mobile App,High,500g5000004wpGkAAI,003g5000002EgzBAAS,Working,Account Access Issue,Problem
+,2026-01-11T03:33:29.000+0000,Customer segment: churned. Created: 2024-04-15,Phone,Low,500g5000004wpGzAAI,003g5000002Ej0yAAC,Working,Interest Rate Question,Question
+,2026-01-11T03:32:43.000+0000,Customer segment: at_risk. Created: 2025-12-20,Web,Medium,500g5000004wpKAAAY,003g5000002Egj3AAC,New,Fee Inquiry,Question
+,2026-01-11T03:32:43.000+0000,Customer segment: churned. Created: 2023-04-08,Web,High,500g5000004wpKBAAY,003g5000002EfzsAAC,Escalated,Account Access Issue,Problem
+,2026-01-11T03:32:45.000+0000,Customer segment: active. Created: 2024-07-19,Email,Low,500g5000004wpKEAAY,003g5000002EfoYAAS,New,Statement Request,Request
+,2026-01-11T03:32:58.000+0000,Customer segment: at_risk. Created: 2025-03-30,Web,Medium,500g5000004wpKGAAY,003g5000002Ef3rAAC,Working,Card Renewal,Request
+,2026-01-11T03:32:59.000+0000,Customer segment: churned. Created: 2025-11-09,Phone,High,500g5000004wpKJAAY,003g5000002EipdAAC,Escalated,ATM Card Issue,Problem
+,2026-01-11T03:33:40.000+0000,Customer segment: at_risk. Created: 2025-04-16,Phone,Low,500g5000004wpKYAAY,003g5000002EirGAAS,Working,Statement Request,Request
+,2026-01-11T03:31:34.000+0000,Customer segment: active. Created: 2025-03-11,Phone,Low,500g5000004wpRGAAY,003g5000002EhSBAA0,New,Interest Rate Question,Question
+2026-01-11T03:31:36.000+0000,2026-01-11T03:31:36.000+0000,Customer segment: churned. Created: 2023-11-01,Phone,Medium,500g5000004wpRHAAY,003g5000002EeG6AAK,Closed,Card Renewal,Request
+2026-01-11T03:31:43.000+0000,2026-01-11T03:31:43.000+0000,Customer segment: active. Created: 2025-08-12,Email,High,500g5000004wpRIAAY,003g5000002EhtZAAS,Closed,Fraud Alert,Problem
+2026-01-11T03:32:24.000+0000,2026-01-11T03:32:24.000+0000,Customer segment: active. Created: 2024-07-29,Web,High,500g5000004wpRJAAY,003g5000002EfYSAA0,Closed,ATM Card Issue,Problem
+,2026-01-11T03:32:36.000+0000,Customer segment: at_risk. Created: 2023-07-31,Email,Low,500g5000004wpRKAAY,003g5000002EiT3AAK,Working,Interest Rate Question,Question
+,2026-01-11T03:32:38.000+0000,Customer segment: at_risk. Created: 2024-08-11,Email,High,500g5000004wpRLAAY,003g5000002EeyzAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:32:55.000+0000,Customer segment: active. Created: 2024-06-29,Email,Medium,500g5000004wpRMAAY,003g5000002EgKrAAK,New,Mobile App Problem,Problem
+,2026-01-11T03:33:12.000+0000,Customer segment: at_risk. Created: 2025-07-03,Phone,Medium,500g5000004wpRNAAY,003g5000002EhX0AAK,New,Fee Inquiry,Question
+,2026-01-11T03:33:38.000+0000,Customer segment: churned. Created: 2023-03-14,Mobile App,Medium,500g5000004wpROAAY,003g5000002Eh7FAAS,Escalated,Fee Inquiry,Question
+,2026-01-11T03:30:40.000+0000,Customer segment: at_risk. Created: 2025-08-30,Web,High,500g5000004wpUVAAY,003g5000002EgMRAA0,New,Transaction Dispute,Problem
+2026-01-11T03:31:22.000+0000,2026-01-11T03:31:22.000+0000,Customer segment: churned. Created: 2025-07-18,Email,Medium,500g5000004wpUWAAY,003g5000002EguIAAS,Closed,Mobile App Problem,Problem
+,2026-01-11T03:32:55.000+0000,Customer segment: at_risk. Created: 2024-04-13,Mobile App,High,500g5000004wpUXAAY,003g5000002EftRAAS,Working,Transaction Dispute,Problem
+2026-01-11T03:30:09.000+0000,2026-01-11T03:30:09.000+0000,Customer segment: active. Created: 2025-06-13,Phone,Medium,500g5000004wpXJAAY,003g5000002Eg33AAC,Closed,Loan Inquiry,Question
+2026-01-11T03:30:48.000+0000,2026-01-11T03:30:48.000+0000,Customer segment: churned. Created: 2025-01-03,Phone,Medium,500g5000004wpXTAAY,003g5000002Eh0jAAC,Closed,Card Renewal,Request
+,2026-01-11T03:31:05.000+0000,Customer segment: active. Created: 2024-04-14,Web,Low,500g5000004wpXVAAY,003g5000002EhITAA0,New,Statement Request,Request
+,2026-01-11T03:30:01.000+0000,Customer segment: churned. Created: 2025-07-07,Mobile App,High,500g5000004wpXlAAI,003g5000002EfmvAAC,Escalated,Account Access Issue,Problem
+,2026-01-11T03:29:42.000+0000,Customer segment: active. Created: 2025-01-09,Mobile App,High,500g5000004wpcYAAQ,003g5000002Ef2AAAS,New,ATM Card Issue,Problem
+,2026-01-11T03:29:57.000+0000,Customer segment: at_risk. Created: 2023-06-21,Web,High,500g5000004wpcZAAQ,003g5000002EfQMAA0,New,Account Access Issue,Problem
+,2026-01-11T03:33:18.000+0000,Customer segment: at_risk. Created: 2024-08-29,Phone,Medium,500g5000004wpcaAAA,003g5000002EjAcAAK,Working,Card Renewal,Request
+2026-01-11T03:30:43.000+0000,2026-01-11T03:30:43.000+0000,Customer segment: churned. Created: 2024-02-04,Phone,Low,500g5000004wpeAAAQ,003g5000002EgsfAAC,Closed,Statement Request,Request
+2026-01-11T03:33:46.000+0000,2026-01-11T03:33:46.000+0000,Customer segment: active. Created: 2023-05-20,Mobile App,Low,500g5000004wpeBAAQ,003g5000002Eh5bAAC,Closed,Statement Request,Request
+,2026-01-11T03:29:40.000+0000,Customer segment: at_risk. Created: 2023-12-08,Mobile App,Medium,500g5000004wpfmAAA,003g5000002Ef29AAC,Working,Fee Inquiry,Question
+,2026-01-11T03:30:00.000+0000,Customer segment: churned. Created: 2023-06-05,Email,High,500g5000004wpfnAAA,003g5000002EfOkAAK,Working,ATM Card Issue,Problem
+2026-01-11T03:30:01.000+0000,2026-01-11T03:30:01.000+0000,Customer segment: churned. Created: 2024-12-28,Web,Medium,500g5000004wpfoAAA,003g5000002EfOkAAK,Closed,Loan Inquiry,Question
+,2026-01-11T03:31:22.000+0000,Customer segment: churned. Created: 2025-11-25,Web,Medium,500g5000004wphOAAQ,003g5000002EguIAAS,Working,Fee Inquiry,Question
+2026-01-11T03:33:38.000+0000,2026-01-11T03:33:38.000+0000,Customer segment: active. Created: 2023-07-04,Web,Medium,500g5000004wpj0AAA,003g5000002EixiAAC,Closed,Card Renewal,Request
+2026-01-11T03:29:51.000+0000,2026-01-11T03:29:51.000+0000,Customer segment: active. Created: 2023-11-25,Web,Medium,500g5000004wpnqAAA,003g5000002EfLVAA0,Closed,Fee Inquiry,Question
+,2026-01-11T03:29:52.000+0000,Customer segment: churned. Created: 2023-09-02,Email,Low,500g5000004wpnrAAA,003g5000002EfRxAAK,Escalated,Statement Request,Request
+2026-01-11T03:29:56.000+0000,2026-01-11T03:29:56.000+0000,Customer segment: active. Created: 2024-08-11,Phone,Medium,500g5000004wpnsAAA,003g5000002EfgTAAS,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:41.000+0000,Customer segment: at_risk. Created: 2024-06-10,Email,High,500g5000004wpr4AAA,003g5000002Egr3AAC,New,ATM Card Issue,Problem
+,2026-01-11T03:31:14.000+0000,Customer segment: churned. Created: 2025-05-17,Web,Medium,500g5000004wpr5AAA,003g5000002Ef0aAAC,Escalated,Fee Inquiry,Question
+,2026-01-11T03:32:12.000+0000,Customer segment: active. Created: 2025-09-02,Web,Medium,500g5000004wpr6AAA,003g5000002EeisAAC,New,Mobile App Problem,Problem
+,2026-01-11T03:32:17.000+0000,Customer segment: churned. Created: 2025-01-17,Mobile App,Low,500g5000004wpr7AAA,003g5000002EiKzAAK,Working,Statement Request,Request
+,2026-01-11T03:32:58.000+0000,Customer segment: churned. Created: 2025-06-29,Phone,Medium,500g5000004wpr8AAA,003g5000002EfgVAAS,Escalated,Card Renewal,Request
+,2026-01-11T03:32:58.000+0000,Customer segment: churned. Created: 2026-01-05,Web,Low,500g5000004wpr9AAA,003g5000002EfgVAAS,Escalated,Interest Rate Question,Question
+2026-01-11T03:32:59.000+0000,2026-01-11T03:32:59.000+0000,Customer segment: active. Created: 2025-11-23,Phone,Medium,500g5000004wprAAAQ,003g5000002EiknAAC,Closed,Fee Inquiry,Question
+,2026-01-11T03:29:58.000+0000,Customer segment: active. Created: 2024-05-17,Mobile App,High,500g5000004wpuIAAQ,003g5000002EeywAAC,New,Transaction Dispute,Problem
+,2026-01-11T03:31:29.000+0000,Customer segment: churned. Created: 2025-10-17,Email,High,500g5000004wpuJAAQ,003g5000002EftOAAS,Escalated,Transaction Dispute,Problem
+,2026-01-11T03:32:03.000+0000,Customer segment: churned. Created: 2023-07-06,Phone,Medium,500g5000004wpvuAAA,003g5000002Egj0AAC,Working,Mobile App Problem,Problem
+,2026-01-11T03:30:11.000+0000,Customer segment: at_risk. Created: 2023-06-26,Email,High,500g5000004wpxXAAQ,003g5000002Eg7tAAC,Working,Account Access Issue,Problem
+,2026-01-11T03:33:28.000+0000,Customer segment: active. Created: 2024-11-22,Mobile App,Medium,500g5000004wpz8AAA,003g5000002EfVDAA0,New,Fee Inquiry,Question
+2026-01-11T03:30:20.000+0000,2026-01-11T03:30:20.000+0000,Customer segment: churned. Created: 2024-11-12,Web,Medium,500g5000004wq0lAAA,003g5000002EgHaAAK,Closed,Loan Inquiry,Question
+2026-01-11T03:30:34.000+0000,2026-01-11T03:30:34.000+0000,Customer segment: active. Created: 2023-07-27,Web,High,500g5000004wq0mAAA,003g5000002EgizAAC,Closed,Account Access Issue,Problem
+2026-01-11T03:31:24.000+0000,2026-01-11T03:31:24.000+0000,Customer segment: active. Created: 2025-09-30,Web,Low,500g5000004wq0nAAA,003g5000002EgxXAAS,Closed,Statement Request,Request
+2026-01-11T03:31:59.000+0000,2026-01-11T03:31:59.000+0000,Customer segment: at_risk. Created: 2023-02-26,Web,Medium,500g5000004wq0oAAA,003g5000002Eh0lAAC,Closed,Loan Inquiry,Question
+2026-01-11T03:33:06.000+0000,2026-01-11T03:33:06.000+0000,Customer segment: churned. Created: 2024-03-21,Mobile App,Medium,500g5000004wq0pAAA,003g5000002Ej49AAC,Closed,Card Renewal,Request
+,2026-01-11T03:31:49.000+0000,Customer segment: at_risk. Created: 2024-02-01,Mobile App,Medium,500g5000004wq3CAAQ,003g5000002EfmyAAC,New,Fee Inquiry,Question
+,2026-01-11T03:33:18.000+0000,Customer segment: at_risk. Created: 2024-05-05,Email,Low,500g5000004wq3MAAQ,003g5000002EjAcAAK,Working,Statement Request,Request
+2026-01-11T03:33:10.000+0000,2026-01-11T03:33:10.000+0000,Customer segment: churned. Created: 2024-11-16,Phone,Low,500g5000004wq3yAAA,003g5000002Ej5lAAC,Closed,Interest Rate Question,Question
+2026-01-11T03:33:17.000+0000,2026-01-11T03:33:17.000+0000,Customer segment: at_risk. Created: 2024-11-26,Web,Medium,500g5000004wq3zAAA,003g5000002EjAcAAK,Closed,Fee Inquiry,Question
+,2026-01-11T03:30:12.000+0000,Customer segment: churned. Created: 2025-09-30,Phone,Medium,500g5000004wqDeAAI,003g5000002EgB7AAK,Working,Fee Inquiry,Question
+,2026-01-11T03:30:52.000+0000,Customer segment: at_risk. Created: 2023-11-28,Mobile App,High,500g5000004wqDfAAI,003g5000002Eh5ZAAS,Working,Account Access Issue,Problem
+2026-01-11T03:30:56.000+0000,2026-01-11T03:30:56.000+0000,Customer segment: active. Created: 2025-05-19,Web,High,500g5000004wqDgAAI,003g5000002EeXqAAK,Closed,Fraud Alert,Problem
+,2026-01-11T03:33:25.000+0000,Customer segment: at_risk. Created: 2025-08-16,Email,High,500g5000004wqGiAAI,003g5000002EiL1AAK,Working,Account Access Issue,Problem
+2026-01-11T03:29:45.000+0000,2026-01-11T03:29:45.000+0000,Customer segment: active. Created: 2024-01-21,Phone,Medium,500g5000004wqGsAAI,003g5000002EfADAA0,Closed,Loan Inquiry,Question
+2026-01-11T03:29:48.000+0000,2026-01-11T03:29:48.000+0000,Customer segment: at_risk. Created: 2024-07-01,Web,High,500g5000004wqGtAAI,003g5000002EfF4AAK,Closed,ATM Card Issue,Problem
+2026-01-11T03:29:50.000+0000,2026-01-11T03:29:50.000+0000,Customer segment: active. Created: 2024-03-07,Mobile App,High,500g5000004wqGuAAI,003g5000002Ef3oAAC,Closed,Fraud Alert,Problem
+,2026-01-11T03:30:00.000+0000,Customer segment: churned. Created: 2024-08-02,Web,Low,500g5000004wqGvAAI,003g5000002EfOkAAK,Escalated,Statement Request,Request
+2026-01-11T03:33:23.000+0000,2026-01-11T03:33:23.000+0000,Customer segment: churned. Created: 2024-10-28,Web,Medium,500g5000004wqGwAAI,003g5000002EjH3AAK,Closed,Loan Inquiry,Question
+,2026-01-11T03:33:27.000+0000,Customer segment: churned. Created: 2023-03-04,Phone,High,500g5000004wqGxAAI,003g5000002EjKHAA0,Escalated,ATM Card Issue,Problem
+2026-01-11T03:33:36.000+0000,2026-01-11T03:33:36.000+0000,Customer segment: active. Created: 2025-12-14,Email,High,500g5000004wqGyAAI,003g5000002EjTxAAK,Closed,Transaction Dispute,Problem
+,2026-01-11T03:32:41.000+0000,Customer segment: churned. Created: 2023-02-21,Phone,Medium,500g5000004wqJaAAI,003g5000002Efv2AAC,Escalated,Fee Inquiry,Question
+,2026-01-11T03:33:25.000+0000,Customer segment: at_risk. Created: 2023-04-03,Phone,Low,500g5000004wqJcAAI,003g5000002EiL1AAK,Working,Statement Request,Request
+,2026-01-11T03:32:17.000+0000,Customer segment: churned. Created: 2023-07-03,Phone,High,500g5000004wqK7AAI,003g5000002EiKzAAK,Working,ATM Card Issue,Problem
+,2026-01-11T03:33:09.000+0000,Customer segment: churned. Created: 2024-11-13,Web,High,500g5000004wqK8AAI,003g5000002Ej5lAAC,Escalated,ATM Card Issue,Problem
+,2026-01-11T03:30:43.000+0000,Customer segment: active. Created: 2025-09-02,Mobile App,High,500g5000004wqNEAAY,003g5000002EgFyAAK,New,Account Access Issue,Problem
+2026-01-11T03:30:47.000+0000,2026-01-11T03:30:47.000+0000,Customer segment: active. Created: 2024-07-25,Phone,Medium,500g5000004wqNGAAY,003g5000002Egz7AAC,Closed,Fee Inquiry,Question
+,2026-01-11T03:30:50.000+0000,Customer segment: at_risk. Created: 2024-07-24,Phone,Medium,500g5000004wqNHAAY,003g5000002Ef8dAAC,Working,Fee Inquiry,Question
+,2026-01-11T03:30:58.000+0000,Customer segment: churned. Created: 2025-05-18,Mobile App,Medium,500g5000004wqNIAAY,003g5000002EgpSAAS,Working,Mobile App Problem,Problem
+,2026-01-11T03:30:37.000+0000,Customer segment: churned. Created: 2025-08-28,Web,Low,500g5000004wqQ3AAI,003g5000002EgkbAAC,Escalated,Interest Rate Question,Question
+2026-01-11T03:31:55.000+0000,2026-01-11T03:31:55.000+0000,Customer segment: at_risk. Created: 2023-11-26,Phone,Medium,500g5000004wqQJAAY,003g5000002Eg6KAAS,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:04.000+0000,Customer segment: churned. Created: 2023-07-04,Email,Medium,500g5000004wqQKAAY,003g5000002Egj0AAC,Escalated,Mobile App Problem,Problem
+2026-01-11T03:32:48.000+0000,2026-01-11T03:32:48.000+0000,Customer segment: at_risk. Created: 2025-03-15,Web,High,500g5000004wqQPAAY,003g5000002Eg6QAAS,Closed,Fraud Alert,Problem
+,2026-01-11T03:30:10.000+0000,Customer segment: at_risk. Created: 2025-10-28,Web,Low,500g5000004wqRqAAI,003g5000002Eg6HAAS,Working,Statement Request,Request
+2026-01-11T03:30:49.000+0000,2026-01-11T03:30:49.000+0000,Customer segment: at_risk. Created: 2025-02-03,Mobile App,High,500g5000004wqRuAAI,003g5000002EgfmAAC,Closed,ATM Card Issue,Problem
+,2026-01-11T03:33:09.000+0000,Customer segment: churned. Created: 2023-10-06,Web,High,500g5000004wqSdAAI,003g5000002Ej5lAAC,Working,Fraud Alert,Problem
+2026-01-11T03:33:16.000+0000,2026-01-11T03:33:16.000+0000,Customer segment: active. Created: 2024-10-07,Mobile App,High,500g5000004wqSgAAI,003g5000002EjAbAAK,Closed,Account Access Issue,Problem
+2026-01-11T03:33:31.000+0000,2026-01-11T03:33:31.000+0000,Customer segment: active. Created: 2024-08-18,Mobile App,High,500g5000004wqSpAAI,003g5000002EhQYAA0,Closed,Fraud Alert,Problem
+,2026-01-11T03:33:34.000+0000,Customer segment: at_risk. Created: 2024-06-16,Email,Medium,500g5000004wqSqAAI,003g5000002EhOxAAK,New,Mobile App Problem,Problem
+2026-01-11T03:30:16.000+0000,2026-01-11T03:30:16.000+0000,Customer segment: churned. Created: 2025-05-06,Email,High,500g5000004wqUPAAY,003g5000002EgFxAAK,Closed,Fraud Alert,Problem
+2026-01-11T03:29:48.000+0000,2026-01-11T03:29:48.000+0000,Customer segment: active. Created: 2025-01-04,Mobile App,High,500g5000004wqXQAAY,003g5000002EfF3AAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:30:35.000+0000,Customer segment: at_risk. Created: 2023-01-19,Email,High,500g5000004wqXVAAY,003g5000002EgcYAAS,Working,Fraud Alert,Problem
+,2026-01-11T03:29:56.000+0000,Customer segment: active. Created: 2025-08-25,Email,High,500g5000004wqZ5AAI,003g5000002EfDSAA0,New,Fraud Alert,Problem
+,2026-01-11T03:30:04.000+0000,Customer segment: at_risk. Created: 2023-02-09,Mobile App,High,500g5000004wqZ6AAI,003g5000002Efq9AAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:30:08.000+0000,Customer segment: active. Created: 2025-10-02,Phone,High,500g5000004wqZ7AAI,003g5000002Eg1RAAS,New,ATM Card Issue,Problem
+2026-01-11T03:31:08.000+0000,2026-01-11T03:31:08.000+0000,Customer segment: active. Created: 2024-03-21,Web,Medium,500g5000004wqZEAAY,003g5000002EeNrAAK,Closed,Card Renewal,Request
+,2026-01-11T03:31:39.000+0000,Customer segment: active. Created: 2023-02-07,Web,Low,500g5000004wqZGAAY,003g5000002Eg9WAAS,New,Interest Rate Question,Question
+,2026-01-11T03:32:01.000+0000,Customer segment: churned. Created: 2024-06-22,Mobile App,Medium,500g5000004wqZHAAY,003g5000002EeneAAC,Working,Mobile App Problem,Problem
+,2026-01-11T03:32:26.000+0000,Customer segment: active. Created: 2023-08-15,Web,Low,500g5000004wqZJAAY,003g5000002EhGsAAK,New,Interest Rate Question,Question
+,2026-01-11T03:33:04.000+0000,Customer segment: active. Created: 2025-09-01,Email,Low,500g5000004wqZQAAY,003g5000002Eiw5AAC,New,Statement Request,Request
+,2026-01-11T03:30:23.000+0000,Customer segment: churned. Created: 2023-11-13,Mobile App,High,500g5000004wqarAAA,003g5000002EgMQAA0,Working,Account Access Issue,Problem
+2026-01-11T03:30:26.000+0000,2026-01-11T03:30:26.000+0000,Customer segment: at_risk. Created: 2024-10-03,Phone,Medium,500g5000004wqasAAA,003g5000002Eg4gAAC,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:44.000+0000,Customer segment: churned. Created: 2025-11-08,Phone,Medium,500g5000004wqbBAAQ,003g5000002EguHAAS,Working,Card Renewal,Request
+,2026-01-11T03:30:51.000+0000,Customer segment: at_risk. Created: 2025-08-15,Web,Medium,500g5000004wqbGAAQ,003g5000002Eh3xAAC,Working,Fee Inquiry,Question
+,2026-01-11T03:32:19.000+0000,Customer segment: at_risk. Created: 2023-07-08,Phone,Medium,500g5000004wqbIAAQ,003g5000002EgZMAA0,New,Loan Inquiry,Question
+,2026-01-11T03:33:40.000+0000,Customer segment: active. Created: 2024-06-09,Email,High,500g5000004wqbWAAQ,003g5000002EjH4AAK,New,ATM Card Issue,Problem
+,2026-01-11T03:33:43.000+0000,Customer segment: churned. Created: 2024-09-30,Web,Low,500g5000004wqbYAAQ,003g5000002EjDqAAK,Escalated,Statement Request,Request
+2026-01-11T03:33:46.000+0000,2026-01-11T03:33:46.000+0000,Customer segment: active. Created: 2024-05-20,Web,High,500g5000004wqbaAAA,003g5000002EfVEAA0,Closed,Transaction Dispute,Problem
+2026-01-11T03:29:44.000+0000,2026-01-11T03:29:44.000+0000,Customer segment: at_risk. Created: 2023-03-12,Web,High,500g5000004wqdSAAQ,003g5000002EepHAAS,Closed,ATM Card Issue,Problem
+2026-01-11T03:29:48.000+0000,2026-01-11T03:29:48.000+0000,Customer segment: active. Created: 2024-02-22,Web,High,500g5000004wqdTAAQ,003g5000002Ef3nAAC,Closed,ATM Card Issue,Problem
+2026-01-11T03:29:49.000+0000,2026-01-11T03:29:49.000+0000,Customer segment: active. Created: 2025-05-17,Email,Medium,500g5000004wqdUAAQ,003g5000002EfGfAAK,Closed,Fee Inquiry,Question
+2026-01-11T03:29:51.000+0000,2026-01-11T03:29:51.000+0000,Customer segment: active. Created: 2025-09-10,Email,High,500g5000004wqdVAAQ,003g5000002EfOjAAK,Closed,Transaction Dispute,Problem
+2026-01-11T03:29:51.000+0000,2026-01-11T03:29:51.000+0000,Customer segment: active. Created: 2023-02-24,Email,High,500g5000004wqdWAAQ,003g5000002Ef5OAAS,Closed,Transaction Dispute,Problem
+2026-01-11T03:30:25.000+0000,2026-01-11T03:30:25.000+0000,Customer segment: active. Created: 2024-11-23,Web,High,500g5000004wqirAAA,003g5000002EgO1AAK,Closed,ATM Card Issue,Problem
+2026-01-11T03:31:44.000+0000,2026-01-11T03:31:44.000+0000,Customer segment: active. Created: 2023-07-02,Web,Medium,500g5000004wqjAAAQ,003g5000002EgeBAAS,Closed,Card Renewal,Request
+2026-01-11T03:32:31.000+0000,2026-01-11T03:32:31.000+0000,Customer segment: active. Created: 2024-03-13,Email,High,500g5000004wqjSAAQ,003g5000002EiRRAA0,Closed,Account Access Issue,Problem
+2026-01-11T03:32:34.000+0000,2026-01-11T03:32:34.000+0000,Customer segment: churned. Created: 2025-01-30,Phone,Medium,500g5000004wqjUAAQ,003g5000002Eh7DAAS,Closed,Loan Inquiry,Question
+,2026-01-11T03:32:49.000+0000,Customer segment: at_risk. Created: 2023-03-09,Phone,High,500g5000004wqjYAAQ,003g5000002EiJOAA0,New,Account Access Issue,Problem
+2026-01-11T03:32:54.000+0000,2026-01-11T03:32:54.000+0000,Customer segment: active. Created: 2023-09-07,Mobile App,High,500g5000004wqjcAAA,003g5000002EftQAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:33:04.000+0000,2026-01-11T03:33:04.000+0000,Customer segment: churned. Created: 2025-09-28,Mobile App,High,500g5000004wqjmAAA,003g5000002EixhAAC,Closed,Fraud Alert,Problem
+,2026-01-11T03:32:46.000+0000,Customer segment: churned. Created: 2025-07-01,Web,Medium,500g5000004wqkJAAQ,003g5000002EesYAAS,Working,Card Renewal,Request
+,2026-01-11T03:33:37.000+0000,Customer segment: churned. Created: 2025-12-28,Mobile App,Low,500g5000004wqkbAAA,003g5000002EjKJAA0,Working,Interest Rate Question,Question
+,2026-01-11T03:30:40.000+0000,Customer segment: at_risk. Created: 2023-08-27,Web,High,500g5000004wqmeAAA,003g5000002EeirAAC,Working,ATM Card Issue,Problem
+,2026-01-11T03:30:57.000+0000,Customer segment: active. Created: 2024-07-07,Phone,Medium,500g5000004wqmkAAA,003g5000002EgFzAAK,New,Mobile App Problem,Problem
+2026-01-11T03:30:57.000+0000,2026-01-11T03:30:57.000+0000,Customer segment: active. Created: 2024-05-24,Web,Medium,500g5000004wqmlAAA,003g5000002EgmGAAS,Closed,Card Renewal,Request
+,2026-01-11T03:31:14.000+0000,Customer segment: at_risk. Created: 2023-11-01,Phone,Medium,500g5000004wqn8AAA,003g5000002EhNKAA0,New,Card Renewal,Request
+2026-01-11T03:33:12.000+0000,2026-01-11T03:33:12.000+0000,Customer segment: active. Created: 2024-02-16,Email,Medium,500g5000004wqn9AAA,003g5000002EfVCAA0,Closed,Mobile App Problem,Problem
+2026-01-11T03:29:53.000+0000,2026-01-11T03:29:53.000+0000,Customer segment: active. Created: 2025-06-08,Phone,Low,500g5000004wqokAAA,003g5000002EfTZAA0,Closed,Statement Request,Request
+2026-01-11T03:29:53.000+0000,2026-01-11T03:29:53.000+0000,Customer segment: active. Created: 2025-10-21,Web,Medium,500g5000004wqqMAAQ,003g5000002EfVBAA0,Closed,Fee Inquiry,Question
+,2026-01-11T03:29:57.000+0000,Customer segment: active. Created: 2025-12-05,Web,High,500g5000004wqqNAAQ,003g5000002Efi5AAC,New,Fraud Alert,Problem
+,2026-01-11T03:30:31.000+0000,Customer segment: at_risk. Created: 2025-12-16,Email,Medium,500g5000004wqqOAAQ,003g5000002EgcXAAS,Working,Card Renewal,Request
+,2026-01-11T03:30:36.000+0000,Customer segment: at_risk. Created: 2023-04-26,Phone,Medium,500g5000004wqqPAAQ,003g5000002EgcYAAS,Working,Card Renewal,Request
+2026-01-11T03:30:39.000+0000,2026-01-11T03:30:39.000+0000,Customer segment: active. Created: 2024-05-18,Web,Medium,500g5000004wqqQAAQ,003g5000002EgnpAAC,Closed,Fee Inquiry,Question
+2026-01-11T03:30:47.000+0000,2026-01-11T03:30:47.000+0000,Customer segment: active. Created: 2025-11-22,Phone,High,500g5000004wqqRAAQ,003g5000002Egz7AAC,Closed,ATM Card Issue,Problem
+2026-01-11T03:29:43.000+0000,2026-01-11T03:29:43.000+0000,Customer segment: at_risk. Created: 2025-12-28,Web,Medium,500g5000004wqtaAAA,003g5000002Ef6zAAC,Closed,Mobile App Problem,Problem
+,2026-01-11T03:29:57.000+0000,Customer segment: at_risk. Created: 2025-05-22,Phone,Low,500g5000004wqtbAAA,003g5000002EfQMAA0,Working,Statement Request,Request
+,2026-01-11T03:30:09.000+0000,Customer segment: at_risk. Created: 2025-07-15,Web,Medium,500g5000004wqtcAAA,003g5000002Eg4fAAC,Working,Mobile App Problem,Problem
+2026-01-11T03:33:37.000+0000,2026-01-11T03:33:37.000+0000,Customer segment: churned. Created: 2024-06-11,Web,High,500g5000004wqtdAAA,003g5000002EjKJAA0,Closed,Fraud Alert,Problem
+2026-01-11T03:32:08.000+0000,2026-01-11T03:32:08.000+0000,Customer segment: active. Created: 2023-05-09,Email,Medium,500g5000004wqvCAAQ,003g5000002EiCvAAK,Closed,Mobile App Problem,Problem
+,2026-01-11T03:32:33.000+0000,Customer segment: at_risk. Created: 2025-12-21,Web,High,500g5000004wqvDAAQ,003g5000002Efi9AAC,Working,Account Access Issue,Problem
+,2026-01-11T03:32:33.000+0000,Customer segment: churned. Created: 2025-09-03,Email,Low,500g5000004wqvEAAQ,003g5000002Eh7DAAS,Working,Statement Request,Request
+,2026-01-11T03:33:05.000+0000,Customer segment: churned. Created: 2024-06-03,Email,Medium,500g5000004wqvFAAQ,003g5000002EeNsAAK,Escalated,Loan Inquiry,Question
+2026-01-11T03:31:03.000+0000,2026-01-11T03:31:03.000+0000,Customer segment: active. Created: 2023-06-09,Mobile App,High,500g5000004wqwoAAA,003g5000002EeNqAAK,Closed,Account Access Issue,Problem
+2026-01-11T03:31:10.000+0000,2026-01-11T03:31:10.000+0000,Customer segment: at_risk. Created: 2026-01-02,Mobile App,Low,500g5000004wqwpAAA,003g5000002EhC2AAK,Closed,Interest Rate Question,Question
+,2026-01-11T03:33:14.000+0000,Customer segment: churned. Created: 2023-12-27,Web,High,500g5000004wqwqAAA,003g5000002EgcbAAC,Escalated,ATM Card Issue,Problem
+,2026-01-11T03:33:14.000+0000,Customer segment: churned. Created: 2025-04-08,Mobile App,High,500g5000004wqwrAAA,003g5000002EgcbAAC,Working,Fraud Alert,Problem
+2026-01-11T03:30:37.000+0000,2026-01-11T03:30:37.000+0000,Customer segment: at_risk. Created: 2023-07-19,Web,Low,500g5000004wqyQAAQ,003g5000002Eeu7AAC,Closed,Statement Request,Request
+,2026-01-11T03:32:05.000+0000,Customer segment: churned. Created: 2025-03-02,Phone,Medium,500g5000004wqyRAAQ,003g5000002EenfAAC,Escalated,Mobile App Problem,Problem
+,2026-01-11T03:32:20.000+0000,Customer segment: active. Created: 2023-08-12,Phone,Medium,500g5000004wqySAAQ,003g5000002EgawAAC,New,Card Renewal,Request
+,2026-01-11T03:32:21.000+0000,Customer segment: active. Created: 2023-04-30,Web,Medium,500g5000004wqyTAAQ,003g5000002EgawAAC,New,Mobile App Problem,Problem
+,2026-01-11T03:32:44.000+0000,Customer segment: churned. Created: 2023-08-31,Web,Medium,500g5000004wqyUAAQ,003g5000002EfzsAAC,Working,Loan Inquiry,Question
+2026-01-11T03:32:45.000+0000,2026-01-11T03:32:45.000+0000,Customer segment: active. Created: 2023-04-30,Web,High,500g5000004wqyVAAQ,003g5000002EfoYAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:33:08.000+0000,2026-01-11T03:33:08.000+0000,Customer segment: churned. Created: 2024-05-28,Web,High,500g5000004wqyWAAQ,003g5000002Ej5lAAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:30:14.000+0000,2026-01-11T03:30:14.000+0000,Customer segment: active. Created: 2023-05-03,Email,Low,500g5000004wr02AAA,003g5000002EgELAA0,Closed,Interest Rate Question,Question
+2026-01-11T03:30:29.000+0000,2026-01-11T03:30:29.000+0000,Customer segment: at_risk. Created: 2025-07-08,Email,Medium,500g5000004wr03AAA,003g5000002EgZJAA0,Closed,Fee Inquiry,Question
+2026-01-11T03:30:18.000+0000,2026-01-11T03:30:18.000+0000,Customer segment: active. Created: 2025-08-24,Web,High,500g5000004wr3GAAQ,003g5000002EgJBAA0,Closed,Transaction Dispute,Problem
+2026-01-11T03:32:26.000+0000,2026-01-11T03:32:26.000+0000,Customer segment: active. Created: 2024-07-06,Email,High,500g5000004wr3HAAQ,003g5000002EhvEAAS,Closed,Transaction Dispute,Problem
+,2026-01-11T03:31:13.000+0000,Customer segment: churned. Created: 2023-09-06,Email,Low,500g5000004wr6RAAQ,003g5000002Ef0aAAC,Working,Interest Rate Question,Question
+2026-01-11T03:31:06.000+0000,2026-01-11T03:31:06.000+0000,Customer segment: active. Created: 2023-06-27,Mobile App,High,500g5000004wr6UAAQ,003g5000002Efa2AAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:29:55.000+0000,2026-01-11T03:29:55.000+0000,Customer segment: at_risk. Created: 2025-06-30,Email,High,500g5000004wr86AAA,003g5000002Efa1AAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:30:49.000+0000,2026-01-11T03:30:49.000+0000,Customer segment: at_risk. Created: 2025-05-28,Mobile App,Low,500g5000004wr87AAA,003g5000002EgfmAAC,Closed,Statement Request,Request
+,2026-01-11T03:32:12.000+0000,Customer segment: active. Created: 2023-12-01,Mobile App,Medium,500g5000004wr88AAA,003g5000002EeisAAC,New,Fee Inquiry,Question
+2026-01-11T03:32:29.000+0000,2026-01-11T03:32:29.000+0000,Customer segment: churned. Created: 2023-11-28,Email,High,500g5000004wr89AAA,003g5000002Eh0mAAC,Closed,Account Access Issue,Problem
+,2026-01-11T03:32:49.000+0000,Customer segment: at_risk. Created: 2024-07-15,Phone,Low,500g5000004wr8AAAQ,003g5000002EiJOAA0,Working,Interest Rate Question,Question
+2026-01-11T03:30:08.000+0000,2026-01-11T03:30:08.000+0000,Customer segment: active. Created: 2024-10-12,Phone,Medium,500g5000004wrCKAAY,003g5000002EfzpAAC,Closed,Card Renewal,Request
+2026-01-11T03:33:07.000+0000,2026-01-11T03:33:07.000+0000,Customer segment: churned. Created: 2023-04-28,Phone,Low,500g5000004wrEYAAY,003g5000002Ej49AAC,Closed,Interest Rate Question,Question
+,2026-01-11T03:33:05.000+0000,Customer segment: churned. Created: 2025-06-14,Web,Medium,500g5000004wrGAAAY,003g5000002EixhAAC,Working,Fee Inquiry,Question
+,2026-01-11T03:33:14.000+0000,Customer segment: churned. Created: 2023-04-14,Phone,Medium,500g5000004wrGBAAY,003g5000002Ej2YAAS,Working,Card Renewal,Request
+,2026-01-11T03:31:10.000+0000,Customer segment: at_risk. Created: 2024-09-27,Email,Medium,500g5000004wrIeAAI,003g5000002EfwcAAC,New,Loan Inquiry,Question
+2026-01-11T03:30:25.000+0000,2026-01-11T03:30:25.000+0000,Customer segment: active. Created: 2023-03-22,Web,Low,500g5000004wrKyAAI,003g5000002EfNAAA0,Closed,Interest Rate Question,Question
+,2026-01-11T03:30:56.000+0000,Customer segment: active. Created: 2025-09-21,Web,High,500g5000004wrNBAAY,003g5000002EfzqAAC,New,Transaction Dispute,Problem
+2026-01-11T03:31:25.000+0000,2026-01-11T03:31:25.000+0000,Customer segment: active. Created: 2025-05-28,Phone,High,500g5000004wrNMAAY,003g5000002EgJDAA0,Closed,Account Access Issue,Problem
+,2026-01-11T03:31:44.000+0000,Customer segment: at_risk. Created: 2023-08-09,Mobile App,Low,500g5000004wrNXAAY,003g5000002EeMHAA0,New,Interest Rate Question,Question
+,2026-01-11T03:33:21.000+0000,Customer segment: at_risk. Created: 2025-11-16,Web,High,500g5000004wrNbAAI,003g5000002EfS0AAK,Working,ATM Card Issue,Problem
+2026-01-11T03:30:29.000+0000,2026-01-11T03:30:29.000+0000,Customer segment: at_risk. Created: 2024-06-06,Phone,Low,500g5000004wrPAAAY,003g5000002EfNBAA0,Closed,Interest Rate Question,Question
+,2026-01-11T03:30:33.000+0000,Customer segment: active. Created: 2023-09-28,Phone,Medium,500g5000004wrPBAAY,003g5000002Ege9AAC,New,Mobile App Problem,Problem
+2026-01-11T03:32:06.000+0000,2026-01-11T03:32:06.000+0000,Customer segment: at_risk. Created: 2023-04-28,Mobile App,High,500g5000004wrPEAAY,003g5000002EhaEAAS,Closed,Account Access Issue,Problem
+,2026-01-11T03:33:03.000+0000,Customer segment: at_risk. Created: 2023-06-12,Mobile App,Medium,500g5000004wrPIAAY,003g5000002EhASAA0,Working,Mobile App Problem,Problem
+,2026-01-11T03:32:24.000+0000,Customer segment: at_risk. Created: 2024-06-24,Web,High,500g5000004wrQ0AAI,003g5000002EhvDAAS,Working,Fraud Alert,Problem
+2026-01-11T03:33:16.000+0000,2026-01-11T03:33:16.000+0000,Customer segment: churned. Created: 2023-01-30,Phone,Medium,500g5000004wrQFAAY,003g5000002Ej0wAAC,Closed,Card Renewal,Request
+,2026-01-11T03:33:21.000+0000,Customer segment: at_risk. Created: 2023-07-26,Mobile App,High,500g5000004wrQGAAY,003g5000002EiXwAAK,Working,Fraud Alert,Problem
+2026-01-11T03:32:16.000+0000,2026-01-11T03:32:16.000+0000,Customer segment: at_risk. Created: 2024-03-26,Mobile App,High,500g5000004wrTKAAY,003g5000002EhDeAAK,Closed,Transaction Dispute,Problem
+,2026-01-11T03:29:59.000+0000,Customer segment: churned. Created: 2026-01-11,Email,High,500g5000004wrUqAAI,003g5000002EfjhAAC,Working,Transaction Dispute,Problem
+2026-01-11T03:29:49.000+0000,2026-01-11T03:29:49.000+0000,Customer segment: active. Created: 2025-11-16,Mobile App,High,500g5000004wrWSAAY,003g5000002Ef3nAAC,Closed,ATM Card Issue,Problem
+,2026-01-11T03:30:48.000+0000,Customer segment: churned. Created: 2025-12-25,Phone,Medium,500g5000004wrWXAAY,003g5000002Eh0jAAC,Escalated,Fee Inquiry,Question
+,2026-01-11T03:30:53.000+0000,Customer segment: at_risk. Created: 2025-02-23,Phone,Medium,500g5000004wrWYAAY,003g5000002EgmFAAS,Working,Fee Inquiry,Question
+2026-01-11T03:31:56.000+0000,2026-01-11T03:31:56.000+0000,Customer segment: at_risk. Created: 2025-07-26,Email,Low,500g5000004wrWcAAI,003g5000002EhFHAA0,Closed,Interest Rate Question,Question
+,2026-01-11T03:31:57.000+0000,Customer segment: at_risk. Created: 2024-09-19,Phone,Low,500g5000004wrWdAAI,003g5000002EhFHAA0,New,Statement Request,Request
+,2026-01-11T03:32:03.000+0000,Customer segment: churned. Created: 2023-07-19,Web,Medium,500g5000004wrWeAAI,003g5000002Egj0AAC,Working,Fee Inquiry,Question
+,2026-01-11T03:30:27.000+0000,Customer segment: at_risk. Created: 2023-09-03,Mobile App,High,500g5000004wrY5AAI,003g5000002EgUTAA0,New,Account Access Issue,Problem
+2026-01-11T03:30:45.000+0000,2026-01-11T03:30:45.000+0000,Customer segment: at_risk. Created: 2025-10-03,Web,High,500g5000004wrYGAAY,003g5000002EgO2AAK,Closed,Account Access Issue,Problem
+2026-01-11T03:30:46.000+0000,2026-01-11T03:30:46.000+0000,Customer segment: churned. Created: 2025-03-13,Web,Medium,500g5000004wrYHAAY,003g5000002EgxVAAS,Closed,Loan Inquiry,Question
+2026-01-11T03:30:55.000+0000,2026-01-11T03:30:55.000+0000,Customer segment: at_risk. Created: 2025-03-07,Mobile App,Medium,500g5000004wrYJAAY,003g5000002EfDTAA0,Closed,Fee Inquiry,Question
+,2026-01-11T03:31:26.000+0000,Customer segment: churned. Created: 2025-07-14,Email,Medium,500g5000004wrYKAAY,003g5000002EhaDAAS,Escalated,Loan Inquiry,Question
+,2026-01-11T03:31:51.000+0000,Customer segment: at_risk. Created: 2025-09-30,Email,Medium,500g5000004wrYRAAY,003g5000002EhyPAAS,New,Fee Inquiry,Question
+2026-01-11T03:31:52.000+0000,2026-01-11T03:31:52.000+0000,Customer segment: active. Created: 2023-11-25,Web,High,500g5000004wrYSAAY,003g5000002EepIAAS,Closed,ATM Card Issue,Problem
+2026-01-11T03:33:06.000+0000,2026-01-11T03:33:06.000+0000,Customer segment: active. Created: 2024-08-20,Email,Low,500g5000004wrYcAAI,003g5000002EiMdAAK,Closed,Interest Rate Question,Question
+2026-01-11T03:33:39.000+0000,2026-01-11T03:33:39.000+0000,Customer segment: churned. Created: 2024-04-23,Phone,Medium,500g5000004wrYwAAI,003g5000002EjXBAA0,Closed,Fee Inquiry,Question
+,2026-01-11T03:33:42.000+0000,Customer segment: at_risk. Created: 2023-07-16,Phone,High,500g5000004wrYxAAI,003g5000002EhdSAAS,Working,Transaction Dispute,Problem
+,2026-01-11T03:30:00.000+0000,Customer segment: churned. Created: 2025-07-07,Email,Medium,500g5000004wrZmAAI,003g5000002EfOkAAK,Working,Card Renewal,Request
+2026-01-11T03:30:00.000+0000,2026-01-11T03:30:00.000+0000,Customer segment: churned. Created: 2023-06-08,Mobile App,Low,500g5000004wrZnAAI,003g5000002EfOkAAK,Closed,Statement Request,Request
+,2026-01-11T03:30:01.000+0000,Customer segment: churned. Created: 2023-05-25,Web,High,500g5000004wrZoAAI,003g5000002EfmvAAC,Working,Account Access Issue,Problem
+,2026-01-11T03:31:40.000+0000,Customer segment: churned. Created: 2024-04-08,Email,Low,500g5000004wrZyAAI,003g5000002EhqLAAS,Escalated,Interest Rate Question,Question
+,2026-01-11T03:31:49.000+0000,Customer segment: at_risk. Created: 2025-09-12,Web,Medium,500g5000004wra2AAA,003g5000002EfmyAAC,Working,Loan Inquiry,Question
+,2026-01-11T03:30:27.000+0000,Customer segment: at_risk. Created: 2024-07-20,Phone,Low,500g5000004wrbKAAQ,003g5000002EgUTAA0,New,Statement Request,Request
+,2026-01-11T03:30:28.000+0000,Customer segment: at_risk. Created: 2023-10-23,Mobile App,High,500g5000004wrbLAAQ,003g5000002EgUTAA0,Working,Fraud Alert,Problem
+,2026-01-11T03:31:19.000+0000,Customer segment: at_risk. Created: 2023-12-01,Mobile App,Medium,500g5000004wrbWAAQ,003g5000002EhTlAAK,New,Card Renewal,Request
+2026-01-11T03:31:30.000+0000,2026-01-11T03:31:30.000+0000,Customer segment: churned. Created: 2024-07-14,Web,Medium,500g5000004wrbYAAQ,003g5000002EftOAAS,Closed,Mobile App Problem,Problem
+2026-01-11T03:31:34.000+0000,2026-01-11T03:31:34.000+0000,Customer segment: at_risk. Created: 2025-11-16,Email,High,500g5000004wrbaAAA,003g5000002Eg1UAAS,Closed,Account Access Issue,Problem
+,2026-01-11T03:33:30.000+0000,Customer segment: churned. Created: 2023-09-03,Phone,High,500g5000004wrbdAAA,003g5000002Ej0yAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:30:11.000+0000,Customer segment: at_risk. Created: 2023-08-11,Web,Medium,500g5000004wre8AAA,003g5000002Eg7tAAC,New,Card Renewal,Request
+,2026-01-11T03:30:12.000+0000,Customer segment: churned. Created: 2024-08-20,Web,Medium,500g5000004wreAAAQ,003g5000002EgB7AAK,Working,Card Renewal,Request
+,2026-01-11T03:32:07.000+0000,Customer segment: active. Created: 2024-05-15,Email,Low,500g5000004wrenAAA,003g5000002EiBKAA0,New,Statement Request,Request
+,2026-01-11T03:32:08.000+0000,Customer segment: at_risk. Created: 2024-07-25,Mobile App,High,500g5000004wreoAAA,003g5000002EhyQAAS,New,Transaction Dispute,Problem
+2026-01-11T03:29:42.000+0000,2026-01-11T03:29:42.000+0000,Customer segment: active. Created: 2023-09-12,Mobile App,Low,500g5000004wrgLAAQ,003g5000002Ef2AAAS,Closed,Interest Rate Question,Question
+,2026-01-11T03:31:37.000+0000,Customer segment: churned. Created: 2025-11-16,Mobile App,Low,500g5000004wrgZAAQ,003g5000002EeG6AAK,Escalated,Interest Rate Question,Question
+2026-01-11T03:31:40.000+0000,2026-01-11T03:31:40.000+0000,Customer segment: churned. Created: 2023-01-30,Phone,High,500g5000004wrgaAAA,003g5000002EhqLAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:32:27.000+0000,2026-01-11T03:32:27.000+0000,Customer segment: active. Created: 2023-07-24,Phone,Medium,500g5000004wrgiAAA,003g5000002EgKpAAK,Closed,Fee Inquiry,Question
+2026-01-11T03:32:59.000+0000,2026-01-11T03:32:59.000+0000,Customer segment: churned. Created: 2026-01-05,Mobile App,Low,500g5000004wrgnAAA,003g5000002EipdAAC,Closed,Statement Request,Request
+,2026-01-11T03:33:00.000+0000,Customer segment: at_risk. Created: 2024-06-23,Mobile App,High,500g5000004wrgoAAA,003g5000002EhYcAAK,New,Account Access Issue,Problem
+2026-01-11T03:29:55.000+0000,2026-01-11T03:29:55.000+0000,Customer segment: active. Created: 2023-12-28,Phone,Medium,500g5000004wrhkAAA,003g5000002Ef8cAAC,Closed,Mobile App Problem,Problem
+,2026-01-11T03:30:05.000+0000,Customer segment: at_risk. Created: 2023-06-10,Phone,High,500g5000004wrhlAAA,003g5000002EfuzAAC,Working,Account Access Issue,Problem
+,2026-01-11T03:33:17.000+0000,Customer segment: churned. Created: 2025-03-17,Web,High,500g5000004wrkzAAA,003g5000002EeHiAAK,Escalated,ATM Card Issue,Problem
+,2026-01-11T03:33:30.000+0000,Customer segment: churned. Created: 2025-06-03,Mobile App,Medium,500g5000004wrl2AAA,003g5000002Ej0yAAC,Working,Fee Inquiry,Question
+2026-01-11T03:33:31.000+0000,2026-01-11T03:33:31.000+0000,Customer segment: active. Created: 2023-11-22,Email,High,500g5000004wrl3AAA,003g5000002EjP7AAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:30:36.000+0000,Customer segment: at_risk. Created: 2023-03-27,Mobile App,High,500g5000004wro2AAA,003g5000002Eeu7AAC,Working,ATM Card Issue,Problem
+2026-01-11T03:30:52.000+0000,2026-01-11T03:30:52.000+0000,Customer segment: active. Created: 2024-03-01,Email,Medium,500g5000004wro3AAA,003g5000002EgmEAAS,Closed,Mobile App Problem,Problem
+2026-01-11T03:30:28.000+0000,2026-01-11T03:30:28.000+0000,Customer segment: active. Created: 2024-12-08,Phone,Medium,500g5000004wrrGAAQ,003g5000002EgXhAAK,Closed,Card Renewal,Request
+2026-01-11T03:30:35.000+0000,2026-01-11T03:30:35.000+0000,Customer segment: at_risk. Created: 2025-01-22,Phone,Medium,500g5000004wrssAAA,003g5000002EgcYAAS,Closed,Card Renewal,Request
+2026-01-11T03:31:50.000+0000,2026-01-11T03:31:50.000+0000,Customer segment: at_risk. Created: 2024-09-02,Mobile App,Medium,500g5000004wruUAAQ,003g5000002EeKdAAK,Closed,Mobile App Problem,Problem
+2026-01-11T03:33:16.000+0000,2026-01-11T03:33:16.000+0000,Customer segment: active. Created: 2023-06-02,Mobile App,Medium,500g5000004wruVAAQ,003g5000002EjAbAAK,Closed,Loan Inquiry,Question
+2026-01-11T03:30:34.000+0000,2026-01-11T03:30:34.000+0000,Customer segment: at_risk. Created: 2024-05-23,Mobile App,Medium,500g5000004wrw6AAA,003g5000002EgflAAC,Closed,Loan Inquiry,Question
+2026-01-11T03:32:11.000+0000,2026-01-11T03:32:11.000+0000,Customer segment: active. Created: 2025-02-07,Email,High,500g5000004wrw7AAA,003g5000002EiHlAAK,Closed,ATM Card Issue,Problem
+,2026-01-11T03:29:39.000+0000,Customer segment: active. Created: 2025-11-27,Web,Medium,500g5000004wrxhAAA,003g5000002EeyvAAC,New,Fee Inquiry,Question
+2026-01-11T03:29:41.000+0000,2026-01-11T03:29:41.000+0000,Customer segment: active. Created: 2024-06-11,Mobile App,Low,500g5000004wrxiAAA,003g5000002Ef3lAAC,Closed,Interest Rate Question,Question
+,2026-01-11T03:29:46.000+0000,Customer segment: churned. Created: 2025-12-24,Web,High,500g5000004wrxjAAA,003g5000002Ef3mAAC,Escalated,Transaction Dispute,Problem
+2026-01-11T03:31:01.000+0000,2026-01-11T03:31:01.000+0000,Customer segment: active. Created: 2024-10-26,Phone,High,500g5000004wrxkAAA,003g5000002EhDdAAK,Closed,ATM Card Issue,Problem
+2026-01-11T03:29:40.000+0000,2026-01-11T03:29:40.000+0000,Customer segment: active. Created: 2023-10-31,Email,Medium,500g5000004wrzJAAQ,003g5000002EeiqAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:30:59.000+0000,2026-01-11T03:30:59.000+0000,Customer segment: at_risk. Created: 2023-11-11,Mobile App,High,500g5000004wrzKAAQ,003g5000002EhAPAA0,Closed,Account Access Issue,Problem
+2026-01-11T03:32:50.000+0000,2026-01-11T03:32:50.000+0000,Customer segment: active. Created: 2023-02-08,Email,High,500g5000004wrzLAAQ,003g5000002Ehs1AAC,Closed,Account Access Issue,Problem
+,2026-01-11T03:32:54.000+0000,Customer segment: active. Created: 2025-10-11,Mobile App,Medium,500g5000004wrzMAAQ,003g5000002EftQAAS,New,Fee Inquiry,Question
+2026-01-11T03:29:40.000+0000,2026-01-11T03:29:40.000+0000,Customer segment: active. Created: 2025-05-01,Web,High,500g5000004ws0vAAA,003g5000002EeiqAAC,Closed,Transaction Dispute,Problem
+,2026-01-11T03:29:40.000+0000,Customer segment: at_risk. Created: 2024-10-16,Phone,Medium,500g5000004ws2XAAQ,003g5000002Ef29AAC,New,Fee Inquiry,Question
+2026-01-11T03:30:22.000+0000,2026-01-11T03:30:22.000+0000,Customer segment: active. Created: 2023-05-01,Email,High,500g5000004ws2YAAQ,003g5000002EgMPAA0,Closed,Account Access Issue,Problem
+,2026-01-11T03:29:41.000+0000,Customer segment: at_risk. Created: 2026-01-06,Phone,High,500g5000004ws49AAA,003g5000002Ef29AAC,New,Account Access Issue,Problem
+2026-01-11T03:29:47.000+0000,2026-01-11T03:29:47.000+0000,Customer segment: at_risk. Created: 2025-04-15,Mobile App,Medium,500g5000004ws4AAAQ,003g5000002EfDRAA0,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:12.000+0000,Customer segment: churned. Created: 2024-09-06,Email,Medium,500g5000004ws4BAAQ,003g5000002EgB7AAK,Working,Mobile App Problem,Problem
+,2026-01-11T03:30:13.000+0000,Customer segment: at_risk. Created: 2023-01-15,Email,Medium,500g5000004ws4CAAQ,003g5000002EgCjAAK,New,Card Renewal,Request
+2026-01-11T03:29:42.000+0000,2026-01-11T03:29:42.000+0000,Customer segment: active. Created: 2025-02-11,Mobile App,High,500g5000004ws5lAAA,003g5000002Ef5NAAS,Closed,Account Access Issue,Problem
+,2026-01-11T03:29:50.000+0000,Customer segment: at_risk. Created: 2025-09-06,Phone,High,500g5000004ws5mAAA,003g5000002EfJtAAK,Working,ATM Card Issue,Problem
+,2026-01-11T03:30:05.000+0000,Customer segment: active. Created: 2023-08-12,Web,High,500g5000004ws5nAAA,003g5000002EfQNAA0,New,Account Access Issue,Problem
+2026-01-11T03:30:26.000+0000,2026-01-11T03:30:26.000+0000,Customer segment: at_risk. Created: 2025-10-26,Web,Low,500g5000004ws5oAAA,003g5000002Eg4gAAC,Closed,Interest Rate Question,Question
+2026-01-11T03:30:53.000+0000,2026-01-11T03:30:53.000+0000,Customer segment: at_risk. Created: 2023-05-21,Phone,Low,500g5000004ws5pAAA,003g5000002EgmFAAS,Closed,Interest Rate Question,Question
+,2026-01-11T03:30:54.000+0000,Customer segment: at_risk. Created: 2025-11-26,Phone,Medium,500g5000004ws5qAAA,003g5000002Eh7BAAS,New,Card Renewal,Request
+,2026-01-11T03:30:55.000+0000,Customer segment: at_risk. Created: 2024-10-13,Web,Low,500g5000004ws5rAAA,003g5000002EfDTAA0,New,Interest Rate Question,Question
+2026-01-11T03:33:21.000+0000,2026-01-11T03:33:21.000+0000,Customer segment: active. Created: 2024-02-23,Phone,Low,500g5000004ws5sAAA,003g5000002EjFRAA0,Closed,Interest Rate Question,Question
+,2026-01-11T03:29:42.000+0000,Customer segment: active. Created: 2024-12-04,Email,High,500g5000004ws7NAAQ,003g5000002Ef5NAAS,New,Transaction Dispute,Problem
+,2026-01-11T03:29:43.000+0000,Customer segment: at_risk. Created: 2024-11-11,Web,Low,500g5000004ws8zAAA,003g5000002Ef6zAAC,New,Statement Request,Request
+,2026-01-11T03:30:26.000+0000,Customer segment: at_risk. Created: 2025-12-01,Web,High,500g5000004ws90AAA,003g5000002Eg4gAAC,New,ATM Card Issue,Problem
+,2026-01-11T03:30:41.000+0000,Customer segment: at_risk. Created: 2023-06-13,Email,High,500g5000004ws91AAA,003g5000002EgMRAA0,New,ATM Card Issue,Problem
+,2026-01-11T03:31:19.000+0000,Customer segment: at_risk. Created: 2023-05-22,Phone,Medium,500g5000004ws92AAA,003g5000002EhS9AAK,New,Mobile App Problem,Problem
+,2026-01-11T03:31:31.000+0000,Customer segment: active. Created: 2025-04-25,Mobile App,High,500g5000004ws93AAA,003g5000002EgClAAK,New,Fraud Alert,Problem
+2026-01-11T03:32:10.000+0000,2026-01-11T03:32:10.000+0000,Customer segment: active. Created: 2025-05-09,Mobile App,Medium,500g5000004ws94AAA,003g5000002EesXAAS,Closed,Card Renewal,Request
+2026-01-11T03:32:39.000+0000,2026-01-11T03:32:39.000+0000,Customer segment: at_risk. Created: 2024-02-01,Mobile App,High,500g5000004ws95AAA,003g5000002EiXtAAK,Closed,Fraud Alert,Problem
+2026-01-11T03:32:56.000+0000,2026-01-11T03:32:56.000+0000,Customer segment: active. Created: 2025-05-08,Phone,Medium,500g5000004ws96AAA,003g5000002EhK8AAK,Closed,Loan Inquiry,Question
+,2026-01-11T03:32:58.000+0000,Customer segment: churned. Created: 2023-07-12,Phone,Medium,500g5000004ws97AAA,003g5000002EfgVAAS,Escalated,Card Renewal,Request
+,2026-01-11T03:29:43.000+0000,Customer segment: at_risk. Created: 2025-10-12,Mobile App,Medium,500g5000004wsAbAAI,003g5000002Ef6zAAC,Working,Mobile App Problem,Problem
+,2026-01-11T03:30:03.000+0000,Customer segment: at_risk. Created: 2025-12-20,Web,Medium,500g5000004wsAcAAI,003g5000002EfN9AAK,New,Card Renewal,Request
+,2026-01-11T03:31:46.000+0000,Customer segment: active. Created: 2023-01-03,Email,High,500g5000004wsAdAAI,003g5000002Eh2NAAS,New,Account Access Issue,Problem
+2026-01-11T03:31:46.000+0000,2026-01-11T03:31:46.000+0000,Customer segment: active. Created: 2024-02-11,Web,Medium,500g5000004wsAeAAI,003g5000002EhLiAAK,Closed,Mobile App Problem,Problem
+2026-01-11T03:31:47.000+0000,2026-01-11T03:31:47.000+0000,Customer segment: at_risk. Created: 2025-10-30,Email,Low,500g5000004wsAfAAI,003g5000002Eh7CAAS,Closed,Statement Request,Request
+,2026-01-11T03:29:44.000+0000,Customer segment: at_risk. Created: 2023-11-10,Phone,Medium,500g5000004wsCDAAY,003g5000002Ef6zAAC,Working,Card Renewal,Request
+2026-01-11T03:30:13.000+0000,2026-01-11T03:30:13.000+0000,Customer segment: at_risk. Created: 2025-06-10,Web,Medium,500g5000004wsCEAAY,003g5000002EgCjAAK,Closed,Mobile App Problem,Problem
+,2026-01-11T03:30:28.000+0000,Customer segment: at_risk. Created: 2025-07-29,Email,High,500g5000004wsCFAAY,003g5000002EgZJAA0,New,ATM Card Issue,Problem
+,2026-01-11T03:31:29.000+0000,Customer segment: churned. Created: 2024-02-12,Phone,Medium,500g5000004wsCGAAY,003g5000002EftOAAS,Working,Card Renewal,Request
+,2026-01-11T03:32:45.000+0000,Customer segment: active. Created: 2023-05-06,Mobile App,Medium,500g5000004wsCHAAY,003g5000002EeivAAC,New,Fee Inquiry,Question
+,2026-01-11T03:29:44.000+0000,Customer segment: at_risk. Created: 2025-07-27,Web,High,500g5000004wsDpAAI,003g5000002EepHAAS,Working,Account Access Issue,Problem
+,2026-01-11T03:29:58.000+0000,Customer segment: churned. Created: 2025-02-16,Phone,Low,500g5000004wsDqAAI,003g5000002EfjhAAC,Escalated,Interest Rate Question,Question
+2026-01-11T03:31:06.000+0000,2026-01-11T03:31:06.000+0000,Customer segment: churned. Created: 2023-09-11,Web,High,500g5000004wsDrAAI,003g5000002EhK5AAK,Closed,Account Access Issue,Problem
+2026-01-11T03:31:09.000+0000,2026-01-11T03:31:09.000+0000,Customer segment: at_risk. Created: 2025-04-13,Email,Low,500g5000004wsDsAAI,003g5000002EfwcAAC,Closed,Statement Request,Request
+,2026-01-11T03:31:18.000+0000,Customer segment: at_risk. Created: 2024-06-26,Mobile App,High,500g5000004wsDtAAI,003g5000002EhS9AAK,New,Fraud Alert,Problem
+,2026-01-11T03:31:29.000+0000,Customer segment: churned. Created: 2024-08-10,Email,High,500g5000004wsDuAAI,003g5000002EftOAAS,Escalated,Transaction Dispute,Problem
+,2026-01-11T03:31:35.000+0000,Customer segment: at_risk. Created: 2025-10-16,Phone,Low,500g5000004wsDvAAI,003g5000002EehEAAS,Working,Statement Request,Request
+2026-01-11T03:31:48.000+0000,2026-01-11T03:31:48.000+0000,Customer segment: active. Created: 2025-02-19,Email,Medium,500g5000004wsDwAAI,003g5000002EhwnAAC,Closed,Card Renewal,Request
+,2026-01-11T03:29:44.000+0000,Customer segment: at_risk. Created: 2023-12-10,Phone,High,500g5000004wsFRAAY,003g5000002EepHAAS,New,Fraud Alert,Problem
+,2026-01-11T03:29:45.000+0000,Customer segment: at_risk. Created: 2025-11-15,Email,Medium,500g5000004wsH3AAI,003g5000002EepHAAS,New,Fee Inquiry,Question
+,2026-01-11T03:29:53.000+0000,Customer segment: churned. Created: 2024-02-02,Phone,Medium,500g5000004wsH4AAI,003g5000002EfRxAAK,Escalated,Card Renewal,Request
+,2026-01-11T03:29:54.000+0000,Customer segment: at_risk. Created: 2024-01-22,Web,High,500g5000004wsH5AAI,003g5000002Efa1AAC,New,Fraud Alert,Problem
+,2026-01-11T03:30:00.000+0000,Customer segment: churned. Created: 2023-10-14,Phone,Low,500g5000004wsH6AAI,003g5000002EfOkAAK,Working,Statement Request,Request
+,2026-01-11T03:30:10.000+0000,Customer segment: at_risk. Created: 2024-02-08,Web,High,500g5000004wsH7AAI,003g5000002Eg7tAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:32:00.000+0000,Customer segment: churned. Created: 2024-10-17,Mobile App,Low,500g5000004wsH8AAI,003g5000002EeneAAC,Working,Statement Request,Request
+2026-01-11T03:32:09.000+0000,2026-01-11T03:32:09.000+0000,Customer segment: active. Created: 2025-10-06,Web,Low,500g5000004wsH9AAI,003g5000002EiCvAAK,Closed,Interest Rate Question,Question
+2026-01-11T03:32:44.000+0000,2026-01-11T03:32:44.000+0000,Customer segment: churned. Created: 2025-02-09,Phone,Medium,500g5000004wsHAAAY,003g5000002EfzsAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:44.000+0000,2026-01-11T03:32:44.000+0000,Customer segment: churned. Created: 2025-03-03,Email,High,500g5000004wsHBAAY,003g5000002EfzsAAC,Closed,Transaction Dispute,Problem
+,2026-01-11T03:32:51.000+0000,Customer segment: churned. Created: 2023-12-08,Web,High,500g5000004wsHCAAY,003g5000002EeJkAAK,Escalated,Fraud Alert,Problem
+2026-01-11T03:32:56.000+0000,2026-01-11T03:32:56.000+0000,Customer segment: active. Created: 2024-09-23,Email,High,500g5000004wsHDAAY,003g5000002EgHdAAK,Closed,ATM Card Issue,Problem
+,2026-01-11T03:33:23.000+0000,Customer segment: churned. Created: 2025-08-26,Email,High,500g5000004wsHEAAY,003g5000002EjH3AAK,Escalated,Transaction Dispute,Problem
+,2026-01-11T03:29:45.000+0000,Customer segment: churned. Created: 2024-09-30,Mobile App,Low,500g5000004wsIfAAI,003g5000002Ef3mAAC,Escalated,Interest Rate Question,Question
+2026-01-11T03:29:57.000+0000,2026-01-11T03:29:57.000+0000,Customer segment: at_risk. Created: 2023-10-28,Mobile App,Medium,500g5000004wsIgAAI,003g5000002EfQMAA0,Closed,Mobile App Problem,Problem
+,2026-01-11T03:29:45.000+0000,Customer segment: churned. Created: 2023-07-11,Phone,High,500g5000004wsKHAAY,003g5000002Ef3mAAC,Working,Account Access Issue,Problem
+2026-01-11T03:30:28.000+0000,2026-01-11T03:30:28.000+0000,Customer segment: at_risk. Created: 2024-09-10,Mobile App,High,500g5000004wsKIAAY,003g5000002EgUTAA0,Closed,Transaction Dispute,Problem
+,2026-01-11T03:30:52.000+0000,Customer segment: at_risk. Created: 2025-11-22,Mobile App,Medium,500g5000004wsKJAAY,003g5000002Eh3xAAC,New,Fee Inquiry,Question
+,2026-01-11T03:30:54.000+0000,Customer segment: at_risk. Created: 2023-08-11,Mobile App,High,500g5000004wsKKAAY,003g5000002Eh7BAAS,New,Transaction Dispute,Problem
+2026-01-11T03:30:57.000+0000,2026-01-11T03:30:57.000+0000,Customer segment: active. Created: 2025-05-10,Mobile App,Medium,500g5000004wsKLAAY,003g5000002EfBrAAK,Closed,Loan Inquiry,Question
+2026-01-11T03:29:46.000+0000,2026-01-11T03:29:46.000+0000,Customer segment: churned. Created: 2024-11-01,Mobile App,High,500g5000004wsLtAAI,003g5000002Ef3mAAC,Closed,ATM Card Issue,Problem
+,2026-01-11T03:29:47.000+0000,Customer segment: churned. Created: 2023-04-14,Phone,Medium,500g5000004wsLuAAI,003g5000002Ef3mAAC,Working,Mobile App Problem,Problem
+2026-01-11T03:29:49.000+0000,2026-01-11T03:29:49.000+0000,Customer segment: active. Created: 2024-04-08,Email,High,500g5000004wsLvAAI,003g5000002EfIHAA0,Closed,Transaction Dispute,Problem
+2026-01-11T03:29:59.000+0000,2026-01-11T03:29:59.000+0000,Customer segment: churned. Created: 2024-07-10,Web,Medium,500g5000004wsLwAAI,003g5000002EfjhAAC,Closed,Card Renewal,Request
+2026-01-11T03:30:57.000+0000,2026-01-11T03:30:57.000+0000,Customer segment: active. Created: 2024-11-12,Email,Medium,500g5000004wsLxAAI,003g5000002EgFzAAK,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:58.000+0000,Customer segment: active. Created: 2023-07-01,Phone,Medium,500g5000004wsLyAAI,003g5000002EgEMAA0,New,Fee Inquiry,Question
+,2026-01-11T03:31:01.000+0000,Customer segment: churned. Created: 2024-06-04,Web,High,500g5000004wsLzAAI,003g5000002EfDVAA0,Working,Fraud Alert,Problem
+,2026-01-11T03:31:02.000+0000,Customer segment: churned. Created: 2023-08-30,Email,High,500g5000004wsM0AAI,003g5000002EfDVAA0,Working,Fraud Alert,Problem
+2026-01-11T03:29:47.000+0000,2026-01-11T03:29:47.000+0000,Customer segment: active. Created: 2023-03-15,Mobile App,Medium,500g5000004wsNVAAY,003g5000002EfBpAAK,Closed,Card Renewal,Request
+2026-01-11T03:32:21.000+0000,2026-01-11T03:32:21.000+0000,Customer segment: at_risk. Created: 2025-11-03,Mobile App,Medium,500g5000004wsNWAAY,003g5000002Ef2GAAS,Closed,Fee Inquiry,Question
+2026-01-11T03:32:33.000+0000,2026-01-11T03:32:33.000+0000,Customer segment: churned. Created: 2025-05-07,Web,Medium,500g5000004wsNXAAY,003g5000002Eh7DAAS,Closed,Loan Inquiry,Question
+2026-01-11T03:32:39.000+0000,2026-01-11T03:32:39.000+0000,Customer segment: churned. Created: 2025-06-29,Email,High,500g5000004wsNYAAY,003g5000002Ehs0AAC,Closed,Transaction Dispute,Problem
+,2026-01-11T03:32:48.000+0000,Customer segment: at_risk. Created: 2024-07-18,Mobile App,Medium,500g5000004wsNZAAY,003g5000002Eg6QAAS,Working,Loan Inquiry,Question
+,2026-01-11T03:29:47.000+0000,Customer segment: at_risk. Created: 2025-02-03,Phone,Medium,500g5000004wsP7AAI,003g5000002EfDRAA0,New,Mobile App Problem,Problem
+,2026-01-11T03:29:48.000+0000,Customer segment: at_risk. Created: 2025-02-25,Mobile App,Medium,500g5000004wsP8AAI,003g5000002EfF4AAK,New,Fee Inquiry,Question
+2026-01-11T03:32:42.000+0000,2026-01-11T03:32:42.000+0000,Customer segment: at_risk. Created: 2023-03-01,Phone,High,500g5000004wsP9AAI,003g5000002Egj3AAC,Closed,Fraud Alert,Problem
+,2026-01-11T03:33:01.000+0000,Customer segment: at_risk. Created: 2024-09-12,Web,Low,500g5000004wsPAAAY,003g5000002EhYcAAK,Working,Statement Request,Request
+,2026-01-11T03:29:48.000+0000,Customer segment: at_risk. Created: 2025-06-20,Email,Medium,500g5000004wsQjAAI,003g5000002EfF4AAK,Working,Mobile App Problem,Problem
+2026-01-11T03:32:10.000+0000,2026-01-11T03:32:10.000+0000,Customer segment: active. Created: 2024-11-18,Phone,High,500g5000004wsQkAAI,003g5000002EiEXAA0,Closed,Fraud Alert,Problem
+2026-01-11T03:32:47.000+0000,2026-01-11T03:32:47.000+0000,Customer segment: active. Created: 2025-12-31,Web,Low,500g5000004wsQlAAI,003g5000002EfyEAAS,Closed,Statement Request,Request
+,2026-01-11T03:29:49.000+0000,Customer segment: at_risk. Created: 2023-10-15,Web,High,500g5000004wsSLAAY,003g5000002EfJtAAK,Working,Transaction Dispute,Problem
+,2026-01-11T03:29:50.000+0000,Customer segment: at_risk. Created: 2024-11-03,Email,Medium,500g5000004wsTxAAI,003g5000002EfJtAAK,Working,Fee Inquiry,Question
+2026-01-11T03:29:55.000+0000,2026-01-11T03:29:55.000+0000,Customer segment: active. Created: 2024-03-08,Phone,Medium,500g5000004wsTyAAI,003g5000002EfbdAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:30:42.000+0000,2026-01-11T03:30:42.000+0000,Customer segment: churned. Created: 2024-04-05,Email,Medium,500g5000004wsTzAAI,003g5000002EgsfAAC,Closed,Mobile App Problem,Problem
+,2026-01-11T03:30:51.000+0000,Customer segment: at_risk. Created: 2024-08-22,Email,Medium,500g5000004wsU0AAI,003g5000002Eh3xAAC,New,Loan Inquiry,Question
+,2026-01-11T03:31:47.000+0000,Customer segment: at_risk. Created: 2025-01-20,Web,Medium,500g5000004wsU1AAI,003g5000002Eh7CAAS,New,Mobile App Problem,Problem
+2026-01-11T03:31:48.000+0000,2026-01-11T03:31:48.000+0000,Customer segment: active. Created: 2024-07-20,Email,High,500g5000004wsU2AAI,003g5000002EfdHAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:29:52.000+0000,Customer segment: at_risk. Created: 2025-07-01,Web,Medium,500g5000004wsVZAAY,003g5000002EfQLAA0,New,Fee Inquiry,Question
+,2026-01-11T03:31:06.000+0000,Customer segment: churned. Created: 2025-06-13,Web,High,500g5000004wsVaAAI,003g5000002EhK5AAK,Working,Transaction Dispute,Problem
+,2026-01-11T03:33:39.000+0000,Customer segment: churned. Created: 2025-03-26,Mobile App,Medium,500g5000004wsVbAAI,003g5000002EjXBAA0,Escalated,Mobile App Problem,Problem
+2026-01-11T03:29:53.000+0000,2026-01-11T03:29:53.000+0000,Customer segment: active. Created: 2023-07-25,Mobile App,Low,500g5000004wsXBAAY,003g5000002EfVBAA0,Closed,Statement Request,Request
+2026-01-11T03:30:43.000+0000,2026-01-11T03:30:43.000+0000,Customer segment: churned. Created: 2024-05-22,Phone,Low,500g5000004wsXCAAY,003g5000002EgsfAAC,Closed,Statement Request,Request
+,2026-01-11T03:31:24.000+0000,Customer segment: at_risk. Created: 2023-12-12,Web,Medium,500g5000004wsXDAAY,003g5000002EhTmAAK,New,Loan Inquiry,Question
+2026-01-11T03:31:39.000+0000,2026-01-11T03:31:39.000+0000,Customer segment: active. Created: 2024-02-23,Phone,Medium,500g5000004wsXEAAY,003g5000002EgeAAAS,Closed,Card Renewal,Request
+,2026-01-11T03:33:10.000+0000,Customer segment: churned. Created: 2025-08-17,Mobile App,High,500g5000004wsXFAAY,003g5000002EiL0AAK,Working,Transaction Dispute,Problem
+,2026-01-11T03:29:54.000+0000,Customer segment: active. Created: 2025-01-18,Phone,Medium,500g5000004wsYnAAI,003g5000002EfWnAAK,New,Card Renewal,Request
+,2026-01-11T03:30:02.000+0000,Customer segment: at_risk. Created: 2024-09-08,Web,High,500g5000004wsYoAAI,003g5000002Efi6AAC,Working,ATM Card Issue,Problem
+2026-01-11T03:30:09.000+0000,2026-01-11T03:30:09.000+0000,Customer segment: at_risk. Created: 2025-07-04,Web,Medium,500g5000004wsYpAAI,003g5000002Eg4fAAC,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:41.000+0000,Customer segment: at_risk. Created: 2023-04-08,Phone,High,500g5000004wsYqAAI,003g5000002EgpRAAS,Working,ATM Card Issue,Problem
+,2026-01-11T03:30:47.000+0000,Customer segment: churned. Created: 2023-06-05,Web,High,500g5000004wsYrAAI,003g5000002EgxVAAS,Working,Transaction Dispute,Problem
+,2026-01-11T03:31:07.000+0000,Customer segment: churned. Created: 2024-04-09,Mobile App,Medium,500g5000004wsYsAAI,003g5000002EhK5AAK,Working,Loan Inquiry,Question
+2026-01-11T03:31:09.000+0000,2026-01-11T03:31:09.000+0000,Customer segment: at_risk. Created: 2023-02-11,Email,High,500g5000004wsYtAAI,003g5000002EfwcAAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:29:54.000+0000,2026-01-11T03:29:54.000+0000,Customer segment: active. Created: 2024-08-14,Phone,Medium,500g5000004wsaPAAQ,003g5000002EfYPAA0,Closed,Card Renewal,Request
+2026-01-11T03:29:55.000+0000,2026-01-11T03:29:55.000+0000,Customer segment: active. Created: 2025-11-23,Web,Low,500g5000004wsaQAAQ,003g5000002EfbdAAC,Closed,Statement Request,Request
+,2026-01-11T03:31:24.000+0000,Customer segment: at_risk. Created: 2023-12-26,Phone,Medium,500g5000004wsaRAAQ,003g5000002EhTmAAK,Working,Fee Inquiry,Question
+2026-01-11T03:31:27.000+0000,2026-01-11T03:31:27.000+0000,Customer segment: active. Created: 2023-05-16,Phone,Medium,500g5000004wsaSAAQ,003g5000002EhbpAAC,Closed,Card Renewal,Request
+2026-01-11T03:31:53.000+0000,2026-01-11T03:31:53.000+0000,Customer segment: active. Created: 2025-06-28,Phone,Medium,500g5000004wsaTAAQ,003g5000002Ei1dAAC,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:12.000+0000,Customer segment: churned. Created: 2023-01-06,Phone,High,500g5000004wsaUAAQ,003g5000002EhFIAA0,Working,Fraud Alert,Problem
+,2026-01-11T03:29:56.000+0000,Customer segment: active. Created: 2024-03-23,Mobile App,High,500g5000004wsc1AAA,003g5000002EfN8AAK,New,ATM Card Issue,Problem
+,2026-01-11T03:32:07.000+0000,Customer segment: active. Created: 2024-08-26,Web,High,500g5000004wsc2AAA,003g5000002EiBJAA0,New,Fraud Alert,Problem
+2026-01-11T03:33:42.000+0000,2026-01-11T03:33:42.000+0000,Customer segment: at_risk. Created: 2024-03-03,Email,High,500g5000004wsc3AAA,003g5000002Eh5aAAC,Closed,Transaction Dispute,Problem
+,2026-01-11T03:29:57.000+0000,Customer segment: at_risk. Created: 2025-01-22,Email,Medium,500g5000004wsddAAA,003g5000002EfQMAA0,Working,Card Renewal,Request
+,2026-01-11T03:31:12.000+0000,Customer segment: at_risk. Created: 2023-10-22,Email,Medium,500g5000004wsdeAAA,003g5000002Egz9AAC,New,Card Renewal,Request
+,2026-01-11T03:29:58.000+0000,Customer segment: active. Created: 2025-05-28,Web,Low,500g5000004wsfFAAQ,003g5000002EeywAAC,New,Statement Request,Request
+,2026-01-11T03:32:38.000+0000,Customer segment: at_risk. Created: 2024-12-13,Mobile App,Medium,500g5000004wsfGAAQ,003g5000002EeyzAAC,New,Fee Inquiry,Question
+,2026-01-11T03:32:43.000+0000,Customer segment: active. Created: 2025-01-11,Web,High,500g5000004wsfHAAQ,003g5000002EiUgAAK,New,Transaction Dispute,Problem
+2026-01-11T03:32:47.000+0000,2026-01-11T03:32:47.000+0000,Customer segment: active. Created: 2023-02-07,Mobile App,Medium,500g5000004wsfIAAQ,003g5000002EicjAAC,Closed,Fee Inquiry,Question
+2026-01-11T03:33:08.000+0000,2026-01-11T03:33:08.000+0000,Customer segment: active. Created: 2024-07-25,Web,Medium,500g5000004wsfJAAQ,003g5000002Ej4AAAS,Closed,Card Renewal,Request
+,2026-01-11T03:29:58.000+0000,Customer segment: churned. Created: 2025-12-27,Web,High,500g5000004wsgrAAA,003g5000002EfjhAAC,Working,Account Access Issue,Problem
+2026-01-11T03:33:19.000+0000,2026-01-11T03:33:19.000+0000,Customer segment: active. Created: 2025-01-14,Web,Medium,500g5000004wsgsAAA,003g5000002EjDpAAK,Closed,Fee Inquiry,Question
+2026-01-11T03:29:59.000+0000,2026-01-11T03:29:59.000+0000,Customer segment: active. Created: 2025-12-29,Email,Medium,500g5000004wsiTAAQ,003g5000002EfWoAAK,Closed,Card Renewal,Request
+2026-01-11T03:30:20.000+0000,2026-01-11T03:30:20.000+0000,Customer segment: churned. Created: 2023-11-30,Email,Low,500g5000004wsiUAAQ,003g5000002EgHaAAK,Closed,Statement Request,Request
+,2026-01-11T03:30:25.000+0000,Customer segment: at_risk. Created: 2023-10-30,Mobile App,High,500g5000004wsiVAAQ,003g5000002EgPdAAK,New,Transaction Dispute,Problem
+2026-01-11T03:30:28.000+0000,2026-01-11T03:30:28.000+0000,Customer segment: at_risk. Created: 2023-05-22,Mobile App,Medium,500g5000004wsiWAAQ,003g5000002EgZJAA0,Closed,Card Renewal,Request
+,2026-01-11T03:30:32.000+0000,Customer segment: churned. Created: 2023-09-25,Mobile App,Medium,500g5000004wsiXAAQ,003g5000002Eg1SAAS,Escalated,Loan Inquiry,Question
+,2026-01-11T03:30:38.000+0000,Customer segment: churned. Created: 2023-10-01,Email,High,500g5000004wsiYAAQ,003g5000002EgkbAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:32:50.000+0000,Customer segment: at_risk. Created: 2024-09-29,Web,High,500g5000004wsiZAAQ,003g5000002EieLAAS,New,ATM Card Issue,Problem
+2026-01-11T03:32:50.000+0000,2026-01-11T03:32:50.000+0000,Customer segment: churned. Created: 2025-08-08,Web,High,500g5000004wsiaAAA,003g5000002EeJkAAK,Closed,Fraud Alert,Problem
+2026-01-11T03:31:44.000+0000,2026-01-11T03:31:44.000+0000,Customer segment: active. Created: 2025-07-15,Email,Medium,500g5000004wsk6AAA,003g5000002EhtZAAS,Closed,Card Renewal,Request
+,2026-01-11T03:33:09.000+0000,Customer segment: churned. Created: 2025-10-31,Phone,Low,500g5000004wsk7AAA,003g5000002Ej5lAAC,Working,Statement Request,Request
+2026-01-11T03:33:24.000+0000,2026-01-11T03:33:24.000+0000,Customer segment: churned. Created: 2025-05-30,Web,High,500g5000004wsk8AAA,003g5000002EjH3AAK,Closed,Account Access Issue,Problem
+2026-01-11T03:33:35.000+0000,2026-01-11T03:33:35.000+0000,Customer segment: active. Created: 2023-02-12,Web,High,500g5000004wsk9AAA,003g5000002EjKIAA0,Closed,Fraud Alert,Problem
+,2026-01-11T03:30:01.000+0000,Customer segment: churned. Created: 2023-12-13,Phone,Medium,500g5000004wslhAAA,003g5000002EfmvAAC,Working,Mobile App Problem,Problem
+,2026-01-11T03:30:25.000+0000,Customer segment: at_risk. Created: 2025-09-09,Phone,High,500g5000004wsliAAA,003g5000002EgPdAAK,Working,ATM Card Issue,Problem
+,2026-01-11T03:30:02.000+0000,Customer segment: at_risk. Created: 2024-06-19,Mobile App,Low,500g5000004wsnJAAQ,003g5000002Efi6AAC,New,Interest Rate Question,Question
+,2026-01-11T03:30:53.000+0000,Customer segment: at_risk. Created: 2024-07-09,Web,Medium,500g5000004wsnKAAQ,003g5000002EgmFAAS,Working,Loan Inquiry,Question
+2026-01-11T03:30:02.000+0000,2026-01-11T03:30:02.000+0000,Customer segment: at_risk. Created: 2023-01-13,Web,Medium,500g5000004wsovAAA,003g5000002Efi6AAC,Closed,Card Renewal,Request
+2026-01-11T03:32:35.000+0000,2026-01-11T03:32:35.000+0000,Customer segment: active. Created: 2023-06-03,Email,Medium,500g5000004wsowAAA,003g5000002EfdKAAS,Closed,Mobile App Problem,Problem
+,2026-01-11T03:32:39.000+0000,Customer segment: churned. Created: 2023-05-28,Email,Low,500g5000004wsoxAAA,003g5000002Ehs0AAC,Working,Interest Rate Question,Question
+2026-01-11T03:30:02.000+0000,2026-01-11T03:30:02.000+0000,Customer segment: active. Created: 2023-07-03,Mobile App,Low,500g5000004wsqXAAQ,003g5000002EfoXAAS,Closed,Statement Request,Request
+,2026-01-11T03:30:23.000+0000,Customer segment: churned. Created: 2026-01-03,Phone,Medium,500g5000004wsqYAAQ,003g5000002EgMQAA0,Working,Fee Inquiry,Question
+2026-01-11T03:30:44.000+0000,2026-01-11T03:30:44.000+0000,Customer segment: churned. Created: 2025-12-08,Mobile App,Medium,500g5000004wsqZAAQ,003g5000002EguHAAS,Closed,Card Renewal,Request
+2026-01-11T03:32:14.000+0000,2026-01-11T03:32:14.000+0000,Customer segment: churned. Created: 2023-01-23,Phone,High,500g5000004wsqaAAA,003g5000002EfdIAAS,Closed,Transaction Dispute,Problem
+,2026-01-11T03:33:41.000+0000,Customer segment: at_risk. Created: 2023-05-06,Mobile App,High,500g5000004wsqbAAA,003g5000002Eh5aAAC,New,Transaction Dispute,Problem
+,2026-01-11T03:33:42.000+0000,Customer segment: at_risk. Created: 2023-05-24,Web,High,500g5000004wsqcAAA,003g5000002EhdSAAS,Working,Fraud Alert,Problem
+2026-01-11T03:30:03.000+0000,2026-01-11T03:30:03.000+0000,Customer segment: at_risk. Created: 2025-03-29,Email,High,500g5000004wss9AAA,003g5000002EfN9AAK,Closed,ATM Card Issue,Problem
+,2026-01-11T03:30:13.000+0000,Customer segment: at_risk. Created: 2025-05-22,Mobile App,Medium,500g5000004wssAAAQ,003g5000002EgCjAAK,New,Loan Inquiry,Question
+,2026-01-11T03:30:50.000+0000,Customer segment: at_risk. Created: 2023-07-31,Email,High,500g5000004wssBAAQ,003g5000002Eg6IAAS,New,ATM Card Issue,Problem
+2026-01-11T03:33:15.000+0000,2026-01-11T03:33:15.000+0000,Customer segment: active. Created: 2023-08-16,Web,High,500g5000004wssCAAQ,003g5000002Ej7OAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:30:03.000+0000,Customer segment: at_risk. Created: 2024-04-01,Email,Medium,500g5000004wstlAAA,003g5000002EfN9AAK,Working,Loan Inquiry,Question
+2026-01-11T03:31:10.000+0000,2026-01-11T03:31:10.000+0000,Customer segment: at_risk. Created: 2025-10-22,Mobile App,Medium,500g5000004wstmAAA,003g5000002EfwcAAC,Closed,Fee Inquiry,Question
+2026-01-11T03:30:04.000+0000,2026-01-11T03:30:04.000+0000,Customer segment: active. Created: 2024-09-18,Email,Medium,500g5000004wsvNAAQ,003g5000002EfrlAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:30:48.000+0000,2026-01-11T03:30:48.000+0000,Customer segment: churned. Created: 2024-01-05,Web,High,500g5000004wsvOAAQ,003g5000002Eh0jAAC,Closed,Fraud Alert,Problem
+,2026-01-11T03:30:04.000+0000,Customer segment: active. Created: 2025-08-08,Mobile App,Medium,500g5000004wswzAAA,003g5000002EftNAAS,New,Loan Inquiry,Question
+,2026-01-11T03:30:17.000+0000,Customer segment: at_risk. Created: 2024-06-15,Mobile App,Medium,500g5000004wsx0AAA,003g5000002EfTaAAK,New,Loan Inquiry,Question
+,2026-01-11T03:30:17.000+0000,Customer segment: at_risk. Created: 2025-04-16,Email,Medium,500g5000004wsx1AAA,003g5000002EfTaAAK,Working,Card Renewal,Request
+,2026-01-11T03:31:06.000+0000,Customer segment: churned. Created: 2023-05-04,Email,Low,500g5000004wsx2AAA,003g5000002EhK5AAK,Escalated,Interest Rate Question,Question
+2026-01-11T03:30:05.000+0000,2026-01-11T03:30:05.000+0000,Customer segment: active. Created: 2023-04-26,Phone,High,500g5000004wsybAAA,003g5000002EfQNAA0,Closed,Account Access Issue,Problem
+2026-01-11T03:30:06.000+0000,2026-01-11T03:30:06.000+0000,Customer segment: active. Created: 2023-04-01,Email,Medium,500g5000004wsycAAA,003g5000002EfwbAAC,Closed,Card Renewal,Request
+,2026-01-11T03:30:24.000+0000,Customer segment: churned. Created: 2024-11-18,Web,High,500g5000004wsydAAA,003g5000002EgMQAA0,Working,ATM Card Issue,Problem
+,2026-01-11T03:30:05.000+0000,Customer segment: at_risk. Created: 2024-01-10,Web,High,500g5000004wt0DAAQ,003g5000002EfuzAAC,Working,ATM Card Issue,Problem
+2026-01-11T03:30:10.000+0000,2026-01-11T03:30:10.000+0000,Customer segment: at_risk. Created: 2025-10-09,Email,Medium,500g5000004wt0EAAQ,003g5000002Eg6HAAS,Closed,Card Renewal,Request
+,2026-01-11T03:30:13.000+0000,Customer segment: churned. Created: 2025-10-08,Web,Medium,500g5000004wt0FAAQ,003g5000002EgB7AAK,Escalated,Fee Inquiry,Question
+,2026-01-11T03:30:32.000+0000,Customer segment: churned. Created: 2024-01-29,Mobile App,Medium,500g5000004wt0GAAQ,003g5000002Eg1SAAS,Escalated,Card Renewal,Request
+,2026-01-11T03:30:38.000+0000,Customer segment: churned. Created: 2025-07-29,Mobile App,High,500g5000004wt0HAAQ,003g5000002EgkbAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:30:41.000+0000,Customer segment: at_risk. Created: 2023-05-31,Email,Medium,500g5000004wt0IAAQ,003g5000002EgpRAAS,New,Fee Inquiry,Question
+,2026-01-11T03:30:06.000+0000,Customer segment: at_risk. Created: 2023-08-17,Mobile App,Low,500g5000004wt1pAAA,003g5000002EfuzAAC,Working,Interest Rate Question,Question
+,2026-01-11T03:31:51.000+0000,Customer segment: at_risk. Created: 2023-02-19,Phone,Medium,500g5000004wt1qAAA,003g5000002Efi7AAC,Working,Card Renewal,Request
+,2026-01-11T03:31:55.000+0000,Customer segment: at_risk. Created: 2024-07-21,Email,High,500g5000004wt1rAAA,003g5000002EhvCAAS,Working,Account Access Issue,Problem
+,2026-01-11T03:31:58.000+0000,Customer segment: at_risk. Created: 2025-08-30,Web,Medium,500g5000004wt1sAAA,003g5000002Efi8AAC,Working,Mobile App Problem,Problem
+2026-01-11T03:33:37.000+0000,2026-01-11T03:33:37.000+0000,Customer segment: churned. Created: 2025-04-14,Web,High,500g5000004wt1tAAA,003g5000002EjKJAA0,Closed,Account Access Issue,Problem
+,2026-01-11T03:30:07.000+0000,Customer segment: active. Created: 2024-03-24,Email,Medium,500g5000004wt3RAAQ,003g5000002EfyDAAS,New,Fee Inquiry,Question
+,2026-01-11T03:33:27.000+0000,Customer segment: churned. Created: 2025-04-17,Phone,Low,500g5000004wt3SAAQ,003g5000002EjKHAA0,Escalated,Statement Request,Request
+2026-01-11T03:30:07.000+0000,2026-01-11T03:30:07.000+0000,Customer segment: active. Created: 2025-01-10,Mobile App,High,500g5000004wt53AAA,003g5000002EfzpAAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:30:08.000+0000,2026-01-11T03:30:08.000+0000,Customer segment: active. Created: 2023-07-20,Email,Low,500g5000004wt6fAAA,003g5000002Eg1RAAS,Closed,Interest Rate Question,Question
+2026-01-11T03:30:10.000+0000,2026-01-11T03:30:10.000+0000,Customer segment: at_risk. Created: 2023-10-28,Email,High,500g5000004wt6gAAA,003g5000002Eg6HAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:32:23.000+0000,2026-01-11T03:32:23.000+0000,Customer segment: active. Created: 2024-01-27,Email,Low,500g5000004wt6hAAA,003g5000002EfYSAA0,Closed,Statement Request,Request
+2026-01-11T03:32:28.000+0000,2026-01-11T03:32:28.000+0000,Customer segment: active. Created: 2024-08-02,Phone,Medium,500g5000004wt6iAAA,003g5000002EenhAAC,Closed,Card Renewal,Request
+,2026-01-11T03:32:34.000+0000,Customer segment: churned. Created: 2025-05-10,Phone,High,500g5000004wt6jAAA,003g5000002Eh7DAAS,Working,Account Access Issue,Problem
+2026-01-11T03:32:40.000+0000,2026-01-11T03:32:40.000+0000,Customer segment: at_risk. Created: 2024-03-11,Phone,High,500g5000004wt6kAAA,003g5000002EiXtAAK,Closed,ATM Card Issue,Problem
+,2026-01-11T03:33:26.000+0000,Customer segment: active. Created: 2025-07-02,Email,Low,500g5000004wt6lAAA,003g5000002EhOwAAK,New,Statement Request,Request
+2026-01-11T03:33:29.000+0000,2026-01-11T03:33:29.000+0000,Customer segment: active. Created: 2025-12-04,Phone,Medium,500g5000004wt6mAAA,003g5000002EiXxAAK,Closed,Fee Inquiry,Question
+2026-01-11T03:30:09.000+0000,2026-01-11T03:30:09.000+0000,Customer segment: at_risk. Created: 2024-10-12,Mobile App,High,500g5000004wt8HAAQ,003g5000002Eg4fAAC,Closed,ATM Card Issue,Problem
+2026-01-11T03:30:51.000+0000,2026-01-11T03:30:51.000+0000,Customer segment: active. Created: 2024-04-03,Email,High,500g5000004wt8IAAQ,003g5000002EgxWAAS,Closed,Transaction Dispute,Problem
+2026-01-11T03:32:08.000+0000,2026-01-11T03:32:08.000+0000,Customer segment: at_risk. Created: 2025-06-12,Web,High,500g5000004wt8JAAQ,003g5000002EhyQAAS,Closed,Transaction Dispute,Problem
+,2026-01-11T03:32:40.000+0000,Customer segment: churned. Created: 2025-03-13,Mobile App,Low,500g5000004wt8KAAQ,003g5000002Efv2AAC,Working,Interest Rate Question,Question
+,2026-01-11T03:32:46.000+0000,Customer segment: churned. Created: 2023-02-06,Mobile App,High,500g5000004wt8LAAQ,003g5000002EesYAAS,Escalated,Transaction Dispute,Problem
+,2026-01-11T03:32:54.000+0000,Customer segment: at_risk. Created: 2023-05-07,Phone,Low,500g5000004wt8MAAQ,003g5000002EiOFAA0,Working,Interest Rate Question,Question
+,2026-01-11T03:30:11.000+0000,Customer segment: at_risk. Created: 2025-06-07,Web,High,500g5000004wt9tAAA,003g5000002Eg7tAAC,Working,Account Access Issue,Problem
+,2026-01-11T03:30:12.000+0000,Customer segment: churned. Created: 2025-06-07,Web,High,500g5000004wt9uAAA,003g5000002EgB7AAK,Escalated,Account Access Issue,Problem
+,2026-01-11T03:30:36.000+0000,Customer segment: at_risk. Created: 2025-04-10,Web,High,500g5000004wt9vAAA,003g5000002Eeu7AAC,New,ATM Card Issue,Problem
+2026-01-11T03:30:40.000+0000,2026-01-11T03:30:40.000+0000,Customer segment: at_risk. Created: 2024-06-26,Mobile App,High,500g5000004wt9wAAA,003g5000002EeirAAC,Closed,Account Access Issue,Problem
+2026-01-11T03:30:11.000+0000,2026-01-11T03:30:11.000+0000,Customer segment: active. Created: 2024-11-01,Phone,Low,500g5000004wtBVAAY,003g5000002EfdGAAS,Closed,Interest Rate Question,Question
+,2026-01-11T03:30:42.000+0000,Customer segment: churned. Created: 2025-02-28,Mobile App,High,500g5000004wtBWAAY,003g5000002EgsfAAC,Working,Fraud Alert,Problem
+2026-01-11T03:30:46.000+0000,2026-01-11T03:30:46.000+0000,Customer segment: churned. Created: 2024-06-25,Phone,Medium,500g5000004wtBXAAY,003g5000002EgxVAAS,Closed,Fee Inquiry,Question
+2026-01-11T03:31:04.000+0000,2026-01-11T03:31:04.000+0000,Customer segment: active. Created: 2025-05-16,Email,Low,500g5000004wtBYAAY,003g5000002EghOAAS,Closed,Interest Rate Question,Question
+,2026-01-11T03:31:28.000+0000,Customer segment: churned. Created: 2023-09-23,Web,Medium,500g5000004wtBZAAY,003g5000002EftOAAS,Working,Loan Inquiry,Question
+,2026-01-11T03:30:13.000+0000,Customer segment: churned. Created: 2024-10-05,Mobile App,High,500g5000004wtD7AAI,003g5000002EgB7AAK,Working,ATM Card Issue,Problem
+2026-01-11T03:30:21.000+0000,2026-01-11T03:30:21.000+0000,Customer segment: churned. Created: 2024-04-22,Mobile App,High,500g5000004wtD8AAI,003g5000002EgHaAAK,Closed,Transaction Dispute,Problem
+,2026-01-11T03:32:00.000+0000,Customer segment: at_risk. Created: 2025-12-04,Mobile App,Medium,500g5000004wtD9AAI,003g5000002Eg6MAAS,Working,Mobile App Problem,Problem
+2026-01-11T03:32:11.000+0000,2026-01-11T03:32:11.000+0000,Customer segment: churned. Created: 2025-02-19,Web,Low,500g5000004wtDAAAY,003g5000002EhFIAA0,Closed,Statement Request,Request
+2026-01-11T03:30:14.000+0000,2026-01-11T03:30:14.000+0000,Customer segment: churned. Created: 2023-06-08,Mobile App,Medium,500g5000004wtEjAAI,003g5000002EgFxAAK,Closed,Fee Inquiry,Question
+,2026-01-11T03:31:01.000+0000,Customer segment: churned. Created: 2024-07-09,Email,High,500g5000004wtEkAAI,003g5000002EfDVAA0,Working,Fraud Alert,Problem
+2026-01-11T03:32:39.000+0000,2026-01-11T03:32:39.000+0000,Customer segment: active. Created: 2024-08-10,Web,High,500g5000004wtElAAI,003g5000002Ef3qAAC,Closed,ATM Card Issue,Problem
+2026-01-11T03:33:04.000+0000,2026-01-11T03:33:04.000+0000,Customer segment: at_risk. Created: 2024-03-05,Email,Medium,500g5000004wtEmAAI,003g5000002EhASAA0,Closed,Loan Inquiry,Question
+2026-01-11T03:33:06.000+0000,2026-01-11T03:33:06.000+0000,Customer segment: churned. Created: 2025-01-20,Phone,Low,500g5000004wtEnAAI,003g5000002EeNsAAK,Closed,Interest Rate Question,Question
+,2026-01-11T03:33:36.000+0000,Customer segment: churned. Created: 2024-08-04,Mobile App,Low,500g5000004wtEoAAI,003g5000002Ej4BAAS,Escalated,Interest Rate Question,Question
+,2026-01-11T03:30:16.000+0000,Customer segment: churned. Created: 2024-04-16,Web,Medium,500g5000004wtGMAAY,003g5000002EgFxAAK,Working,Card Renewal,Request
+,2026-01-11T03:32:27.000+0000,Customer segment: at_risk. Created: 2024-03-17,Mobile App,Medium,500g5000004wtGNAAY,003g5000002EgcaAAC,Working,Loan Inquiry,Question
+2026-01-11T03:32:29.000+0000,2026-01-11T03:32:29.000+0000,Customer segment: churned. Created: 2024-07-31,Web,Medium,500g5000004wtGOAAY,003g5000002Eh0mAAC,Closed,Card Renewal,Request
+2026-01-11T03:32:49.000+0000,2026-01-11T03:32:49.000+0000,Customer segment: at_risk. Created: 2023-09-05,Web,Medium,500g5000004wtGPAAY,003g5000002EiJOAA0,Closed,Card Renewal,Request
+2026-01-11T03:32:56.000+0000,2026-01-11T03:32:56.000+0000,Customer segment: active. Created: 2023-10-31,Web,Low,500g5000004wtGQAAY,003g5000002EgHdAAK,Closed,Statement Request,Request
+,2026-01-11T03:30:16.000+0000,Customer segment: churned. Created: 2023-06-07,Phone,Medium,500g5000004wtHxAAI,003g5000002EgFxAAK,Working,Loan Inquiry,Question
+,2026-01-11T03:30:39.000+0000,Customer segment: active. Created: 2024-04-26,Web,Medium,500g5000004wtHyAAI,003g5000002EeMEAA0,New,Mobile App Problem,Problem
+,2026-01-11T03:31:00.000+0000,Customer segment: churned. Created: 2024-09-12,Mobile App,High,500g5000004wtHzAAI,003g5000002EhC1AAK,Working,Account Access Issue,Problem
+2026-01-11T03:31:35.000+0000,2026-01-11T03:31:35.000+0000,Customer segment: at_risk. Created: 2023-02-02,Phone,Medium,500g5000004wtI0AAI,003g5000002EehEAAS,Closed,Mobile App Problem,Problem
+,2026-01-11T03:31:36.000+0000,Customer segment: churned. Created: 2025-02-06,Phone,Medium,500g5000004wtI1AAI,003g5000002EeG6AAK,Escalated,Mobile App Problem,Problem
+,2026-01-11T03:31:39.000+0000,Customer segment: at_risk. Created: 2024-04-21,Phone,High,500g5000004wtI2AAI,003g5000002EhC4AAK,Working,Fraud Alert,Problem
+2026-01-11T03:30:17.000+0000,2026-01-11T03:30:17.000+0000,Customer segment: at_risk. Created: 2025-04-04,Web,High,500g5000004wtJZAAY,003g5000002EfTaAAK,Closed,Fraud Alert,Problem
+,2026-01-11T03:32:41.000+0000,Customer segment: churned. Created: 2024-10-13,Email,High,500g5000004wtJaAAI,003g5000002Efv2AAC,Working,Transaction Dispute,Problem
+2026-01-11T03:33:12.000+0000,2026-01-11T03:33:12.000+0000,Customer segment: at_risk. Created: 2024-11-15,Email,Medium,500g5000004wtJbAAI,003g5000002EhX0AAK,Closed,Card Renewal,Request
+,2026-01-11T03:33:21.000+0000,Customer segment: at_risk. Created: 2023-11-14,Email,Low,500g5000004wtJcAAI,003g5000002EiXwAAK,New,Statement Request,Request
+2026-01-11T03:30:17.000+0000,2026-01-11T03:30:17.000+0000,Customer segment: active. Created: 2023-05-09,Phone,High,500g5000004wtLBAAY,003g5000002EfBqAAK,Closed,ATM Card Issue,Problem
+2026-01-11T03:30:17.000+0000,2026-01-11T03:30:17.000+0000,Customer segment: active. Created: 2024-07-07,Mobile App,Medium,500g5000004wtMnAAI,003g5000002EfBqAAK,Closed,Card Renewal,Request
+2026-01-11T03:33:08.000+0000,2026-01-11T03:33:08.000+0000,Customer segment: churned. Created: 2023-06-08,Mobile App,High,500g5000004wtMoAAI,003g5000002Ej49AAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:30:19.000+0000,2026-01-11T03:30:19.000+0000,Customer segment: active. Created: 2023-08-23,Mobile App,High,500g5000004wtOPAAY,003g5000002EgKnAAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:30:37.000+0000,Customer segment: churned. Created: 2024-12-02,Phone,High,500g5000004wtOQAAY,003g5000002EgkbAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:32:02.000+0000,Customer segment: at_risk. Created: 2025-01-15,Email,High,500g5000004wtORAAY,003g5000002Ei85AAC,New,Account Access Issue,Problem
+,2026-01-11T03:33:12.000+0000,Customer segment: churned. Created: 2023-09-09,Email,Low,500g5000004wtOSAAY,003g5000002EgcbAAC,Escalated,Statement Request,Request
+2026-01-11T03:33:32.000+0000,2026-01-11T03:33:32.000+0000,Customer segment: active. Created: 2024-01-26,Phone,High,500g5000004wtOTAAY,003g5000002EjQjAAK,Closed,Fraud Alert,Problem
+2026-01-11T03:33:39.000+0000,2026-01-11T03:33:39.000+0000,Customer segment: churned. Created: 2026-01-02,Phone,Medium,500g5000004wtOUAAY,003g5000002EjXBAA0,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:19.000+0000,Customer segment: active. Created: 2025-09-13,Email,High,500g5000004wtQ1AAI,003g5000002EfWpAAK,New,ATM Card Issue,Problem
+2026-01-11T03:30:51.000+0000,2026-01-11T03:30:51.000+0000,Customer segment: at_risk. Created: 2024-04-21,Web,High,500g5000004wtQ2AAI,003g5000002Eh3xAAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:30:54.000+0000,2026-01-11T03:30:54.000+0000,Customer segment: at_risk. Created: 2025-10-19,Email,High,500g5000004wtQ3AAI,003g5000002Eh7BAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:30:20.000+0000,2026-01-11T03:30:20.000+0000,Customer segment: active. Created: 2023-01-05,Web,Medium,500g5000004wtRdAAI,003g5000002EfWpAAK,Closed,Card Renewal,Request
+,2026-01-11T03:30:21.000+0000,Customer segment: churned. Created: 2024-02-27,Phone,Low,500g5000004wtReAAI,003g5000002EgHaAAK,Escalated,Statement Request,Request
+2026-01-11T03:30:22.000+0000,2026-01-11T03:30:22.000+0000,Customer segment: active. Created: 2025-12-15,Mobile App,Medium,500g5000004wtRfAAI,003g5000002EgMPAA0,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:23.000+0000,Customer segment: churned. Created: 2023-07-28,Email,High,500g5000004wtRgAAI,003g5000002EgMQAA0,Escalated,Account Access Issue,Problem
+2026-01-11T03:30:59.000+0000,2026-01-11T03:30:59.000+0000,Customer segment: churned. Created: 2023-02-21,Email,High,500g5000004wtRhAAI,003g5000002EgpSAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:31:27.000+0000,2026-01-11T03:31:27.000+0000,Customer segment: active. Created: 2023-06-25,Phone,Medium,500g5000004wtTQAAY,003g5000002EhbpAAC,Closed,Mobile App Problem,Problem
+,2026-01-11T03:33:44.000+0000,Customer segment: churned. Created: 2025-12-11,Email,Medium,500g5000004wtTYAAY,003g5000002EjDqAAK,Escalated,Loan Inquiry,Question
+,2026-01-11T03:30:21.000+0000,Customer segment: churned. Created: 2024-12-29,Email,High,500g5000004wtUrAAI,003g5000002EgHaAAK,Escalated,Account Access Issue,Problem
+,2026-01-11T03:30:21.000+0000,Customer segment: churned. Created: 2025-07-18,Web,Medium,500g5000004wtUsAAI,003g5000002EgHaAAK,Escalated,Loan Inquiry,Question
+2026-01-11T03:30:46.000+0000,2026-01-11T03:30:46.000+0000,Customer segment: churned. Created: 2023-12-05,Email,High,500g5000004wtUtAAI,003g5000002EgxVAAS,Closed,Transaction Dispute,Problem
+,2026-01-11T03:32:02.000+0000,Customer segment: at_risk. Created: 2023-02-16,Mobile App,High,500g5000004wtUuAAI,003g5000002Ei85AAC,Working,Account Access Issue,Problem
+2026-01-11T03:32:28.000+0000,2026-01-11T03:32:28.000+0000,Customer segment: active. Created: 2023-09-16,Email,Medium,500g5000004wtUvAAI,003g5000002EenhAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:46.000+0000,2026-01-11T03:32:46.000+0000,Customer segment: churned. Created: 2024-09-16,Mobile App,Low,500g5000004wtUwAAI,003g5000002EesYAAS,Closed,Interest Rate Question,Question
+,2026-01-11T03:33:29.000+0000,Customer segment: churned. Created: 2025-11-21,Phone,Medium,500g5000004wtUxAAI,003g5000002Ej0yAAC,Escalated,Card Renewal,Request
+2026-01-11T03:30:22.000+0000,2026-01-11T03:30:22.000+0000,Customer segment: churned. Created: 2024-01-29,Mobile App,High,500g5000004wtWTAAY,003g5000002EgHaAAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:30:22.000+0000,Customer segment: churned. Created: 2024-06-15,Email,Medium,500g5000004wtY5AAI,003g5000002EgHaAAK,Escalated,Loan Inquiry,Question
+2026-01-11T03:31:56.000+0000,2026-01-11T03:31:56.000+0000,Customer segment: active. Created: 2023-11-26,Mobile App,Medium,500g5000004wtY6AAI,003g5000002Eg6LAAS,Closed,Fee Inquiry,Question
+,2026-01-11T03:30:23.000+0000,Customer segment: churned. Created: 2023-11-05,Phone,Medium,500g5000004wtZhAAI,003g5000002EgMQAA0,Escalated,Card Renewal,Request
+,2026-01-11T03:31:07.000+0000,Customer segment: active. Created: 2023-07-09,Phone,Medium,500g5000004wtZiAAI,003g5000002Ef0ZAAS,New,Card Renewal,Request
+,2026-01-11T03:32:18.000+0000,Customer segment: at_risk. Created: 2024-04-04,Mobile App,Low,500g5000004wtZjAAI,003g5000002EgcZAAS,Working,Statement Request,Request
+2026-01-11T03:33:32.000+0000,2026-01-11T03:33:32.000+0000,Customer segment: at_risk. Created: 2025-08-03,Phone,High,500g5000004wtZkAAI,003g5000002Ei3HAAS,Closed,Transaction Dispute,Problem
+2026-01-11T03:33:36.000+0000,2026-01-11T03:33:36.000+0000,Customer segment: churned. Created: 2025-07-19,Mobile App,High,500g5000004wtZlAAI,003g5000002Ej4BAAS,Closed,Transaction Dispute,Problem
+2026-01-11T03:30:24.000+0000,2026-01-11T03:30:24.000+0000,Customer segment: churned. Created: 2025-10-21,Web,High,500g5000004wtbJAAQ,003g5000002EgMQAA0,Closed,Fraud Alert,Problem
+2026-01-11T03:30:31.000+0000,2026-01-11T03:30:31.000+0000,Customer segment: at_risk. Created: 2024-12-20,Web,High,500g5000004wtbKAAQ,003g5000002Eg4hAAC,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:08.000+0000,Customer segment: at_risk. Created: 2024-11-10,Email,Low,500g5000004wtbLAAQ,003g5000002EhNJAA0,Working,Statement Request,Request
+,2026-01-11T03:31:44.000+0000,Customer segment: at_risk. Created: 2024-12-25,Web,Low,500g5000004wtbMAAQ,003g5000002EeMHAA0,Working,Interest Rate Question,Question
+2026-01-11T03:30:25.000+0000,2026-01-11T03:30:25.000+0000,Customer segment: active. Created: 2024-09-15,Phone,Medium,500g5000004wtcvAAA,003g5000002EfNAAA0,Closed,Card Renewal,Request
+,2026-01-11T03:30:26.000+0000,Customer segment: at_risk. Created: 2023-03-22,Mobile App,Medium,500g5000004wteXAAQ,003g5000002Eg4gAAC,Working,Mobile App Problem,Problem
+,2026-01-11T03:30:32.000+0000,Customer segment: churned. Created: 2024-08-15,Mobile App,Low,500g5000004wteYAAQ,003g5000002Eg1SAAS,Working,Statement Request,Request
+2026-01-11T03:30:26.000+0000,2026-01-11T03:30:26.000+0000,Customer segment: active. Created: 2025-01-30,Email,High,500g5000004wtg9AAA,003g5000002EgRFAA0,Closed,Fraud Alert,Problem
+2026-01-11T03:30:27.000+0000,2026-01-11T03:30:27.000+0000,Customer segment: active. Created: 2024-02-05,Email,Low,500g5000004wthlAAA,003g5000002EgRFAA0,Closed,Statement Request,Request
+,2026-01-11T03:31:13.000+0000,Customer segment: at_risk. Created: 2023-06-04,Web,Medium,500g5000004wthmAAA,003g5000002EgCkAAK,Working,Loan Inquiry,Question
+2026-01-11T03:33:46.000+0000,2026-01-11T03:33:46.000+0000,Customer segment: active. Created: 2023-05-24,Phone,Medium,500g5000004wthnAAA,003g5000002Eh5bAAC,Closed,Mobile App Problem,Problem
+,2026-01-11T03:30:29.000+0000,Customer segment: at_risk. Created: 2024-11-11,Web,High,500g5000004wtjNAAQ,003g5000002EgZJAA0,Working,Fraud Alert,Problem
+,2026-01-11T03:30:51.000+0000,Customer segment: active. Created: 2025-06-27,Web,Low,500g5000004wtjOAAQ,003g5000002EgxWAAS,New,Statement Request,Request
+,2026-01-11T03:31:28.000+0000,Customer segment: at_risk. Created: 2023-11-15,Mobile App,High,500g5000004wtjPAAQ,003g5000002EgG0AAK,Working,Transaction Dispute,Problem
+,2026-01-11T03:30:29.000+0000,Customer segment: at_risk. Created: 2023-08-15,Mobile App,High,500g5000004wtkzAAA,003g5000002EgZJAA0,Working,Account Access Issue,Problem
+,2026-01-11T03:30:30.000+0000,Customer segment: at_risk. Created: 2024-09-06,Web,Low,500g5000004wtl0AAA,003g5000002Eg4hAAC,Working,Statement Request,Request
+,2026-01-11T03:30:44.000+0000,Customer segment: churned. Created: 2023-02-06,Email,Medium,500g5000004wtl1AAA,003g5000002EguHAAS,Working,Loan Inquiry,Question
+,2026-01-11T03:30:30.000+0000,Customer segment: at_risk. Created: 2024-05-25,Email,Low,500g5000004wtmbAAA,003g5000002EfNBAA0,New,Statement Request,Request
+2026-01-11T03:30:31.000+0000,2026-01-11T03:30:31.000+0000,Customer segment: at_risk. Created: 2023-08-10,Web,Medium,500g5000004wtmcAAA,003g5000002EgavAAC,Closed,Loan Inquiry,Question
+,2026-01-11T03:31:15.000+0000,Customer segment: active. Created: 2025-03-03,Phone,Medium,500g5000004wtmdAAA,003g5000002EhARAA0,New,Mobile App Problem,Problem
+,2026-01-11T03:31:16.000+0000,Customer segment: at_risk. Created: 2025-05-05,Mobile App,High,500g5000004wtmeAAA,003g5000002EhQXAA0,New,ATM Card Issue,Problem
+2026-01-11T03:30:30.000+0000,2026-01-11T03:30:30.000+0000,Customer segment: at_risk. Created: 2023-04-01,Web,Medium,500g5000004wtoDAAQ,003g5000002Eg4hAAC,Closed,Fee Inquiry,Question
+,2026-01-11T03:30:30.000+0000,Customer segment: at_risk. Created: 2024-11-17,Mobile App,Medium,500g5000004wtppAAA,003g5000002Eg4hAAC,New,Loan Inquiry,Question
+2026-01-11T03:30:56.000+0000,2026-01-11T03:30:56.000+0000,Customer segment: active. Created: 2024-07-04,Email,Medium,500g5000004wtpqAAA,003g5000002EfzqAAC,Closed,Fee Inquiry,Question
+,2026-01-11T03:30:31.000+0000,Customer segment: at_risk. Created: 2025-11-22,Mobile App,Medium,500g5000004wtrRAAQ,003g5000002EgavAAC,New,Fee Inquiry,Question
+,2026-01-11T03:30:34.000+0000,Customer segment: at_risk. Created: 2024-01-30,Mobile App,Medium,500g5000004wtrSAAQ,003g5000002EgflAAC,Working,Card Renewal,Request
+,2026-01-11T03:31:05.000+0000,Customer segment: active. Created: 2023-04-16,Phone,Medium,500g5000004wtrTAAQ,003g5000002Eh2MAAS,New,Mobile App Problem,Problem
+,2026-01-11T03:30:31.000+0000,Customer segment: at_risk. Created: 2023-10-29,Web,High,500g5000004wtt3AAA,003g5000002EgcXAAS,Working,Fraud Alert,Problem
+,2026-01-11T03:31:26.000+0000,Customer segment: active. Created: 2023-11-14,Email,Low,500g5000004wtt4AAA,003g5000002EfWqAAK,New,Interest Rate Question,Question
+,2026-01-11T03:31:27.000+0000,Customer segment: churned. Created: 2024-07-14,Email,High,500g5000004wtt5AAA,003g5000002EhaDAAS,Escalated,Transaction Dispute,Problem
+,2026-01-11T03:31:27.000+0000,Customer segment: churned. Created: 2025-05-14,Phone,High,500g5000004wtt6AAA,003g5000002EhaDAAS,Escalated,ATM Card Issue,Problem
+,2026-01-11T03:31:38.000+0000,Customer segment: active. Created: 2025-11-17,Mobile App,High,500g5000004wtt7AAA,003g5000002Eg6JAAS,New,Fraud Alert,Problem
+,2026-01-11T03:32:34.000+0000,Customer segment: active. Created: 2024-04-28,Phone,Medium,500g5000004wtt8AAA,003g5000002Eg4iAAC,New,Loan Inquiry,Question
+2026-01-11T03:32:36.000+0000,2026-01-11T03:32:36.000+0000,Customer segment: at_risk. Created: 2025-10-19,Email,High,500g5000004wtt9AAA,003g5000002EiT3AAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:33:32.000+0000,Customer segment: at_risk. Created: 2025-09-10,Email,High,500g5000004wttAAAQ,003g5000002Ei3HAAS,Working,ATM Card Issue,Problem
+2026-01-11T03:33:33.000+0000,2026-01-11T03:33:33.000+0000,Customer segment: active. Created: 2023-06-29,Phone,Low,500g5000004wttBAAQ,003g5000002EhvGAAS,Closed,Statement Request,Request
+2026-01-11T03:33:44.000+0000,2026-01-11T03:33:44.000+0000,Customer segment: churned. Created: 2023-09-13,Phone,Medium,500g5000004wttCAAQ,003g5000002Ef5QAAS,Closed,Fee Inquiry,Question
+,2026-01-11T03:30:32.000+0000,Customer segment: churned. Created: 2024-06-21,Web,Medium,500g5000004wtufAAA,003g5000002Eg1SAAS,Escalated,Mobile App Problem,Problem
+2026-01-11T03:30:33.000+0000,2026-01-11T03:30:33.000+0000,Customer segment: active. Created: 2023-09-13,Web,Medium,500g5000004wtugAAA,003g5000002Ege9AAC,Closed,Card Renewal,Request
+2026-01-11T03:30:33.000+0000,2026-01-11T03:30:33.000+0000,Customer segment: active. Created: 2024-12-02,Web,Medium,500g5000004wtwHAAQ,003g5000002EeKcAAK,Closed,Fee Inquiry,Question
+,2026-01-11T03:30:44.000+0000,Customer segment: churned. Created: 2023-06-12,Phone,Medium,500g5000004wtwIAAQ,003g5000002EguHAAS,Working,Loan Inquiry,Question
+,2026-01-11T03:30:57.000+0000,Customer segment: active. Created: 2025-10-27,Phone,High,500g5000004wtwJAAQ,003g5000002EgEMAA0,New,Transaction Dispute,Problem
+,2026-01-11T03:31:13.000+0000,Customer segment: at_risk. Created: 2025-03-29,Phone,Medium,500g5000004wtwKAAQ,003g5000002EgCkAAK,Working,Fee Inquiry,Question
+,2026-01-11T03:31:19.000+0000,Customer segment: at_risk. Created: 2023-11-14,Email,Medium,500g5000004wtwLAAQ,003g5000002EhTlAAK,Working,Loan Inquiry,Question
+,2026-01-11T03:31:33.000+0000,Customer segment: active. Created: 2024-09-30,Mobile App,Low,500g5000004wtwMAAQ,003g5000002EhiHAAS,New,Interest Rate Question,Question
+,2026-01-11T03:31:33.000+0000,Customer segment: at_risk. Created: 2024-11-26,Email,Low,500g5000004wtwNAAQ,003g5000002EhjtAAC,Working,Statement Request,Request
+,2026-01-11T03:31:43.000+0000,Customer segment: churned. Created: 2023-09-01,Email,Low,500g5000004wtwOAAQ,003g5000002EhrxAAC,Escalated,Interest Rate Question,Question
+,2026-01-11T03:30:34.000+0000,Customer segment: active. Created: 2025-01-01,Email,Medium,500g5000004wtxtAAA,003g5000002EeKcAAK,New,Mobile App Problem,Problem
+2026-01-11T03:30:35.000+0000,2026-01-11T03:30:35.000+0000,Customer segment: active. Created: 2023-11-19,Email,Medium,500g5000004wtzVAAQ,003g5000002EgizAAC,Closed,Fee Inquiry,Question
+,2026-01-11T03:30:35.000+0000,Customer segment: at_risk. Created: 2025-06-17,Mobile App,High,500g5000004wu17AAA,003g5000002EgcYAAS,New,Account Access Issue,Problem
+,2026-01-11T03:31:15.000+0000,Customer segment: at_risk. Created: 2024-05-12,Mobile App,Low,500g5000004wu18AAA,003g5000002EhOvAAK,Working,Interest Rate Question,Question
+2026-01-11T03:31:59.000+0000,2026-01-11T03:31:59.000+0000,Customer segment: active. Created: 2023-01-23,Phone,Low,500g5000004wu19AAA,003g5000002Ei3FAAS,Closed,Interest Rate Question,Question
+,2026-01-11T03:32:42.000+0000,Customer segment: at_risk. Created: 2023-08-26,Phone,High,500g5000004wu1AAAQ,003g5000002Egj3AAC,New,ATM Card Issue,Problem
+,2026-01-11T03:30:35.000+0000,Customer segment: at_risk. Created: 2024-04-15,Email,Medium,500g5000004wu2jAAA,003g5000002EgcYAAS,New,Card Renewal,Request
+,2026-01-11T03:32:37.000+0000,Customer segment: at_risk. Created: 2023-02-23,Mobile App,Medium,500g5000004wu2kAAA,003g5000002EghPAAS,New,Loan Inquiry,Question
+,2026-01-11T03:30:37.000+0000,Customer segment: churned. Created: 2024-02-05,Phone,Low,500g5000004wu4LAAQ,003g5000002EgkbAAC,Escalated,Statement Request,Request
+2026-01-11T03:32:31.000+0000,2026-01-11T03:32:31.000+0000,Customer segment: active. Created: 2025-08-01,Mobile App,High,500g5000004wu4MAAQ,003g5000002EiPpAAK,Closed,ATM Card Issue,Problem
+2026-01-11T03:32:32.000+0000,2026-01-11T03:32:32.000+0000,Customer segment: at_risk. Created: 2023-10-24,Phone,High,500g5000004wu4NAAQ,003g5000002Efi9AAC,Closed,Transaction Dispute,Problem
+2026-01-11T03:32:50.000+0000,2026-01-11T03:32:50.000+0000,Customer segment: active. Created: 2026-01-08,Web,High,500g5000004wu4OAAQ,003g5000002EiOEAA0,Closed,ATM Card Issue,Problem
+,2026-01-11T03:32:57.000+0000,Customer segment: at_risk. Created: 2024-11-23,Email,Medium,500g5000004wu4PAAQ,003g5000002Ef3rAAC,Working,Loan Inquiry,Question
+,2026-01-11T03:33:38.000+0000,Customer segment: active. Created: 2026-01-08,Phone,Low,500g5000004wu4QAAQ,003g5000002Ei3IAAS,New,Interest Rate Question,Question
+,2026-01-11T03:30:38.000+0000,Customer segment: churned. Created: 2023-09-01,Mobile App,High,500g5000004wu5xAAA,003g5000002EgkbAAC,Working,Transaction Dispute,Problem
+2026-01-11T03:30:56.000+0000,2026-01-11T03:30:56.000+0000,Customer segment: active. Created: 2023-06-22,Web,Medium,500g5000004wu5yAAA,003g5000002EeMFAA0,Closed,Loan Inquiry,Question
+2026-01-11T03:30:40.000+0000,2026-01-11T03:30:40.000+0000,Customer segment: active. Created: 2023-07-25,Web,Medium,500g5000004wu7ZAAQ,003g5000002EgnpAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:31:03.000+0000,2026-01-11T03:31:03.000+0000,Customer segment: active. Created: 2025-12-02,Mobile App,Medium,500g5000004wu7aAAA,003g5000002EflKAAS,Closed,Fee Inquiry,Question
+,2026-01-11T03:31:28.000+0000,Customer segment: at_risk. Created: 2024-10-30,Phone,Low,500g5000004wu7bAAA,003g5000002EgG0AAK,Working,Interest Rate Question,Question
+,2026-01-11T03:30:40.000+0000,Customer segment: at_risk. Created: 2025-03-28,Web,Medium,500g5000004wu9BAAQ,003g5000002EgMRAA0,New,Fee Inquiry,Question
+2026-01-11T03:32:40.000+0000,2026-01-11T03:32:40.000+0000,Customer segment: churned. Created: 2025-12-27,Mobile App,Medium,500g5000004wu9CAAQ,003g5000002Efv2AAC,Closed,Card Renewal,Request
+,2026-01-11T03:33:27.000+0000,Customer segment: churned. Created: 2023-07-30,Email,Low,500g5000004wu9DAAQ,003g5000002EjKHAA0,Escalated,Interest Rate Question,Question
+2026-01-11T03:33:28.000+0000,2026-01-11T03:33:28.000+0000,Customer segment: churned. Created: 2023-01-22,Email,Medium,500g5000004wu9EAAQ,003g5000002EjKHAA0,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:41.000+0000,Customer segment: at_risk. Created: 2025-04-17,Email,High,500g5000004wuAnAAI,003g5000002Egr3AAC,Working,Transaction Dispute,Problem
+2026-01-11T03:30:43.000+0000,2026-01-11T03:30:43.000+0000,Customer segment: active. Created: 2023-02-24,Mobile App,Medium,500g5000004wuAoAAI,003g5000002EeyxAAC,Closed,Fee Inquiry,Question
+2026-01-11T03:31:03.000+0000,2026-01-11T03:31:03.000+0000,Customer segment: active. Created: 2024-07-04,Web,Low,500g5000004wuApAAI,003g5000002EhFFAA0,Closed,Interest Rate Question,Question
+,2026-01-11T03:33:24.000+0000,Customer segment: churned. Created: 2025-08-06,Mobile App,Medium,500g5000004wuAqAAI,003g5000002EjH3AAK,Escalated,Fee Inquiry,Question
+,2026-01-11T03:30:42.000+0000,Customer segment: at_risk. Created: 2023-05-08,Email,Low,500g5000004wuCPAAY,003g5000002Egr3AAC,Working,Statement Request,Request
+,2026-01-11T03:32:07.000+0000,Customer segment: active. Created: 2024-09-17,Web,Medium,500g5000004wuCQAAY,003g5000002EiBKAA0,New,Loan Inquiry,Question
+2026-01-11T03:32:28.000+0000,2026-01-11T03:32:28.000+0000,Customer segment: at_risk. Created: 2025-01-21,Phone,High,500g5000004wuCRAAY,003g5000002EgcaAAC,Closed,ATM Card Issue,Problem
+2026-01-11T03:33:25.000+0000,2026-01-11T03:33:25.000+0000,Customer segment: at_risk. Created: 2025-11-11,Mobile App,High,500g5000004wuCSAAY,003g5000002EiL1AAK,Closed,Account Access Issue,Problem
+2026-01-11T03:33:38.000+0000,2026-01-11T03:33:38.000+0000,Customer segment: churned. Created: 2024-03-01,Web,Low,500g5000004wuCTAAY,003g5000002Eh7FAAS,Closed,Statement Request,Request
+2026-01-11T03:33:46.000+0000,2026-01-11T03:33:46.000+0000,Customer segment: active. Created: 2024-01-27,Mobile App,Medium,500g5000004wuCUAAY,003g5000002EfVEAA0,Closed,Loan Inquiry,Question
+,2026-01-11T03:30:42.000+0000,Customer segment: churned. Created: 2024-10-22,Mobile App,High,500g5000004wuE1AAI,003g5000002EgsfAAC,Escalated,Account Access Issue,Problem
+,2026-01-11T03:32:05.000+0000,Customer segment: churned. Created: 2023-09-11,Phone,Medium,500g5000004wuE2AAI,003g5000002EenfAAC,Escalated,Mobile App Problem,Problem
+2026-01-11T03:32:35.000+0000,2026-01-11T03:32:35.000+0000,Customer segment: active. Created: 2023-08-17,Web,High,500g5000004wuE3AAI,003g5000002EfdJAAS,Closed,ATM Card Issue,Problem
+2026-01-11T03:32:47.000+0000,2026-01-11T03:32:47.000+0000,Customer segment: active. Created: 2025-04-08,Email,Medium,500g5000004wuE4AAI,003g5000002EfyEAAS,Closed,Card Renewal,Request
+2026-01-11T03:33:03.000+0000,2026-01-11T03:33:03.000+0000,Customer segment: at_risk. Created: 2023-04-15,Email,Low,500g5000004wuE5AAI,003g5000002EhASAA0,Closed,Statement Request,Request
+2026-01-11T03:33:11.000+0000,2026-01-11T03:33:11.000+0000,Customer segment: churned. Created: 2025-12-25,Email,Medium,500g5000004wuE6AAI,003g5000002EiL0AAK,Closed,Mobile App Problem,Problem
+,2026-01-11T03:30:45.000+0000,Customer segment: active. Created: 2023-01-15,Email,Medium,500g5000004wuFdAAI,003g5000002Egr4AAC,New,Mobile App Problem,Problem
+2026-01-11T03:31:04.000+0000,2026-01-11T03:31:04.000+0000,Customer segment: active. Created: 2025-03-15,Web,Medium,500g5000004wuFeAAI,003g5000002Eh2MAAS,Closed,Fee Inquiry,Question
+2026-01-11T03:31:06.000+0000,2026-01-11T03:31:06.000+0000,Customer segment: active. Created: 2023-09-07,Web,Low,500g5000004wuFfAAI,003g5000002Ef2CAAS,Closed,Interest Rate Question,Question
+2026-01-11T03:31:07.000+0000,2026-01-11T03:31:07.000+0000,Customer segment: churned. Created: 2023-02-22,Web,Medium,500g5000004wuFgAAI,003g5000002EhK5AAK,Closed,Card Renewal,Request
+2026-01-11T03:31:45.000+0000,2026-01-11T03:31:45.000+0000,Customer segment: active. Created: 2025-06-28,Email,Low,500g5000004wuFhAAI,003g5000002EgzAAAS,Closed,Interest Rate Question,Question
+,2026-01-11T03:31:48.000+0000,Customer segment: active. Created: 2024-10-28,Email,High,500g5000004wuFiAAI,003g5000002Ef2DAAS,New,Fraud Alert,Problem
+2026-01-11T03:31:57.000+0000,2026-01-11T03:31:57.000+0000,Customer segment: active. Created: 2025-06-10,Email,Medium,500g5000004wuFjAAI,003g5000002EhtaAAC,Closed,Loan Inquiry,Question
+,2026-01-11T03:32:37.000+0000,Customer segment: at_risk. Created: 2024-08-29,Mobile App,High,500g5000004wuFkAAI,003g5000002EghPAAS,Working,Account Access Issue,Problem
+2026-01-11T03:30:46.000+0000,2026-01-11T03:30:46.000+0000,Customer segment: churned. Created: 2023-08-10,Web,High,500g5000004wuHFAAY,003g5000002EgxVAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:30:47.000+0000,2026-01-11T03:30:47.000+0000,Customer segment: churned. Created: 2024-11-07,Phone,Medium,500g5000004wuIrAAI,003g5000002EgxVAAS,Closed,Loan Inquiry,Question
+2026-01-11T03:32:29.000+0000,2026-01-11T03:32:29.000+0000,Customer segment: churned. Created: 2025-12-14,Phone,High,500g5000004wuIsAAI,003g5000002Eh0mAAC,Closed,ATM Card Issue,Problem
+,2026-01-11T03:30:48.000+0000,Customer segment: at_risk. Created: 2023-10-28,Email,Low,500g5000004wuKTAAY,003g5000002EgfmAAC,New,Interest Rate Question,Question
+,2026-01-11T03:30:55.000+0000,Customer segment: at_risk. Created: 2024-07-20,Email,Low,500g5000004wuKUAAY,003g5000002EfDTAA0,Working,Interest Rate Question,Question
+2026-01-11T03:31:09.000+0000,2026-01-11T03:31:09.000+0000,Customer segment: at_risk. Created: 2025-04-25,Mobile App,High,500g5000004wuKVAAY,003g5000002EhNJAA0,Closed,Fraud Alert,Problem
+,2026-01-11T03:30:48.000+0000,Customer segment: at_risk. Created: 2026-01-11,Mobile App,Medium,500g5000004wuM5AAI,003g5000002EgfmAAC,New,Fee Inquiry,Question
+,2026-01-11T03:30:52.000+0000,Customer segment: at_risk. Created: 2024-03-17,Web,Medium,500g5000004wuM6AAI,003g5000002Eh5ZAAS,Working,Loan Inquiry,Question
+,2026-01-11T03:30:55.000+0000,Customer segment: at_risk. Created: 2025-02-16,Email,Medium,500g5000004wuM7AAI,003g5000002EfDTAA0,New,Fee Inquiry,Question
+,2026-01-11T03:31:26.000+0000,Customer segment: churned. Created: 2023-09-10,Mobile App,High,500g5000004wuM8AAI,003g5000002EhaDAAS,Escalated,ATM Card Issue,Problem
+,2026-01-11T03:31:49.000+0000,Customer segment: at_risk. Created: 2023-08-03,Phone,High,500g5000004wuM9AAI,003g5000002EgKoAAK,New,Transaction Dispute,Problem
+,2026-01-11T03:33:06.000+0000,Customer segment: active. Created: 2023-03-05,Mobile App,High,500g5000004wuMAAAY,003g5000002Ej0vAAC,New,Account Access Issue,Problem
+,2026-01-11T03:30:49.000+0000,Customer segment: at_risk. Created: 2024-04-08,Mobile App,Medium,500g5000004wuNhAAI,003g5000002EgfmAAC,New,Loan Inquiry,Question
+,2026-01-11T03:30:49.000+0000,Customer segment: at_risk. Created: 2024-11-16,Phone,High,500g5000004wuNiAAI,003g5000002Eg6IAAS,New,Account Access Issue,Problem
+,2026-01-11T03:31:56.000+0000,Customer segment: at_risk. Created: 2025-07-08,Web,High,500g5000004wuNjAAI,003g5000002Eg6KAAS,New,Fraud Alert,Problem
+,2026-01-11T03:31:58.000+0000,Customer segment: at_risk. Created: 2024-11-28,Email,High,500g5000004wuNkAAI,003g5000002Efi8AAC,Working,Account Access Issue,Problem
+,2026-01-11T03:32:52.000+0000,Customer segment: at_risk. Created: 2025-03-01,Phone,Medium,500g5000004wuNlAAI,003g5000002EguKAAS,New,Fee Inquiry,Question
+2026-01-11T03:32:53.000+0000,2026-01-11T03:32:53.000+0000,Customer segment: at_risk. Created: 2023-06-12,Email,High,500g5000004wuNmAAI,003g5000002EguKAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:33:00.000+0000,Customer segment: churned. Created: 2023-11-03,Mobile App,High,500g5000004wuNnAAI,003g5000002EipdAAC,Working,Fraud Alert,Problem
+,2026-01-11T03:33:19.000+0000,Customer segment: at_risk. Created: 2025-09-11,Web,Medium,500g5000004wuNoAAI,003g5000002EhDgAAK,New,Loan Inquiry,Question
+2026-01-11T03:30:49.000+0000,2026-01-11T03:30:49.000+0000,Customer segment: at_risk. Created: 2023-04-04,Mobile App,Medium,500g5000004wuPJAAY,003g5000002Eg6IAAS,Closed,Card Renewal,Request
+2026-01-11T03:32:36.000+0000,2026-01-11T03:32:36.000+0000,Customer segment: at_risk. Created: 2025-12-25,Mobile App,Low,500g5000004wuPKAAY,003g5000002EiT3AAK,Closed,Interest Rate Question,Question
+,2026-01-11T03:32:48.000+0000,Customer segment: at_risk. Created: 2023-07-06,Web,Medium,500g5000004wuPLAAY,003g5000002Eg6QAAS,New,Mobile App Problem,Problem
+,2026-01-11T03:33:01.000+0000,Customer segment: at_risk. Created: 2024-06-28,Email,High,500g5000004wuPMAAY,003g5000002EhYcAAK,Working,Fraud Alert,Problem
+,2026-01-11T03:30:50.000+0000,Customer segment: at_risk. Created: 2024-10-24,Phone,Low,500g5000004wuQvAAI,003g5000002Eg6IAAS,New,Statement Request,Request
+,2026-01-11T03:30:55.000+0000,Customer segment: active. Created: 2023-10-25,Phone,Medium,500g5000004wuQwAAI,003g5000002EfDUAA0,New,Mobile App Problem,Problem
+,2026-01-11T03:30:58.000+0000,Customer segment: churned. Created: 2025-04-01,Web,Medium,500g5000004wuQxAAI,003g5000002EgpSAAS,Working,Loan Inquiry,Question
+2026-01-11T03:31:02.000+0000,2026-01-11T03:31:02.000+0000,Customer segment: churned. Created: 2023-11-24,Phone,Low,500g5000004wuQyAAI,003g5000002EfDVAA0,Closed,Interest Rate Question,Question
+,2026-01-11T03:32:09.000+0000,Customer segment: at_risk. Created: 2024-04-22,Email,Medium,500g5000004wuQzAAI,003g5000002EeJjAAK,Working,Loan Inquiry,Question
+,2026-01-11T03:30:50.000+0000,Customer segment: at_risk. Created: 2023-04-05,Phone,Medium,500g5000004wuSXAAY,003g5000002Ef8dAAC,New,Card Renewal,Request
+2026-01-11T03:31:41.000+0000,2026-01-11T03:31:41.000+0000,Customer segment: churned. Created: 2025-01-30,Mobile App,Medium,500g5000004wuSYAAY,003g5000002EhqLAAS,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:02.000+0000,Customer segment: at_risk. Created: 2025-01-07,Web,Medium,500g5000004wuSZAAY,003g5000002Eg6NAAS,Working,Loan Inquiry,Question
+2026-01-11T03:30:54.000+0000,2026-01-11T03:30:54.000+0000,Customer segment: at_risk. Created: 2025-08-22,Email,High,500g5000004wuU9AAI,003g5000002Eh7BAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:32:13.000+0000,2026-01-11T03:32:13.000+0000,Customer segment: churned. Created: 2023-05-20,Phone,Medium,500g5000004wuUAAAY,003g5000002EfdIAAS,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:30.000+0000,2026-01-11T03:32:30.000+0000,Customer segment: churned. Created: 2023-05-29,Web,Medium,500g5000004wuUBAAY,003g5000002Eh0mAAC,Closed,Loan Inquiry,Question
+,2026-01-11T03:32:35.000+0000,Customer segment: active. Created: 2025-06-24,Phone,High,500g5000004wuUCAAY,003g5000002Eg4iAAC,New,Account Access Issue,Problem
+,2026-01-11T03:30:54.000+0000,Customer segment: at_risk. Created: 2023-12-06,Email,Medium,500g5000004wuVlAAI,003g5000002Eh7BAAS,New,Mobile App Problem,Problem
+,2026-01-11T03:31:00.000+0000,Customer segment: active. Created: 2025-07-06,Phone,Low,500g5000004wuVmAAI,003g5000002EhDdAAK,New,Statement Request,Request
+,2026-01-11T03:30:58.000+0000,Customer segment: churned. Created: 2023-12-30,Mobile App,Medium,500g5000004wuXNAAY,003g5000002EgpSAAS,Working,Card Renewal,Request
+2026-01-11T03:30:58.000+0000,2026-01-11T03:30:58.000+0000,Customer segment: churned. Created: 2023-01-14,Email,High,500g5000004wuYzAAI,003g5000002EgpSAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:30:59.000+0000,Customer segment: churned. Created: 2024-03-01,Mobile App,High,500g5000004wuZ0AAI,003g5000002EgpSAAS,Working,Fraud Alert,Problem
+2026-01-11T03:31:52.000+0000,2026-01-11T03:31:52.000+0000,Customer segment: at_risk. Created: 2025-03-03,Email,High,500g5000004wuZ1AAI,003g5000002EhyPAAS,Closed,Fraud Alert,Problem
+,2026-01-11T03:32:04.000+0000,Customer segment: churned. Created: 2023-06-28,Web,Medium,500g5000004wuZ2AAI,003g5000002Egj0AAC,Working,Loan Inquiry,Question
+2026-01-11T03:33:31.000+0000,2026-01-11T03:33:31.000+0000,Customer segment: at_risk. Created: 2024-09-11,Mobile App,High,500g5000004wuZ3AAI,003g5000002EjNVAA0,Closed,Account Access Issue,Problem
+,2026-01-11T03:33:34.000+0000,Customer segment: at_risk. Created: 2024-10-26,Web,Low,500g5000004wuZ4AAI,003g5000002EhOxAAK,Working,Statement Request,Request
+,2026-01-11T03:33:41.000+0000,Customer segment: at_risk. Created: 2023-06-01,Mobile App,High,500g5000004wuZ5AAI,003g5000002Eh5aAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:31:00.000+0000,Customer segment: churned. Created: 2026-01-02,Phone,Medium,500g5000004wuabAAA,003g5000002EhC1AAK,Working,Card Renewal,Request
+2026-01-11T03:32:19.000+0000,2026-01-11T03:32:19.000+0000,Customer segment: at_risk. Created: 2024-10-26,Phone,Low,500g5000004wuacAAA,003g5000002EgZMAA0,Closed,Interest Rate Question,Question
+2026-01-11T03:31:00.000+0000,2026-01-11T03:31:00.000+0000,Customer segment: churned. Created: 2024-08-04,Mobile App,Low,500g5000004wucDAAQ,003g5000002EhC1AAK,Closed,Interest Rate Question,Question
+2026-01-11T03:33:12.000+0000,2026-01-11T03:33:12.000+0000,Customer segment: at_risk. Created: 2025-07-14,Phone,Medium,500g5000004wucEAAQ,003g5000002EhX0AAK,Closed,Mobile App Problem,Problem
+,2026-01-11T03:31:00.000+0000,Customer segment: churned. Created: 2023-12-17,Mobile App,Medium,500g5000004wudpAAA,003g5000002EhC1AAK,Escalated,Loan Inquiry,Question
+,2026-01-11T03:31:23.000+0000,Customer segment: at_risk. Created: 2023-08-18,Mobile App,Medium,500g5000004wudqAAA,003g5000002EhVNAA0,New,Card Renewal,Request
+2026-01-11T03:31:51.000+0000,2026-01-11T03:31:51.000+0000,Customer segment: at_risk. Created: 2025-02-03,Email,Low,500g5000004wudrAAA,003g5000002EhyPAAS,Closed,Statement Request,Request
+,2026-01-11T03:31:01.000+0000,Customer segment: churned. Created: 2024-01-09,Phone,Medium,500g5000004wufRAAQ,003g5000002EfDVAA0,Escalated,Mobile App Problem,Problem
+,2026-01-11T03:31:02.000+0000,Customer segment: churned. Created: 2026-01-02,Web,Low,500g5000004wufSAAQ,003g5000002EfDVAA0,Escalated,Statement Request,Request
+2026-01-11T03:33:07.000+0000,2026-01-11T03:33:07.000+0000,Customer segment: churned. Created: 2023-01-11,Web,High,500g5000004wufTAAQ,003g5000002Ej49AAC,Closed,ATM Card Issue,Problem
+,2026-01-11T03:31:02.000+0000,Customer segment: churned. Created: 2025-03-21,Mobile App,Medium,500g5000004wuh3AAA,003g5000002EfbfAAC,Escalated,Mobile App Problem,Problem
+2026-01-11T03:31:05.000+0000,2026-01-11T03:31:05.000+0000,Customer segment: active. Created: 2023-10-05,Web,Medium,500g5000004wuh4AAA,003g5000002Ef2CAAS,Closed,Mobile App Problem,Problem
+2026-01-11T03:31:45.000+0000,2026-01-11T03:31:45.000+0000,Customer segment: at_risk. Created: 2024-09-13,Web,Medium,500g5000004wuh5AAA,003g5000002EeMHAA0,Closed,Loan Inquiry,Question
+,2026-01-11T03:31:53.000+0000,Customer segment: at_risk. Created: 2025-09-06,Web,Medium,500g5000004wuh6AAA,003g5000002EgzBAAS,New,Mobile App Problem,Problem
+,2026-01-11T03:31:54.000+0000,Customer segment: at_risk. Created: 2023-01-31,Phone,High,500g5000004wuh7AAA,003g5000002EesUAAS,New,Fraud Alert,Problem
+,2026-01-11T03:32:00.000+0000,Customer segment: active. Created: 2025-02-10,Phone,High,500g5000004wuh8AAA,003g5000002EhrzAAC,New,Transaction Dispute,Problem
+,2026-01-11T03:32:12.000+0000,Customer segment: churned. Created: 2023-04-30,Web,Medium,500g5000004wuh9AAA,003g5000002EhFIAA0,Working,Loan Inquiry,Question
+,2026-01-11T03:31:03.000+0000,Customer segment: churned. Created: 2024-04-04,Email,Medium,500g5000004wuifAAA,003g5000002EfbfAAC,Working,Fee Inquiry,Question
+2026-01-11T03:31:04.000+0000,2026-01-11T03:31:04.000+0000,Customer segment: active. Created: 2025-07-05,Mobile App,High,500g5000004wukHAAQ,003g5000002EghOAAS,Closed,Transaction Dispute,Problem
+,2026-01-11T03:32:02.000+0000,Customer segment: at_risk. Created: 2025-06-04,Mobile App,Medium,500g5000004wukIAAQ,003g5000002Eg6NAAS,New,Loan Inquiry,Question
+,2026-01-11T03:32:16.000+0000,Customer segment: active. Created: 2023-10-28,Web,High,500g5000004wukJAAQ,003g5000002EgJEAA0,New,Transaction Dispute,Problem
+,2026-01-11T03:32:17.000+0000,Customer segment: churned. Created: 2025-05-17,Email,High,500g5000004wukKAAQ,003g5000002EiKzAAK,Escalated,Fraud Alert,Problem
+2026-01-11T03:31:04.000+0000,2026-01-11T03:31:04.000+0000,Customer segment: active. Created: 2025-06-17,Web,High,500g5000004wultAAA,003g5000002EgPeAAK,Closed,Transaction Dispute,Problem
+2026-01-11T03:31:05.000+0000,2026-01-11T03:31:05.000+0000,Customer segment: active. Created: 2025-04-11,Phone,High,500g5000004wunVAAQ,003g5000002EhITAA0,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:19.000+0000,Customer segment: at_risk. Created: 2023-08-13,Phone,Medium,500g5000004wunWAAQ,003g5000002EhTlAAK,New,Mobile App Problem,Problem
+,2026-01-11T03:31:22.000+0000,Customer segment: at_risk. Created: 2025-12-25,Email,Low,500g5000004wunXAAQ,003g5000002EhVNAA0,New,Statement Request,Request
+,2026-01-11T03:32:14.000+0000,Customer segment: churned. Created: 2024-12-20,Phone,Medium,500g5000004wunYAAQ,003g5000002EfdIAAS,Escalated,Loan Inquiry,Question
+2026-01-11T03:31:08.000+0000,2026-01-11T03:31:08.000+0000,Customer segment: active. Created: 2024-05-23,Phone,High,500g5000004wuqjAAA,003g5000002EhLhAAK,Closed,Fraud Alert,Problem
+2026-01-11T03:31:09.000+0000,2026-01-11T03:31:09.000+0000,Customer segment: at_risk. Created: 2023-07-16,Mobile App,Medium,500g5000004wusLAAQ,003g5000002EhNJAA0,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:26.000+0000,Customer segment: active. Created: 2025-05-31,Mobile App,High,500g5000004wusMAAQ,003g5000002EhvEAAS,New,Transaction Dispute,Problem
+,2026-01-11T03:33:01.000+0000,Customer segment: at_risk. Created: 2023-06-27,Web,High,500g5000004wusNAAQ,003g5000002EhYcAAK,Working,ATM Card Issue,Problem
+,2026-01-11T03:33:05.000+0000,Customer segment: churned. Created: 2024-01-19,Email,Medium,500g5000004wusOAAQ,003g5000002EixhAAC,Working,Loan Inquiry,Question
+,2026-01-11T03:31:34.000+0000,Customer segment: at_risk. Created: 2024-11-03,Email,High,500g5000004wuu1AAA,003g5000002EhjtAAC,New,Transaction Dispute,Problem
+,2026-01-11T03:32:58.000+0000,Customer segment: at_risk. Created: 2025-09-22,Web,High,500g5000004wuuPAAQ,003g5000002Ef3rAAC,Working,Account Access Issue,Problem
+,2026-01-11T03:31:11.000+0000,Customer segment: at_risk. Created: 2024-05-27,Phone,Low,500g5000004wuvZAAQ,003g5000002EhC2AAK,Working,Interest Rate Question,Question
+2026-01-11T03:31:21.000+0000,2026-01-11T03:31:21.000+0000,Customer segment: active. Created: 2024-09-03,Email,High,500g5000004wuvaAAA,003g5000002EhK6AAK,Closed,Fraud Alert,Problem
+2026-01-11T03:31:31.000+0000,2026-01-11T03:31:31.000+0000,Customer segment: churned. Created: 2025-07-02,Phone,High,500g5000004wuvbAAA,003g5000002EhdRAAS,Closed,ATM Card Issue,Problem
+2026-01-11T03:31:31.000+0000,2026-01-11T03:31:31.000+0000,Customer segment: active. Created: 2024-12-20,Mobile App,Low,500g5000004wuvcAAA,003g5000002Ehf3AAC,Closed,Statement Request,Request
+,2026-01-11T03:32:04.000+0000,Customer segment: churned. Created: 2025-04-09,Email,Medium,500g5000004wuvdAAA,003g5000002Egj0AAC,Working,Mobile App Problem,Problem
+2026-01-11T03:32:09.000+0000,2026-01-11T03:32:09.000+0000,Customer segment: at_risk. Created: 2025-10-22,Web,Medium,500g5000004wuveAAA,003g5000002EeJjAAK,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:10.000+0000,2026-01-11T03:32:10.000+0000,Customer segment: active. Created: 2025-07-16,Web,Medium,500g5000004wuvfAAA,003g5000002EesXAAS,Closed,Loan Inquiry,Question
+,2026-01-11T03:32:15.000+0000,Customer segment: at_risk. Created: 2023-10-08,Phone,Low,500g5000004wuvgAAA,003g5000002EiCwAAK,New,Statement Request,Request
+2026-01-11T03:32:15.000+0000,2026-01-11T03:32:15.000+0000,Customer segment: at_risk. Created: 2025-08-13,Mobile App,Medium,500g5000004wuvhAAA,003g5000002EiCwAAK,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:15.000+0000,2026-01-11T03:32:15.000+0000,Customer segment: at_risk. Created: 2025-09-10,Email,Low,500g5000004wuviAAA,003g5000002EhDeAAK,Closed,Statement Request,Request
+,2026-01-11T03:32:22.000+0000,Customer segment: active. Created: 2025-11-27,Web,Medium,500g5000004wuvjAAA,003g5000002EengAAC,New,Mobile App Problem,Problem
+2026-01-11T03:33:37.000+0000,2026-01-11T03:33:37.000+0000,Customer segment: active. Created: 2023-12-20,Mobile App,Medium,500g5000004wuvkAAA,003g5000002Ei3IAAS,Closed,Fee Inquiry,Question
+2026-01-11T03:31:11.000+0000,2026-01-11T03:31:11.000+0000,Customer segment: at_risk. Created: 2024-07-04,Phone,Low,500g5000004wuxBAAQ,003g5000002EhC2AAK,Closed,Statement Request,Request
+,2026-01-11T03:31:13.000+0000,Customer segment: churned. Created: 2025-08-27,Email,Medium,500g5000004wuxCAAQ,003g5000002Ef0aAAC,Escalated,Mobile App Problem,Problem
+,2026-01-11T03:31:11.000+0000,Customer segment: at_risk. Created: 2024-12-28,Mobile App,High,500g5000004wuynAAA,003g5000002Egz9AAC,Working,Account Access Issue,Problem
+,2026-01-11T03:31:12.000+0000,Customer segment: at_risk. Created: 2023-10-05,Email,Medium,500g5000004wuyoAAA,003g5000002EgCkAAK,New,Card Renewal,Request
+,2026-01-11T03:31:11.000+0000,Customer segment: at_risk. Created: 2024-11-23,Phone,High,500g5000004wv0PAAQ,003g5000002Egz9AAC,Working,Account Access Issue,Problem
+2026-01-11T03:33:10.000+0000,2026-01-11T03:33:10.000+0000,Customer segment: active. Created: 2025-07-13,Web,High,500g5000004wv0QAAQ,003g5000002Ej7NAAS,Closed,Fraud Alert,Problem
+2026-01-11T03:33:10.000+0000,2026-01-11T03:33:10.000+0000,Customer segment: active. Created: 2023-01-20,Phone,High,500g5000004wv0RAAQ,003g5000002Ej7NAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:33:41.000+0000,2026-01-11T03:33:41.000+0000,Customer segment: at_risk. Created: 2025-03-22,Mobile App,High,500g5000004wv0SAAQ,003g5000002EeviAAC,Closed,Fraud Alert,Problem
+2026-01-11T03:33:44.000+0000,2026-01-11T03:33:44.000+0000,Customer segment: churned. Created: 2024-04-22,Web,Low,500g5000004wv0TAAQ,003g5000002EjDqAAK,Closed,Interest Rate Question,Question
+,2026-01-11T03:31:26.000+0000,Customer segment: churned. Created: 2023-06-02,Phone,High,500g5000004wv2BAAQ,003g5000002EhaDAAS,Escalated,Transaction Dispute,Problem
+,2026-01-11T03:31:32.000+0000,Customer segment: active. Created: 2025-11-08,Mobile App,High,500g5000004wv2DAAQ,003g5000002EhgfAAC,New,Account Access Issue,Problem
+2026-01-11T03:31:37.000+0000,2026-01-11T03:31:37.000+0000,Customer segment: active. Created: 2025-03-08,Web,Medium,500g5000004wv2EAAQ,003g5000002EhlVAAS,Closed,Card Renewal,Request
+2026-01-11T03:31:46.000+0000,2026-01-11T03:31:46.000+0000,Customer segment: active. Created: 2024-06-15,Web,High,500g5000004wv2LAAQ,003g5000002EfqAAAS,Closed,Transaction Dispute,Problem
+2026-01-11T03:31:47.000+0000,2026-01-11T03:31:47.000+0000,Customer segment: active. Created: 2025-03-13,Email,High,500g5000004wv2MAAQ,003g5000002Eh2OAAS,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:51.000+0000,Customer segment: at_risk. Created: 2025-06-01,Web,Medium,500g5000004wv2NAAQ,003g5000002Efi7AAC,New,Loan Inquiry,Question
+,2026-01-11T03:33:02.000+0000,Customer segment: at_risk. Created: 2025-04-30,Email,High,500g5000004wv2RAAQ,003g5000002EipeAAC,Working,Transaction Dispute,Problem
+,2026-01-11T03:31:12.000+0000,Customer segment: at_risk. Created: 2023-01-11,Mobile App,Low,500g5000004wv3dAAA,003g5000002EgCkAAK,New,Interest Rate Question,Question
+,2026-01-11T03:31:16.000+0000,Customer segment: at_risk. Created: 2023-09-28,Email,Low,500g5000004wv3eAAA,003g5000002EhQXAA0,New,Statement Request,Request
+2026-01-11T03:31:12.000+0000,2026-01-11T03:31:12.000+0000,Customer segment: at_risk. Created: 2025-03-18,Email,High,500g5000004wv5FAAQ,003g5000002EgCkAAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:31:14.000+0000,Customer segment: churned. Created: 2023-03-07,Web,Medium,500g5000004wv6rAAA,003g5000002Ef0aAAC,Working,Mobile App Problem,Problem
+,2026-01-11T03:31:14.000+0000,Customer segment: at_risk. Created: 2023-12-17,Email,High,500g5000004wv8TAAQ,003g5000002EhNKAA0,Working,ATM Card Issue,Problem
+2026-01-11T03:31:43.000+0000,2026-01-11T03:31:43.000+0000,Customer segment: churned. Created: 2024-01-30,Web,High,500g5000004wv8UAAQ,003g5000002EhrxAAC,Closed,Transaction Dispute,Problem
+,2026-01-11T03:32:18.000+0000,Customer segment: at_risk. Created: 2025-06-08,Web,High,500g5000004wv8VAAQ,003g5000002EgcZAAS,New,ATM Card Issue,Problem
+,2026-01-11T03:33:18.000+0000,Customer segment: at_risk. Created: 2024-04-12,Email,Medium,500g5000004wv8WAAQ,003g5000002EjAcAAK,New,Loan Inquiry,Question
+,2026-01-11T03:31:15.000+0000,Customer segment: at_risk. Created: 2024-04-20,Mobile App,Low,500g5000004wvA5AAI,003g5000002EhOvAAK,New,Statement Request,Request
+2026-01-11T03:31:47.000+0000,2026-01-11T03:31:47.000+0000,Customer segment: active. Created: 2025-01-13,Email,Medium,500g5000004wvA6AAI,003g5000002Eh2OAAS,Closed,Mobile App Problem,Problem
+,2026-01-11T03:31:50.000+0000,Customer segment: at_risk. Created: 2023-06-01,Email,Medium,500g5000004wvA7AAI,003g5000002EeKdAAK,New,Fee Inquiry,Question
+2026-01-11T03:32:38.000+0000,2026-01-11T03:32:38.000+0000,Customer segment: active. Created: 2024-11-08,Mobile App,High,500g5000004wvA8AAI,003g5000002EiWHAA0,Closed,ATM Card Issue,Problem
+2026-01-11T03:31:16.000+0000,2026-01-11T03:31:16.000+0000,Customer segment: at_risk. Created: 2023-03-23,Email,High,500g5000004wvDJAAY,003g5000002EhQXAA0,Closed,ATM Card Issue,Problem
+,2026-01-11T03:31:30.000+0000,Customer segment: at_risk. Created: 2023-11-18,Phone,Medium,500g5000004wvDKAAY,003g5000002EfgUAAS,Working,Card Renewal,Request
+,2026-01-11T03:32:09.000+0000,Customer segment: active. Created: 2023-11-11,Mobile App,Medium,500g5000004wvDLAAY,003g5000002EiEXAA0,New,Loan Inquiry,Question
+2026-01-11T03:31:16.000+0000,2026-01-11T03:31:16.000+0000,Customer segment: at_risk. Created: 2024-08-17,Phone,Medium,500g5000004wvEvAAI,003g5000002EhQXAA0,Closed,Loan Inquiry,Question
+,2026-01-11T03:32:24.000+0000,Customer segment: at_risk. Created: 2025-06-11,Email,High,500g5000004wvEwAAI,003g5000002EhvDAAS,New,Account Access Issue,Problem
+,2026-01-11T03:32:25.000+0000,Customer segment: churned. Created: 2024-04-21,Web,Medium,500g5000004wvExAAI,003g5000002EhVOAA0,Working,Loan Inquiry,Question
+,2026-01-11T03:33:09.000+0000,Customer segment: churned. Created: 2024-10-13,Web,High,500g5000004wvEyAAI,003g5000002Ej5lAAC,Escalated,Account Access Issue,Problem
+2026-01-11T03:33:16.000+0000,2026-01-11T03:33:16.000+0000,Customer segment: churned. Created: 2023-05-04,Web,High,500g5000004wvEzAAI,003g5000002Ej0wAAC,Closed,Account Access Issue,Problem
+,2026-01-11T03:31:17.000+0000,Customer segment: at_risk. Created: 2025-04-14,Web,Medium,500g5000004wvGXAAY,003g5000002EhQXAA0,Working,Mobile App Problem,Problem
+2026-01-11T03:31:25.000+0000,2026-01-11T03:31:25.000+0000,Customer segment: active. Created: 2024-02-09,Email,High,500g5000004wvGYAAY,003g5000002EhYbAAK,Closed,Account Access Issue,Problem
+,2026-01-11T03:31:26.000+0000,Customer segment: churned. Created: 2025-02-16,Mobile App,Low,500g5000004wvGZAAY,003g5000002EhaDAAS,Escalated,Interest Rate Question,Question
+,2026-01-11T03:31:31.000+0000,Customer segment: active. Created: 2025-04-05,Phone,High,500g5000004wvGaAAI,003g5000002Ehf3AAC,New,Account Access Issue,Problem
+2026-01-11T03:31:48.000+0000,2026-01-11T03:31:48.000+0000,Customer segment: at_risk. Created: 2025-06-18,Web,Medium,500g5000004wvGbAAI,003g5000002EgKoAAK,Closed,Card Renewal,Request
+,2026-01-11T03:33:07.000+0000,Customer segment: churned. Created: 2023-10-17,Mobile App,Medium,500g5000004wvGcAAI,003g5000002Ej49AAC,Escalated,Loan Inquiry,Question
+2026-01-11T03:31:17.000+0000,2026-01-11T03:31:17.000+0000,Customer segment: active. Created: 2024-07-21,Email,Low,500g5000004wvI9AAI,003g5000002EeMGAA0,Closed,Statement Request,Request
+,2026-01-11T03:31:37.000+0000,Customer segment: active. Created: 2025-06-06,Mobile App,Medium,500g5000004wvIBAAY,003g5000002EhC3AAK,New,Loan Inquiry,Question
+2026-01-11T03:32:42.000+0000,2026-01-11T03:32:42.000+0000,Customer segment: active. Created: 2024-03-14,Phone,Low,500g5000004wvIaAAI,003g5000002Efv3AAC,Closed,Statement Request,Request
+,2026-01-11T03:31:18.000+0000,Customer segment: at_risk. Created: 2023-03-02,Web,Low,500g5000004wvJlAAI,003g5000002EhS9AAK,Working,Statement Request,Request
+2026-01-11T03:33:07.000+0000,2026-01-11T03:33:07.000+0000,Customer segment: churned. Created: 2024-01-22,Email,Low,500g5000004wvJmAAI,003g5000002Ej49AAC,Closed,Interest Rate Question,Question
+,2026-01-11T03:33:39.000+0000,Customer segment: active. Created: 2025-03-10,Email,Low,500g5000004wvJnAAI,003g5000002EjVZAA0,New,Interest Rate Question,Question
+,2026-01-11T03:31:20.000+0000,Customer segment: at_risk. Created: 2024-10-05,Web,Medium,500g5000004wvMzAAI,003g5000002EhTlAAK,Working,Mobile App Problem,Problem
+,2026-01-11T03:32:11.000+0000,Customer segment: active. Created: 2023-07-16,Email,Low,500g5000004wvN0AAI,003g5000002Ef2EAAS,New,Statement Request,Request
+2026-01-11T03:32:26.000+0000,2026-01-11T03:32:26.000+0000,Customer segment: active. Created: 2023-11-29,Mobile App,Low,500g5000004wvN1AAI,003g5000002EhGsAAK,Closed,Interest Rate Question,Question
+,2026-01-11T03:32:38.000+0000,Customer segment: churned. Created: 2023-03-11,Mobile App,Low,500g5000004wvN2AAI,003g5000002Ehs0AAC,Working,Statement Request,Request
+,2026-01-11T03:33:03.000+0000,Customer segment: at_risk. Created: 2025-07-30,Web,Medium,500g5000004wvN3AAI,003g5000002EipeAAC,New,Fee Inquiry,Question
+,2026-01-11T03:31:20.000+0000,Customer segment: at_risk. Created: 2024-06-19,Mobile App,High,500g5000004wvObAAI,003g5000002EgHbAAK,New,ATM Card Issue,Problem
+2026-01-11T03:31:25.000+0000,2026-01-11T03:31:25.000+0000,Customer segment: active. Created: 2024-03-18,Phone,High,500g5000004wvOcAAI,003g5000002EhYbAAK,Closed,ATM Card Issue,Problem
+2026-01-11T03:32:10.000+0000,2026-01-11T03:32:10.000+0000,Customer segment: active. Created: 2024-06-30,Mobile App,High,500g5000004wvOdAAI,003g5000002EiHlAAK,Closed,Fraud Alert,Problem
+2026-01-11T03:32:53.000+0000,2026-01-11T03:32:53.000+0000,Customer segment: active. Created: 2024-07-10,Email,High,500g5000004wvOeAAI,003g5000002EgEOAA0,Closed,Account Access Issue,Problem
+,2026-01-11T03:31:20.000+0000,Customer segment: at_risk. Created: 2026-01-11,Mobile App,Medium,500g5000004wvQDAAY,003g5000002EgHbAAK,New,Loan Inquiry,Question
+,2026-01-11T03:31:38.000+0000,Customer segment: active. Created: 2023-12-27,Email,Medium,500g5000004wvQEAAY,003g5000002EfBsAAK,New,Mobile App Problem,Problem
+2026-01-11T03:32:00.000+0000,2026-01-11T03:32:00.000+0000,Customer segment: at_risk. Created: 2024-06-26,Email,High,500g5000004wvQFAAY,003g5000002Eg6MAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:32:05.000+0000,Customer segment: churned. Created: 2025-05-18,Email,High,500g5000004wvQGAAY,003g5000002EenfAAC,Working,Account Access Issue,Problem
+,2026-01-11T03:32:13.000+0000,Customer segment: churned. Created: 2023-06-18,Email,Low,500g5000004wvQHAAY,003g5000002EfdIAAS,Escalated,Statement Request,Request
+,2026-01-11T03:31:21.000+0000,Customer segment: at_risk. Created: 2024-02-07,Web,Low,500g5000004wvRpAAI,003g5000002EgHbAAK,Working,Interest Rate Question,Question
+,2026-01-11T03:31:52.000+0000,Customer segment: active. Created: 2025-03-04,Email,Medium,500g5000004wvRqAAI,003g5000002EhFGAA0,New,Loan Inquiry,Question
+,2026-01-11T03:32:08.000+0000,Customer segment: at_risk. Created: 2025-06-11,Web,Low,500g5000004wvRrAAI,003g5000002EhyQAAS,New,Interest Rate Question,Question
+,2026-01-11T03:31:21.000+0000,Customer segment: at_risk. Created: 2023-01-26,Email,High,500g5000004wvTRAAY,003g5000002EgHbAAK,New,Transaction Dispute,Problem
+,2026-01-11T03:31:39.000+0000,Customer segment: at_risk. Created: 2024-06-28,Web,Medium,500g5000004wvTSAAY,003g5000002EhC4AAK,New,Fee Inquiry,Question
+2026-01-11T03:31:50.000+0000,2026-01-11T03:31:50.000+0000,Customer segment: at_risk. Created: 2025-01-25,Mobile App,Medium,500g5000004wvTTAAY,003g5000002Efi7AAC,Closed,Card Renewal,Request
+2026-01-11T03:31:22.000+0000,2026-01-11T03:31:22.000+0000,Customer segment: churned. Created: 2023-09-13,Phone,High,500g5000004wvV3AAI,003g5000002EguIAAS,Closed,ATM Card Issue,Problem
+2026-01-11T03:31:24.000+0000,2026-01-11T03:31:24.000+0000,Customer segment: active. Created: 2023-06-06,Email,Medium,500g5000004wvWfAAI,003g5000002EgxXAAS,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:32.000+0000,Customer segment: at_risk. Created: 2025-11-02,Phone,High,500g5000004wvWgAAI,003g5000002Efi9AAC,New,Fraud Alert,Problem
+,2026-01-11T03:33:37.000+0000,Customer segment: churned. Created: 2024-06-30,Mobile App,Medium,500g5000004wvWhAAI,003g5000002EjKJAA0,Working,Loan Inquiry,Question
+2026-01-11T03:33:45.000+0000,2026-01-11T03:33:45.000+0000,Customer segment: churned. Created: 2025-06-28,Email,High,500g5000004wvWiAAI,003g5000002Ef5QAAS,Closed,Account Access Issue,Problem
+2026-01-11T03:33:45.000+0000,2026-01-11T03:33:45.000+0000,Customer segment: churned. Created: 2024-07-26,Email,High,500g5000004wvWjAAI,003g5000002Ef5QAAS,Closed,Fraud Alert,Problem
+,2026-01-11T03:31:57.000+0000,Customer segment: at_risk. Created: 2024-08-29,Web,High,500g5000004wvYYAAY,003g5000002EhFHAA0,New,ATM Card Issue,Problem
+,2026-01-11T03:31:59.000+0000,Customer segment: at_risk. Created: 2024-10-01,Phone,Low,500g5000004wvYbAAI,003g5000002Eh0lAAC,Working,Interest Rate Question,Question
+,2026-01-11T03:31:25.000+0000,Customer segment: active. Created: 2025-02-07,Email,Low,500g5000004wvZtAAI,003g5000002EgJDAA0,New,Interest Rate Question,Question
+,2026-01-11T03:31:27.000+0000,Customer segment: churned. Created: 2023-02-06,Email,Medium,500g5000004wvbVAAQ,003g5000002EhaDAAS,Working,Card Renewal,Request
+2026-01-11T03:31:28.000+0000,2026-01-11T03:31:28.000+0000,Customer segment: churned. Created: 2023-11-09,Email,High,500g5000004wvd7AAA,003g5000002EftOAAS,Closed,Account Access Issue,Problem
+,2026-01-11T03:32:37.000+0000,Customer segment: active. Created: 2025-07-31,Web,High,500g5000004wvd8AAA,003g5000002EiHmAAK,New,Account Access Issue,Problem
+,2026-01-11T03:32:49.000+0000,Customer segment: at_risk. Created: 2024-10-31,Web,Medium,500g5000004wvd9AAA,003g5000002EiJOAA0,New,Card Renewal,Request
+2026-01-11T03:33:26.000+0000,2026-01-11T03:33:26.000+0000,Customer segment: at_risk. Created: 2024-07-10,Web,Low,500g5000004wvdAAAQ,003g5000002EjIfAAK,Closed,Interest Rate Question,Question
+,2026-01-11T03:31:28.000+0000,Customer segment: churned. Created: 2024-10-27,Email,Medium,500g5000004wvejAAA,003g5000002EftOAAS,Escalated,Mobile App Problem,Problem
+2026-01-11T03:31:32.000+0000,2026-01-11T03:31:32.000+0000,Customer segment: active. Created: 2023-02-11,Web,Medium,500g5000004wvgLAAQ,003g5000002EgClAAK,Closed,Card Renewal,Request
+2026-01-11T03:32:01.000+0000,2026-01-11T03:32:01.000+0000,Customer segment: churned. Created: 2024-02-22,Email,Low,500g5000004wvgMAAQ,003g5000002EeneAAC,Closed,Statement Request,Request
+2026-01-11T03:33:27.000+0000,2026-01-11T03:33:27.000+0000,Customer segment: churned. Created: 2025-08-20,Mobile App,High,500g5000004wvgNAAQ,003g5000002EjKHAA0,Closed,ATM Card Issue,Problem
+2026-01-11T03:33:31.000+0000,2026-01-11T03:33:31.000+0000,Customer segment: at_risk. Created: 2023-05-22,Email,Medium,500g5000004wvgOAAQ,003g5000002EjNVAA0,Closed,Loan Inquiry,Question
+,2026-01-11T03:31:35.000+0000,Customer segment: at_risk. Created: 2024-07-03,Web,High,500g5000004wvhxAAA,003g5000002EehEAAS,Working,Fraud Alert,Problem
+,2026-01-11T03:31:58.000+0000,Customer segment: active. Created: 2025-12-11,Email,Medium,500g5000004wvhyAAA,003g5000002EesWAAS,New,Mobile App Problem,Problem
+2026-01-11T03:31:59.000+0000,2026-01-11T03:31:59.000+0000,Customer segment: active. Created: 2024-09-28,Phone,Medium,500g5000004wvhzAAA,003g5000002Ei3FAAS,Closed,Card Renewal,Request
+2026-01-11T03:32:56.000+0000,2026-01-11T03:32:56.000+0000,Customer segment: at_risk. Created: 2023-08-22,Email,High,500g5000004wvi0AAA,003g5000002EftRAAS,Closed,ATM Card Issue,Problem
+2026-01-11T03:31:36.000+0000,2026-01-11T03:31:36.000+0000,Customer segment: churned. Created: 2025-03-21,Phone,Medium,500g5000004wvjZAAQ,003g5000002EeG6AAK,Closed,Loan Inquiry,Question
+,2026-01-11T03:31:36.000+0000,Customer segment: churned. Created: 2025-03-29,Mobile App,Low,500g5000004wvlBAAQ,003g5000002EeG6AAK,Working,Interest Rate Question,Question
+2026-01-11T03:32:07.000+0000,2026-01-11T03:32:07.000+0000,Customer segment: at_risk. Created: 2024-01-13,Mobile App,Medium,500g5000004wvlCAAQ,003g5000002EhyQAAS,Closed,Mobile App Problem,Problem
+,2026-01-11T03:31:36.000+0000,Customer segment: churned. Created: 2023-07-03,Phone,Low,500g5000004wvmnAAA,003g5000002EeG6AAK,Working,Statement Request,Request
+2026-01-11T03:32:06.000+0000,2026-01-11T03:32:06.000+0000,Customer segment: churned. Created: 2024-05-29,Mobile App,Low,500g5000004wvmoAAA,003g5000002EenfAAC,Closed,Statement Request,Request
+,2026-01-11T03:32:06.000+0000,Customer segment: churned. Created: 2024-06-07,Web,Low,500g5000004wvmpAAA,003g5000002EenfAAC,Working,Interest Rate Question,Question
+,2026-01-11T03:31:37.000+0000,Customer segment: at_risk. Created: 2024-07-27,Email,High,500g5000004wvoPAAQ,003g5000002EeyyAAC,New,Account Access Issue,Problem
+2026-01-11T03:31:43.000+0000,2026-01-11T03:31:43.000+0000,Customer segment: churned. Created: 2023-07-13,Phone,Medium,500g5000004wvoQAAQ,003g5000002EhrxAAC,Closed,Fee Inquiry,Question
+2026-01-11T03:32:05.000+0000,2026-01-11T03:32:05.000+0000,Customer segment: churned. Created: 2025-01-12,Web,Low,500g5000004wvoRAAQ,003g5000002EenfAAC,Closed,Statement Request,Request
+,2026-01-11T03:32:44.000+0000,Customer segment: churned. Created: 2025-08-06,Email,High,500g5000004wvoSAAQ,003g5000002EfzsAAC,Working,Fraud Alert,Problem
+,2026-01-11T03:33:34.000+0000,Customer segment: at_risk. Created: 2023-04-20,Email,Low,500g5000004wvoTAAQ,003g5000002EhOxAAK,New,Interest Rate Question,Question
+2026-01-11T03:31:38.000+0000,2026-01-11T03:31:38.000+0000,Customer segment: at_risk. Created: 2025-11-23,Email,High,500g5000004wvq1AAA,003g5000002EeyyAAC,Closed,Account Access Issue,Problem
+2026-01-11T03:31:38.000+0000,2026-01-11T03:31:38.000+0000,Customer segment: active. Created: 2024-05-04,Web,Low,500g5000004wvrdAAA,003g5000002Egr5AAC,Closed,Interest Rate Question,Question
+,2026-01-11T03:32:41.000+0000,Customer segment: churned. Created: 2025-08-11,Mobile App,Medium,500g5000004wvreAAA,003g5000002Efv2AAC,Escalated,Mobile App Problem,Problem
+,2026-01-11T03:33:03.000+0000,Customer segment: active. Created: 2025-03-22,Mobile App,Medium,500g5000004wvrfAAA,003g5000002EiuTAAS,New,Loan Inquiry,Question
+,2026-01-11T03:33:17.000+0000,Customer segment: churned. Created: 2024-04-11,Phone,Medium,500g5000004wvrgAAA,003g5000002EeHiAAK,Working,Fee Inquiry,Question
+2026-01-11T03:31:40.000+0000,2026-01-11T03:31:40.000+0000,Customer segment: active. Created: 2023-11-13,Mobile App,Medium,500g5000004wvtFAAQ,003g5000002Ehf4AAC,Closed,Loan Inquiry,Question
+,2026-01-11T03:31:49.000+0000,Customer segment: at_risk. Created: 2023-06-20,Phone,Low,500g5000004wvtGAAQ,003g5000002EfmyAAC,Working,Statement Request,Request
+,2026-01-11T03:31:41.000+0000,Customer segment: churned. Created: 2025-01-04,Mobile App,High,500g5000004wvurAAA,003g5000002EhqLAAS,Escalated,Transaction Dispute,Problem
+,2026-01-11T03:31:52.000+0000,Customer segment: active. Created: 2025-03-28,Phone,Low,500g5000004wvusAAA,003g5000002EepIAAS,New,Interest Rate Question,Question
+,2026-01-11T03:32:37.000+0000,Customer segment: at_risk. Created: 2023-09-27,Email,Low,500g5000004wvutAAA,003g5000002EghPAAS,New,Statement Request,Request
+,2026-01-11T03:32:40.000+0000,Customer segment: churned. Created: 2024-12-05,Email,High,500g5000004wvuuAAA,003g5000002Efv2AAC,Working,Account Access Issue,Problem
+,2026-01-11T03:31:41.000+0000,Customer segment: at_risk. Created: 2024-10-02,Email,Medium,500g5000004wvwTAAQ,003g5000002Eh8oAAC,Working,Loan Inquiry,Question
+,2026-01-11T03:31:55.000+0000,Customer segment: at_risk. Created: 2024-07-06,Email,Medium,500g5000004wvwUAAQ,003g5000002Eg6KAAS,Working,Card Renewal,Request
+,2026-01-11T03:31:41.000+0000,Customer segment: at_risk. Created: 2025-09-01,Email,Medium,500g5000004wvy5AAA,003g5000002Eh8oAAC,Working,Mobile App Problem,Problem
+2026-01-11T03:31:45.000+0000,2026-01-11T03:31:45.000+0000,Customer segment: at_risk. Created: 2024-01-20,Web,Medium,500g5000004wvy6AAA,003g5000002Eh3yAAC,Closed,Loan Inquiry,Question
+,2026-01-11T03:31:41.000+0000,Customer segment: at_risk. Created: 2025-06-23,Phone,High,500g5000004wvzhAAA,003g5000002Eh8oAAC,New,Account Access Issue,Problem
+,2026-01-11T03:32:41.000+0000,Customer segment: churned. Created: 2024-05-29,Email,High,500g5000004wvziAAA,003g5000002Efv2AAC,Working,Transaction Dispute,Problem
+2026-01-11T03:33:28.000+0000,2026-01-11T03:33:28.000+0000,Customer segment: active. Created: 2024-08-17,Mobile App,Medium,500g5000004wvzjAAA,003g5000002EfVDAA0,Closed,Fee Inquiry,Question
+2026-01-11T03:31:42.000+0000,2026-01-11T03:31:42.000+0000,Customer segment: active. Created: 2025-06-22,Phone,Medium,500g5000004ww1JAAQ,003g5000002Ehf5AAC,Closed,Loan Inquiry,Question
+,2026-01-11T03:33:30.000+0000,Customer segment: churned. Created: 2024-05-07,Web,Medium,500g5000004ww1KAAQ,003g5000002Ej0yAAC,Working,Card Renewal,Request
+,2026-01-11T03:31:44.000+0000,Customer segment: active. Created: 2023-06-05,Mobile App,High,500g5000004ww2vAAA,003g5000002EgeBAAS,New,ATM Card Issue,Problem
+,2026-01-11T03:32:25.000+0000,Customer segment: churned. Created: 2025-12-01,Mobile App,Low,500g5000004ww2wAAA,003g5000002EhVOAA0,Working,Statement Request,Request
+,2026-01-11T03:31:45.000+0000,Customer segment: at_risk. Created: 2025-02-01,Email,Low,500g5000004ww4XAAQ,003g5000002Eh3yAAC,Working,Statement Request,Request
+,2026-01-11T03:32:28.000+0000,Customer segment: at_risk. Created: 2024-04-14,Phone,Medium,500g5000004ww4YAAQ,003g5000002EgcaAAC,Working,Mobile App Problem,Problem
+2026-01-11T03:32:30.000+0000,2026-01-11T03:32:30.000+0000,Customer segment: churned. Created: 2025-04-29,Mobile App,Medium,500g5000004ww4ZAAQ,003g5000002Eh0mAAC,Closed,Mobile App Problem,Problem
+,2026-01-11T03:31:49.000+0000,Customer segment: at_risk. Created: 2023-06-30,Email,Low,500g5000004ww69AAA,003g5000002EfmyAAC,Working,Interest Rate Question,Question
+2026-01-11T03:32:25.000+0000,2026-01-11T03:32:25.000+0000,Customer segment: churned. Created: 2025-04-27,Web,Low,500g5000004ww6AAAQ,003g5000002EhVOAA0,Closed,Statement Request,Request
+,2026-01-11T03:31:53.000+0000,Customer segment: at_risk. Created: 2023-04-02,Mobile App,High,500g5000004ww7lAAA,003g5000002EgzBAAS,Working,Transaction Dispute,Problem
+2026-01-11T03:32:16.000+0000,2026-01-11T03:32:16.000+0000,Customer segment: active. Created: 2023-05-24,Mobile App,Medium,500g5000004ww7mAAA,003g5000002EgJEAA0,Closed,Card Renewal,Request
+,2026-01-11T03:32:30.000+0000,Customer segment: churned. Created: 2025-08-15,Mobile App,Low,500g5000004ww7nAAA,003g5000002Eg6OAAS,Escalated,Interest Rate Question,Question
+2026-01-11T03:32:31.000+0000,2026-01-11T03:32:31.000+0000,Customer segment: churned. Created: 2025-10-16,Mobile App,Medium,500g5000004ww7oAAA,003g5000002Eg6OAAS,Closed,Loan Inquiry,Question
+2026-01-11T03:32:57.000+0000,2026-01-11T03:32:57.000+0000,Customer segment: at_risk. Created: 2023-02-12,Email,High,500g5000004ww7pAAA,003g5000002Ef3rAAC,Closed,Transaction Dispute,Problem
+,2026-01-11T03:33:19.000+0000,Customer segment: at_risk. Created: 2025-08-25,Mobile App,High,500g5000004ww7qAAA,003g5000002EjAcAAK,Working,Account Access Issue,Problem
+2026-01-11T03:31:54.000+0000,2026-01-11T03:31:54.000+0000,Customer segment: at_risk. Created: 2025-11-15,Mobile App,Medium,500g5000004ww9NAAQ,003g5000002EesUAAS,Closed,Loan Inquiry,Question
+,2026-01-11T03:31:54.000+0000,Customer segment: at_risk. Created: 2023-01-08,Web,High,500g5000004ww9OAAQ,003g5000002EesUAAS,Working,ATM Card Issue,Problem
+,2026-01-11T03:31:55.000+0000,Customer segment: at_risk. Created: 2025-10-19,Email,Medium,500g5000004wwAzAAI,003g5000002EhvCAAS,New,Mobile App Problem,Problem
+2026-01-11T03:32:01.000+0000,2026-01-11T03:32:01.000+0000,Customer segment: churned. Created: 2023-02-26,Email,Low,500g5000004wwEDAAY,003g5000002EeneAAC,Closed,Statement Request,Request
+,2026-01-11T03:32:17.000+0000,Customer segment: churned. Created: 2023-06-11,Web,High,500g5000004wwEEAAY,003g5000002EiKzAAK,Escalated,Fraud Alert,Problem
+2026-01-11T03:32:18.000+0000,2026-01-11T03:32:18.000+0000,Customer segment: churned. Created: 2024-04-17,Phone,Low,500g5000004wwEFAAY,003g5000002EiKzAAK,Closed,Interest Rate Question,Question
+2026-01-11T03:33:26.000+0000,2026-01-11T03:33:26.000+0000,Customer segment: at_risk. Created: 2024-09-20,Phone,Medium,500g5000004wwEGAAY,003g5000002EjIfAAK,Closed,Mobile App Problem,Problem
+,2026-01-11T03:32:01.000+0000,Customer segment: churned. Created: 2024-02-12,Mobile App,Low,500g5000004wwFpAAI,003g5000002EeneAAC,Working,Interest Rate Question,Question
+,2026-01-11T03:33:13.000+0000,Customer segment: churned. Created: 2024-12-29,Web,Medium,500g5000004wwFqAAI,003g5000002EgcbAAC,Working,Loan Inquiry,Question
+2026-01-11T03:32:02.000+0000,2026-01-11T03:32:02.000+0000,Customer segment: at_risk. Created: 2023-05-22,Web,High,500g5000004wwHRAAY,003g5000002Ei85AAC,Closed,ATM Card Issue,Problem
+,2026-01-11T03:32:11.000+0000,Customer segment: churned. Created: 2025-06-24,Email,High,500g5000004wwHSAAY,003g5000002EhFIAA0,Working,ATM Card Issue,Problem
+,2026-01-11T03:32:20.000+0000,Customer segment: at_risk. Created: 2023-06-22,Web,Low,500g5000004wwHTAAY,003g5000002EgZMAA0,New,Statement Request,Request
+,2026-01-11T03:32:03.000+0000,Customer segment: churned. Created: 2025-07-17,Mobile App,Low,500g5000004wwJ3AAI,003g5000002Egj0AAC,Escalated,Statement Request,Request
+,2026-01-11T03:32:18.000+0000,Customer segment: at_risk. Created: 2023-03-01,Mobile App,High,500g5000004wwJ4AAI,003g5000002EgcZAAS,New,Account Access Issue,Problem
+2026-01-11T03:32:29.000+0000,2026-01-11T03:32:29.000+0000,Customer segment: churned. Created: 2023-09-17,Web,Medium,500g5000004wwJ5AAI,003g5000002Eh0mAAC,Closed,Card Renewal,Request
+,2026-01-11T03:32:40.000+0000,Customer segment: at_risk. Created: 2023-04-08,Mobile App,Medium,500g5000004wwJ6AAI,003g5000002EiXtAAK,Working,Card Renewal,Request
+2026-01-11T03:33:33.000+0000,2026-01-11T03:33:33.000+0000,Customer segment: at_risk. Created: 2023-04-28,Email,Medium,500g5000004wwJ7AAI,003g5000002Ei3HAAS,Closed,Loan Inquiry,Question
+,2026-01-11T03:33:42.000+0000,Customer segment: at_risk. Created: 2025-11-17,Email,Medium,500g5000004wwJ8AAI,003g5000002EhdSAAS,New,Loan Inquiry,Question
+,2026-01-11T03:32:06.000+0000,Customer segment: at_risk. Created: 2023-04-19,Email,Medium,500g5000004wwKfAAI,003g5000002EhaEAAS,Working,Card Renewal,Request
+2026-01-11T03:32:22.000+0000,2026-01-11T03:32:22.000+0000,Customer segment: active. Created: 2023-10-03,Web,High,500g5000004wwMMAAY,003g5000002EftPAAS,Closed,Account Access Issue,Problem
+,2026-01-11T03:33:20.000+0000,Customer segment: at_risk. Created: 2025-03-05,Mobile App,Medium,500g5000004wwMQAAY,003g5000002EhDgAAK,Working,Mobile App Problem,Problem
+2026-01-11T03:33:33.000+0000,2026-01-11T03:33:33.000+0000,Customer segment: at_risk. Created: 2023-07-18,Phone,High,500g5000004wwMTAAY,003g5000002Ei3HAAS,Closed,Account Access Issue,Problem
+,2026-01-11T03:33:33.000+0000,Customer segment: at_risk. Created: 2024-12-04,Mobile App,Low,500g5000004wwMUAAY,003g5000002Ei3HAAS,New,Interest Rate Question,Question
+2026-01-11T03:33:43.000+0000,2026-01-11T03:33:43.000+0000,Customer segment: at_risk. Created: 2024-02-15,Email,Medium,500g5000004wwMbAAI,003g5000002EhdSAAS,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:11.000+0000,2026-01-11T03:32:11.000+0000,Customer segment: churned. Created: 2025-03-15,Mobile App,Medium,500g5000004wwNtAAI,003g5000002EhFIAA0,Closed,Fee Inquiry,Question
+2026-01-11T03:32:22.000+0000,2026-01-11T03:32:22.000+0000,Customer segment: active. Created: 2023-06-14,Mobile App,Low,500g5000004wwNuAAI,003g5000002EiMcAAK,Closed,Interest Rate Question,Question
+2026-01-11T03:32:22.000+0000,2026-01-11T03:32:22.000+0000,Customer segment: active. Created: 2023-01-15,Email,High,500g5000004wwNvAAI,003g5000002EftPAAS,Closed,ATM Card Issue,Problem
+,2026-01-11T03:32:45.000+0000,Customer segment: active. Created: 2023-01-25,Email,Medium,500g5000004wwNwAAI,003g5000002EhK7AAK,New,Card Renewal,Request
+,2026-01-11T03:32:59.000+0000,Customer segment: active. Created: 2024-05-02,Email,Medium,500g5000004wwNxAAI,003g5000002EiknAAC,New,Loan Inquiry,Question
+,2026-01-11T03:33:00.000+0000,Customer segment: churned. Created: 2025-08-30,Mobile App,Low,500g5000004wwNyAAI,003g5000002EipdAAC,Working,Statement Request,Request
+,2026-01-11T03:33:04.000+0000,Customer segment: churned. Created: 2023-02-20,Phone,High,500g5000004wwNzAAI,003g5000002EixhAAC,Escalated,Fraud Alert,Problem
+2026-01-11T03:33:15.000+0000,2026-01-11T03:33:15.000+0000,Customer segment: active. Created: 2024-07-25,Web,Medium,500g5000004wwO0AAI,003g5000002Ej7OAAS,Closed,Loan Inquiry,Question
+2026-01-11T03:33:17.000+0000,2026-01-11T03:33:17.000+0000,Customer segment: churned. Created: 2024-10-09,Phone,Medium,500g5000004wwO1AAI,003g5000002Ej0wAAC,Closed,Mobile App Problem,Problem
+2026-01-11T03:32:12.000+0000,2026-01-11T03:32:12.000+0000,Customer segment: active. Created: 2024-03-27,Phone,High,500g5000004wwPVAAY,003g5000002EhIUAA0,Closed,ATM Card Issue,Problem
+2026-01-11T03:33:34.000+0000,2026-01-11T03:33:34.000+0000,Customer segment: active. Created: 2023-12-27,Mobile App,Medium,500g5000004wwPWAAY,003g5000002EhvGAAS,Closed,Loan Inquiry,Question
+,2026-01-11T03:33:40.000+0000,Customer segment: at_risk. Created: 2024-11-14,Email,High,500g5000004wwPXAAY,003g5000002EirGAAS,New,ATM Card Issue,Problem
+2026-01-11T03:32:14.000+0000,2026-01-11T03:32:14.000+0000,Customer segment: active. Created: 2023-06-20,Web,Medium,500g5000004wwR7AAI,003g5000002Ei6UAAS,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:17.000+0000,Customer segment: active. Created: 2025-06-05,Web,Medium,500g5000004wwSjAAI,003g5000002Ef2FAAS,New,Fee Inquiry,Question
+2026-01-11T03:32:25.000+0000,2026-01-11T03:32:25.000+0000,Customer segment: churned. Created: 2024-05-01,Web,High,500g5000004wwSkAAI,003g5000002EhVOAA0,Closed,ATM Card Issue,Problem
+2026-01-11T03:33:03.000+0000,2026-01-11T03:33:03.000+0000,Customer segment: active. Created: 2024-11-08,Mobile App,Medium,500g5000004wwSlAAI,003g5000002EiuTAAS,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:20.000+0000,Customer segment: at_risk. Created: 2025-01-01,Phone,Medium,500g5000004wwULAAY,003g5000002EgZMAA0,New,Card Renewal,Request
+2026-01-11T03:32:21.000+0000,2026-01-11T03:32:21.000+0000,Customer segment: at_risk. Created: 2024-08-22,Email,Medium,500g5000004wwVxAAI,003g5000002Ef2GAAS,Closed,Fee Inquiry,Question
+2026-01-11T03:33:02.000+0000,2026-01-11T03:33:02.000+0000,Customer segment: at_risk. Created: 2024-09-18,Phone,High,500g5000004wwXeAAI,003g5000002EipeAAC,Closed,Fraud Alert,Problem
+,2026-01-11T03:32:22.000+0000,Customer segment: active. Created: 2025-10-23,Email,Medium,500g5000004wwZBAAY,003g5000002EengAAC,New,Loan Inquiry,Question
+,2026-01-11T03:33:30.000+0000,Customer segment: churned. Created: 2023-07-08,Email,High,500g5000004wwZCAAY,003g5000002Ej0yAAC,Working,Account Access Issue,Problem
+2026-01-11T03:33:32.000+0000,2026-01-11T03:33:32.000+0000,Customer segment: at_risk. Created: 2023-06-19,Web,Medium,500g5000004wwZDAAY,003g5000002Eem2AAC,Closed,Card Renewal,Request
+,2026-01-11T03:32:24.000+0000,Customer segment: at_risk. Created: 2023-05-17,Phone,Medium,500g5000004wwanAAA,003g5000002EhvDAAS,New,Card Renewal,Request
+,2026-01-11T03:32:32.000+0000,Customer segment: at_risk. Created: 2025-08-01,Email,Medium,500g5000004wwaoAAA,003g5000002Efi9AAC,New,Loan Inquiry,Question
+,2026-01-11T03:32:45.000+0000,Customer segment: active. Created: 2023-07-22,Phone,Medium,500g5000004wwapAAA,003g5000002EhK7AAK,New,Card Renewal,Request
+2026-01-11T03:33:06.000+0000,2026-01-11T03:33:06.000+0000,Customer segment: active. Created: 2024-02-24,Phone,Medium,500g5000004wwaqAAA,003g5000002Ej0vAAC,Closed,Fee Inquiry,Question
+,2026-01-11T03:32:24.000+0000,Customer segment: churned. Created: 2023-04-21,Email,Low,500g5000004wwcPAAQ,003g5000002EhVOAA0,Escalated,Statement Request,Request
+2026-01-11T03:32:27.000+0000,2026-01-11T03:32:27.000+0000,Customer segment: at_risk. Created: 2025-12-13,Web,Medium,500g5000004wwcQAAQ,003g5000002EgcaAAC,Closed,Card Renewal,Request
+2026-01-11T03:32:57.000+0000,2026-01-11T03:32:57.000+0000,Customer segment: active. Created: 2025-07-24,Web,Medium,500g5000004wwcRAAQ,003g5000002EifxAAC,Closed,Fee Inquiry,Question
+,2026-01-11T03:33:01.000+0000,Customer segment: at_risk. Created: 2025-04-07,Mobile App,Medium,500g5000004wwcSAAQ,003g5000002EhYcAAK,New,Loan Inquiry,Question
+,2026-01-11T03:32:27.000+0000,Customer segment: at_risk. Created: 2023-11-17,Email,Low,500g5000004wwe1AAA,003g5000002EfesAAC,New,Interest Rate Question,Question
+,2026-01-11T03:32:39.000+0000,Customer segment: churned. Created: 2023-09-16,Phone,Medium,500g5000004wwe2AAA,003g5000002Ehs0AAC,Working,Card Renewal,Request
+2026-01-11T03:32:32.000+0000,2026-01-11T03:32:32.000+0000,Customer segment: active. Created: 2023-01-08,Phone,High,500g5000004wwfdAAA,003g5000002EgZNAA0,Closed,Account Access Issue,Problem
+,2026-01-11T03:32:34.000+0000,Customer segment: churned. Created: 2025-08-08,Mobile App,High,500g5000004wwfeAAA,003g5000002Eh7DAAS,Escalated,Fraud Alert,Problem
+,2026-01-11T03:32:52.000+0000,Customer segment: at_risk. Created: 2023-12-06,Mobile App,Low,500g5000004wwffAAA,003g5000002EguKAAS,Working,Interest Rate Question,Question
+,2026-01-11T03:32:33.000+0000,Customer segment: churned. Created: 2025-03-13,Web,High,500g5000004wwhFAAQ,003g5000002Eh7DAAS,Working,Fraud Alert,Problem
+,2026-01-11T03:32:41.000+0000,Customer segment: churned. Created: 2024-04-30,Mobile App,High,500g5000004wwirAAA,003g5000002Efv2AAC,Escalated,Account Access Issue,Problem
+,2026-01-11T03:32:43.000+0000,Customer segment: active. Created: 2024-10-06,Web,High,500g5000004wwkTAAQ,003g5000002EeiuAAC,New,Account Access Issue,Problem
+,2026-01-11T03:32:43.000+0000,Customer segment: active. Created: 2024-08-17,Web,Medium,500g5000004wwkUAAQ,003g5000002EiUgAAK,New,Card Renewal,Request
+,2026-01-11T03:32:55.000+0000,Customer segment: at_risk. Created: 2025-02-23,Mobile App,Medium,500g5000004wwm5AAA,003g5000002EiOFAA0,New,Mobile App Problem,Problem
+2026-01-11T03:32:59.000+0000,2026-01-11T03:32:59.000+0000,Customer segment: churned. Created: 2025-01-24,Email,Low,500g5000004wwnhAAA,003g5000002EipdAAC,Closed,Interest Rate Question,Question
+,2026-01-11T03:33:20.000+0000,Customer segment: active. Created: 2024-04-28,Email,High,500g5000004wwniAAA,003g5000002Ej0xAAC,New,Fraud Alert,Problem
+,2026-01-11T03:33:22.000+0000,Customer segment: at_risk. Created: 2025-10-17,Mobile App,High,500g5000004wwnjAAA,003g5000002EfS0AAK,New,Transaction Dispute,Problem
+,2026-01-11T03:33:46.000+0000,Customer segment: churned. Created: 2025-11-14,Phone,Low,500g5000004wwnkAAA,003g5000002Ef5QAAS,Escalated,Statement Request,Request
+,2026-01-11T03:33:10.000+0000,Customer segment: churned. Created: 2025-12-20,Phone,High,500g5000004wwpJAAQ,003g5000002Ej5lAAC,Working,Fraud Alert,Problem
+,2026-01-11T03:33:40.000+0000,Customer segment: at_risk. Created: 2025-06-27,Phone,Medium,500g5000004wwpKAAQ,003g5000002EirGAAS,Working,Mobile App Problem,Problem
+,2026-01-11T03:33:11.000+0000,Customer segment: churned. Created: 2024-12-25,Web,Low,500g5000004wwqvAAA,003g5000002EiL0AAK,Escalated,Interest Rate Question,Question
+,2026-01-11T03:33:11.000+0000,Customer segment: churned. Created: 2024-03-05,Web,Medium,500g5000004wwsXAAQ,003g5000002EiL0AAK,Working,Fee Inquiry,Question
+2026-01-11T03:33:15.000+0000,2026-01-11T03:33:15.000+0000,Customer segment: active. Created: 2023-06-06,Web,Low,500g5000004wwsYAAQ,003g5000002EiXvAAK,Closed,Statement Request,Request
+2026-01-11T03:33:13.000+0000,2026-01-11T03:33:13.000+0000,Customer segment: churned. Created: 2023-09-05,Email,Low,500g5000004wwu9AAA,003g5000002EgcbAAC,Closed,Interest Rate Question,Question
+2026-01-11T03:33:20.000+0000,2026-01-11T03:33:20.000+0000,Customer segment: active. Created: 2023-12-28,Mobile App,High,500g5000004wwuAAAQ,003g5000002EfRzAAK,Closed,Fraud Alert,Problem
+,2026-01-11T03:33:21.000+0000,Customer segment: active. Created: 2023-02-26,Mobile App,Medium,500g5000004wwxNAAQ,003g5000002EfYTAA0,New,Fee Inquiry,Question
+2026-01-11T03:33:22.000+0000,2026-01-11T03:33:22.000+0000,Customer segment: at_risk. Created: 2025-01-12,Web,High,500g5000004wwxOAAQ,003g5000002EfS0AAK,Closed,Transaction Dispute,Problem
+,2026-01-11T03:33:22.000+0000,Customer segment: at_risk. Created: 2024-10-14,Mobile App,Low,500g5000004wwyzAAA,003g5000002EfS0AAK,New,Statement Request,Request
+,2026-01-11T03:33:24.000+0000,Customer segment: churned. Created: 2023-03-11,Mobile App,Medium,500g5000004wx0bAAA,003g5000002EjH3AAK,Escalated,Loan Inquiry,Question
+,2026-01-11T03:33:25.000+0000,Customer segment: at_risk. Created: 2025-10-06,Mobile App,Medium,500g5000004wx2DAAQ,003g5000002EiL1AAK,Working,Loan Inquiry,Question
+,2026-01-11T03:33:29.000+0000,Customer segment: churned. Created: 2023-10-04,Web,Low,500g5000004wx2EAAQ,003g5000002Ej0yAAC,Working,Interest Rate Question,Question
+2026-01-11T03:33:26.000+0000,2026-01-11T03:33:26.000+0000,Customer segment: active. Created: 2023-02-15,Web,Medium,500g5000004wx3pAAA,003g5000002EhOwAAK,Closed,Mobile App Problem,Problem
+,2026-01-11T03:33:29.000+0000,Customer segment: churned. Created: 2025-10-15,Email,Low,500g5000004wx3qAAA,003g5000002Ej0yAAC,Escalated,Statement Request,Request
+2026-01-11T03:33:26.000+0000,2026-01-11T03:33:26.000+0000,Customer segment: at_risk. Created: 2025-11-11,Mobile App,High,500g5000004wx5RAAQ,003g5000002EjIfAAK,Closed,Fraud Alert,Problem
+,2026-01-11T03:33:27.000+0000,Customer segment: active. Created: 2023-05-24,Email,Low,500g5000004wx73AAA,003g5000002EhC5AAK,New,Statement Request,Request
+2026-01-11T03:33:34.000+0000,2026-01-11T03:33:34.000+0000,Customer segment: at_risk. Created: 2023-02-05,Web,Low,500g5000004wx8fAAA,003g5000002EhOxAAK,Closed,Interest Rate Question,Question
+,2026-01-11T03:33:38.000+0000,Customer segment: churned. Created: 2024-08-16,Phone,High,500g5000004wx8gAAA,003g5000002Eh7FAAS,Escalated,Fraud Alert,Problem
+2026-01-11T03:33:35.000+0000,2026-01-11T03:33:35.000+0000,Customer segment: active. Created: 2025-09-18,Phone,High,500g5000004wxAHAAY,003g5000002EjKIAA0,Closed,Fraud Alert,Problem
+2026-01-11T03:33:45.000+0000,2026-01-11T03:33:45.000+0000,Customer segment: churned. Created: 2023-04-09,Email,Low,500g5000004wxAIAAY,003g5000002Ef5QAAS,Closed,Statement Request,Request
+2026-01-11T03:33:35.000+0000,2026-01-11T03:33:35.000+0000,Customer segment: churned. Created: 2025-11-08,Phone,Medium,500g5000004wxBtAAI,003g5000002Ej4BAAS,Closed,Fee Inquiry,Question
+2026-01-11T03:33:36.000+0000,2026-01-11T03:33:36.000+0000,Customer segment: churned. Created: 2025-01-19,Web,Low,500g5000004wxDVAAY,003g5000002Ej4BAAS,Closed,Statement Request,Request
+,2026-01-11T03:33:44.000+0000,Customer segment: churned. Created: 2023-02-15,Email,Low,500g5000004wxDWAAY,003g5000002EjDqAAK,Working,Statement Request,Request
+,2026-01-11T03:33:40.000+0000,Customer segment: at_risk. Created: 2024-11-28,Email,Low,500g5000004wxF7AAI,003g5000002EirGAAS,Working,Statement Request,Request
+,2026-01-11T03:33:41.000+0000,Customer segment: at_risk. Created: 2024-10-04,Email,High,500g5000004wxF8AAI,003g5000002EeviAAC,New,ATM Card Issue,Problem
+,2026-01-11T03:33:45.000+0000,Customer segment: churned. Created: 2023-07-17,Email,Low,500g5000004wxF9AAI,003g5000002Ef5QAAS,Working,Interest Rate Question,Question
+,2026-01-11T03:33:42.000+0000,Customer segment: at_risk. Created: 2024-08-23,Web,Medium,500g5000004wxGjAAI,003g5000002EhdSAAS,New,Card Renewal,Request
+,2026-01-11T03:33:45.000+0000,Customer segment: churned. Created: 2023-05-24,Phone,Low,500g5000004wxGkAAI,003g5000002Ef5QAAS,Escalated,Interest Rate Question,Question
+,2026-01-11T03:33:43.000+0000,Customer segment: churned. Created: 2025-06-23,Email,High,500g5000004wxILAAY,003g5000002EjDqAAK,Escalated,ATM Card Issue,Problem

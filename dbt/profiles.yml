@@ -1,0 +1,11 @@
+bank_churn:
+  outputs:
+    dev:
+      type: databricks
+      host: dbc-621d2785-493f.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/36b524e52c496a18
+      token: "{{ env_var('DBT_DATABRICKS_TOKEN') }}"
+      catalog: bank_proj
+      schema: default
+      threads: 4
+  target: dev
