@@ -136,7 +136,15 @@ celerybeat.pid
 
 # Environments
 .env
+**/.env
 .envrc
+
+# Credentials and secrets (GCP, AWS, etc.)
+**/banking-churn-poc-*.json
+*credentials*.json
+*-key.json
+*service-account*.json
+**/*-sa.json
 .venv
 env/
 venv/
