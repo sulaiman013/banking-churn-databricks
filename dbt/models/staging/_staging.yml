@@ -130,7 +130,7 @@ models:
   - name: stg_branches
     description: "Staged branch data from Google Sheets"
     columns:
-      - name: branch_code
+      - name: branch_id
         description: "Branch identifier"
         tests:
           - not_null
@@ -139,17 +139,34 @@ models:
         description: "Branch name"
       - name: region
         description: "Geographic region"
+      - name: manager_name
+        description: "Branch manager name"
+      - name: staff_count
+        description: "Number of staff"
+      - name: opened_date
+        description: "Date branch opened"
+      - name: performance_rating
+        description: "Branch performance rating"
 
   - name: stg_customer_notes
     description: "Staged customer notes from Google Sheets"
     columns:
-      - name: customer_id
-        description: "Customer reference"
+      - name: note_id
+        description: "Note identifier"
         tests:
           - not_null
+          - unique
+      - name: customer_email
+        description: "Customer email reference"
+        tests:
+          - not_null
+      - name: branch_id
+        description: "Branch reference"
       - name: note_date
         description: "Date of note"
       - name: note_text
         description: "Note content"
       - name: note_type
         description: "Type of note"
+      - name: created_by
+        description: "Note author"
