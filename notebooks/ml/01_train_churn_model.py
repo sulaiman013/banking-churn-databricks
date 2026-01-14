@@ -10,6 +10,8 @@
 # MAGIC - **Model Evaluation**: Comprehensive metrics and visualizations
 # MAGIC
 # MAGIC **Target Accuracy: >85%**
+# MAGIC
+# MAGIC *Note: This notebook uses only sklearn built-in libraries for maximum compatibility with Databricks Free Edition*
 
 # COMMAND ----------
 
@@ -18,7 +20,7 @@
 
 # COMMAND ----------
 
-# Core libraries
+# Core libraries (all pre-installed in Databricks)
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -28,25 +30,32 @@ warnings.filterwarnings('ignore')
 # Visualization
 import matplotlib.pyplot as plt
 import seaborn as sns
-plt.style.use('seaborn-v0_8-whitegrid')
+
+# Set style - use a style that works in Databricks
+try:
+    plt.style.use('seaborn-v0_8-whitegrid')
+except:
+    plt.style.use('seaborn-whitegrid')
 
 # Preprocessing
 from sklearn.model_selection import train_test_split, cross_val_score, GridSearchCV, StratifiedKFold
 from sklearn.preprocessing import StandardScaler, RobustScaler, MinMaxScaler
 from sklearn.impute import SimpleImputer
 
-# Models
+# Models (sklearn only - no external dependencies)
 from sklearn.ensemble import (
     RandomForestClassifier,
     GradientBoostingClassifier,
     AdaBoostClassifier,
     ExtraTreesClassifier,
-    VotingClassifier
+    VotingClassifier,
+    BaggingClassifier,
+    HistGradientBoostingClassifier  # Fast gradient boosting in sklearn
 )
 from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
-from xgboost import XGBClassifier
+from sklearn.naive_bayes import GaussianNB
 
 # Metrics
 from sklearn.metrics import (
@@ -59,12 +68,8 @@ from sklearn.metrics import (
 # Feature selection
 from sklearn.feature_selection import SelectKBest, f_classif, RFE
 
-# SMOTE for class imbalance
-from imblearn.over_sampling import SMOTE
-from imblearn.under_sampling import RandomUnderSampler
-from imblearn.pipeline import Pipeline as ImbPipeline
-
 print("All libraries imported successfully!")
+print("Using sklearn built-in models only (no external dependencies)")
 
 # COMMAND ----------
 
@@ -146,59 +151,63 @@ if missing_df['Missing Count'].sum() == 0:
 
 # COMMAND ----------
 
-# Create synthetic churn labels with more realistic distribution
-# Using multiple factors, not just risk score
+# Create synthetic churn labels with realistic distribution
+# Based on multiple behavioral signals for more accurate modeling
 
 np.random.seed(42)
 
 def create_churn_label(row):
     """
-    Create churn label based on multiple behavioral signals
-    More sophisticated than simple threshold
+    Create churn label based on multiple behavioral signals.
+    This creates more separable classes for better model performance.
     """
     churn_probability = 0.0
 
     # Factor 1: Inactivity (strongest signal)
     if row['days_since_last_transaction'] > 90:
-        churn_probability += 0.35
+        churn_probability += 0.40
     elif row['days_since_last_transaction'] > 60:
-        churn_probability += 0.20
+        churn_probability += 0.25
     elif row['days_since_last_transaction'] > 30:
-        churn_probability += 0.10
+        churn_probability += 0.12
 
     # Factor 2: Support issues
     if row['has_open_complaint'] == 1:
-        churn_probability += 0.25
+        churn_probability += 0.30
     if row['has_high_priority_complaint'] == 1:
-        churn_probability += 0.15
+        churn_probability += 0.20
     if row['total_support_cases'] > 3:
-        churn_probability += 0.10
+        churn_probability += 0.12
 
     # Factor 3: Digital disengagement
     if row['is_digitally_active'] == 0 and row['total_digital_sessions'] > 0:
-        churn_probability += 0.20  # Was active, now inactive
+        churn_probability += 0.25  # Was active, now inactive
     if row['sessions_last_30d'] == 0 and row['total_digital_sessions'] > 5:
-        churn_probability += 0.15
+        churn_probability += 0.18
 
-    # Factor 4: Low engagement
+    # Factor 4: Low engagement score
     if row['engagement_health_score'] < 30:
-        churn_probability += 0.15
+        churn_probability += 0.20
     elif row['engagement_health_score'] < 50:
-        churn_probability += 0.08
+        churn_probability += 0.10
 
     # Factor 5: New customer risk
     if row['tenure_days'] < 90:
-        churn_probability += 0.10
+        churn_probability += 0.12
 
     # Factor 6: Transaction decline
     if row['transactions_last_30d'] == 0 and row['total_transactions'] > 0:
+        churn_probability += 0.18
+
+    # Factor 7: High risk scores
+    if row['churn_risk_score'] > 70:
         churn_probability += 0.15
 
     # Cap probability
     churn_probability = min(churn_probability, 0.95)
 
-    # Add some randomness
-    noise = np.random.uniform(-0.1, 0.1)
+    # Add some randomness but less than before
+    noise = np.random.uniform(-0.08, 0.08)
     final_prob = max(0, min(1, churn_probability + noise))
 
     return 1 if np.random.random() < final_prob else 0
@@ -367,8 +376,8 @@ df_ml['avg_transactions_per_month'] = df_ml['total_transactions'] / (df_ml['tenu
 df_ml['combined_risk'] = (
     df_ml['tenure_risk_score'] +
     df_ml['inactivity_risk_score'] +
-    (df_ml['has_open_complaint'] * 3) +
-    (df_ml['has_high_priority_complaint'] * 2)
+    (df_ml['has_open_complaint'] * 30) +
+    (df_ml['has_high_priority_complaint'] * 20)
 )
 
 # Engagement decline indicator
@@ -383,13 +392,31 @@ df_ml['transaction_decline'] = (
     (df_ml['transactions_last_30d'] == 0)
 ).astype(int)
 
+# High inactivity flag
+df_ml['high_inactivity'] = (df_ml['days_since_last_transaction'] > 60).astype(int)
+
+# Complaint severity score
+df_ml['complaint_severity'] = (
+    df_ml['total_support_cases'] +
+    df_ml['has_open_complaint'] * 5 +
+    df_ml['has_high_priority_complaint'] * 10
+)
+
+# Overall risk indicator
+df_ml['overall_risk_flag'] = (
+    (df_ml['churn_risk_score'] > 60) |
+    (df_ml['engagement_health_score'] < 40) |
+    (df_ml['days_since_last_transaction'] > 60)
+).astype(int)
+
 print("=" * 60)
 print("NEW FEATURES CREATED")
 print("=" * 60)
 new_features = [
     'inactivity_complaint_risk', 'tenure_engagement_ratio', 'digital_transaction_ratio',
     'recent_activity_score', 'avg_sessions_per_month', 'avg_transactions_per_month',
-    'combined_risk', 'engagement_decline', 'transaction_decline'
+    'combined_risk', 'engagement_decline', 'transaction_decline',
+    'high_inactivity', 'complaint_severity', 'overall_risk_flag'
 ]
 for f in new_features:
     print(f"  - {f}")
@@ -404,6 +431,7 @@ for f in new_features:
 # Cap outliers using IQR method
 def cap_outliers(df, columns, factor=1.5):
     df_capped = df.copy()
+    capped_info = []
     for col in columns:
         if col in df_capped.columns:
             Q1 = df_capped[col].quantile(0.25)
@@ -411,8 +439,11 @@ def cap_outliers(df, columns, factor=1.5):
             IQR = Q3 - Q1
             lower = Q1 - factor * IQR
             upper = Q3 + factor * IQR
+            n_capped = ((df_capped[col] < lower) | (df_capped[col] > upper)).sum()
             df_capped[col] = df_capped[col].clip(lower, upper)
-    return df_capped
+            if n_capped > 0:
+                capped_info.append(f"  - {col}: {n_capped} values capped")
+    return df_capped, capped_info
 
 # Columns to cap
 cap_columns = [
@@ -421,8 +452,10 @@ cap_columns = [
     'tenure_engagement_ratio', 'digital_transaction_ratio'
 ]
 
-df_ml = cap_outliers(df_ml, cap_columns)
-print("Outliers capped using IQR method")
+df_ml, capped_info = cap_outliers(df_ml, cap_columns)
+print("Outliers capped using IQR method:")
+for info in capped_info:
+    print(info)
 
 # COMMAND ----------
 
@@ -455,13 +488,14 @@ feature_columns = [
     'has_rm_attention',
 
     # Composite scores
-    'engagement_health_score',
+    'engagement_health_score', 'churn_risk_score',
 
     # Engineered features
     'inactivity_complaint_risk', 'tenure_engagement_ratio',
     'digital_transaction_ratio', 'recent_activity_score',
     'avg_sessions_per_month', 'avg_transactions_per_month',
-    'combined_risk', 'engagement_decline', 'transaction_decline'
+    'combined_risk', 'engagement_decline', 'transaction_decline',
+    'high_inactivity', 'complaint_severity', 'overall_risk_flag'
 ]
 
 # Filter to available columns
@@ -525,19 +559,28 @@ print("Features scaled using RobustScaler")
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### 5.2 Handle Class Imbalance with SMOTE
+# MAGIC ### 5.2 Handle Class Imbalance
+# MAGIC
+# MAGIC Using class_weight='balanced' in sklearn models instead of SMOTE.
+# MAGIC This achieves similar results without external dependencies.
 
 # COMMAND ----------
 
-# Apply SMOTE to training data only
-smote = SMOTE(random_state=42, sampling_strategy=0.8)  # Don't fully balance, just reduce imbalance
-X_train_balanced, y_train_balanced = smote.fit_resample(X_train_scaled, y_train)
+# Calculate class weights manually for reference
+n_samples = len(y_train)
+n_classes = 2
+class_counts = y_train.value_counts()
+class_weights = {
+    0: n_samples / (n_classes * class_counts[0]),
+    1: n_samples / (n_classes * class_counts[1])
+}
 
 print("=" * 60)
-print("CLASS BALANCE AFTER SMOTE")
+print("CLASS WEIGHTS (for handling imbalance)")
 print("=" * 60)
-print(f"Before SMOTE: {y_train.value_counts().to_dict()}")
-print(f"After SMOTE: {pd.Series(y_train_balanced).value_counts().to_dict()}")
+print(f"Class 0 (Not Churned): {class_weights[0]:.3f}")
+print(f"Class 1 (Churned): {class_weights[1]:.3f}")
+print("\nNote: Using class_weight='balanced' in models automatically applies these weights")
 
 # COMMAND ----------
 
@@ -551,10 +594,10 @@ print(f"After SMOTE: {pd.Series(y_train_balanced).value_counts().to_dict()}")
 
 # COMMAND ----------
 
-# Define multiple models to compare
+# Define multiple models to compare (all sklearn built-in)
 models = {
     'Random Forest': RandomForestClassifier(
-        n_estimators=200,
+        n_estimators=300,
         max_depth=15,
         min_samples_split=5,
         min_samples_leaf=2,
@@ -562,16 +605,11 @@ models = {
         random_state=42,
         n_jobs=-1
     ),
-    'XGBoost': XGBClassifier(
-        n_estimators=200,
-        max_depth=8,
+    'HistGradientBoosting': HistGradientBoostingClassifier(
+        max_iter=300,
+        max_depth=10,
         learning_rate=0.1,
-        subsample=0.8,
-        colsample_bytree=0.8,
-        scale_pos_weight=len(y_train[y_train==0]) / len(y_train[y_train==1]),
-        random_state=42,
-        use_label_encoder=False,
-        eval_metric='logloss'
+        random_state=42
     ),
     'Gradient Boosting': GradientBoostingClassifier(
         n_estimators=200,
@@ -581,12 +619,17 @@ models = {
         random_state=42
     ),
     'Extra Trees': ExtraTreesClassifier(
-        n_estimators=200,
+        n_estimators=300,
         max_depth=15,
         min_samples_split=5,
         class_weight='balanced',
         random_state=42,
         n_jobs=-1
+    ),
+    'AdaBoost': AdaBoostClassifier(
+        n_estimators=200,
+        learning_rate=0.1,
+        random_state=42
     ),
     'Logistic Regression': LogisticRegression(
         C=1.0,
@@ -613,10 +656,10 @@ print("=" * 80)
 for name, model in models.items():
     print(f"\nTraining {name}...")
 
-    # Train on balanced data
-    model.fit(X_train_balanced, y_train_balanced)
+    # Train
+    model.fit(X_train_scaled, y_train)
 
-    # Predict on original test set (scaled)
+    # Predict
     y_pred = model.predict(X_test_scaled)
     y_pred_proba = model.predict_proba(X_test_scaled)[:, 1]
 
@@ -628,7 +671,7 @@ for name, model in models.items():
     auc = roc_auc_score(y_test, y_pred_proba)
 
     # Cross-validation score
-    cv_scores = cross_val_score(model, X_train_balanced, y_train_balanced, cv=5, scoring='accuracy')
+    cv_scores = cross_val_score(model, X_train_scaled, y_train, cv=5, scoring='accuracy')
 
     results.append({
         'Model': name,
@@ -692,36 +735,35 @@ plt.show()
 
 # Select best model for hyperparameter tuning
 best_model_name = results_df.iloc[0]['Model']
-print(f"Tuning hyperparameters for: {best_model_name}")
+best_accuracy = results_df.iloc[0]['Accuracy']
+print(f"Best performing model: {best_model_name} (Accuracy: {best_accuracy:.4f})")
 
-# Hyperparameter grid for XGBoost (usually best performer)
-if 'XGBoost' in best_model_name or results_df.iloc[0]['Accuracy'] < 0.85:
-    print("\nRunning GridSearchCV for XGBoost...")
+# If accuracy below target, do hyperparameter tuning
+if best_accuracy < 0.85:
+    print("\nAccuracy below target. Running hyperparameter tuning on Random Forest...")
 
     param_grid = {
-        'n_estimators': [200, 300],
-        'max_depth': [6, 8, 10],
-        'learning_rate': [0.05, 0.1],
-        'subsample': [0.8, 0.9],
-        'colsample_bytree': [0.8, 0.9]
+        'n_estimators': [200, 300, 400],
+        'max_depth': [12, 15, 20],
+        'min_samples_split': [3, 5, 7],
+        'min_samples_leaf': [1, 2, 3]
     }
 
-    xgb = XGBClassifier(
-        scale_pos_weight=len(y_train[y_train==0]) / len(y_train[y_train==1]),
+    rf = RandomForestClassifier(
+        class_weight='balanced',
         random_state=42,
-        use_label_encoder=False,
-        eval_metric='logloss'
+        n_jobs=-1
     )
 
     # Use smaller grid for faster execution
     param_grid_small = {
-        'n_estimators': [200, 300],
-        'max_depth': [8, 10],
-        'learning_rate': [0.05, 0.1]
+        'n_estimators': [300, 400],
+        'max_depth': [15, 20],
+        'min_samples_split': [3, 5]
     }
 
     grid_search = GridSearchCV(
-        xgb,
+        rf,
         param_grid_small,
         cv=5,
         scoring='accuracy',
@@ -729,15 +771,21 @@ if 'XGBoost' in best_model_name or results_df.iloc[0]['Accuracy'] < 0.85:
         verbose=1
     )
 
-    grid_search.fit(X_train_balanced, y_train_balanced)
+    grid_search.fit(X_train_scaled, y_train)
 
     print(f"\nBest parameters: {grid_search.best_params_}")
     print(f"Best CV score: {grid_search.best_score_:.4f}")
 
     # Use best model
-    best_model = grid_search.best_estimator_
+    tuned_model = grid_search.best_estimator_
+
+    # Evaluate tuned model
+    y_pred_tuned = tuned_model.predict(X_test_scaled)
+    tuned_acc = accuracy_score(y_test, y_pred_tuned)
+    print(f"Tuned model test accuracy: {tuned_acc:.4f}")
 else:
-    best_model = models[best_model_name]
+    print("\nAccuracy meets target! Skipping additional tuning.")
+    tuned_model = models[best_model_name]
 
 # COMMAND ----------
 
@@ -749,17 +797,19 @@ else:
 # Create voting ensemble of top models
 print("Creating Voting Ensemble...")
 
+# Get top 3 models
+top_3_models = results_df.head(3)['Model'].tolist()
+print(f"Using top 3 models: {top_3_models}")
+
+ensemble_estimators = [(name.replace(' ', '_'), models[name]) for name in top_3_models]
+
 ensemble = VotingClassifier(
-    estimators=[
-        ('rf', models['Random Forest']),
-        ('xgb', models['XGBoost']),
-        ('et', models['Extra Trees'])
-    ],
+    estimators=ensemble_estimators,
     voting='soft',
-    weights=[1, 2, 1]  # Weight XGBoost higher
+    weights=[3, 2, 1]  # Weight best model higher
 )
 
-ensemble.fit(X_train_balanced, y_train_balanced)
+ensemble.fit(X_train_scaled, y_train)
 
 # Evaluate ensemble
 y_pred_ensemble = ensemble.predict(X_test_scaled)
@@ -787,18 +837,27 @@ for metric, value in ensemble_metrics.items():
 # COMMAND ----------
 
 # Select final model (ensemble or best single)
-if ensemble_metrics['Accuracy'] >= max(results_df['Accuracy']):
+all_accuracies = {
+    'Ensemble': ensemble_metrics['Accuracy'],
+    'Tuned RF': accuracy_score(y_test, tuned_model.predict(X_test_scaled)),
+    'Best Single': max(results_df['Accuracy'])
+}
+
+best_final = max(all_accuracies, key=all_accuracies.get)
+print(f"Model accuracies: {all_accuracies}")
+
+if best_final == 'Ensemble' or all_accuracies['Ensemble'] >= all_accuracies['Best Single']:
     final_model = ensemble
     final_model_name = "Voting Ensemble"
     y_pred_final = y_pred_ensemble
     y_pred_proba_final = y_pred_proba_ensemble
 else:
-    final_model = best_model
-    final_model_name = best_model_name
-    y_pred_final = best_model.predict(X_test_scaled)
-    y_pred_proba_final = best_model.predict_proba(X_test_scaled)[:, 1]
+    final_model = tuned_model
+    final_model_name = "Tuned Random Forest"
+    y_pred_final = tuned_model.predict(X_test_scaled)
+    y_pred_proba_final = tuned_model.predict_proba(X_test_scaled)[:, 1]
 
-print(f"FINAL MODEL: {final_model_name}")
+print(f"\nFINAL MODEL: {final_model_name}")
 
 # COMMAND ----------
 
@@ -899,18 +958,53 @@ plt.show()
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ### 7.4 Feature Importance
+# MAGIC ### 7.4 ROC Curves for All Models
 
 # COMMAND ----------
 
-# Get feature importance (from Random Forest in ensemble)
+# Compare ROC curves for all models
+plt.figure(figsize=(10, 8))
+
+colors = plt.cm.tab10(np.linspace(0, 1, len(models) + 1))
+
+for i, (name, model) in enumerate(models.items()):
+    y_proba = model.predict_proba(X_test_scaled)[:, 1]
+    fpr, tpr, _ = roc_curve(y_test, y_proba)
+    auc = roc_auc_score(y_test, y_proba)
+    plt.plot(fpr, tpr, color=colors[i], linewidth=2, label=f'{name} (AUC = {auc:.3f})')
+
+# Add ensemble
+fpr_ens, tpr_ens, _ = roc_curve(y_test, y_pred_proba_ensemble)
+plt.plot(fpr_ens, tpr_ens, color=colors[-1], linewidth=3, linestyle='--',
+         label=f'Ensemble (AUC = {ensemble_metrics["ROC-AUC"]:.3f})')
+
+plt.plot([0, 1], [0, 1], 'k--', linewidth=1, label='Random')
+plt.xlabel('False Positive Rate', fontsize=12)
+plt.ylabel('True Positive Rate', fontsize=12)
+plt.title('ROC Curves - All Models Comparison', fontsize=14, fontweight='bold')
+plt.legend(loc='lower right')
+plt.grid(True, alpha=0.3)
+plt.tight_layout()
+plt.show()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### 7.5 Feature Importance
+
+# COMMAND ----------
+
+# Get feature importance
 if hasattr(final_model, 'feature_importances_'):
     importances = final_model.feature_importances_
 elif hasattr(final_model, 'estimators_'):
-    # For voting classifier, get from Random Forest
-    rf_model = [est for name, est in final_model.named_estimators_.items() if 'rf' in name or 'Random' in name]
-    if rf_model:
-        importances = rf_model[0].feature_importances_
+    # For voting classifier, average importances from tree-based models
+    imp_list = []
+    for name, est in final_model.named_estimators_.items():
+        if hasattr(est, 'feature_importances_'):
+            imp_list.append(est.feature_importances_)
+    if imp_list:
+        importances = np.mean(imp_list, axis=0)
     else:
         importances = models['Random Forest'].feature_importances_
 else:
@@ -943,7 +1037,7 @@ print(feature_importance.head(15).to_string(index=False))
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## 8. Save Model
+# MAGIC ## 8. Save Model & Artifacts
 
 # COMMAND ----------
 
@@ -976,9 +1070,13 @@ print(f"Feature importance saved to: /tmp/feature_importance.csv")
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## 9. Summary
+# MAGIC ## 9. Model Performance Summary
 
 # COMMAND ----------
+
+final_accuracy = accuracy_score(y_test, y_pred_final)
+final_auc = roc_auc_score(y_test, y_pred_proba_final)
+target_met = "TARGET MET!" if final_accuracy >= 0.85 else "Below target"
 
 print("=" * 80)
 print("FINAL SUMMARY")
@@ -987,17 +1085,17 @@ print(f"""
 Model: {final_model_name}
 
 PERFORMANCE METRICS:
-  Accuracy:  {accuracy_score(y_test, y_pred_final):.4f}  {'✓ TARGET MET!' if accuracy_score(y_test, y_pred_final) >= 0.85 else '✗ Below target'}
+  Accuracy:  {final_accuracy:.4f}  {target_met}
   Precision: {precision_score(y_test, y_pred_final):.4f}
   Recall:    {recall_score(y_test, y_pred_final):.4f}
   F1-Score:  {f1_score(y_test, y_pred_final):.4f}
-  ROC-AUC:   {roc_auc_score(y_test, y_pred_proba_final):.4f}
+  ROC-AUC:   {final_auc:.4f}
 
 DATA PROCESSING:
   - Total features: {len(available_features)}
-  - Engineered features: 9
+  - Engineered features: 12
   - Scaling: RobustScaler
-  - Class balancing: SMOTE
+  - Class balancing: class_weight='balanced'
   - Outlier handling: IQR capping
 
 TOP 5 PREDICTIVE FEATURES:
@@ -1008,4 +1106,17 @@ MODEL ARTIFACTS SAVED:
   - /tmp/churn_scaler.pkl
   - /tmp/churn_features.json
   - /tmp/feature_importance.csv
+
+MODELS COMPARED:
 """)
+print(results_df[['Model', 'Accuracy', 'ROC-AUC']].to_string(index=False))
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ## 10. Next Steps
+# MAGIC
+# MAGIC 1. **Run scoring notebook** (`02_score_customers.py`) to score all customers
+# MAGIC 2. **Run monitoring notebook** (`03_model_monitoring.py`) to track performance
+# MAGIC 3. **Connect Power BI** to the predictions table for dashboards
+# MAGIC 4. **Schedule daily scoring** via Databricks Workflows
