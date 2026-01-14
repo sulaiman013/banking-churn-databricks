@@ -1773,7 +1773,126 @@ notebooks/ml/
 | Unified customer view | ✓ | ✓ customer_360 with all signals |
 | Churn model AUC | > 0.75 | ✓ 0.86 |
 | Automated CI/CD | ✓ | ✓ GitHub Actions |
-| Dashboard ready | ✓ | Pending (Step 15) |
+| Dashboard ready | ✓ | ✓ SQL queries + Power BI guide |
+
+---
+
+## Step 15: Dashboards
+
+The final step is making insights accessible to business users. We created dashboard-ready SQL queries for both Databricks SQL and Power BI.
+
+### Dashboard Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    EXECUTIVE SUMMARY                             │
+├──────────┬──────────┬──────────┬──────────┬──────────┬──────────┤
+│ Total    │ High     │ Medium   │ Avg Risk │ At-Risk  │ Digital  │
+│ Customer │ Risk     │ Risk     │ Score    │ Revenue  │ Active   │
+│  1,247   │   89     │   234    │  28.5    │  $1.2M   │  67%     │
+├──────────┴──────────┴──────────┴──────────┴──────────┴──────────┤
+│                                                                  │
+│   [Risk Distribution      ]    [Risk by Territory         ]     │
+│   [Pie/Donut Chart        ]    [Bar Chart                 ]     │
+│                                                                  │
+├──────────────────────────────────────────────────────────────────┤
+│                    HIGH RISK WORKLIST                            │
+│  Customer   │ Risk │ Value  │ Risk Factors │ Action             │
+│  ABC Corp   │  78  │ $45K   │ Inactive 90+ │ Win-back call      │
+│  XYZ Ltd    │  72  │ $38K   │ Open ticket  │ Resolve case       │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+### Dashboard Queries (6 files)
+
+| File | Purpose | Visualization |
+|------|---------|---------------|
+| `01_executive_kpis.sql` | Top-line KPI cards | Counter cards |
+| `02_risk_distribution.sql` | Risk segment breakdown | Pie/Donut chart |
+| `03_risk_by_dimension.sql` | Risk by territory/group/tenure | Bar charts |
+| `04_risk_trend.sql` | Risk score distribution | Histogram |
+| `05_high_risk_worklist.sql` | Retention team action list | Table |
+| `06_engagement_metrics.sql` | Digital engagement analysis | Mixed |
+
+### Key SQL Query: Executive KPIs
+
+```sql
+-- All KPIs in one query
+SELECT
+    MAX(CASE WHEN dimension = 'overall' THEN customer_count END) AS total_customers,
+    MAX(CASE WHEN dimension = 'overall' THEN high_risk_count END) AS high_risk_customers,
+    MAX(CASE WHEN dimension = 'overall' THEN ROUND(avg_risk_score, 1) END) AS avg_risk_score,
+    SUM(CASE WHEN dimension = 'risk_segment'
+             AND dimension_value IN ('High Risk', 'Medium Risk')
+        THEN total_value ELSE 0 END) AS at_risk_revenue
+FROM bank_proj.gold.agg_churn_by_segment;
+```
+
+### Key SQL Query: High Risk Worklist
+
+```sql
+SELECT
+    customer_name,
+    email,
+    territory,
+    risk_category,
+    ROUND(churn_risk_score, 0) AS risk_score,
+    lifetime_value,
+    risk_factors,
+    recommended_action,
+    days_since_last_transaction
+FROM bank_proj.gold.high_risk_customers
+ORDER BY priority_score DESC
+LIMIT 50;
+```
+
+### Power BI Connection
+
+1. **Get Data** > **Azure Databricks**
+2. Enter SQL Warehouse hostname and HTTP path
+3. Authenticate with Personal Access Token
+4. Select tables from `bank_proj.gold` schema
+5. Use DirectQuery for real-time data
+
+### DAX Measures for Power BI
+
+```dax
+// At-Risk Customers
+At Risk Customers =
+CALCULATE(
+    COUNTROWS(customer_features),
+    customer_features[churn_risk_score] >= 40
+)
+
+// Value at Risk
+Value at Risk =
+CALCULATE(
+    SUM(customer_360[total_transaction_amount]),
+    customer_features[churn_risk_score] >= 40
+)
+
+// Digital Adoption Rate
+Digital Adoption % =
+DIVIDE(
+    CALCULATE(COUNTROWS(customer_360),
+              customer_360[is_digitally_active] = TRUE()),
+    COUNTROWS(customer_360)
+) * 100
+```
+
+### Files Structure
+
+```
+dashboards/
+├── README.md                    # Overview and layout guide
+├── 01_executive_kpis.sql        # KPI card queries
+├── 02_risk_distribution.sql     # Pie chart data
+├── 03_risk_by_dimension.sql     # Bar chart data
+├── 04_risk_trend.sql            # Trend/histogram data
+├── 05_high_risk_worklist.sql    # Retention team table
+├── 06_engagement_metrics.sql    # Digital engagement
+└── powerbi_setup.md             # Power BI connection guide
+```
 
 ---
 
