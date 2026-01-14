@@ -3,9 +3,6 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-# Databricks exported notebooks (HTML with outputs)
-notebooks/**/*.html
-
 # Claude temporary files
 tmpclaude-*
 
