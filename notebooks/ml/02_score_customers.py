@@ -6,8 +6,10 @@
 # MAGIC
 # MAGIC ## Overview
 # MAGIC - **Input**: `bank_proj.gold.customer_features` table
-# MAGIC - **Model**: Loaded from MLflow Model Registry
+# MAGIC - **Model**: Loaded from saved pickle file (Free Edition compatible)
 # MAGIC - **Output**: `bank_proj.ml.churn_predictions` table
+# MAGIC
+# MAGIC *Compatible with Databricks Free Edition (serverless compute)*
 
 # COMMAND ----------
 
@@ -16,14 +18,28 @@
 
 # COMMAND ----------
 
-# Import libraries
-import mlflow
-import mlflow.sklearn
+# Import libraries (all pre-installed in Databricks serverless)
 import pandas as pd
 import numpy as np
 from datetime import datetime
+import pickle
+import json
+import warnings
+warnings.filterwarnings('ignore')
+
+# Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Sklearn
+from sklearn.preprocessing import RobustScaler
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier
+
+# PySpark
 from pyspark.sql import functions as F
 from pyspark.sql.types import DoubleType, StringType, TimestampType
+
+print("Libraries imported successfully!")
 
 # COMMAND ----------
 
@@ -36,41 +52,13 @@ FEATURES_TABLE = f"{CATALOG}.{GOLD_SCHEMA}.customer_features"
 CUSTOMER_360_TABLE = f"{CATALOG}.{GOLD_SCHEMA}.customer_360"
 PREDICTIONS_TABLE = f"{CATALOG}.{ML_SCHEMA}.churn_predictions"
 
-MODEL_NAME = "banking_churn_model"
-MODEL_STAGE = "None"  # Use "Production" once model is promoted
-
 print(f"Features table: {FEATURES_TABLE}")
 print(f"Predictions table: {PREDICTIONS_TABLE}")
-print(f"Model: {MODEL_NAME} (stage: {MODEL_STAGE})")
 
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## 2. Load Model from Registry
-
-# COMMAND ----------
-
-# Load the latest version of the model
-try:
-    # Try to load from Production stage first
-    model_uri = f"models:/{MODEL_NAME}/Production"
-    model = mlflow.sklearn.load_model(model_uri)
-    model_stage_used = "Production"
-    print(f"Loaded model from Production stage")
-except Exception as e:
-    print(f"No Production model found, loading latest version...")
-    # Load latest version
-    model_uri = f"models:/{MODEL_NAME}/latest"
-    model = mlflow.sklearn.load_model(model_uri)
-    model_stage_used = "latest"
-    print(f"Loaded latest model version")
-
-print(f"Model type: {type(model).__name__}")
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC ## 3. Load Feature Data
+# MAGIC ## 2. Load Feature Data
 
 # COMMAND ----------
 
@@ -80,6 +68,71 @@ print(f"Total customers to score: {df_features.count()}")
 
 # Convert to Pandas
 pdf = df_features.toPandas()
+print(f"DataFrame shape: {pdf.shape}")
+
+# COMMAND ----------
+
+# Preview data
+pdf.head()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ## 3. Feature Engineering (must match training)
+
+# COMMAND ----------
+
+# Create the same engineered features as in training
+df_ml = pdf.copy()
+
+# Interaction features
+df_ml['inactivity_complaint_risk'] = df_ml['inactivity_risk_score'] * df_ml['has_open_complaint']
+df_ml['tenure_engagement_ratio'] = df_ml['tenure_days'] / (df_ml['engagement_health_score'] + 1)
+df_ml['digital_transaction_ratio'] = df_ml['total_digital_sessions'] / (df_ml['total_transactions'] + 1)
+df_ml['recent_activity_score'] = df_ml['transactions_last_30d'] * 2 + df_ml['sessions_last_30d']
+
+# Engagement intensity
+df_ml['avg_sessions_per_month'] = df_ml['total_digital_sessions'] / (df_ml['tenure_days'] / 30 + 1)
+df_ml['avg_transactions_per_month'] = df_ml['total_transactions'] / (df_ml['tenure_days'] / 30 + 1)
+
+# Risk combinations
+df_ml['combined_risk'] = (
+    df_ml['tenure_risk_score'] +
+    df_ml['inactivity_risk_score'] +
+    (df_ml['has_open_complaint'] * 30) +
+    (df_ml['has_high_priority_complaint'] * 20)
+)
+
+# Engagement decline indicator
+df_ml['engagement_decline'] = (
+    (df_ml['total_digital_sessions'] > 5) &
+    (df_ml['sessions_last_30d'] == 0)
+).astype(int)
+
+# Transaction decline indicator
+df_ml['transaction_decline'] = (
+    (df_ml['total_transactions'] > 3) &
+    (df_ml['transactions_last_30d'] == 0)
+).astype(int)
+
+# High inactivity flag
+df_ml['high_inactivity'] = (df_ml['days_since_last_transaction'] > 60).astype(int)
+
+# Complaint severity score
+df_ml['complaint_severity'] = (
+    df_ml['total_support_cases'] +
+    df_ml['has_open_complaint'] * 5 +
+    df_ml['has_high_priority_complaint'] * 10
+)
+
+# Overall risk indicator
+df_ml['overall_risk_flag'] = (
+    (df_ml['churn_risk_score'] > 60) |
+    (df_ml['engagement_health_score'] < 40) |
+    (df_ml['days_since_last_transaction'] > 60)
+).astype(int)
+
+print("Engineered features created successfully!")
 
 # COMMAND ----------
 
@@ -88,62 +141,143 @@ pdf = df_features.toPandas()
 
 # COMMAND ----------
 
-# Feature columns (must match training)
+# Feature columns (must match training exactly)
 feature_columns = [
-    # Demographics
-    'gender_encoded',
-    'customer_type_encoded',
-    'region_encoded',
+    # Original demographics
+    'gender_encoded', 'customer_type_encoded', 'region_encoded',
 
     # Tenure
-    'tenure_days',
-    'tenure_risk_score',
+    'tenure_days', 'tenure_risk_score',
 
     # Transactions
-    'total_transactions',
-    'transaction_frequency',
-    'transactions_last_30d',
-    'days_since_last_transaction',
-    'inactivity_risk_score',
+    'total_transactions', 'transaction_frequency', 'transactions_last_30d',
+    'days_since_last_transaction', 'inactivity_risk_score',
 
-    # Support/Complaints
-    'total_support_cases',
-    'complaint_rate',
-    'has_open_complaint',
-    'has_high_priority_complaint',
-    'avg_resolution_days',
+    # Support
+    'total_support_cases', 'complaint_rate', 'has_open_complaint',
+    'has_high_priority_complaint', 'avg_resolution_days',
 
-    # Digital engagement
-    'total_digital_sessions',
-    'app_usage_frequency',
-    'is_digitally_active',
-    'sessions_last_30d',
-    'days_since_last_engagement',
+    # Digital
+    'total_digital_sessions', 'app_usage_frequency', 'is_digitally_active',
+    'sessions_last_30d', 'days_since_last_engagement',
 
     # Relationship
     'has_rm_attention',
 
-    # Composite
-    'engagement_health_score'
+    # Composite scores
+    'engagement_health_score', 'churn_risk_score',
+
+    # Engineered features
+    'inactivity_complaint_risk', 'tenure_engagement_ratio',
+    'digital_transaction_ratio', 'recent_activity_score',
+    'avg_sessions_per_month', 'avg_transactions_per_month',
+    'combined_risk', 'engagement_decline', 'transaction_decline',
+    'high_inactivity', 'complaint_severity', 'overall_risk_flag'
 ]
 
 # Filter to available columns
-available_columns = [col for col in feature_columns if col in pdf.columns]
-print(f"Using {len(available_columns)} features for scoring")
+available_features = [col for col in feature_columns if col in df_ml.columns]
+print(f"Using {len(available_features)} features for scoring")
 
 # Prepare feature matrix
-X = pdf[available_columns].fillna(0)
+X = df_ml[available_features].copy()
+X = X.fillna(0)
+X = X.replace([np.inf, -np.inf], 0)
+
+print(f"Feature matrix shape: {X.shape}")
 
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## 5. Score All Customers
+# MAGIC ## 5. Load or Train Model
 
 # COMMAND ----------
 
+# Try to load saved model, otherwise train a new one
+MODEL_PATH = "/tmp/churn_model_final.pkl"
+SCALER_PATH = "/tmp/churn_scaler.pkl"
+
+try:
+    # Try to load existing model
+    with open(MODEL_PATH, 'rb') as f:
+        model = pickle.load(f)
+    with open(SCALER_PATH, 'rb') as f:
+        scaler = pickle.load(f)
+    print("Loaded existing model and scaler from /tmp/")
+    model_source = "Loaded from file"
+except:
+    print("No saved model found. Training new model for scoring...")
+
+    # Create target variable (same logic as training)
+    np.random.seed(42)
+
+    def create_churn_label(row):
+        churn_probability = 0.0
+        if row['days_since_last_transaction'] > 90:
+            churn_probability += 0.40
+        elif row['days_since_last_transaction'] > 60:
+            churn_probability += 0.25
+        elif row['days_since_last_transaction'] > 30:
+            churn_probability += 0.12
+        if row['has_open_complaint'] == 1:
+            churn_probability += 0.30
+        if row['has_high_priority_complaint'] == 1:
+            churn_probability += 0.20
+        if row['is_digitally_active'] == 0 and row['total_digital_sessions'] > 0:
+            churn_probability += 0.25
+        if row['engagement_health_score'] < 30:
+            churn_probability += 0.20
+        if row['transactions_last_30d'] == 0 and row['total_transactions'] > 0:
+            churn_probability += 0.18
+        churn_probability = min(churn_probability, 0.95)
+        noise = np.random.uniform(-0.08, 0.08)
+        final_prob = max(0, min(1, churn_probability + noise))
+        return 1 if np.random.random() < final_prob else 0
+
+    df_ml['churn_label'] = df_ml.apply(create_churn_label, axis=1)
+    y = df_ml['churn_label']
+
+    # Scale features
+    scaler = RobustScaler()
+    X_scaled = scaler.fit_transform(X)
+
+    # Train model
+    from sklearn.ensemble import RandomForestClassifier
+    model = RandomForestClassifier(
+        n_estimators=300,
+        max_depth=15,
+        min_samples_split=5,
+        class_weight='balanced',
+        random_state=42,
+        n_jobs=-1
+    )
+    model.fit(X_scaled, y)
+
+    # Save for future use
+    with open(MODEL_PATH, 'wb') as f:
+        pickle.dump(model, f)
+    with open(SCALER_PATH, 'wb') as f:
+        pickle.dump(scaler, f)
+
+    print("New model trained and saved!")
+    model_source = "Newly trained"
+
+print(f"Model type: {type(model).__name__}")
+print(f"Model source: {model_source}")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ## 6. Score All Customers
+
+# COMMAND ----------
+
+# Scale features
+X_scaled = scaler.transform(X)
+
 # Generate predictions
-predictions = model.predict(X)
-probabilities = model.predict_proba(X)
+predictions = model.predict(X_scaled)
+probabilities = model.predict_proba(X_scaled)
 
 # Get churn probability (probability of class 1)
 churn_probability = probabilities[:, 1]
@@ -178,8 +312,8 @@ def get_risk_tier(prob):
 predictions_df['ml_risk_tier'] = predictions_df['churn_probability'].apply(get_risk_tier)
 
 # Add scoring metadata
-predictions_df['model_name'] = MODEL_NAME
-predictions_df['model_stage'] = model_stage_used
+predictions_df['model_name'] = "sklearn_ensemble"
+predictions_df['model_source'] = model_source
 predictions_df['scored_at'] = datetime.now()
 
 print("\nPredictions summary:")
@@ -188,7 +322,61 @@ print(predictions_df['ml_risk_tier'].value_counts())
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## 6. Save Predictions to Unity Catalog
+# MAGIC ## 7. Visualize Scoring Results
+
+# COMMAND ----------
+
+# Visualization of predictions
+fig, axes = plt.subplots(2, 2, figsize=(14, 10))
+
+# 1. Churn probability distribution
+axes[0, 0].hist(churn_probability, bins=50, color='steelblue', edgecolor='black', alpha=0.7)
+axes[0, 0].axvline(x=0.3, color='orange', linestyle='--', label='Medium threshold')
+axes[0, 0].axvline(x=0.5, color='red', linestyle='--', label='High threshold')
+axes[0, 0].axvline(x=0.7, color='darkred', linestyle='--', label='Critical threshold')
+axes[0, 0].set_xlabel('Churn Probability')
+axes[0, 0].set_ylabel('Count')
+axes[0, 0].set_title('Distribution of Churn Probabilities', fontweight='bold')
+axes[0, 0].legend()
+
+# 2. Risk tier distribution
+tier_counts = predictions_df['ml_risk_tier'].value_counts()
+tier_order = ['Critical', 'High', 'Medium', 'Low']
+tier_counts = tier_counts.reindex(tier_order)
+colors = ['#d62728', '#ff7f0e', '#ffbb78', '#2ca02c']
+axes[0, 1].bar(tier_counts.index, tier_counts.values, color=colors)
+axes[0, 1].set_xlabel('Risk Tier')
+axes[0, 1].set_ylabel('Count')
+axes[0, 1].set_title('Customers by Risk Tier', fontweight='bold')
+for i, v in enumerate(tier_counts.values):
+    axes[0, 1].text(i, v + 0.5, str(v), ha='center', fontweight='bold')
+
+# 3. ML vs Rule-based comparison
+axes[1, 0].scatter(predictions_df['rule_based_risk_score'],
+                   predictions_df['churn_probability'],
+                   alpha=0.5, c='steelblue', s=20)
+axes[1, 0].set_xlabel('Rule-Based Risk Score')
+axes[1, 0].set_ylabel('ML Churn Probability')
+axes[1, 0].set_title('ML vs Rule-Based Risk Comparison', fontweight='bold')
+# Add trend line
+z = np.polyfit(predictions_df['rule_based_risk_score'], predictions_df['churn_probability'], 1)
+p = np.poly1d(z)
+x_line = np.linspace(0, 100, 100)
+axes[1, 0].plot(x_line, p(x_line), 'r--', linewidth=2, label='Trend')
+axes[1, 0].legend()
+
+# 4. Risk tier pie chart
+axes[1, 1].pie(tier_counts.values, labels=tier_counts.index, autopct='%1.1f%%',
+               colors=colors, explode=(0.05, 0.02, 0, 0))
+axes[1, 1].set_title('Risk Tier Distribution', fontweight='bold')
+
+plt.tight_layout()
+plt.show()
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ## 8. Save Predictions to Unity Catalog
 
 # COMMAND ----------
 
@@ -215,7 +403,7 @@ print(f"Total records: {spark.table(PREDICTIONS_TABLE).count()}")
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## 7. Create High-Risk Customer View
+# MAGIC ## 9. Create High-Risk Customer View
 
 # COMMAND ----------
 
@@ -267,7 +455,7 @@ display(spark.sql(f"SELECT * FROM {CATALOG}.{ML_SCHEMA}.high_risk_ml_customers L
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## 8. Scoring Summary
+# MAGIC ## 10. Scoring Summary
 
 # COMMAND ----------
 
@@ -328,14 +516,17 @@ display(spark.sql(comparison_query))
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC ## 9. Summary
+# MAGIC ## 11. Summary
 # MAGIC
 # MAGIC ### What we accomplished:
-# MAGIC 1. Loaded the trained model from MLflow Model Registry
-# MAGIC 2. Scored all customers in the feature table
-# MAGIC 3. Assigned ML-based risk tiers (Critical, High, Medium, Low)
-# MAGIC 4. Saved predictions to `bank_proj.ml.churn_predictions`
-# MAGIC 5. Created a high-risk customer view with recommended actions
+# MAGIC 1. Loaded customer features from Unity Catalog
+# MAGIC 2. Applied same feature engineering as training
+# MAGIC 3. Loaded/trained model (sklearn - Free Edition compatible)
+# MAGIC 4. Scored all customers with churn probabilities
+# MAGIC 5. Assigned ML-based risk tiers (Critical, High, Medium, Low)
+# MAGIC 6. Created visualizations of scoring results
+# MAGIC 7. Saved predictions to `bank_proj.ml.churn_predictions`
+# MAGIC 8. Created high-risk customer view with recommended actions
 # MAGIC
 # MAGIC ### Output Tables:
 # MAGIC - `bank_proj.ml.churn_predictions` - All customer predictions
@@ -344,8 +535,8 @@ display(spark.sql(comparison_query))
 # MAGIC ### Next Steps:
 # MAGIC 1. Connect Power BI to the predictions table
 # MAGIC 2. Set up Databricks Workflow for daily scoring
-# MAGIC 3. Monitor model performance over time
-# MAGIC 4. Implement A/B testing for retention campaigns
+# MAGIC 3. Run model monitoring notebook
+# MAGIC 4. Implement retention campaigns for high-risk customers
 
 # COMMAND ----------
 
