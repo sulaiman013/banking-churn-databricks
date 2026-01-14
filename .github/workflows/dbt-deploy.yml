@@ -5,6 +5,10 @@
 # 1. Triggers when PR is merged (push to main/master)
 # 2. Runs full dbt build to update all tables in Databricks
 # 3. Generates fresh documentation
+#
+# PREREQUISITES:
+# 1. Set secret DBT_DATABRICKS_TOKEN in GitHub repo settings
+# 2. Run bronze_ingestion notebook first to create source tables
 # =============================================================================
 
 name: dbt Deploy
@@ -17,6 +21,9 @@ on:
       - master
     paths:
       - 'dbt/**'  # Only run when dbt files change
+
+  # Allow manual trigger for testing
+  workflow_dispatch:
 
 # What jobs to run?
 jobs:
@@ -33,37 +40,53 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Set up Python
+      # Step 2: Check if secret is configured
+      - name: Validate secrets
+        run: |
+          if [ -z "${{ secrets.DBT_DATABRICKS_TOKEN }}" ]; then
+            echo "::error::DBT_DATABRICKS_TOKEN secret is not set!"
+            echo "Please add it in: Settings → Secrets and variables → Actions → New repository secret"
+            exit 1
+          fi
+          echo "✅ Databricks token configured"
+
+      # Step 3: Set up Python
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      # Step 3: Install dbt-databricks
+      # Step 4: Install dbt-databricks
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install dbt-core dbt-databricks
 
-      # Step 4: Install dbt packages
+      # Step 5: Install dbt packages
       - name: dbt deps
         run: dbt deps
         env:
           DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
 
-      # Step 5: Run ALL models (full refresh)
+      # Step 6: Test connection
+      - name: dbt debug
+        run: dbt debug
+        env:
+          DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
+
+      # Step 7: Run ALL models (full refresh)
       - name: dbt build (full)
         run: dbt build
         env:
           DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
 
-      # Step 6: Generate documentation
+      # Step 8: Generate documentation
       - name: dbt docs generate
         run: dbt docs generate
         env:
           DBT_DATABRICKS_TOKEN: ${{ secrets.DBT_DATABRICKS_TOKEN }}
 
-      # Step 7: Log success
+      # Step 9: Log success
       - name: Deployment complete
         run: |
           echo "✅ dbt models deployed successfully to Databricks!"
