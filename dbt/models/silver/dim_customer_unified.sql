@@ -115,6 +115,12 @@ unified as (
             else 'Unknown'
         end as primary_source,
 
+        -- Row number to handle duplicates (keep first by ERP ID)
+        row_number() over (
+            partition by md5(coalesce(lower(trim(erp.email)), erp.erp_customer_id))
+            order by erp.erp_customer_id
+        ) as rn,
+
         -- Metadata
         current_timestamp() as dbt_updated_at
 
@@ -127,5 +133,6 @@ unified as (
         on lower(trim(erp.email)) = lower(trim(notes.customer_email))
 )
 
-select * from unified
+select * except(rn) from unified
 where unified_customer_id is not null
+  and rn = 1

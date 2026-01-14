@@ -27,33 +27,43 @@ branches as (
     from {{ ref('stg_branches') }}
 ),
 
+-- Aggregate branches by region first to avoid duplicates
+branches_by_region as (
+    select
+        region,
+        count(*) as branch_count,
+        sum(staff_count) as total_staff,
+        min(opened_date) as earliest_branch_date,
+        avg(performance_rating) as avg_performance_rating
+    from branches
+    group by region
+),
+
 -- Create geography dimension combining both sources
 geography as (
     select
-        md5(coalesce(t.territory_code, b.region, 'UNKNOWN')) as geography_key,
+        md5(coalesce(t.territory_code, br.region, 'UNKNOWN')) as geography_key,
 
         -- Territory info (ERPNext)
         t.territory_code,
         t.territory_name,
 
-        -- Branch info (Google Sheets)
-        b.branch_id,
-        b.branch_name,
-        b.region,
-        b.manager_name,
-        b.staff_count,
-        b.opened_date,
-        b.performance_rating,
+        -- Region info (aggregated from branches)
+        br.region,
+        br.branch_count,
+        br.total_staff,
+        br.earliest_branch_date,
+        br.avg_performance_rating,
 
         -- Hierarchy
-        coalesce(t.territory_name, b.region) as display_name,
+        coalesce(t.territory_name, br.region) as display_name,
 
         -- Metadata
         current_timestamp() as dbt_updated_at
 
     from territories t
-    full outer join branches b
-        on lower(t.territory_name) = lower(b.region)
+    full outer join branches_by_region br
+        on lower(t.territory_name) = lower(br.region)
 )
 
 select * from geography
