@@ -1,0 +1,121 @@
+@startuml Banking Churn - CI/CD Pipeline
+' ============================================
+' GITHUB ACTIONS CI/CD WORKFLOW
+' ============================================
+
+title **CI/CD Pipeline**\n//Automated Testing & Deployment with GitHub Actions//
+
+' ============================================
+' ICONS
+' ============================================
+!include <tupadr3/devicons/github_badge>
+!include <tupadr3/font-awesome/cogs>
+!include <tupadr3/font-awesome/check_circle>
+!include <tupadr3/font-awesome/cloud>
+
+' ============================================
+' LAYOUT
+' ============================================
+left to right direction
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontColor #212121
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 12
+skinparam roundcorner 10
+skinparam ArrowThickness 2
+skinparam ArrowColor #546E7A
+skinparam nodesep 40
+skinparam ranksep 80
+
+skinparam rectangle {
+    BackgroundColor #FFFFFF
+    BorderColor #90A4AE
+    FontColor #212121
+    BorderThickness 2
+}
+
+skinparam card {
+    BackgroundColor #E3F2FD
+    BorderColor #1976D2
+    FontColor #0D47A1
+}
+
+skinparam component {
+    BackgroundColor #C8E6C9
+    BorderColor #4CAF50
+    FontColor #1B5E20
+}
+
+skinparam artifact {
+    BackgroundColor #FFF8E1
+    BorderColor #FBC02D
+    FontColor #F57F17
+}
+
+skinparam database {
+    BackgroundColor #F3E5F5
+    BorderColor #9C27B0
+    FontColor #6A1B9A
+}
+
+skinparam legend {
+    BackgroundColor #FAFAFA
+    BorderColor #BDBDBD
+    FontColor #212121
+}
+
+' ============================================
+' DEVELOPER WORKFLOW
+' ============================================
+rectangle "Developer" as dev {
+    card "<$github_badge>\n**Push Code**\nto Branch" as push
+    card "**Open PR**\nto main" as pr
+}
+
+' ============================================
+' CI PIPELINE
+' ============================================
+rectangle "CI (Pull Request)" as ci {
+    component "<$cogs>\n**dbt deps**\nInstall Packages" as deps
+    component "<$cogs>\n**dbt build**\nTest Schema" as build
+    component "<$check_circle>\n**43 Tests**\nPass/Fail" as tests
+}
+
+' ============================================
+' MERGE & CD
+' ============================================
+rectangle "CD (Merge to main)" as cd {
+    artifact "**PR Approved**\nMerge" as merge
+    component "<$cloud>\n**dbt build**\nProduction" as deploy
+}
+
+' ============================================
+' DATABRICKS
+' ============================================
+rectangle "Databricks" as db {
+    database "**staging.***\n**silver.***\n**gold.***" as schemas
+}
+
+' ============================================
+' DATA FLOW
+' ============================================
+push --> pr
+pr --> deps : "Triggers\nWorkflow"
+deps --> build
+build --> tests
+
+tests --> merge : "All Pass"
+merge --> deploy : "Triggers\nDeploy"
+deploy --> schemas : "Updates\nTables"
+
+' ============================================
+' LEGEND
+' ============================================
+legend bottom
+    | **Trigger** | **Workflow** | **Action** |
+    | Pull Request | dbt-ci.yml | Test in isolated schema |
+    | Merge to main | dbt-deploy.yml | Deploy to production |
+endlegend
+
+footer GitHub Actions + dbt-databricks | Secrets: DBT_DATABRICKS_TOKEN
+@enduml

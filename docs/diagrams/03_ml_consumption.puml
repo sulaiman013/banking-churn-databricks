@@ -1,0 +1,152 @@
+@startuml Banking Churn - Part 3: ML Pipeline & Consumption
+' ============================================
+' PART 3: GOLD → ML → PREDICTIONS → BI
+' ============================================
+
+title **Banking Customer Churn Platform** | Part 3: ML Pipeline & Consumption
+
+' ============================================
+' ICONS
+' ============================================
+!include <tupadr3/devicons/python>
+!include <tupadr3/font-awesome/star>
+!include <tupadr3/font-awesome/cogs>
+!include <tupadr3/font-awesome/line_chart>
+!include <tupadr3/font-awesome/bell>
+!include <tupadr3/font-awesome/users>
+
+' ============================================
+' LAYOUT
+' ============================================
+left to right direction
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontColor #212121
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 12
+skinparam roundcorner 10
+skinparam ArrowThickness 2
+skinparam ArrowColor #546E7A
+skinparam nodesep 40
+skinparam ranksep 80
+
+skinparam rectangle {
+    BackgroundColor #FFFFFF
+    BorderColor #90A4AE
+    FontColor #212121
+    BorderThickness 2
+}
+
+skinparam artifact {
+    BackgroundColor #FFF59D
+    BorderColor #FBC02D
+    FontColor #F57F17
+}
+
+skinparam component {
+    BackgroundColor #FFCDD2
+    BorderColor #E57373
+    FontColor #B71C1C
+}
+
+skinparam database {
+    BackgroundColor #C8E6C9
+    BorderColor #4CAF50
+    FontColor #1B5E20
+}
+
+skinparam card {
+    BackgroundColor #B2EBF2
+    BorderColor #00ACC1
+    FontColor #006064
+}
+
+skinparam legend {
+    BackgroundColor #FAFAFA
+    BorderColor #BDBDBD
+    FontColor #212121
+}
+
+skinparam note {
+    BackgroundColor #E3F2FD
+    BorderColor #2196F3
+    FontColor #0D47A1
+}
+
+' ============================================
+' GOLD LAYER (Input)
+' ============================================
+rectangle "Gold Layer" as gold {
+    artifact "<$star>\n**customer_features**\n20+ Features" as features
+}
+
+' ============================================
+' ML PIPELINE
+' ============================================
+rectangle "ML Pipeline (Databricks)" as ml {
+    component "<$python>\n**Train**\n6 Algorithms\nEnsemble" as train
+    component "<$cogs>\n**Score**\nBatch Daily" as score
+    component "<$bell>\n**Monitor**\nDrift Detection" as monitor
+}
+
+' ============================================
+' MODEL STORAGE
+' ============================================
+database "**Unity Catalog**\n**Volumes**\n/Volumes/.../model.pkl" as volume
+
+' ============================================
+' PREDICTIONS
+' ============================================
+rectangle "Predictions" as preds {
+    database "<$users>\n**customer_churn**\n**_scores**\nRisk 0-100" as scores
+    database "**high_risk**\n**_customers**\nAction List" as highrisk
+}
+
+' ============================================
+' CONSUMPTION
+' ============================================
+rectangle "Business Consumption" as consume {
+    card "<$line_chart>\n**Databricks SQL**\nDashboards" as dbsql
+    card "<$line_chart>\n**Power BI**\nExecutive View" as pbi
+    card "**Retention Team**\nWorklist Export" as worklist
+}
+
+' ============================================
+' KEY METRICS NOTE
+' ============================================
+note bottom of train
+    **Model Performance:**
+    ROC-AUC: 0.86
+    Algorithms: 6
+    Best: Voting Ensemble
+end note
+
+' ============================================
+' DATA FLOW
+' ============================================
+features --> train : "Train\nWeekly"
+
+train --> volume : "Save\nModel"
+volume --> score : "Load\nModel"
+
+score --> scores : "Write\nScores"
+scores --> highrisk : "Filter\nTop Risk"
+
+scores --> monitor : "Check\nDrift"
+
+scores --> dbsql
+scores --> pbi
+highrisk --> worklist
+
+' ============================================
+' LEGEND
+' ============================================
+legend bottom
+    | **Stage** | **Technology** | **Schedule** |
+    | Training | sklearn + Ensemble | Weekly |
+    | Scoring | Batch Inference | Daily |
+    | Monitoring | Drift Detection | Daily |
+    | Dashboards | SQL + Power BI | Real-time |
+endlegend
+
+footer Part 3 of 3 | Gold → ML → Predictions → BI | Complete Pipeline
+@enduml

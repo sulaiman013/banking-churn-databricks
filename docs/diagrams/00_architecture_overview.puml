@@ -1,0 +1,129 @@
+@startuml Banking Churn - Architecture Overview
+' ============================================
+' HIGH-LEVEL OVERVIEW - COMPLETE PIPELINE
+' ============================================
+
+title **Banking Customer Churn Prediction Platform**\n//End-to-End Architecture Overview//
+
+' ============================================
+' ICONS
+' ============================================
+!include <tupadr3/devicons/database>
+!include <tupadr3/devicons/python>
+!include <tupadr3/devicons/github_badge>
+!include <tupadr3/font-awesome/cloud>
+!include <tupadr3/font-awesome/cogs>
+!include <tupadr3/font-awesome/star>
+!include <tupadr3/font-awesome/line_chart>
+
+' ============================================
+' LAYOUT
+' ============================================
+left to right direction
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontColor #212121
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 13
+skinparam roundcorner 12
+skinparam ArrowThickness 2
+skinparam ArrowColor #37474F
+skinparam nodesep 60
+skinparam ranksep 100
+
+skinparam rectangle {
+    BackgroundColor #FAFAFA
+    BorderColor #78909C
+    FontColor #212121
+    BorderThickness 2
+    FontSize 14
+}
+
+skinparam card {
+    BackgroundColor #E3F2FD
+    BorderColor #1976D2
+    FontColor #0D47A1
+}
+
+skinparam storage {
+    BackgroundColor #FFE0B2
+    BorderColor #FF9800
+    FontColor #E65100
+}
+
+skinparam database {
+    BackgroundColor #C8E6C9
+    BorderColor #4CAF50
+    FontColor #1B5E20
+}
+
+skinparam artifact {
+    BackgroundColor #FFF59D
+    BorderColor #FBC02D
+    FontColor #F57F17
+}
+
+skinparam component {
+    BackgroundColor #F3E5F5
+    BorderColor #9C27B0
+    FontColor #6A1B9A
+}
+
+skinparam legend {
+    BackgroundColor #FAFAFA
+    BorderColor #BDBDBD
+    FontColor #212121
+}
+
+' ============================================
+' SOURCES (Simplified)
+' ============================================
+rectangle "4 Source Systems" as sources {
+    card "<$database>\n**ERPNext**\n**Salesforce**\n**Supabase**\n**Sheets**" as src
+}
+
+' ============================================
+' MEDALLION LAYERS
+' ============================================
+rectangle "Medallion Architecture" as medallion {
+    storage "<$cloud>\n**Bronze**\n11 Raw Tables" as bronze
+    database "<$cogs>\n**Silver**\nUnified + Clean\ndbt Models" as silver
+    artifact "<$star>\n**Gold**\ncustomer_360\nML Features" as gold
+}
+
+' ============================================
+' ML + OUTPUT
+' ============================================
+rectangle "ML & Insights" as output {
+    component "<$python>\n**ML Model**\n0.86 AUC\nChurn Scores" as ml
+    artifact "<$line_chart>\n**Dashboards**\nPower BI\nDatabricks SQL" as bi
+}
+
+' ============================================
+' CI/CD (Bottom)
+' ============================================
+card "<$github_badge>\n**GitHub Actions**\nCI/CD Pipeline" as cicd
+
+' ============================================
+' DATA FLOW
+' ============================================
+src --> bronze : "Ingest"
+bronze --> silver : "dbt\nTransform"
+silver --> gold : "Feature\nEngineering"
+gold --> ml : "Train &\nScore"
+ml --> bi : "Visualize"
+
+cicd -[dashed]up-> silver : "Auto\nDeploy"
+
+' ============================================
+' LEGEND
+' ============================================
+legend bottom
+    | **Layer** | **Purpose** | **Key Output** |
+    | Bronze | Raw data preservation | 11 tables as-is |
+    | Silver | Clean + Unify | dim_customer_unified |
+    | Gold | Business metrics | customer_360, features |
+    | ML | Predictions | Churn risk scores |
+endlegend
+
+footer Databricks Free Edition | Unity Catalog | dbt-databricks
+@enduml

@@ -2,6 +2,8 @@
 
 A production-grade end-to-end data platform for **Apex National Bank** demonstrating multi-source data integration, customer unification, and ML-based churn prediction using modern data stack technologies.
 
+![Architecture Overview](docs/diagrams/00_architecture_overview.png)
+
 ---
 
 ## Table of Contents
@@ -77,80 +79,52 @@ This project implements a **unified data platform** that:
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────┐
-│                              SOURCE SYSTEMS                                          │
-├─────────────────┬─────────────────┬─────────────────┬───────────────────────────────┤
-│    ERPNext      │   Salesforce    │    Supabase     │       Google Sheets           │
-│  (Core Banking) │     (CRM)       │   (Digital)     │        (Legacy)               │
-│                 │                 │                 │                               │
-│ • Customers     │ • Contacts      │ • App Sessions  │ • Branch Data                 │
-│ • Transactions  │ • Cases         │ • App Events    │ • Customer Notes              │
-│ • Territories   │ • Tasks         │                 │                               │
-│ • Products      │                 │                 │                               │
-└────────┬────────┴────────┬────────┴────────┬────────┴───────────────┬───────────────┘
-         │                 │                 │                        │
-         └─────────────────┴─────────────────┴────────────────────────┘
-                                      │
-                                      ▼
-┌─────────────────────────────────────────────────────────────────────────────────────┐
-│                         DATABRICKS LAKEHOUSE                                         │
-│                                                                                      │
-│  ┌───────────────────────────── Unity Catalog ────────────────────────────────────┐ │
-│  │                           Catalog: bank_proj                                    │ │
-│  │                                                                                 │ │
-│  │  ┌─────────────┐      ┌─────────────┐      ┌─────────────┐      ┌───────────┐  │ │
-│  │  │   BRONZE    │      │   SILVER    │      │    GOLD     │      │    ML     │  │ │
-│  │  │   Schema    │ ───▶ │   Schema    │ ───▶ │   Schema    │ ───▶ │  Schema   │  │ │
-│  │  │             │ dbt  │             │ dbt  │             │      │           │  │ │
-│  │  │ Raw tables  │      │ Cleaned &   │      │ Analytics & │      │ Model     │  │ │
-│  │  │ as-ingested │      │ Unified     │      │ ML Features │      │ Artifacts │  │ │
-│  │  └─────────────┘      └─────────────┘      └─────────────┘      └───────────┘  │ │
-│  │                                                                                 │ │
-│  │  Tables:              Tables:              Tables:              Tables:         │ │
-│  │  • erp_customers      • dim_customer_      • customer_360      • churn_        │ │
-│  │  • erp_transactions     unified            • customer_         predictions     │ │
-│  │  • sf_contacts        • dim_geography        features                          │ │
-│  │  • sf_cases           • dim_branch         • agg_churn_by_                     │ │
-│  │  • sb_app_sessions    • dim_product          segment                           │ │
-│  │  • sb_app_events      • fct_transactions   • high_risk_                        │ │
-│  │  • gs_branches        • fct_support_cases    customers                         │ │
-│  │  • gs_customer_notes  • fct_digital_                                           │ │
-│  │                         engagement                                              │ │
-│  └─────────────────────────────────────────────────────────────────────────────────┘ │
-│                                                                                      │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐  ┌─────────────────────────────┐ │
-│  │  Workflows  │  │   MLflow    │  │ SQL         │  │  Serverless SQL Warehouse   │ │
-│  │  (Jobs)     │  │  Registry   │  │ Analytics   │  │  (Compute)                  │ │
-│  └─────────────┘  └─────────────┘  └─────────────┘  └─────────────────────────────┘ │
-└─────────────────────────────────────────────────────────────────────────────────────┘
-                                      │
-                                      ▼
-┌─────────────────────────────────────────────────────────────────────────────────────┐
-│                              CONSUMPTION LAYER                                       │
-│                                                                                      │
-│  ┌─────────────────────┐  ┌─────────────────────┐  ┌─────────────────────────────┐  │
-│  │     Power BI        │  │   Retention Team    │  │      ML Scoring API         │  │
-│  │   (Dashboards)      │  │   (Action Lists)    │  │   (Real-time Predictions)   │  │
-│  └─────────────────────┘  └─────────────────────┘  └─────────────────────────────┘  │
-└─────────────────────────────────────────────────────────────────────────────────────┘
-```
+### High-Level Overview
 
-### Data Flow
+![Architecture Overview](docs/diagrams/00_architecture_overview.png)
 
-```
-1. INGEST     Raw data from 4 sources → Bronze tables (Databricks notebook)
-              ↓
-2. STAGE      Bronze → Staging views (dbt: column renaming, type casting)
-              ↓
-3. TRANSFORM  Staging → Silver tables (dbt: cleaning, unification, business logic)
-              ↓
-4. AGGREGATE  Silver → Gold tables (dbt: features, metrics, aggregations)
-              ↓
-5. PREDICT    Gold features → ML model → Churn predictions
-              ↓
-6. ACT        Predictions → Dashboards + Retention team action lists
-```
+### Part 1: Data Sources & Ingestion
+
+Four disparate source systems feed into the Bronze layer through Python-based ingestion.
+
+![Data Sources & Ingestion](docs/diagrams/01_data_sources_ingestion.png)
+
+### Part 2: Transformation & Modeling
+
+dbt transforms raw data through Bronze → Silver → Gold using the Medallion architecture.
+
+![Transformation & Modeling](docs/diagrams/02_transformation_modeling.png)
+
+### Part 3: ML Pipeline & Consumption
+
+Gold layer features feed the ML model, producing churn predictions for dashboards and retention teams.
+
+![ML Pipeline & Consumption](docs/diagrams/03_ml_consumption.png)
+
+### Customer Entity Resolution
+
+The core challenge: unifying customers across 4 different ID systems using email-based matching.
+
+![Entity Resolution](docs/diagrams/04_entity_resolution.png)
+
+### CI/CD Pipeline
+
+GitHub Actions automates testing on PRs and deployment on merge to main.
+
+![CI/CD Pipeline](docs/diagrams/05_cicd_pipeline.png)
+
+---
+
+### Data Flow Summary
+
+| Step | Action | Technology |
+|------|--------|------------|
+| 1. INGEST | Raw data from 4 sources → Bronze | Python + Databricks |
+| 2. STAGE | Bronze → Staging views | dbt (column rename, type cast) |
+| 3. TRANSFORM | Staging → Silver tables | dbt (clean, unify, business logic) |
+| 4. AGGREGATE | Silver → Gold tables | dbt (features, metrics) |
+| 5. PREDICT | Gold features → ML model | sklearn + Ensemble |
+| 6. ACT | Predictions → Dashboards | Power BI + Databricks SQL |
 
 ---
 

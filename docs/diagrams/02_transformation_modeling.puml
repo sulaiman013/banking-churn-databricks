@@ -1,0 +1,150 @@
+@startuml Banking Churn - Part 2: Transformation & Modeling
+' ============================================
+' PART 2: BRONZE → DBT → SILVER → GOLD
+' ============================================
+
+title **Banking Customer Churn Platform** | Part 2: Transformation & Modeling
+
+' ============================================
+' ICONS
+' ============================================
+!include <tupadr3/font-awesome/cogs>
+!include <tupadr3/font-awesome/cubes>
+!include <tupadr3/font-awesome/check_circle>
+!include <tupadr3/font-awesome/star>
+!include <tupadr3/font-awesome/users>
+
+' ============================================
+' LAYOUT
+' ============================================
+left to right direction
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontColor #212121
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 12
+skinparam roundcorner 10
+skinparam ArrowThickness 2
+skinparam ArrowColor #546E7A
+skinparam nodesep 40
+skinparam ranksep 80
+
+skinparam rectangle {
+    BackgroundColor #FFFFFF
+    BorderColor #90A4AE
+    FontColor #212121
+    BorderThickness 2
+}
+
+skinparam storage {
+    BackgroundColor #FFE0B2
+    BorderColor #FF9800
+    FontColor #E65100
+}
+
+skinparam component {
+    BackgroundColor #F3E5F5
+    BorderColor #9C27B0
+    FontColor #6A1B9A
+}
+
+skinparam database {
+    BackgroundColor #C8E6C9
+    BorderColor #4CAF50
+    FontColor #1B5E20
+}
+
+skinparam artifact {
+    BackgroundColor #FFF59D
+    BorderColor #FBC02D
+    FontColor #F57F17
+}
+
+skinparam legend {
+    BackgroundColor #FAFAFA
+    BorderColor #BDBDBD
+    FontColor #212121
+}
+
+skinparam note {
+    BackgroundColor #E3F2FD
+    BorderColor #2196F3
+    FontColor #0D47A1
+}
+
+' ============================================
+' BRONZE LAYER (Input)
+' ============================================
+rectangle "Bronze (Raw)" as bronze {
+    storage "**11 Raw Tables**\nerp_*, sf_*\nsb_*, gs_*" as raw
+}
+
+' ============================================
+' DBT TRANSFORMATION
+' ============================================
+rectangle "dbt-databricks" as dbt_layer {
+    component "<$cogs>\n**Staging**\n11 Views" as staging
+    component "<$cubes>\n**Entity\nResolution**\nEmail Match" as entity
+    component "<$check_circle>\n**Data Tests**\n43 Tests" as tests
+}
+
+' ============================================
+' SILVER LAYER
+' ============================================
+rectangle "Silver (Cleaned)" as silver {
+    database "<$users>\n**dim_customer**\n**_unified**\n//Single View//" as dim_cust
+    database "**dim_geography**\n**dim_product**" as dims
+    database "**fct_transactions**\n**fct_support_cases**\n**fct_engagement**" as facts
+}
+
+' ============================================
+' GOLD LAYER
+' ============================================
+rectangle "Gold (Business)" as gold {
+    artifact "<$star>\n**customer_360**\nComplete View" as c360
+    artifact "**customer_features**\n20+ ML Features" as features
+    artifact "**agg_churn_by**\n**_segment**" as agg
+}
+
+' ============================================
+' KEY TRANSFORMATION NOTE
+' ============================================
+note bottom of entity
+    **Customer Unification:**
+    1. Normalize emails
+    2. LEFT JOIN all sources
+    3. MD5 surrogate key
+    4. ROW_NUMBER() dedupe
+end note
+
+' ============================================
+' DATA FLOW
+' ============================================
+raw --> staging : "SELECT *\nRename Cols"
+
+staging --> entity
+entity --> dim_cust : "Unified\nCustomer"
+staging --> dims
+staging --> facts
+
+dim_cust --> c360
+dims --> c360
+facts --> c360
+
+c360 --> features : "Feature\nEngineering"
+c360 --> agg : "Aggregations"
+
+tests -[dashed]-> staging
+tests -[dashed]-> silver
+
+' ============================================
+' LEGEND
+' ============================================
+legend bottom
+    | **Layer** | **Materialization** | **Purpose** |
+    | Staging | VIEW | Column rename, type cast |
+    | Silver | TABLE | Clean, unified, tested |
+    | Gold | TABLE | Business-ready, ML features |
+endlegend
+
+footer Part 2 of 3 | Bronze → dbt → Silver → Gold | Next: Part 3 (ML & Consumption)
+@enduml

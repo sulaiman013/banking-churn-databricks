@@ -1,0 +1,118 @@
+@startuml Banking Churn - Part 1: Data Sources & Ingestion
+' ============================================
+' PART 1: SOURCE SYSTEMS → BRONZE LAYER
+' ============================================
+
+title **Banking Customer Churn Platform** | Part 1: Data Sources & Ingestion
+
+' ============================================
+' ICONS
+' ============================================
+!include <tupadr3/devicons/database>
+!include <tupadr3/devicons/python>
+!include <tupadr3/font-awesome/cloud>
+!include <tupadr3/font-awesome/mobile>
+!include <tupadr3/font-awesome/table>
+!include <tupadr3/font-awesome/cogs>
+
+' ============================================
+' LAYOUT
+' ============================================
+left to right direction
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontColor #212121
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 12
+skinparam roundcorner 10
+skinparam ArrowThickness 2
+skinparam ArrowColor #546E7A
+skinparam nodesep 40
+skinparam ranksep 100
+
+skinparam rectangle {
+    BackgroundColor #FFFFFF
+    BorderColor #90A4AE
+    FontColor #212121
+    BorderThickness 2
+}
+
+skinparam card {
+    BackgroundColor #E3F2FD
+    BorderColor #1976D2
+    FontColor #0D47A1
+}
+
+skinparam component {
+    BackgroundColor #FFF8E1
+    BorderColor #FBC02D
+    FontColor #F57F17
+}
+
+skinparam storage {
+    BackgroundColor #FFE0B2
+    BorderColor #FF9800
+    FontColor #E65100
+}
+
+skinparam legend {
+    BackgroundColor #FAFAFA
+    BorderColor #BDBDBD
+    FontColor #212121
+}
+
+' ============================================
+' SOURCE SYSTEMS
+' ============================================
+rectangle "Source Systems" as sources {
+    card "<$database>\n**ERPNext**\nCore Banking\n//500 Customers//" as erp
+    card "<$cloud>\n**Salesforce**\nCRM\n//1,500 Cases//" as sf
+    card "<$mobile>\n**Supabase**\nDigital App\n//5,000 Sessions//" as sb
+    card "<$table>\n**Google Sheets**\nLegacy Data\n//Branch Notes//" as gs
+}
+
+' ============================================
+' INGESTION LAYER
+' ============================================
+rectangle "Ingestion" as ingest {
+    component "<$python>\n**Python**\nAPI Clients" as api
+    component "<$cogs>\n**Databricks**\nNotebook" as notebook
+}
+
+' ============================================
+' BRONZE LAYER
+' ============================================
+rectangle "Bronze Layer (Raw)" as bronze {
+    storage "**erp_customers**\n**erp_transactions**\n**erp_products**" as erp_raw
+    storage "**sf_contacts**\n**sf_cases**\n**sf_tasks**" as sf_raw
+    storage "**sb_sessions**\n**sb_events**" as sb_raw
+    storage "**gs_branches**\n**gs_notes**" as gs_raw
+}
+
+' ============================================
+' DATA FLOW
+' ============================================
+erp --> api
+sf --> api
+sb --> api
+gs --> api
+
+api --> notebook
+
+notebook --> erp_raw : "Full\nRefresh"
+notebook --> sf_raw : "Full\nRefresh"
+notebook --> sb_raw : "Full\nRefresh"
+notebook --> gs_raw : "Full\nRefresh"
+
+' ============================================
+' LEGEND
+' ============================================
+legend bottom
+    | **Source** | **Data Type** | **Volume** |
+    | ERPNext | Customers, Transactions | 500 customers, 8.5K txns |
+    | Salesforce | Cases, Contacts | 1,500 support cases |
+    | Supabase | Sessions, Events | 5,000 app sessions |
+    | Google Sheets | Branches, Notes | 10 branches, 200 notes |
+endlegend
+
+footer Part 1 of 3 | Sources → Ingestion → Bronze | Next: Part 2 (Transformation)
+@enduml

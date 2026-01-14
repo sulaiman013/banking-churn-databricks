@@ -1,0 +1,137 @@
+@startuml Banking Churn - Entity Resolution Detail
+' ============================================
+' CUSTOMER ENTITY RESOLUTION LOGIC
+' ============================================
+
+title **Customer Entity Resolution**\n//How 4 Different IDs Become 1 Unified Customer//
+
+' ============================================
+' ICONS
+' ============================================
+!include <tupadr3/font-awesome/cubes>
+!include <tupadr3/font-awesome/check_circle>
+!include <tupadr3/font-awesome/star>
+
+' ============================================
+' LAYOUT
+' ============================================
+left to right direction
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontColor #212121
+skinparam defaultFontName "Segoe UI"
+skinparam defaultFontSize 12
+skinparam roundcorner 10
+skinparam ArrowThickness 2
+skinparam ArrowColor #546E7A
+skinparam nodesep 30
+skinparam ranksep 80
+
+skinparam rectangle {
+    BackgroundColor #FFFFFF
+    BorderColor #90A4AE
+    FontColor #212121
+    BorderThickness 2
+}
+
+skinparam card {
+    BackgroundColor #E3F2FD
+    BorderColor #1976D2
+    FontColor #0D47A1
+}
+
+skinparam component {
+    BackgroundColor #FFF8E1
+    BorderColor #FBC02D
+    FontColor #F57F17
+}
+
+skinparam database {
+    BackgroundColor #C8E6C9
+    BorderColor #4CAF50
+    FontColor #1B5E20
+}
+
+skinparam note {
+    BackgroundColor #FFEBEE
+    BorderColor #E57373
+    FontColor #B71C1C
+}
+
+skinparam legend {
+    BackgroundColor #FAFAFA
+    BorderColor #BDBDBD
+    FontColor #212121
+}
+
+' ============================================
+' SOURCE IDs (Different per system)
+' ============================================
+rectangle "Different IDs per System" as diff_ids {
+    card "**ERPNext**\nCUST-001234\njohn@bank.com" as erp_id
+    card "**Salesforce**\n003Hs00001ABC\njohn@bank.com" as sf_id
+    card "**Supabase**\nuuid-v4-xxx\njohn@bank.com" as sb_id
+    card "**Sheets**\n(no ID)\njohn@bank.com" as gs_id
+}
+
+' ============================================
+' MATCHING LOGIC
+' ============================================
+rectangle "Entity Resolution" as resolve {
+    component "<$cubes>\n**Step 1**\nNormalize Email\nlower(trim())" as step1
+    component "<$cubes>\n**Step 2**\nLEFT JOIN\non Email" as step2
+    component "<$cubes>\n**Step 3**\nMD5 Hash\nSurrogate Key" as step3
+    component "<$check_circle>\n**Step 4**\nROW_NUMBER\nDedupe" as step4
+}
+
+' ============================================
+' UNIFIED OUTPUT
+' ============================================
+rectangle "Unified Customer" as unified {
+    database "<$star>\n**dim_customer_unified**\n\nunified_id: abc123\nerp_id: CUST-001234\nsf_id: 003Hs00001ABC\napp_email: john@bank.com\n\n//One row per customer//" as dim
+}
+
+' ============================================
+' THE PROBLEM NOTE
+' ============================================
+note top of diff_ids
+    **The Problem:**
+    Same customer = 4 different IDs
+    Can't join data across systems!
+end note
+
+' ============================================
+' THE SOLUTION NOTE
+' ============================================
+note bottom of dim
+    **The Solution:**
+    Email is the common key
+    MD5(email) = consistent ID
+    Works across all systems
+end note
+
+' ============================================
+' DATA FLOW
+' ============================================
+erp_id --> step1
+sf_id --> step1
+sb_id --> step1
+gs_id --> step1
+
+step1 --> step2 : "john@bank.com"
+step2 --> step3 : "Matched\nRecords"
+step3 --> step4 : "abc123..."
+step4 --> dim : "1 Row"
+
+' ============================================
+' LEGEND
+' ============================================
+legend bottom
+    | **Step** | **SQL** | **Purpose** |
+    | Normalize | lower(trim(email)) | Handle case/whitespace |
+    | LEFT JOIN | ON erp.email = sf.email | Keep all ERPNext + enrich |
+    | MD5 Hash | md5(email) | Consistent surrogate key |
+    | Dedupe | ROW_NUMBER() ... rn=1 | Handle duplicate emails |
+endlegend
+
+footer Key Pattern: Email-Based Entity Resolution | ERPNext = Master System
+@enduml
