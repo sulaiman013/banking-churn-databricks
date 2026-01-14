@@ -1041,31 +1041,34 @@ print(feature_importance.head(15).to_string(index=False))
 
 # COMMAND ----------
 
-# Save model and artifacts
+# Save model and artifacts to Unity Catalog Volume (persistent storage)
 import pickle
 import json
 
+# Unity Catalog Volume path (persistent across sessions)
+VOLUME_PATH = "/Volumes/bank_proj/bronze/credentials"
+
 # Save model
-model_path = "/tmp/churn_model_final.pkl"
+model_path = f"{VOLUME_PATH}/churn_model_final.pkl"
 with open(model_path, 'wb') as f:
     pickle.dump(final_model, f)
 print(f"Model saved to: {model_path}")
 
 # Save scaler
-scaler_path = "/tmp/churn_scaler.pkl"
+scaler_path = f"{VOLUME_PATH}/churn_scaler.pkl"
 with open(scaler_path, 'wb') as f:
     pickle.dump(scaler, f)
 print(f"Scaler saved to: {scaler_path}")
 
 # Save feature list
-features_path = "/tmp/churn_features.json"
+features_path = f"{VOLUME_PATH}/churn_features.json"
 with open(features_path, 'w') as f:
     json.dump(available_features, f)
 print(f"Features saved to: {features_path}")
 
 # Save feature importance
-feature_importance.to_csv("/tmp/feature_importance.csv", index=False)
-print(f"Feature importance saved to: /tmp/feature_importance.csv")
+feature_importance.to_csv(f"{VOLUME_PATH}/feature_importance.csv", index=False)
+print(f"Feature importance saved to: {VOLUME_PATH}/feature_importance.csv")
 
 # COMMAND ----------
 
@@ -1101,11 +1104,11 @@ DATA PROCESSING:
 TOP 5 PREDICTIVE FEATURES:
 {feature_importance.head(5).to_string(index=False)}
 
-MODEL ARTIFACTS SAVED:
-  - /tmp/churn_model_final.pkl
-  - /tmp/churn_scaler.pkl
-  - /tmp/churn_features.json
-  - /tmp/feature_importance.csv
+MODEL ARTIFACTS SAVED (Unity Catalog Volume):
+  - {VOLUME_PATH}/churn_model_final.pkl
+  - {VOLUME_PATH}/churn_scaler.pkl
+  - {VOLUME_PATH}/churn_features.json
+  - {VOLUME_PATH}/feature_importance.csv
 
 MODELS COMPARED:
 """)

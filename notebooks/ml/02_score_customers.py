@@ -193,9 +193,10 @@ print(f"Feature matrix shape: {X.shape}")
 
 # COMMAND ----------
 
-# Try to load saved model, otherwise train a new one
-MODEL_PATH = "/tmp/churn_model_final.pkl"
-SCALER_PATH = "/tmp/churn_scaler.pkl"
+# Try to load saved model from Unity Catalog Volume, otherwise train a new one
+VOLUME_PATH = "/Volumes/bank_proj/bronze/credentials"
+MODEL_PATH = f"{VOLUME_PATH}/churn_model_final.pkl"
+SCALER_PATH = f"{VOLUME_PATH}/churn_scaler.pkl"
 
 try:
     # Try to load existing model
@@ -203,7 +204,7 @@ try:
         model = pickle.load(f)
     with open(SCALER_PATH, 'rb') as f:
         scaler = pickle.load(f)
-    print("Loaded existing model and scaler from /tmp/")
+    print(f"Loaded existing model and scaler from {VOLUME_PATH}")
     model_source = "Loaded from file"
 except:
     print("No saved model found. Training new model for scoring...")
