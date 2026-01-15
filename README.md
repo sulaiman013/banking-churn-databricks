@@ -2,6 +2,8 @@
 
 A production-grade end-to-end data platform for **Apex National Bank** demonstrating multi-source data integration, customer unification, and ML-based churn prediction using modern data stack technologies.
 
+Check out the Power BI Report: "https://app.fabric.microsoft.com/view?r=eyJrIjoiNjk1ZTNmNWEtYjc4Yy00YWFhLTgxMzEtM2JhMGY3NmIzMDM2IiwidCI6ImNhM2YwNTZlLTQ0NDgtNDI1YS05MmE5LWU5ZDMyOTFlYTJmMyJ9"
+
 ![Architecture Overview](docs/diagrams/00_architecture_overview.png)
 
 ---
